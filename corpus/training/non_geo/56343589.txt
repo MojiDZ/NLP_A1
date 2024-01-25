@@ -1,0 +1,2069 @@
+SAMV (iterative sparse asymptotic minimum variance) is a parameter-free superresolution algorithm for the linear inverse problem in spectral estimation, direction-of-arrival (DOA) estimation and tomographic reconstruction with applications in signal processing, medical imaging and remote sensing. The name was coined in 2013 to emphasize its basis on the asymptotically minimum variance (AMV) criterion. It is a powerful tool for the recovery of both the amplitude and frequency characteristics of multiple highly correlated sources in challenging environments (e.g., limited number of snapshots and low signal-to-noise ratio). Applications include synthetic-aperture radar, computed tomography scan, and magnetic resonance imaging (MRI).
+
+
+== Definition ==
+The formulation of the SAMV algorithm is given as an inverse problem in the context of DOA estimation. Suppose an 
+  
+    
+      
+        M
+      
+    
+    {\displaystyle M}
+  -element uniform linear array (ULA) receive 
+  
+    
+      
+        K
+      
+    
+    {\displaystyle K}
+   narrow band signals emitted from sources located at locations 
+  
+    
+      
+        
+          θ
+        
+        =
+        {
+        
+          θ
+          
+            a
+          
+        
+        ,
+        …
+        ,
+        
+          θ
+          
+            K
+          
+        
+        }
+      
+    
+    {\displaystyle \mathbf {\theta } =\{\theta _{a},\ldots ,\theta _{K}\}}
+  , respectively. The sensors in the ULA accumulates 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+   snapshots over a specific time. The 
+  
+    
+      
+        M
+        ×
+        1
+      
+    
+    {\displaystyle M\times 1}
+   dimensional snapshot vectors are
+
+  
+    
+      
+        
+          y
+        
+        (
+        n
+        )
+        =
+        
+          A
+        
+        
+          x
+        
+        (
+        n
+        )
+        +
+        
+          e
+        
+        (
+        n
+        )
+        ,
+        n
+        =
+        1
+        ,
+        …
+        ,
+        N
+      
+    
+    {\displaystyle \mathbf {y} (n)=\mathbf {A} \mathbf {x} (n)+\mathbf {e} (n),n=1,\ldots ,N}
+  where 
+  
+    
+      
+        
+          A
+        
+        =
+        [
+        
+          a
+        
+        (
+        
+          θ
+          
+            1
+          
+        
+        )
+        ,
+        …
+        ,
+        
+          a
+        
+        (
+        
+          θ
+          
+            K
+          
+        
+        )
+        ]
+      
+    
+    {\displaystyle \mathbf {A} =[\mathbf {a} (\theta _{1}),\ldots ,\mathbf {a} (\theta _{K})]}
+   is the steering matrix, 
+  
+    
+      
+        
+          
+            x
+          
+        
+        (
+        n
+        )
+        =
+        [
+        
+          
+            
+              x
+            
+          
+          
+            1
+          
+        
+        (
+        n
+        )
+        ,
+        …
+        ,
+        
+          
+            
+              x
+            
+          
+          
+            K
+          
+        
+        (
+        n
+        )
+        
+          ]
+          
+            T
+          
+        
+      
+    
+    {\displaystyle {\bf {x}}(n)=[{\bf {x}}_{1}(n),\ldots ,{\bf {x}}_{K}(n)]^{T}}
+   contains the  source waveforms, and 
+  
+    
+      
+        
+          
+            e
+          
+        
+        (
+        n
+        )
+      
+    
+    {\displaystyle {\bf {e}}(n)}
+   is the noise term. Assume that 
+  
+    
+      
+        
+          E
+        
+        
+          (
+          
+            
+              
+                e
+              
+            
+            (
+            n
+            )
+            
+              
+                
+                  e
+                
+              
+              
+                H
+              
+            
+            (
+            
+              
+                
+                  n
+                  ¯
+                
+              
+            
+            )
+          
+          )
+        
+        =
+        σ
+        
+          
+            
+              I
+            
+          
+          
+            M
+          
+        
+        
+          δ
+          
+            n
+            ,
+            
+              
+                
+                  n
+                  ¯
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \mathbf {E} \left({\bf {e}}(n){\bf {e}}^{H}({\bar {n}})\right)=\sigma {\bf {I}}_{M}\delta _{n,{\bar {n}}}}
+  , where 
+  
+    
+      
+        
+          δ
+          
+            n
+            ,
+            
+              
+                
+                  n
+                  ¯
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \delta _{n,{\bar {n}}}}
+   is the Dirac delta and it equals to 1 only if 
+  
+    
+      
+        n
+        =
+        
+          
+            
+              n
+              ¯
+            
+          
+        
+      
+    
+    {\displaystyle n={\bar {n}}}
+   and 0 otherwise. Also assume that 
+  
+    
+      
+        
+          
+            e
+          
+        
+        (
+        n
+        )
+      
+    
+    {\displaystyle {\bf {e}}(n)}
+   and 
+  
+    
+      
+        
+          
+            x
+          
+        
+        (
+        n
+        )
+      
+    
+    {\displaystyle {\bf {x}}(n)}
+   are independent, and that 
+  
+    
+      
+        
+          E
+        
+        
+          (
+          
+            
+              
+                x
+              
+            
+            (
+            n
+            )
+            
+              
+                
+                  x
+                
+              
+              
+                H
+              
+            
+            (
+            
+              
+                
+                  n
+                  ¯
+                
+              
+            
+            )
+          
+          )
+        
+        =
+        
+          
+            P
+          
+        
+        
+          δ
+          
+            n
+            ,
+            
+              
+                
+                  n
+                  ¯
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \mathbf {E} \left({\bf {x}}(n){\bf {x}}^{H}({\bar {n}})\right)={\bf {P}}\delta _{n,{\bar {n}}}}
+  , where 
+  
+    
+      
+        
+          
+            P
+          
+        
+        =
+        Diag
+        ⁡
+        (
+        
+          
+            p
+            
+              1
+            
+          
+          ,
+          …
+          ,
+          
+            p
+            
+              K
+            
+          
+        
+        )
+      
+    
+    {\displaystyle {\bf {P}}=\operatorname {Diag} ({p_{1},\ldots ,p_{K}})}
+  . Let 
+  
+    
+      
+        
+          
+            p
+          
+        
+      
+    
+    {\displaystyle {\bf {p}}}
+   be a vector containing the unknown signal powers and noise variance, 
+  
+    
+      
+        
+          
+            p
+          
+        
+        =
+        [
+        
+          p
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          p
+          
+            K
+          
+        
+        ,
+        σ
+        
+          ]
+          
+            T
+          
+        
+      
+    
+    {\displaystyle {\bf {p}}=[p_{1},\ldots ,p_{K},\sigma ]^{T}}
+  .
+The covariance matrix of 
+  
+    
+      
+        
+          
+            y
+          
+        
+        (
+        n
+        )
+      
+    
+    {\displaystyle {\bf {y}}(n)}
+   that contains all information about 
+  
+    
+      
+        
+          
+            p
+          
+        
+      
+    
+    {\displaystyle {\boldsymbol {\bf {p}}}}
+   is
+
+  
+    
+      
+        
+          
+            R
+          
+        
+        =
+        
+          
+            A
+          
+        
+        
+          
+            P
+          
+        
+        
+          
+            
+              A
+            
+          
+          
+            H
+          
+        
+        +
+        σ
+        
+          
+            I
+          
+        
+        .
+      
+    
+    {\displaystyle {\bf {R}}={\bf {A}}{\bf {P}}{\bf {A}}^{H}+\sigma {\bf {I}}.}
+  This covariance matrix can be traditionally estimated by the sample covariance matrix 
+  
+    
+      
+        
+          
+            
+              R
+            
+          
+          
+            N
+          
+        
+        =
+        
+          
+            Y
+          
+        
+        
+          
+            
+              Y
+            
+          
+          
+            H
+          
+        
+        
+          /
+        
+        N
+      
+    
+    {\displaystyle {\bf {R}}_{N}={\bf {Y}}{\bf {Y}}^{H}/N}
+   where 
+  
+    
+      
+        
+          
+            Y
+          
+        
+        =
+        [
+        
+          
+            y
+          
+        
+        (
+        1
+        )
+        ,
+        …
+        ,
+        
+          
+            y
+          
+        
+        (
+        N
+        )
+        ]
+      
+    
+    {\displaystyle {\bf {Y}}=[{\bf {y}}(1),\ldots ,{\bf {y}}(N)]}
+  . After applying the vectorization operator to the matrix 
+  
+    
+      
+        
+          
+            R
+          
+        
+      
+    
+    {\displaystyle {\bf {R}}}
+  , the obtained vector 
+  
+    
+      
+        
+          
+            r
+          
+        
+        (
+        
+          
+            p
+          
+        
+        )
+        =
+        vec
+        ⁡
+        (
+        
+          
+            R
+          
+        
+        )
+      
+    
+    {\displaystyle {\bf {r}}({\boldsymbol {\bf {p}}})=\operatorname {vec} ({\bf {R}})}
+   is linearly related to the unknown parameter 
+  
+    
+      
+        
+          
+            p
+          
+        
+      
+    
+    {\displaystyle {\boldsymbol {\bf {p}}}}
+   as
+
+  
+    
+      
+        
+          
+            r
+          
+        
+        (
+        
+          
+            p
+          
+        
+        )
+        =
+        vec
+        ⁡
+        (
+        
+          
+            R
+          
+        
+        )
+        =
+        
+          
+            S
+          
+        
+        
+          
+            p
+          
+        
+      
+    
+    {\displaystyle {\bf {r}}({\boldsymbol {\bf {p}}})=\operatorname {vec} ({\bf {R}})={\bf {S}}{\boldsymbol {\bf {p}}}}
+  ,
+where  
+  
+    
+      
+        
+          
+            S
+          
+        
+        =
+        [
+        
+          
+            
+              S
+            
+          
+          
+            1
+          
+        
+        ,
+        
+          
+            
+              
+                
+                  a
+                
+                ¯
+              
+            
+          
+          
+            K
+            +
+            1
+          
+        
+        ]
+      
+    
+    {\displaystyle {\bf {S}}=[{\bf {S}}_{1},{\bar {\bf {a}}}_{K+1}]}
+  , 
+  
+    
+      
+        
+          
+            
+              S
+            
+          
+          
+            1
+          
+        
+        =
+        [
+        
+          
+            
+              
+                
+                  a
+                
+                ¯
+              
+            
+          
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          
+            
+              
+                
+                  a
+                
+                ¯
+              
+            
+          
+          
+            K
+          
+        
+        ]
+      
+    
+    {\displaystyle {\bf {S}}_{1}=[{\bar {\bf {a}}}_{1},\ldots ,{\bar {\bf {a}}}_{K}]}
+  , 
+  
+    
+      
+        
+          
+            
+              
+                
+                  a
+                
+                ¯
+              
+            
+          
+          
+            k
+          
+        
+        =
+        
+          
+            
+              a
+            
+          
+          
+            k
+          
+          
+            ∗
+          
+        
+        ⊗
+        
+          
+            
+              a
+            
+          
+          
+            k
+          
+        
+      
+    
+    {\displaystyle {\bar {\bf {a}}}_{k}={\bf {a}}_{k}^{*}\otimes {\bf {a}}_{k}}
+  , 
+  
+    
+      
+        k
+        =
+        1
+        ,
+        …
+        ,
+        K
+      
+    
+    {\displaystyle k=1,\ldots ,K}
+  , and let 
+  
+    
+      
+        
+          
+            
+              
+                
+                  a
+                
+                ¯
+              
+            
+          
+          
+            K
+            +
+            1
+          
+        
+        =
+        vec
+        ⁡
+        (
+        
+          
+            I
+          
+        
+        )
+      
+    
+    {\displaystyle {\bar {\bf {a}}}_{K+1}=\operatorname {vec} ({\bf {I}})}
+  
+where 
+  
+    
+      
+        ⊗
+      
+    
+    {\displaystyle \otimes }
+  
+is the Kronecker product.
+
+
+== SAMV algorithm ==
+To estimate the parameter 
+  
+    
+      
+        
+          
+            p
+          
+        
+      
+    
+    {\displaystyle {\boldsymbol {\bf {p}}}}
+   from the statistic 
+  
+    
+      
+        
+          
+            
+              r
+            
+          
+          
+            N
+          
+        
+      
+    
+    {\displaystyle {\bf {r}}_{N}}
+  , we develop a series of iterative SAMV approaches based on the asymptotically minimum variance criterion. From, the covariance matrix 
+  
+    
+      
+        
+          Cov
+          
+            p
+          
+          
+            Alg
+          
+        
+      
+    
+    {\displaystyle \operatorname {Cov} _{\boldsymbol {p}}^{\operatorname {Alg} }}
+   of an arbitrary consistent estimator of 
+  
+    
+      
+        
+          p
+        
+      
+    
+    {\displaystyle {\boldsymbol {p}}}
+   based on the second-order statistic 
+  
+    
+      
+        
+          
+            
+              r
+            
+          
+          
+            N
+          
+        
+      
+    
+    {\displaystyle {\bf {r}}_{N}}
+   is bounded by the real symmetric positive definite matrix
+
+  
+    
+      
+        
+          Cov
+          
+            p
+          
+          
+            Alg
+          
+        
+        ≥
+        [
+        
+          
+            
+              S
+            
+          
+          
+            d
+          
+          
+            H
+          
+        
+        
+          
+            
+              C
+            
+          
+          
+            r
+          
+          
+            −
+            1
+          
+        
+        
+          
+            
+              S
+            
+          
+          
+            d
+          
+        
+        
+          ]
+          
+            −
+            1
+          
+        
+        ,
+      
+    
+    {\displaystyle \operatorname {Cov} _{\boldsymbol {p}}^{\operatorname {Alg} }\geq [{\bf {S}}_{d}^{H}{\bf {C}}_{r}^{-1}{\bf {S}}_{d}]^{-1},}
+  where 
+  
+    
+      
+        
+          
+            
+              S
+            
+          
+          
+            d
+          
+        
+        =
+        
+          
+            d
+          
+        
+        
+          
+            r
+          
+        
+        (
+        
+          p
+        
+        )
+        
+          /
+        
+        
+          
+            d
+          
+        
+        
+          p
+        
+      
+    
+    {\displaystyle {\bf {S}}_{d}={\rm {d}}{\bf {r}}({\boldsymbol {p}})/{\rm {d}}{\boldsymbol {p}}}
+  . In addition, this lower bound is attained by the covariance matrix of the asymptotic distribution of 
+  
+    
+      
+        
+          
+            
+              
+                p
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\bf {p}}}}
+   obtained by minimizing,
+
+  
+    
+      
+        
+          
+            
+              p
+              ^
+            
+          
+        
+        =
+        arg
+        ⁡
+        
+          min
+          
+            p
+          
+        
+        f
+        (
+        
+          p
+        
+        )
+        ,
+      
+    
+    {\displaystyle {\hat {\boldsymbol {p}}}=\arg \min _{\boldsymbol {p}}f({\boldsymbol {p}}),}
+  where
+
+  
+    
+      
+        f
+        (
+        
+          p
+        
+        )
+        =
+        [
+        
+          
+            
+              r
+            
+          
+          
+            N
+          
+        
+        −
+        
+          
+            r
+          
+        
+        (
+        
+          p
+        
+        )
+        
+          ]
+          
+            H
+          
+        
+        
+          
+            
+              C
+            
+          
+          
+            r
+          
+          
+            −
+            1
+          
+        
+        [
+        
+          
+            
+              r
+            
+          
+          
+            N
+          
+        
+        −
+        
+          
+            r
+          
+        
+        (
+        
+          p
+        
+        )
+        ]
+        .
+      
+    
+    {\displaystyle f({\boldsymbol {p}})=[{\bf {r}}_{N}-{\bf {r}}({\boldsymbol {p}})]^{H}{\bf {C}}_{r}^{-1}[{\bf {r}}_{N}-{\bf {r}}({\boldsymbol {p}})].}
+  
+Therefore, the estimate of 
+  
+    
+      
+        
+          
+            p
+          
+        
+      
+    
+    {\displaystyle {\boldsymbol {\bf {p}}}}
+   can be obtained iteratively.
+The 
+  
+    
+      
+        {
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+          
+            k
+          
+        
+        
+          }
+          
+            k
+            =
+            1
+          
+          
+            K
+          
+        
+      
+    
+    {\displaystyle \{{\hat {p}}_{k}\}_{k=1}^{K}}
+   and 
+  
+    
+      
+        
+          
+            
+              σ
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\sigma }}}
+   that minimize 
+  
+    
+      
+        f
+        (
+        
+          p
+        
+        )
+      
+    
+    {\displaystyle f({\boldsymbol {p}})}
+   can be computed as follows. Assume 
+  
+    
+      
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+          
+            k
+          
+          
+            (
+            i
+            )
+          
+        
+      
+    
+    {\displaystyle {\hat {p}}_{k}^{(i)}}
+   and 
+  
+    
+      
+        
+          
+            
+              
+                σ
+                ^
+              
+            
+          
+          
+            (
+            i
+            )
+          
+        
+      
+    
+    {\displaystyle {\hat {\sigma }}^{(i)}}
+   have been approximated to a certain degree in the 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  th iteration, they can be refined at the 
+  
+    
+      
+        (
+        i
+        +
+        1
+        )
+      
+    
+    {\displaystyle (i+1)}
+  th iteration by,
+
+  
+    
+      
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+          
+            k
+          
+          
+            (
+            i
+            +
+            1
+            )
+          
+        
+        =
+        
+          
+            
+              
+                
+                  
+                    a
+                  
+                
+                
+                  k
+                
+                
+                  H
+                
+              
+              
+                
+                  
+                    R
+                  
+                
+                
+                  −
+                  1
+                  
+                    (
+                    i
+                    )
+                  
+                
+              
+              
+                
+                  
+                    R
+                  
+                
+                
+                  N
+                
+              
+              
+                
+                  
+                    R
+                  
+                
+                
+                  −
+                  1
+                  
+                    (
+                    i
+                    )
+                  
+                
+              
+              
+                
+                  
+                    a
+                  
+                
+                
+                  k
+                
+              
+            
+            
+              (
+              
+                
+                  
+                    a
+                  
+                
+                
+                  k
+                
+                
+                  H
+                
+              
+              
+                
+                  
+                    R
+                  
+                
+                
+                  −
+                  1
+                  
+                    (
+                    i
+                    )
+                  
+                
+              
+              
+                
+                  
+                    a
+                  
+                
+                
+                  k
+                
+              
+              
+                )
+                
+                  2
+                
+              
+            
+          
+        
+        +
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+          
+            k
+          
+          
+            (
+            i
+            )
+          
+        
+        −
+        
+          
+            1
+            
+              
+                
+                  
+                    a
+                  
+                
+                
+                  k
+                
+                
+                  H
+                
+              
+              
+                
+                  
+                    R
+                  
+                
+                
+                  −
+                  1
+                  
+                    (
+                    i
+                    )
+                  
+                
+              
+              
+                
+                  
+                    a
+                  
+                
+                
+                  k
+                
+              
+            
+          
+        
+        ,
+        
+        k
+        =
+        1
+        ,
+        …
+        ,
+        K
+      
+    
+    {\displaystyle {\hat {p}}_{k}^{(i+1)}={\frac {{\bf {a}}_{k}^{H}{\bf {R}}^{-1{(i)}}{\bf {R}}_{N}{\bf {R}}^{-1{(i)}}{\bf {a}}_{k}}{({\bf {a}}_{k}^{H}{\bf {R}}^{-1{(i)}}{\bf {a}}_{k})^{2}}}+{\hat {p}}_{k}^{(i)}-{\frac {1}{{\bf {a}}_{k}^{H}{\bf {R}}^{-1{(i)}}{\bf {a}}_{k}}},\quad k=1,\ldots ,K}
+  
+  
+    
+      
+        
+          
+            
+              
+                σ
+                ^
+              
+            
+          
+          
+            (
+            i
+            +
+            1
+            )
+          
+        
+        =
+        
+          (
+          
+            Tr
+            ⁡
+            (
+            
+              
+                
+                  R
+                
+              
+              
+                −
+                
+                  2
+                  
+                    (
+                    i
+                    )
+                  
+                
+              
+            
+            
+              
+                
+                  R
+                
+              
+              
+                N
+              
+            
+            )
+            +
+            
+              
+                
+                  
+                    σ
+                    ^
+                  
+                
+              
+              
+                (
+                i
+                )
+              
+            
+            Tr
+            ⁡
+            (
+            
+              
+                
+                  R
+                
+              
+              
+                −
+                
+                  2
+                  
+                    (
+                    i
+                    )
+                  
+                
+              
+            
+            )
+            −
+            Tr
+            ⁡
+            (
+            
+              
+                
+                  R
+                
+              
+              
+                −
+                
+                  1
+                  
+                    (
+                    i
+                    )
+                  
+                
+              
+            
+            )
+          
+          )
+        
+        
+          /
+        
+        
+          Tr
+          ⁡
+          
+            (
+            
+              
+                
+                  R
+                
+              
+              
+                −
+                
+                  2
+                  
+                    (
+                    i
+                    )
+                  
+                
+              
+            
+            )
+          
+        
+        ,
+      
+    
+    {\displaystyle {\hat {\sigma }}^{(i+1)}=\left(\operatorname {Tr} ({\bf {R}}^{-2^{(i)}}{\bf {R}}_{N})+{\hat {\sigma }}^{(i)}\operatorname {Tr} ({\bf {R}}^{-2^{(i)}})-\operatorname {Tr} ({\bf {R}}^{-1^{(i)}})\right)/{\operatorname {Tr} {({\bf {R}}^{-2^{(i)}})}},}
+  where the estimate of 
+  
+    
+      
+        
+          
+            R
+          
+        
+      
+    
+    {\displaystyle {\bf {R}}}
+   at the 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  th iteration is given by 
+  
+    
+      
+        
+          
+            
+              R
+            
+          
+          
+            (
+            i
+            )
+          
+        
+        =
+        
+          
+            A
+          
+        
+        
+          
+            
+              P
+            
+          
+          
+            (
+            i
+            )
+          
+        
+        
+          
+            
+              A
+            
+          
+          
+            H
+          
+        
+        +
+        
+          
+            
+              
+                σ
+                ^
+              
+            
+          
+          
+            (
+            i
+            )
+          
+        
+        
+          
+            I
+          
+        
+      
+    
+    {\displaystyle {\bf {R}}^{(i)}={\bf {A}}{\bf {P}}^{(i)}{\bf {A}}^{H}+{\hat {\sigma }}^{(i)}{\bf {I}}}
+   with 
+  
+    
+      
+        
+          
+            
+              P
+            
+          
+          
+            (
+            i
+            )
+          
+        
+        =
+        Diag
+        ⁡
+        (
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+          
+            1
+          
+          
+            (
+            i
+            )
+          
+        
+        ,
+        …
+        ,
+        
+          
+            
+              
+                p
+                ^
+              
+            
+          
+          
+            K
+          
+          
+            (
+            i
+            )
+          
+        
+        )
+      
+    
+    {\displaystyle {\bf {P}}^{(i)}=\operatorname {Diag} ({\hat {p}}_{1}^{(i)},\ldots ,{\hat {p}}_{K}^{(i)})}
+  .
+
+
+== Beyond scanning grid accuracy ==
+The resolution of most compressed sensing based source localization techniques is limited by the fineness of the direction grid that covers the location parameter space. In the sparse signal recovery model, the sparsity of the truth signal 
+  
+    
+      
+        
+          x
+        
+        (
+        n
+        )
+      
+    
+    {\displaystyle \mathbf {x} (n)}
+   is dependent on the distance between the adjacent element in the overcomplete dictionary 
+  
+    
+      
+        
+          
+            A
+          
+        
+      
+    
+    {\displaystyle {\bf {A}}}
+  , therefore, the difficulty of choosing the optimum overcomplete dictionary arises. The computational complexity is directly proportional to the fineness of the direction grid, a highly dense grid is not computational practical. To overcome this resolution limitation imposed by the grid, the grid-free SAMV-SML (iterative Sparse Asymptotic Minimum Variance - Stochastic Maximum Likelihood) is proposed, which refine the location estimates 
+  
+    
+      
+        
+          
+            θ
+          
+        
+        =
+        (
+        
+          θ
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          θ
+          
+            K
+          
+        
+        
+          )
+          
+            T
+          
+        
+      
+    
+    {\displaystyle {\boldsymbol {\bf {\theta }}}=(\theta _{1},\ldots ,\theta _{K})^{T}}
+   by iteratively minimizing a stochastic maximum likelihood cost function with respect to a single scalar parameter 
+  
+    
+      
+        
+          θ
+          
+            k
+          
+        
+      
+    
+    {\displaystyle \theta _{k}}
+  .
+
+
+== Application to range-Doppler imaging ==
+A typical application with the SAMV algorithm in SISO radar/sonar range-Doppler imaging problem. This imaging problem is a single-snapshot application, and algorithms compatible with single-snapshot estimation are included, i.e., matched filter (MF, similar to the periodogram or backprojection, which is often efficiently implemented as fast Fourier transform (FFT)), IAA, and a variant of the SAMV algorithm (SAMV-0). The simulation conditions are identical to: A 
+  
+    
+      
+        30
+      
+    
+    {\displaystyle 30}
+  -element polyphase pulse compression P3 code is employed as the transmitted pulse, and a total of nine moving targets are simulated. Of all the moving targets, three are of 
+  
+    
+      
+        5
+      
+    
+    {\displaystyle 5}
+   dB power and the rest six are of 
+  
+    
+      
+        25
+      
+    
+    {\displaystyle 25}
+   dB power. The received signals are assumed to be contaminated with uniform white Gaussian noise of 
+  
+    
+      
+        0
+      
+    
+    {\displaystyle 0}
+   dB power.
+The matched filter detection result suffers from severe smearing and leakage effects both in the Doppler and range domain, hence it is impossible to distinguish the 
+  
+    
+      
+        5
+      
+    
+    {\displaystyle 5}
+   dB targets. On contrary, the IAA algorithm offers enhanced imaging results with observable target range estimates and Doppler frequencies. The SAMV-0 approach provides highly sparse result and eliminates the smearing effects completely, but it misses the weak 
+  
+    
+      
+        5
+      
+    
+    {\displaystyle 5}
+   dB targets.
+
+
+== Open source implementation ==
+An open source MATLAB implementation of SAMV algorithm could be downloaded here.
+
+
+== See also ==
+Array processing – wide area of research in the field of signal processing that extends from the simplest form of 1 dimensional line arrays to 2 and 3 dimensional array geometriesPages displaying wikidata descriptions as a fallback
+Matched filter – Filters used in signal processing that are optimal in some sense.
+Periodogram – Estimate of the spectral density of a signal
+Filtered backprojection – Integral transform (Radon transform)
+MUltiple SIgnal Classification – Algorithm used for frequency estimation and radio direction finding (MUSIC), a popular parametric superresolution method
+Pulse-Doppler radar – Type of radar system
+Super-resolution imaging – Any technique to improve resolution of an imaging system beyond conventional limits
+Compressed sensing – Signal processing technique
+Inverse problem – Process of calculating the causal factors that produced a set of observations
+Tomographic reconstruction – Estimate object properties from a finite number of projections
+
+
+== References ==

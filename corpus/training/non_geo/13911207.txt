@@ -1,0 +1,5 @@
+Attributional calculus is a logic and representation system defined by Ryszard S. Michalski. It combines elements of predicate logic, propositional calculus, and multi-valued logic. Attributional calculus provides a formal language for natural induction, which is an inductive learning process whose outcomes are in human-readable forms.
+
+
+== References ==
+Michalski, R.S., "ATTRIBUTIONAL CALCULUS: A Logic and Representation Language for Natural Induction," Reports of the Machine Learning and Inference Laboratory, MLI 04–2, George Mason University, Fairfax, VA, April, 2004.

@@ -1,0 +1,9 @@
+Cantuzumab ravtansine (huC242-SPDB-DM4) is an antibody-drug conjugate designed for the treatment of cancers. The humanized monoclonal antibody cantuzumab (huC242) is linked to a cytotoxic agent, ravtansine (DM4). It uses a more hindered disulfide linkage than cantuzumab mertansine.
+
+
+== See also ==
+Cantuzumab mertansine
+ImmunoGen Inc, developer of DM4 based drugs
+
+
+== References ==

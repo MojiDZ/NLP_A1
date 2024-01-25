@@ -1,0 +1,14 @@
+In the engineering field of robotics, an arm solution is a set of calculations that allow the real-time computation of the control commands needed to place the end of a robotic arm at a desired position and orientation in space.
+A typical industrial robot is built with fixed length segments that are connected either at joints whose angles can be controlled, or along linear slides whose length can be controlled. If each angle and slide distance is known, the position and orientation of the end of the robot arm relative to its base can be computed efficiently with simple trigonometry. 
+Going the other way — calculating the angles and slides needed to achieve a desired position and orientation — is much harder. The mathematical procedure for doing this is called an arm solution. For some robot designs, such as the Stanford arm, Vicarm SCARA robot or cartesian coordinate robots, this can be done in closed form. Other robot designs require an iterative solution, which requires more computer resources.
+
+
+== See also ==
+321 kinematic structure
+Inverse kinematics
+Motion planning
+
+
+== External links ==
+infolab.stanford.edu - The Stanford Arm (1969), with a configuration such that the mathematical computations (arm solutions) were simplified to speed up computations
+D. L. Pieper, The kinematics of manipulators under computer control. PhD thesis, Stanford University, Department of Mechanical Engineering, 1968.

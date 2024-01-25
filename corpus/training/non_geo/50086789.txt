@@ -1,0 +1,9 @@
+The Canon Sinuum is the main part of Bartholomaeus Pitiscus'  Thesaurus Mathematicus sive Canon Sinuum ad radium 1.00000.00000.00000 published as a folio in 1613 (misprinted on two of the titles 1513, by omission of a C in the Roman numeral MLCXIII) in Frankfurt. It is a table of sines, originally computed by Rheticus, with the sines given every 10 seconds to 15 places, with first, second, and third differences. This table spans 270 pages.
+In addition, the Canon Sinuum gives the sines to 15 places for every second of the first and last degrees of the quadrant, as well as several other tables.
+
+
+== References ==
+
+
+== External links ==
+Pitiscus: Thesaurus Mathematicus, 1613

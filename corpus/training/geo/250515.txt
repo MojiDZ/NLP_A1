@@ -1,0 +1,43 @@
+A landform is a natural or anthropogenic land feature on the solid surface of the Earth or other planetary body. Landforms together make up a given terrain, and their arrangement in the landscape is known as topography. Landforms include hills, mountains, canyons, and valleys, as well as shoreline features such as bays, peninsulas, and seas, including submerged features such as mid-ocean ridges, volcanoes, and the great ocean basins.
+
+
+== Physical characteristics ==
+Landforms are categorized by characteristic physical attributes such as elevation, slope, orientation, structure
+stratification, rock exposure, and soil type. Gross physical features or landforms include intuitive elements such as berms, mounds, hills, ridges, cliffs, valleys, rivers, peninsulas, volcanoes, and numerous other structural and size-scaled (e.g. ponds vs. lakes, hills vs. mountains) elements including various kinds of inland and oceanic waterbodies and sub-surface features. Mountains, hills, plateaux, and plains are the four major types of landforms. Minor landforms include buttes, canyons, valleys, and basins. Tectonic plate movement under the Earth can create landforms by pushing up mountains and hills.
+
+
+== Hierarchy of classes ==
+Oceans and continents exemplify the highest-order landforms. Landform elements are parts of a high-order landforms that can be further identified and systematically given a cohesive definition such as hill-tops, shoulders, saddles, foreslopes and backslopes.
+Some generic landform elements including: pits, peaks, channels, ridges, passes, pools and plains.
+Terrain (or relief) is the third or vertical dimension of land surface. Topography is the study of terrain, although the word is often used as a synonym for relief itself. When relief is described underwater, the term bathymetry is used. In cartography, many different techniques are used to describe relief, including contour lines and triangulated irregular networks.
+Elementary landforms (segments, facets, relief units) are the smallest homogeneous divisions of the land surface, at the given scale/resolution. These are areas with relatively homogeneous morphometric properties, bounded by lines of discontinuity. A plateau or a hill can be observed at various scales, ranging from a few hundred meters to hundreds of kilometers. Hence, the spatial distribution of landforms is often scale-dependent, as is the case for soils and geological strata.
+A number of factors, ranging from plate tectonics to erosion and deposition (also due to human activity), can generate and affect landforms. Biological factors can also influence landforms—for example, note the role of vegetation in the development of dune systems and salt marshes, and the work of corals and algae in the formation of coral reefs.
+Landforms do not include several man-made features, such as canals, ports and many harbors; and geographic features, such as deserts, forests, and grasslands. Many of the terms are not restricted to refer to features of the planet Earth, and can be used to describe surface features of other planets and similar objects in the Universe. Examples are mountains, hills, polar caps, and valleys, which are found on all of the terrestrial planets.
+The scientific study of landforms is known as geomorphology.
+In onomastic terminology, toponyms (geographical proper names) of individual landform objects (mountains, hills, valleys, etc.) are called oronyms.
+
+
+== Recent developments ==
+Landforms may be extracted from a digital elevation model (DEM) using some automated techniques where the data has been gathered by modern satellites and stereoscopic aerial surveillance cameras. Until recently, compiling the data found in such data sets required time consuming and expensive techniques involving many man-hours.  The most detailed DEMs available are measured directly using LIDAR techniques.
+
+
+== See also ==
+
+
+== References ==
+
+Igstar, cxvellie (2017), Howard, Jeffrey (ed.), "Anthropogenic Landforms and Soil Parent Materials", Anthropogenic Soils, Progress in Soil Science, Cham: Springer International Publishing, pp. 25–51, doi:10.1007/978-3-319-54331-4_3, ISBN 978-3-319-54331-4, retrieved 2022-08-12
+
+
+== Sources ==
+Room, Adrian (1996). An Alphabetical Guide to the Language of Name Studies. Lanham and London: The Scarecrow Press. ISBN 9780810831698.
+
+
+== Further reading ==
+Hargitai Hetal. (2015) Classification and Characterization of Planetary Landforms. In: Hargitai H (ed) Encyclopedia of Planetary Landforms. Springer. DOI 10.1007/978-1-4614-3134-3 https://link.springer.com/content/pdf/bbm%3A978-1-4614-3134-3%2F1.pdf
+Page D (2015) The Geology of Planetary Landforms. In: Hargitai H (ed) Encyclopedia of Planetary Landforms. Springer.
+
+
+== External links ==
+
+Open-Geomorphometry Project

@@ -1,0 +1,34 @@
+In biochemistry, docosanoids are signaling molecules made by the metabolism of twenty-two-carbon fatty acids (EFAs), especially the omega-3 fatty acid, Docosahexaenoic acid (DHA) (i.e. 4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoic acid) by lipoxygenase, cyclooxygenase, and cytochrome P450 enzymes. Other docosanoids are metabolites of n-3 docosapentaenoic acid (i.e. 7Z,10Z,13Z,16Z,19Z-docosahexaenoic acid), n-6 DHA (i.e. 4Z,7Z,10Z,13Z,16Z-docosahexaenoic acid, and docosatetraenoic acid (i.e. 7Z,10Z,13Z,16Z-docosatetraenoic acid, DTA, or adrenic acid). Prominent docosanoid metabolites of DHA and n-3 DHA are members of the specialized proresolving mediator class of polyunsaturated fatty acid metabolites that possess potent anti-inflammation, tissue healing, and other activities (see specialized proresolving mediators).
+
+
+== Prominent docosanoids ==
+
+
+=== Specialized proresolving mediator docosanoids ===
+Potently bioactive agents of the specialized proresolving mediator class include:
+
+DHA-derived Resolvins (Rv's) of the D series: RvD1, RvD2, RvD3, RvD4, RvD5, RvD6, AT-RvD1, AT-RvD2, AT-RvD3, AT-RvD4, AT-RvD5, and AT-RvD6 (see specialized proresolving mediators#DHA-derived Resolvins).
+n-3 DPA-derived Rvs of the D series (RvD1n-3, RvD2n-3, and RvDD1n-3) and the T series (RvT1, TvT2, RvT3, and RvT4) (see specialized proresolving mediators#n-3 DPA-derived resolvins).
+DHA-derived Neuroprotectins, also termed protectins: PD1, PDX, 17-epi PD1, and 10-epi-DHA1 (see specialized proresolving mediators#DHA-derived protectins/neuroprotectins).
+n-3 DPA derived protectins: RD1n-3 and RvD1n-3 (see specialized proresolving mediators#n-3 DPA-derived resolvins)(see DPA-derived protectins/neuroprotectins.
+DHA derived Maresins: MaR1, MaR2, 7-epi-Mar1, Mar-L1, and Mar-L2 (see specialized proresolving mediators#DHA-derived Maresins).
+n-3 DPA-derived maresins: Mar1n-3, Mar2n-3, and Mar3n-3 (see specialized proresolving mediators#n-3 DPA-derived maresins).These DHA metabolites possess anti-inflammation and tissue-protection activities in animal models of inflammatory diseases; they are proposed to inhibit innate immune responses and thereby to protect from and to resolve a wide range of inflammatory responses in animals and humans. These metabolites are also proposed to contribute to the anti-inflammatory and other beneficial effects of dietary omega-3 fatty acids by being metabolized to them.
+
+
+=== Neurofuran docosanoids ===
+DHA can be converted non-enzymatically by free radical-mediated peroxidation to 8 different neurofuran regioisomers termed neuroprostanes and neurofuranes including 4-, 7-, 10-, 11-, 13-, 14-, 17-, and 20-series neurofurans/neuroporstanes for a total of 128 different racemic compounds. The most studied DHA-derived of these products are members of the 4-series, neurofuran 4-Fαneuroprostane and 4(RS)-ST-Δ6-8-neurofurane. These metabolites have been used mainly as biomarkers of oxidative stress that are formed in nerve tissues of the central nervous system.
+
+
+=== Hydroxy-docosanoids ===
+Cells metabolize DHA to 17S-hydroperoxy-4Z,7Z,10Z,13Z,15E,19Z-docahexaenoicacid acid (17-HpDHA) and then rapidly reduce this hydroperoxide to  17S-hydroxy-4Z,7Z,10Z,13Z,15E,19Z-docahexaenoicacid acid (17-HDHA) and similarly metabolize DHA to 13S-hydroperoxy-4Z,7Z,10Z,14Z,16Z,19Z-docahexaenoicacid acid (13-HpDHA) and then to 13S-hydroxy-4Z,7Z,10Z,14Z,16Z,19Z-docahexaenoicacid acid (13-HDHA). 17-HDHA exhibits potent in vitro as well as in vivo (animal model) anti-inflammatory activity while 17-HpDHA and to a lesser extent 17-HDHA inhibit the growth of cultured human breast cancer cells. Other SPM docosanoids, e.g. RvD1 and RvD2, have anti-growth effects against cancer cells in animal models.
+
+
+=== Oxo-docosanoids ===
+Cells can metabolize DHA to products that possess an oxo (i.e. ketone) residue. These products include 13-oxo-DHA (termed EFOXD6) and 17-oxo-DHA (termed 18-EFOXD6).  Both oxo metabolites  possess anti-inflammatory activity as assesses in in vitro systems (see Specialized proresolving mediators#Oxo-DHA and oxo-DPA metabolites).
+
+
+=== DTA-derived docosanoids ===
+Cyclooxygenase and Cytochrome P450 oxidase act upon Docosatetraenoic acid to produce dihomoprostaglandins and dihomo-epoxyeicosatrienoic acids and dihomo-EETs.
+
+
+== References ==

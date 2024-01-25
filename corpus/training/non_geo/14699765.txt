@@ -1,0 +1,898 @@
+In mathematics (particularly in complex analysis), the argument of a complex number z, denoted arg(z), is the angle between the positive real axis and the line joining the origin and z, represented as a point in the complex plane, shown as 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+   in Figure 1. By convention the positive real axis is drawn pointing rightward, the positive imaginary axis is drawn pointing upward, and complex numbers with positive real part are considered to have an anticlockwise argument with positive sign.
+When any real-valued angle is considered, the argument is a multivalued function operating on the nonzero complex numbers. The principal value of this function is single-valued, typically chosen to be the unique value of the argument that lies within the interval (−π, π]. In this article the multi-valued function will be denoted arg(z) and its principal value will be denoted Arg(z), but in some sources the capitalization of these symbols is exchanged.
+
+
+== Definition ==
+An argument of the complex number z = x + iy, denoted arg(z), is defined in two equivalent ways:
+
+Geometrically, in the complex plane, as the 2D polar angle 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+   from the positive real axis to the vector representing z. The numeric value is given by the angle in radians, and is positive if measured counterclockwise.
+Algebraically, as any real quantity 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+   such that  for some positive real r (see Euler's formula). The quantity r is the modulus (or absolute value) of z, denoted |z|: The names magnitude, for the modulus, and phase, for the argument, are sometimes used equivalently.
+Under both definitions, it can be seen that the argument of any non-zero complex number has many possible values: firstly, as a geometrical angle, it is clear that whole circle rotations do not change the point, so angles differing by an integer multiple of 2π radians (a complete circle) are the same, as reflected by figure 2 on the right. Similarly, from the periodicity of sin 
+ and cos, the second definition also has this property. The argument of zero is usually left undefined.
+
+
+=== Alternative definition ===
+The complex argument can also be defined algebraically in terms of complex roots as:
+
+This definition removes reliance on other difficult-to-compute functions such as arctangent as well as eliminating the need for the piecewise definition. Because it's defined in terms of roots, it also inherits the principal branch of square root as its own principal branch. The normalization of 
+  
+    
+      
+        z
+      
+    
+    {\displaystyle z}
+   by dividing by 
+  
+    
+      
+        
+          |
+        
+        z
+        
+          |
+        
+      
+    
+    {\displaystyle |z|}
+   isn't necessary for convergence to the correct value, but it does speed up convergence and ensures that 
+  
+    
+      
+        arg
+        ⁡
+        (
+        0
+        )
+      
+    
+    {\displaystyle \arg(0)}
+   is left undefined.
+
+
+== Principal value ==
+Because a complete rotation around the origin leaves a complex number unchanged, there are many choices which could be made for 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+   by circling the origin any number of times. This is shown in figure 2, a representation of the multi-valued (set-valued) function 
+  
+    
+      
+        f
+        (
+        x
+        ,
+        y
+        )
+        =
+        arg
+        ⁡
+        (
+        x
+        +
+        i
+        y
+        )
+      
+    
+    {\displaystyle f(x,y)=\arg(x+iy)}
+  , where a vertical line (not shown in the figure) cuts the surface at heights representing all the possible choices of angle for that point.
+When a well-defined function is required, then the usual choice, known as the principal value, is the value in the open-closed interval (−π rad, π rad], that is from −π to π radians, excluding −π rad itself (equiv., from −180 to +180 degrees, excluding −180° itself). This represents an angle of up to half a complete circle from the positive real axis in either direction.
+Some authors define the range of the principal value as being in the closed-open interval [0, 2π).
+
+
+=== Notation ===
+The principal value sometimes has the initial letter capitalized, as in Arg z, especially when a general version of the argument is also being considered. Note that notation varies, so arg and Arg may be interchanged in different texts.
+The set of all possible values of the argument can be written in terms of Arg as:
+
+  
+    
+      
+        arg
+        ⁡
+        (
+        z
+        )
+        =
+        {
+        Arg
+        ⁡
+        (
+        z
+        )
+        +
+        2
+        π
+        n
+        ∣
+        n
+        ∈
+        
+          Z
+        
+        }
+        .
+      
+    
+    {\displaystyle \arg(z)=\{\operatorname {Arg} (z)+2\pi n\mid n\in \mathbb {Z} \}.}
+  
+
+
+== Computing from the real and imaginary part ==
+
+If a complex number is known in terms of its real and imaginary parts, then the function that calculates the principal value Arg is called the two-argument arctangent function, atan2:
+
+  
+    
+      
+        Arg
+        ⁡
+        (
+        x
+        +
+        i
+        y
+        )
+        =
+        atan2
+        ⁡
+        (
+        y
+        ,
+        
+        x
+        )
+      
+    
+    {\displaystyle \operatorname {Arg} (x+iy)=\operatorname {atan2} (y,\,x)}
+  .The atan2 function is available in the math libraries of many programming languages, sometimes under a different name, and usually returns a value in the range (−π, π].In some sources the argument is defined as 
+  
+    
+      
+        Arg
+        ⁡
+        (
+        x
+        +
+        i
+        y
+        )
+        =
+        arctan
+        ⁡
+        (
+        y
+        
+          /
+        
+        x
+        )
+        ,
+      
+    
+    {\displaystyle \operatorname {Arg} (x+iy)=\arctan(y/x),}
+   however this is correct only when x > 0, where 
+  
+    
+      
+        y
+        
+          /
+        
+        x
+      
+    
+    {\displaystyle y/x}
+   is well-defined and the angle lies between 
+  
+    
+      
+        −
+        
+          
+            
+              π
+              2
+            
+          
+        
+      
+    
+    {\displaystyle -{\tfrac {\pi }{2}}}
+   and 
+  
+    
+      
+        
+          
+            
+              π
+              2
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\tfrac {\pi }{2}}.}
+   Extending this definition to cases where x is not positive is relatively involved. Specifically, one may define the principal value of the argument separately on the half-plane x > 0 and the two quadrants with x < 0, and then patch the definitions together:
+
+  
+    
+      
+        Arg
+        ⁡
+        (
+        x
+        +
+        i
+        y
+        )
+        =
+        atan2
+        ⁡
+        (
+        y
+        ,
+        
+        x
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  arctan
+                  ⁡
+                  
+                    (
+                    
+                      
+                        y
+                        x
+                      
+                    
+                    )
+                  
+                
+                
+                  
+                    if 
+                  
+                  x
+                  >
+                  0
+                  ,
+                
+              
+              
+                
+                  arctan
+                  ⁡
+                  
+                    (
+                    
+                      
+                        y
+                        x
+                      
+                    
+                    )
+                  
+                  +
+                  π
+                
+                
+                  
+                    if 
+                  
+                  x
+                  <
+                  0
+                  
+                     and 
+                  
+                  y
+                  ≥
+                  0
+                  ,
+                
+              
+              
+                
+                  arctan
+                  ⁡
+                  
+                    (
+                    
+                      
+                        y
+                        x
+                      
+                    
+                    )
+                  
+                  −
+                  π
+                
+                
+                  
+                    if 
+                  
+                  x
+                  <
+                  0
+                  
+                     and 
+                  
+                  y
+                  <
+                  0
+                  ,
+                
+              
+              
+                
+                  +
+                  
+                    
+                      π
+                      2
+                    
+                  
+                
+                
+                  
+                    if 
+                  
+                  x
+                  =
+                  0
+                  
+                     and 
+                  
+                  y
+                  >
+                  0
+                  ,
+                
+              
+              
+                
+                  −
+                  
+                    
+                      π
+                      2
+                    
+                  
+                
+                
+                  
+                    if 
+                  
+                  x
+                  =
+                  0
+                  
+                     and 
+                  
+                  y
+                  <
+                  0
+                  ,
+                
+              
+              
+                
+                  
+                    undefined
+                  
+                
+                
+                  
+                    if 
+                  
+                  x
+                  =
+                  0
+                  
+                     and 
+                  
+                  y
+                  =
+                  0.
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle \operatorname {Arg} (x+iy)=\operatorname {atan2} (y,\,x)={\begin{cases}\arctan \left({\frac {y}{x}}\right)&{\text{if }}x>0,\\[5mu]\arctan \left({\frac {y}{x}}\right)+\pi &{\text{if }}x<0{\text{ and }}y\geq 0,\\[5mu]\arctan \left({\frac {y}{x}}\right)-\pi &{\text{if }}x<0{\text{ and }}y<0,\\[5mu]+{\frac {\pi }{2}}&{\text{if }}x=0{\text{ and }}y>0,\\[5mu]-{\frac {\pi }{2}}&{\text{if }}x=0{\text{ and }}y<0,\\[5mu]{\text{undefined}}&{\text{if }}x=0{\text{ and }}y=0.\end{cases}}}
+  See atan2 for further detail and alternative implementations.
+
+
+== Identities ==
+One of the main motivations for defining the principal value Arg is to be able to write complex numbers in modulus-argument form. Hence for any complex number z,
+
+  
+    
+      
+        z
+        =
+        
+          |
+          z
+          |
+        
+        
+          e
+          
+            i
+            Arg
+            ⁡
+            z
+          
+        
+        .
+      
+    
+    {\displaystyle z=\left|z\right|e^{i\operatorname {Arg} z}.}
+  This is only really valid if z is non-zero, but can be considered valid for z = 0 if Arg(0) is considered as an indeterminate form—rather than as being undefined.
+Some further identities follow. If z1 and z2 are two non-zero complex numbers, then
+
+  
+    
+      
+        
+          
+            
+              
+                Arg
+                ⁡
+                (
+                
+                  z
+                  
+                    1
+                  
+                
+                
+                  z
+                  
+                    2
+                  
+                
+                )
+              
+              
+                
+                ≡
+                Arg
+                ⁡
+                (
+                
+                  z
+                  
+                    1
+                  
+                
+                )
+                +
+                Arg
+                ⁡
+                (
+                
+                  z
+                  
+                    2
+                  
+                
+                )
+                
+                  
+                  (
+                  mod
+                  
+                  
+                    R
+                  
+                  
+                    /
+                  
+                  2
+                  π
+                  
+                    Z
+                  
+                  )
+                
+                ,
+              
+            
+            
+              
+                Arg
+                ⁡
+                
+                  (
+                  
+                    
+                      
+                        z
+                        
+                          1
+                        
+                      
+                      
+                        z
+                        
+                          2
+                        
+                      
+                    
+                  
+                  )
+                
+              
+              
+                
+                ≡
+                Arg
+                ⁡
+                (
+                
+                  z
+                  
+                    1
+                  
+                
+                )
+                −
+                Arg
+                ⁡
+                (
+                
+                  z
+                  
+                    2
+                  
+                
+                )
+                
+                  
+                  (
+                  mod
+                  
+                  
+                    R
+                  
+                  
+                    /
+                  
+                  2
+                  π
+                  
+                    Z
+                  
+                  )
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {Arg} (z_{1}z_{2})&\equiv \operatorname {Arg} (z_{1})+\operatorname {Arg} (z_{2}){\pmod {\mathbb {R} /2\pi \mathbb {Z} }},\\\operatorname {Arg} \left({\frac {z_{1}}{z_{2}}}\right)&\equiv \operatorname {Arg} (z_{1})-\operatorname {Arg} (z_{2}){\pmod {\mathbb {R} /2\pi \mathbb {Z} }}.\end{aligned}}}
+  If z ≠ 0 and n is any integer, then
+
+  
+    
+      
+        Arg
+        ⁡
+        
+          (
+          
+            z
+            
+              n
+            
+          
+          )
+        
+        ≡
+        n
+        Arg
+        ⁡
+        (
+        z
+        )
+        
+          
+          (
+          mod
+          
+          
+            R
+          
+          
+            /
+          
+          2
+          π
+          
+            Z
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle \operatorname {Arg} \left(z^{n}\right)\equiv n\operatorname {Arg} (z){\pmod {\mathbb {R} /2\pi \mathbb {Z} }}.}
+  
+
+
+=== Example ===
+
+  
+    
+      
+        Arg
+        ⁡
+        
+          
+            (
+          
+        
+        
+          
+            
+              −
+              1
+              −
+              i
+            
+            i
+          
+        
+        
+          
+            )
+          
+        
+        =
+        Arg
+        ⁡
+        (
+        −
+        1
+        −
+        i
+        )
+        −
+        Arg
+        ⁡
+        (
+        i
+        )
+        =
+        −
+        
+          
+            
+              3
+              π
+            
+            4
+          
+        
+        −
+        
+          
+            π
+            2
+          
+        
+        =
+        −
+        
+          
+            
+              5
+              π
+            
+            4
+          
+        
+      
+    
+    {\displaystyle \operatorname {Arg} {\biggl (}{\frac {-1-i}{i}}{\biggr )}=\operatorname {Arg} (-1-i)-\operatorname {Arg} (i)=-{\frac {3\pi }{4}}-{\frac {\pi }{2}}=-{\frac {5\pi }{4}}}
+  
+
+
+=== Using the complex logarithm ===
+From 
+  
+    
+      
+        z
+        =
+        
+          |
+        
+        z
+        
+          |
+        
+        
+          e
+          
+            i
+            Arg
+            ⁡
+            (
+            z
+            )
+          
+        
+      
+    
+    {\displaystyle z=|z|e^{i\operatorname {Arg} (z)}}
+  , we get 
+  
+    
+      
+        i
+        Arg
+        ⁡
+        (
+        z
+        )
+        =
+        ln
+        ⁡
+        
+          
+            z
+            
+              
+                |
+              
+              z
+              
+                |
+              
+            
+          
+        
+      
+    
+    {\displaystyle i\operatorname {Arg} (z)=\ln {\frac {z}{|z|}}}
+  , alternatively 
+  
+    
+      
+        Arg
+        ⁡
+        (
+        z
+        )
+        =
+        I
+        m
+        [
+        ln
+        ⁡
+        
+          
+            z
+            
+              
+                |
+              
+              z
+              
+                |
+              
+            
+          
+        
+        ]
+        =
+        I
+        m
+        [
+        ln
+        ⁡
+        z
+        ]
+      
+    
+    {\displaystyle \operatorname {Arg} (z)=Im[\ln {\frac {z}{|z|}}]=Im[\ln z]}
+  . As we are taking the imaginary part, any normalisation by a real scalar will not affect the result. This is useful when one has the complex logarithm available.
+
+
+== Extended argument ==
+The extended argument of a number z (denoted as 
+  
+    
+      
+        
+          
+            arg
+            ¯
+          
+        
+        (
+        z
+        )
+      
+    
+    {\displaystyle {\overline {\arg }}(z)}
+  ) is the set of all real numbers congruent to 
+  
+    
+      
+        arg
+        ⁡
+        (
+        z
+        )
+      
+    
+    {\displaystyle \arg(z)}
+   modulo 2
+  
+    
+      
+        π
+      
+    
+    {\displaystyle \pi }
+  .
+
+
+== References ==
+
+
+== Bibliography ==
+
+
+== External links ==
+Argument at Encyclopedia of Mathematics.

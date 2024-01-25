@@ -1,0 +1,43 @@
+Eco-industrial development (EID) is a framework for industry to develop while reducing its impact on the environment. It uses a closed loop production cycle to tackle a broad set of environmental challenges such as soil and water pollution, desertification, species preservation, energy management, by-product synergy, resource efficiency, air quality, etc.Mutually beneficial connections among industry, natural systems, energy, material and local communities become central factors in designing industrial production processes.The approach itself is largely voluntary and market-driven but often pressed ahead by favorable government treatment or efforts of development co-operation.
+
+
+== History ==
+Since the early 1990s the idea of EID evolved from biological symbiosis. This concept was adopted by industrial ecologists in the search for innovative approaches to solve problems of waste, energy shortage and degradation of the environment. A continuous approach towards improving both environmental and economic outcomes is used.In 1992, the international community officially connected development co-operation to sustainable environmental protection for the first time. At the United Nations Conference on Environment and Development (UNCED) in Rio de Janeiro, Brazil nearly 180 states signed the conference's Rio Declaration. Although non-binding, the Rio Declaration on Environment and Development laid out 27 principles that shall guide the increasing inter-connectedness of development cooperation and sustainability. Moreover, the documents drafting was accompanied by a presentation describing the idea of eco-industrial development for the first time.In the following years, EID became popular throughout the United States. The recently elected Clinton administration installed a summit of business, labor, government and environmental protection representatives to further develop the approach. This summit established the idea of eco-industrial parks but soon realized that at first a more efficient management of raw materials, energy and waste has to be achieved.Since then, the broad goals and application principles of EID have hardly changed and only became adapted to the rapid technological progress.In 2012 the IGEP Foundation, for the promotion of trade, published a report called Pathway to Eco Industrial Development in India – Concepts and Cases.The field is researched by the Nation Centre for Eco-Industrial Development, a joint project by the University of Southern California and Cornell University.
+
+
+== Goals and concepts ==
+The primary goal of eco-industrial development is a significant and continuous improvement in both business and environmental performance. Herein, the notion of industry not only relates to private-sector manufacturing but also covers state-owned enterprises, the service sector as well as transportation. EID's twin guideline is reflected specifically in the "eco" of eco-industrial as it resembles ecology (decrease in pollution and waste) and economy (increase in commercial success) at the same time. In order to build a framework of defining an enterprise's sustainable performance at the micro level, resource use optimization, minimization of waste, cleaner technologies and pollution limits are used in achieving a broad range of goals in EID: 
+
+Resource efficiency minimizes the use of energy, materials, water and transportation. This, in turn, lowers production costs due to savings in virtually all areas of business.
+Cleaner production is a predominantly environmental measure, which aims at the reduction or even substitution of toxics, emissions-control or the re-use of residual material.
+Renewables in both energy and material use shall eliminate all pollution through fossil fuels.
+Greening of buildings or production sites installs high energy and environmental standards by relying on innovation in green architecture or engineering. Moreover, new facility and infrastructure design may also enhance the quality of life in neighboring communities significantly.
+Environmental management systems such as the ISO 14000 ensure a continuous improvement through regular audits and the progressing establishment of environmental targets.
+Ecological site planning can then combine each of these aspects by developing a clear understanding of air, water and ground system capacities throughout the surrounding eco-system.Eco-industrial development hence explores the possibility of improvement at the local level. In unique case-to-case analyses, particular geography, human potential or business climate are investigated. In contrast to the widespread race for top-down governmental support such as tax cuts, EID emphasizes locally achievable success and room for improvement. As a result, purposeful enforcement of action plans can make a large difference by optimizing the interaction of business, community and ecological systems.
+
+
+== Instruments ==
+Eco-industrial development includes and employs four major conceptual instruments. Each of the approaches intends to combine the seemingly antithetic processes of industrial development and bolstering sustainability.
+
+Industrial ecology focuses on both industrial as well as consumer behavior. By assessing flows of energy and material, the approach determines the flows influences on the environment. In turn, it explores ways and means of optimizing the whole production chain from flow and use of resources to their final transformation. During these analyses, influences of economic, political, regulatory and social factors are key.
+The concept of industrial symbiosis is based on mainly voluntary cooperation of different industries. By conglomerating complementary enterprises and by then adapting their respective production chains, the presence of each may increase viability and profitability of the others. Therefore, symbioses consider resource scarcity and environmental protection as crucial factors in developing sustainable industries and profits. Industrial Symbiosis often becomes manifest in Eco-industrial parks.
+Environmental management systems include a wide range of different environmental management approaches in order to ensure continual improvement in sustainability. In early stages, monitoring companies facilitates the identification of hazardous environmental aspects. Further on, objectives and targets are set under consideration of legal requirements. Finally, the establishment of regular audits and other reporting systems combined with continuous follow-up targets shall ensure a constant improvement towards greener industrial production.
+The Design for the Environment concept originated in engineering disciplines as well as from the product life-cycle analysis. It is a simple but all-encompassing assessment of a product's potential environmental impact—ranging from energy and materials used for packaging, transportation, consumer use and disposal.
+
+
+== See also ==
+Economic growth
+Green economy
+
+
+== References ==
+
+
+== External links ==
+Eco Industrial Development in India
+Eco-Industrial Development Network
+Eco-Industrial Development Institute
+National Center for Eco-Industrial Development (NCEID)
+Principles of Eco-Industrial Development: Strategic Approaches and Best Practice for Sustainable Industrial Development - presentation by Andreas Koenig of ecoindustry.org
+Green Economy Coalition
+Industrial ecology: eco-industrial development and regional economic development (University of Hull)

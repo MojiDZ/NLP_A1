@@ -1,0 +1,155 @@
+Ecological empathy, or eco-empathy, is empathy directed towards the natural world. It encompasses empathy directed towards animals, plants, ecosystems, and the earth as a whole.Kim-Pong Tam developed a method of measuring individuals' dispositional empathy with nature (DEN), and has demonstrated its robust connection to conservation behavior.Numerous strategies can be implemented to cultivate ecological empathy—in both children and adults—including environmental education, ecopedagogy, arts, literature, film, future scenarios, ecological storytelling, Indigenous approaches, and parenting practices.Empathy for animals is a central component of eco-empathy, and effective programs have been developed to promote empathy towards animals in the home, in zoos and aquariums, on the farm, and in the wild.
+
+
+== Definitions ==
+As defined by Wang et al., “Empathy with nature means acknowledging the needs of animals, nature in general, and the importance of their survival, as well as showing interest in their well-being,” (Wang et al., 2022, p. 654). Ecological empathy overlaps with nature connectedness, and can be understood as the ability to connect with nature, both cognitively and affectively.
+
+
+=== Distinctions between ecological empathy and other concepts ===
+Ecological empathy is related to, but distinct from, the concepts of biophilia, ecological grief, and solastalgia. 
+The biophilia hypothesis holds that humans possess an innate love of nature and a drive to connect with the natural world. Biophilia refers to our affinity towards the natural world, whereas ecological empathy is our ability to feel empathy towards nature. Both are promoted by time spent in nature.While ecological empathy is an experience of empathy for nature, ecological grief (or climate grief) is the sadness that arises when one learns about environmental degradation and climate change. Related to ecological grief is solastalgia—a term coined by Glenn Albrecht to describe the distress caused by changes to one’s environment while one is living in that environment (as opposed to nostalgia, which occurs when one is away from home.) It refers to the experience of current climate-related events (as opposed to eco-anxiety, which involves the fear of future climate-related events.) While ecological grief and solastalgia solely involve negative emotions related to nature, ecological empathy is about feeling the emotions of the natural world—either positive or negative.
+
+
+== Measurement ==
+Ecological empathy can be assessed in various ways, and several scales have been created to assess individuals’ connection with and attitudes towards nature.
+
+
+=== Dispositional Empathy with Nature (DEN) scale ===
+Kim-Pong Tam developed the Dispositional Empathy with Nature (DEN) scale, adapted from the Interpersonal Reactivity Index (IRI), (a widely used empathy scale which measures both affective and cognitive empathy.) The DEN scale has been used by psychologists and educators in a variety of contexts since it was developed, to measure empathy towards nature in both students and adults, and has been translated and used internationally.Sample items of the Dispositional Empathy with Nature scale (Tam, 2013, p. 96) include:
+I imagine how I would feel if I were the suffering animals and plants.
+I try to understand how the suffering animals and plants feel by imagining how things look from their perspective.
+I visualize in my mind clearly and vividly how the suffering animals and plants feel in their situation.
+I have tender, concerned feelings for the suffering animals and plants.
+
+
+=== Emotional Affinity Toward Nature scale ===
+Kals and colleagues designed the Emotional Affinity Toward Nature scale to measure individuals’ affinity with and connection to the natural world. The scale contains three constructs, measuring participants’ behavior, emotions about nature, and experiences in nature—respectively. The scale has been used in the fields of psychology and education—primarily to assess students’ affinity toward nature, but has been used for adults as well. Sample items (Kals et al., 1999, pp. 188) from each construct include:
+
+[Behavioral criteria]: I am willing to take steps in my own house-hold for the protection of natural resources (e.g., installation of  water flow regulators, solar panels, and so forth).
+[Emotions and interest]: If I spend time in nature today, I feel a deep feeling of love toward nature.
+[Experiences with nature]: Nowadays, I spend a lot of time in nature.
+
+
+=== Environmental Attitudes Inventory (EAI) ===
+Milfont & Duckitt designed The Environmental Attitudes Inventory (EAI) to measure participants’ feelings, connection with, and attitudes about nature. The scale has been used internationally to measure students’ attitudes towards the environment, and has also been adapted and optimized in various contexts. The inventory has twelve scales, each of which contains ten survey items (Milfont & Duckitt, 2010, pp. 91-92):
+
+Enjoyment of nature
+Support for interventionist conservation policies
+Environmental movement activism
+Conservation motivated by anthropocentric concern
+Confidence in science and technology
+Environmental threat
+Altering nature
+Personal conservation behaviour
+Human dominance over nature (items reverse coded)
+Human utilization of nature (items reverse coded)
+Eco-centric concern
+Support for population growth policies
+
+
+=== Connectedness to nature scale ===
+The connectedness to nature scale designed by Mayer and Franz is a scale to measure individuals’ sense of connection with nature. The tool has been used primarily by psychologists and has been translated into other languages, including Cantonese and French for use in international contexts. Sample items (Mayer & Franz, 2004, p. 513) include:
+
+I often feel a sense of oneness with the natural world around me.
+I recognize and appreciate the intelligence of other living organisms
+I often feel a kinship with animals and plants.
+I often feel like I am only a small part of the natural world around me, and that I am no more important than the grass on the ground or the birds in the trees.
+
+
+== Connection to conservation behavior ==
+Across a number of studies, higher rates of ecological empathy have been found to correlate with increased conservation attitudes and behavior.
+Tam found that dispositional empathy with nature (DEN) robustly predicted both public (e.g. supporting an environmental organization) and private (e.g. household behaviors such as recycling) conservation behavior.
+Ienna and colleagues in their study of 878 participants found that both empathy and knowledge of environmental issues predicted pro-environmental attitudes and behavior; though verifiable knowledge was a stronger predictor. The authors also found a dissociation between cognitive and affective empathy—while affective empathy was found to predict attitudes but not behavior, cognitive empathy predicted both. This finding aligned with the authors’ prediction that cognitive empathy would influence behavior in a similar way as knowledge.
+Wang and colleagues found that inducing empathy for nature (through photographs and videos) led to increased pro-environmental behaviors. For individuals with independent (vs. interdependent) self-construal, however, higher empathy with nature did not lead to such behaviors. The study found that empathy towards nature led participants to make a commitment to the environment (a mediating factor), which in turn prompted increased environmental behavior.
+Based on Daniel Batson’s Model of Altruism, Jaime Berenguer designed a study to test the effects of empathy on moral reasoning. Participants who were prompted to practice empathy when reading a passage about an environmental dilemma were able to construct significantly more moral arguments for their positions than those in the neutral condition.Ecological empathy has also been assessed in corporate settings. Islam and colleagues found that employees with high levels of empathy demonstrated more pro-environmental and conservation behavior, as well as higher levels of identification with their workplace in connection with its pro-environmental policies.Gary Lynne and colleagues found that “empathy nudging”, when combined with financial incentives, can have a powerful impact on farmers’ business decisions regarding sustainable agriculture. This is especially true for those who are initially low in conservation practices.Factors such as place and identity mediate the role of empathy in conservation behaviors. Empathy will predict environmental actions only to the extent that it is able to transcend outgroup differences (natives vs. newcomers within a space) and geographic distance.
+
+
+== Individual differences ==
+As with empathy generally, individuals vary in their ability and willingness to practice ecological empathy.Tam has defined the construct of Dispositional Empathy with Nature (DEN) to describe “the dispositional tendency to understand and share the emotional experience of the natural world, (Tam, 2013, p. 1). Tam has developed and validated an instrument for assessing DEN and found that, across five studies with over eight hundred participants, DEN predicted conservation behavior.Across the literature, gender is found to be a mediating factor for empathy, with girls displaying greater ability and motivation to practice empathy.
+
+
+== Methods of cultivation ==
+Empathy is teachable, and numerous educational programs and interventions have been developed to foster ecological empathy, in both youth and adults.
+
+
+=== Environmental education ===
+Environmental education (EE) is a broad, multidisciplinary field that supports students’ engagement with nature, understanding of ecological systems, exploration of complex environmental problems, and the development of habits, lifestyles, and actions that promote conservation.According to the Environmental Protection Agency (EPA), “Environmental education is a process that allows individuals to explore environmental issues, engage in problem solving, and take action to improve the environment. As a result, individuals develop a deeper understanding of environmental issues and have the skills to make informed and responsible decisions”.The EPA lays out the following components of environmental education:
+Awareness and sensitivity to the environment and environmental challenges
+Knowledge and understanding of the environment and environmental challenges
+Attitudes of concern for the environment and motivation to improve or maintain environmental quality
+Skills to identify and help resolve environmental challenges
+Participation in activities that lead to the resolution of environmental challengesDavid Sobel argues that environmental education should be focused on empathy between the ages of four and seven, as children in this age range have less of a distinction between “self” and “other” and can more easily empathize with others.Sobel encourages educators and parents to foster a love of nature by letting children engage in wild play—getting dirty, climbing trees, building forts, and immersing themselves in the natural world. He critiques environmental education which focus too much on rules and the cultivation of systemic knowledge, and argues that “Nature programs should invite children to make mud pies, climb trees, catch frogs, paint their faces with charcoal, get their hands dirty and their feet wet. They should be allowed to go off the trail and have fun”.Sobel calls for parents and educators to focus on fostering a connection with and love of nature first and foremost. In Beyond Ecophobia. Reclaiming the Heart in Nature Education, Sobel argues, “If we want children to flourish, to become truly empowered, let us allow them to love the earth before we ask them to save it.”
+
+
+=== Ecopedagogy ===
+Ecopedagogy, as distinct from traditional environmental education, empowers students to explore the connections between social and environmental violence, to investigate the hidden political structures that contribute to environmental destruction, and—critically—to engage in transformational praxis.Ecopedagogy curricula can empower students to examine their own relationship with the natural world, the infrastructural privileges they may or may not have, and the ways in which the infrastructures around them were shaped by systems of power.
+
+
+=== Arts ===
+Both making and viewing visual art have been used to promote ecological empathy. Notable environmental artists include Andy Goldworthy, Chris Jordan, Agnes Denes, and Clifford Ross.Music, dance, theater, and poetry are also used to promote ecological empathy.
+
+
+=== Literature ===
+Children’s books can be used to promote ecological empathy often featuring animals as central characters. One such series is the Schoolyard Series—a collection of children’s picture books developed by The National Science Foundation’s Long Term Ecological Research (LTER) network—with content reviewed by scientists and illustrations that engage readers and promote empathic connection.
+Other popular environmental children’s books (as cited by Holm) include The Lorax, Washing the Willow Tree Loon, Hoot Flush, The Wheel on the School, The Missing 'Gator of Gumbo Limbo, The Empty Lot, The Great Kapok Tree, Just a Dream, and The Forever Forest: Kids Save a Tropical Treasure.For adult readers, the genre of climate fiction can promote empathy and reflection by strengthening readers’ ecological imagination skills. In her book, Affective Ecologies, Alexa Weik von Mossner argues that the embodied cognition elicited by environmental narratives allows readers to empathize, understand, and connect with ecological issues and human-nature relationships in a profound way.
+
+
+=== Film ===
+Numerous films have been created to draw attention to current environmental issues and promote ecological empathy among audiences. Notable examples are: The 11th Hour, Angry Inuk, Anthropocene: The Human Epoch, Food, Inc., An Inconvenient Truth, The Cove, The Redwoods, The Story of Stuff, and The True Cost.
+
+
+=== Future scenarios ===
+Future scenarios can be used to elicit empathy for the environment and can be implemented in several ways. Jessica Blythe and colleagues studied the use of future scenarios about the ocean (presented in either written or virtual reality format) and found post-empathy levels to be significantly higher in both conditions.Pessimistic scenarios tend to elicit more empathy, though optimistic scenarios tend to promote empowerment.Scenario Art involves the presentation of visual representations of future scenarios alongside a process of strategic questioning—designed to foster provoke empathy, creativity, and sustainable decision-making.Future scenarios have also been used in museums to help visitors imagine the impact of various ecological solutions on future life.
+
+
+=== Ecological storytelling ===
+Participatory ecological storytelling promotes ecological empathy by having participants co-create environmental stories using both human and animal characters. Projecting and combining their own emotions with that of their characters, storytelling participants can develop empathy for environmental actors and the planet itself. Through their stories, participants engage in a critical self-reflective process and imagine possibilities for the construction of a sustainable future. This tool has been used with both broad range of participants, including youth, professional designers, and business stakeholders.
+
+
+=== Indigenous approaches ===
+Educators can also promote empathy through the integration of indigenous practices into the curricula. Activities are designed to help children connect with and understand themselves, first and foremost, connecting with others to better understand their perspectives, and helping students make meaningful connections between what they’re learning and their own lives. Indigenous stories, time spent outdoors to play freely with one another, and the building of relationship provide a foundation for empathic learning.Indigenous learning is not only a cognitive process but also a social and emotional process, as the transfer of learning often happens through intergenerational relationships. In many Indigenous cultures, environmental knowledge is passed on through siblings, peers, and elders—through storytelling and powerful rituals and ceremonies (in contrast to the traditional lecture format of modern schools).Indigenous storytelling can play a powerful role in the cultivation of ecological empathy. Celidwen and Keltner explain, “Indigenous Peoples recover and recontextualize stories in ongoing co-creation and participation, thus strengthening identity and purpose, and restoring community bonds. These stories, still oriented toward reverence to all living forms, encourage empathy and perspective taking, bringing individuals into resilient and adaptive communities.”
+
+
+=== Parenting practices ===
+Parents can also play a powerful role in promoting ecological empathy with their children. In Rachel Carson’s book, The Sense of Wonder, writes about her adventures with her grandnephew who—through his sense of wonder—helps her discover the natural world all over again. Carson encourages parents to provide children with companionship as they discover the joy and beauty of nature.
+
+
+== Empathy for animals ==
+A central component of ecological empathy is the empathy felt towards non-human animals.One main motivation for nurturing children’s capacity to empathize with animals is based on the concept of transference, whereby the empathic skills they develop for animals will result in an increased ability to empathize with humans.Indeed, research suggests that developing empathy for animals may support the development of empathy toward other humans and—on the flip side—engaging in acts of cruelty toward animals may predict antisocial and violent behavior towards other humans. In their study of 23 school shooters between 1988 and 2012, Arluke and Madfis found 43% of them had a history of abusing animals.Humane education and nature education programs have been used as an effective intervention to promote empathy towards animals—in the zoo, at home, on the farm, or in the wild.
+
+
+=== Animals in zoos and aquariums ===
+Wharton et al. have identified six practices adults can use with children to support their empathy towards marine life:
+
+Framing—using language (such as names and pronouns) that conveys an animal’s individuality
+Modeling—showing children how to treat animals with compassion and care
+Increasing Knowledge—helping children understand an animal’s unique needs and experiences
+Practice—give children an opportunity to practice caring for an animal and acting out their empathic feelings (giving positive feedback when children engage appropriately with the animal in their care)
+Providing Experiences—allow children to spend time in nature and in environments where they can interact with animals
+Imagination—encourage students to imagine how an animal is feeling in a particular moment, or have them role play by taking on the character of a particular animalSarah Webber and colleagues found that zoo visitors observing orangutans interacting with a digital interface (projected on the floor of their enclosure) responded with cognitive, affective, and motor empathy towards the orangutans. The interactive projection offered orangutans the opportunity to create artwork, play interactive games, view videos, and identify themselves in photographs. The exhibit was designed to build empathy by allowing visitors to observe the animals’ behaviors up-close, witness their cognitive capacity in action, and observe differences in individual animals' preferences and behaviors.In their small-scale evaluation of a zoo-based nature preschool, Ernst and Budnik found that children’s levels of empathy towards both humans and animals increased over the course of the school year. For wild animals, they found significant increases in emotional sharing and empathic concern, but not in the cognitive (perspective-taking) component.
+
+
+=== Companion animals ===
+Khalid and Naqvi found that individuals reporting strong "pet attachment" had higher levels of empathy. This finding was corroborated by Daly and Morton, who found that children who were highly attached to their pets were more empathic than those who were less attached. Daly and Morton also found that children who preferred both cats and dogs (as opposed to one or the other)—as well as those who owned both—were more empathic than those who preferred or owned only one.Robert Poresky found that children’s empathy towards other children was correlated with their empathy towards pets. He also found that children with a stronger pet bond scored higher on the measure of empathy towards other children.Rothgerber and Mican found that individuals who reported having a close relationship with animals subsequently avoided meat more than those who didn’t, and used indirect, apologetic justifications for the meat they did eat. Both effects were mediated by empathy for animals.A growing body of research suggests that humane education programs, especially those involving human-animal interactions, facilitates the development of empathy in children. Humane education programs can also be used as an effective strategy to combat school violence—reducing aggression towards both humans and animals.
+
+
+=== Farmed animals ===
+Psychologist Melanie Joy, who coined the term carnism, studies the psychology of eating meat and the “meat paradox,” which refers to the fact that most people simultaneously care about animals and consume them. A growing number of researchers are studying this phenomenon in attempt to understand what factors play a role in this paradox. Piazza and colleagues identified what they refer to as the “4Ns” individuals use to justify meat consumption: Necessary, Natural, Normal, and Nice.Research by Loughnan and colleagues suggests that people who value masculinity, find dominance and inequality acceptable, view animals as highly dissimilar to humans, or think that animals cannot feel pain are more likely to eat meat.Megan Earle and colleagues found that providing visual reminders of the animal origins of meat (compared to photos of the meat alone) lead to decreased meat consumption, which was mediated by increased empathy towards animals, distress about meat consumption, and disgust for meat. The intervention also led to a decrease in negative attitudes towards vegetarians and vegans.In their meta-analysis of 100 studies evaluating interventions designed to reduce meat consumption, Mathur and colleagues found that appeals to animal welfare were largely successful in achieving at least a short-term reduction in meat consumption, based on self-report behavioral outcomes and intentions for future behavior.While self-reported measures of empathy may be susceptible to social desirability bias and other validity issues, analysis of facial expressions can be a more objective measure. Ly and Weary found that facial expressions were able to robustly predict empathy towards farm animals when participants viewed videos of animals undergoing painful procedures associated with industrial farming.In a study of dairy farmers, lack of empathy towards animals (as indicated by disagreement with the statement: “animals experience physical pain as humans do”) was correlated with higher numbers of skin lesions in the farmers’ cows.
+Organizations such as the New Roots Institute, The Humane League, Humane Society of the United States, Farm Sanctuary, Mercy for Animals, and others educate youth and the broader public about the impact of factory farming, in an attempt to promote empathy for farmed animals.
+
+
+=== Wild animals ===
+With the rise of globalization and transnational trade, both legal and illegal wildlife trade has proliferated. Dan Yue and colleagues designed educational materials including texts depicting the poaching of animals in an anthropomorphic way, such as one written from the perspective of a tiger cub whose mother was killed by poachers. These anthropomorphic educational materials boosted participants’ empathy towards wildlife and their intention to avoid consuming wildlife products, such as tiger bone wine..
+Kansky and Maassarani found that the implementation of non-violent communication (NVC) workshops led to greater empathic concern for both people and wildlife in Namibia.Ashley Young and colleagues offer best practices for cultivating children’s empathic connection for animals, including:
+Providing children with ample time outdoors to connect with nature
+Respecting an animal’s subjective existence, emotions, and intentions (e.g. not picking up an animal that is resisting being picked up or demonstrating fear)
+Acting as a role model for children to model appropriate ways of connecting with animals, and provide feedback on their animal interactions
+Activating children’s imaginations through role-playing, storytelling, and mimicry of animals
+
+
+== See also ==
+Environmental protection
+History of climate change policy and politics
+
+
+== References ==

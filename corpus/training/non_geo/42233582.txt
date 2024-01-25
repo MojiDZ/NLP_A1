@@ -1,0 +1,296 @@
+Antigen-antibody interaction, or antigen-antibody reaction, is a specific chemical interaction between antibodies produced by B cells of the white blood cells and antigens during immune reaction. The antigens and antibodies combine by a process called agglutination. It is the fundamental reaction in the body by which the body is protected from complex foreign molecules, such as pathogens and their chemical toxins. In the blood, the antigens are specifically and with high affinity bound by antibodies to form an antigen-antibody complex. The immune complex is then transported to cellular systems where it can be destroyed or deactivated.
+The first correct description of the antigen-antibody reaction was given by Richard J. Goldberg at the University of Wisconsin in 1952. It came to be known as "Goldberg's theory" (of antigen-antibody reaction).There are several types of antibodies and antigens, and each antibody is capable of binding only to a specific antigen. The specificity of the binding is due to specific chemical constitution of each antibody. The antigenic determinant or epitope is recognized by the paratope of the antibody, situated at the variable region of the polypeptide chain. The variable region in turn has hyper-variable regions which are unique amino acid sequences in each antibody. Antigens are bound to antibodies through weak and noncovalent interactions such as electrostatic interactions, hydrogen bonds, Van der Waals forces, and hydrophobic interactions.The principles of specificity and cross-reactivity of the antigen-antibody interaction are useful in clinical laboratory for diagnostic purposes. One basic application is determination of ABO blood group. It is also used as a molecular technique for infection with different pathogens, such as HIV, microbes, and helminth parasites.
+
+
+== Molecular basis ==
+Immunity developed as an individual is exposed to antigens is called adaptive or acquired immunity, in contrast to immunity developed at birth, which is innate immunity. Acquired immunity depends upon the interaction between antigens and a group of proteins called antibodies produced by B cells of the blood. There are many antibodies and each is specific for a particular type of antigen. Thus immune response in acquired immunity is due to the precise binding of antigens to antibody. Only very small area of the antigens and antibody molecules actually interact through complementary binding sites, called epitopes in antigens and paratopes in antibody.
+
+
+=== Antibody structure ===
+In an antibody, the Fab (fragment, antigen-binding) region is formed from the amino-terminal end of both the light and heavy chains of the immunoglobulin polypeptide. This region, called the variable (V) domain, is composed of amino acid sequences that define each type of antibody and their binding affinity to an antigen. The combined sequence of variable light chain (VL) and variable heavy chain (VH) creates three hypervariable regions (HV1, HV2, and HV3). In VL these are roughly from residues 28 to 35, from 49 to 59, and from 92 to 103, respectively. HV3 is the most variable part. Thus these regions may be part of a paratope, the part of an antibody that recognizes and binds to an antigen. The rest of the V region between the hypervariable regions are called framework regions. Each V domain has four framework domains, namely  FR1, FR2, FR3, and FR4.
+
+
+== Properties ==
+
+
+=== Chemical basis of antigen-antibody interaction ===
+Antibodies bind antigens through weak chemical interactions, and bonding is essentially non-covalent. Electrostatic interactions, hydrogen bonds, van der Waals forces, and hydrophobic interactions are all known to be involved depending on the interaction sites. Non-covalent bonds between antibody and antigen can also be mediated by interfacial water molecules. Such indirect bonds can contribute to the phenomenon of cross-reactivity, i.e. the recognition of different but related antigens by a single antibody.
+
+
+=== Affinity of the interaction ===
+Antigen and antibody interact through a high affinity binding much like lock and key. A dynamic equilibrium exists for the binding. For example, the reaction is a reversible one, and can be expressed as:
+
+  
+    
+      
+        
+          
+            [
+            Ab
+            ]
+          
+          +
+          
+            [
+            Ag
+            ]
+          
+          
+            
+              
+                
+                  
+                    
+                      ↽
+                    
+                    
+                    
+                    
+                      −
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      −
+                    
+                    
+                    
+                    
+                      ⇀
+                    
+                  
+                
+              
+            
+          
+          
+            [
+            AbAg
+            ]
+          
+        
+      
+    
+    {\displaystyle {\ce {[Ab] + [Ag] <=> [AbAg]}}}
+  where [Ab] is the antibody concentration and [Ag] is the antigen concentration, either in free ([Ab],[Ag]) or bound ([AbAg]) state.
+The equilibrium association constant Ka can therefore be represented as: 
+
+  
+    
+      
+        
+          K
+          
+            a
+          
+        
+        =
+        
+          
+            
+              k
+              
+                
+                  on
+                
+              
+            
+            
+              k
+              
+                
+                  off
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                [
+                AbAg
+                ]
+              
+            
+            
+              
+                [
+                Ab
+                ]
+              
+              
+                [
+                Ag
+                ]
+              
+            
+          
+        
+      
+    
+    {\displaystyle K_{a}={\frac {k_{{\ce {on}}}}{k_{{\ce {off}}}}}={\frac {{\ce {[AbAg]}}}{{\ce {[Ab] [Ag]}}}}}
+  where kon and koff are the association and dissociation rate constants, respectively.
+Reciprocally, the equilibibrium dissociation constant Kd will be:
+
+  
+    
+      
+        
+          K
+          
+            d
+          
+        
+        =
+        
+          
+            
+              k
+              
+                
+                  off
+                
+              
+            
+            
+              k
+              
+                
+                  on
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                [
+                Ab
+                ]
+              
+              
+                [
+                Ag
+                ]
+              
+            
+            
+              
+                [
+                AbAg
+                ]
+              
+            
+          
+        
+      
+    
+    {\displaystyle K_{d}={\frac {k_{{\ce {off}}}}{k_{{\ce {on}}}}}={\frac {{\ce {[Ab] [Ag]}}}{{\ce {[AbAg]}}}}}
+  The antibody-antigen binding kinetic can be described by the rate equation of a second-order reversible reaction. However, these equations are applicable only to a single epitope binding, i.e. one antigen on one antibody. Since the antibody necessarily has two paratopes, and in many circumstances complex binding occurs, the multiple binding equilibrium can be summed up as:
+
+  
+    
+      
+        
+          K
+          
+            a
+          
+        
+        =
+        
+          
+            
+              k
+              
+                
+                  on
+                
+              
+            
+            
+              k
+              
+                
+                  off
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                [
+                AbAg
+                ]
+              
+            
+            
+              
+                [
+                Ab
+                ]
+              
+              
+                [
+                Ag
+                ]
+              
+            
+          
+        
+        =
+        
+          
+            r
+            
+              c
+              (
+              n
+              −
+              r
+              )
+            
+          
+        
+      
+    
+    {\displaystyle K_{a}={\frac {k_{{\ce {on}}}}{k_{{\ce {off}}}}}={\frac {{\ce {[AbAg]}}}{{\ce {[Ab] [Ag]}}}}={\frac {r}{c(n-r)}}}
+  where, at equilibrium, c is the concentration of free ligand, r represents the ratio of the concentration of bound ligand to total antibody concentration and n is the maximum number of binding sites per antibody molecule (the antibody valence).The overall strength of the binding of an antibody to an antigen is termed its avidity for that antigen. Since antibodies are bivalent or polyvalent, this is the sum of the strengths of individual antibody-antigen interactions. The strength of an individual interaction between a single binding site on an antibody and its target epitope is termed the affinity of that interaction.Avidity and affinity can be judged by the dissociation constant for the interactions they describe. The lower the dissociation constant, the higher the avidity or affinity, and the stronger the interaction.
+
+
+== Autoimmune disease ==
+Normally antibodies can detect and differentiate molecules from outside of the body and those produced inside the body as a result of cellular activities. Self molecules as ignored by the immune system. However, in certain conditions, the antibodies recognise self molecules as antigens and triggers unexpected immune responses. This results in different autoimmune diseases depending on the type of antigens and antibodies involved. Such conditions are always harmful and sometimes deadly. The exact nature of antibody-antigen interaction in autoimmune disease is not yet understood.
+
+
+== Application ==
+Antigen-antibody interaction is used in laboratory techniques for serological test of blood compatibility and various pathogenic infections. The most basic is ABO blood group determination, which is useful for blood transfusion. Sophisticated applications include ELISA,  enzyme-linked immunospot (Elispot), immunofluorescence, and immunoelectrophoresis.
+
+
+=== Precipitation reaction ===
+Soluble antigens combine with soluble antibodies in presence of an electrolyte at suitable temperature and pH to form insoluble visible complex. This is called a precipitation reaction. It is used for qualitative and quantitative determination of both antigen and antibody. It involves the reaction of soluble  antigen with soluble  antibodies to form large interlocking aggravated called lattice. It occurs in two distinct stages. Firstly, the antigen and antibody rapidly form antigen-antibody complexes within few seconds and this is followed by a slower reaction in which the antibody-antigen complexes forms lattices that precipitate from the solution.A special ring test is useful for diagnosis of anthrax and determination of adulteration in food.
+
+
+=== Agglutination reaction ===
+It acts on antigen-antibody reaction in which the antibodies cross-link particulate antigens resulting in the visible clumping of the particle. There are two types, namely active and passive agglutination. They are used in blood tests for diagnosis of enteric fever.
+
+
+== References ==
+
+
+== External links ==
+Antigen-antibody reaction
+Discover Biotech

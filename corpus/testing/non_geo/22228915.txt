@@ -1,0 +1,287 @@
+Solution of triangles (Latin: solutio triangulorum) is the main trigonometric problem of finding the characteristics of a triangle (angles and lengths of sides), when some of these are known. The triangle can be located on a plane or on a sphere. Applications requiring triangle solutions include geodesy, astronomy, construction, and navigation.
+
+
+== Solving plane triangles ==
+A general form triangle has six main characteristics (see picture): three linear (side lengths a, b, c) and three angular (α, β, γ). The classical plane trigonometry problem is to specify three of the six characteristics and  determine the other three.  A triangle can be uniquely determined in this sense when given any of the following:
+Three sides (SSS)
+Two sides and the included angle (SAS, side-angle-side)
+Two sides and an angle not included between them (SSA), if the side length adjacent to the angle is shorter than the other side length.
+A side and the two angles adjacent to it (ASA)
+A side, the angle opposite to it and an angle adjacent to it (AAS).For all cases in the plane, at least one of the side lengths must be specified. If only the angles are given, the side lengths cannot be determined, because any similar triangle is a solution.
+
+
+=== Trigonomic relations ===
+The standard method of solving the problem is to use fundamental relations.
+
+Law of cosinesLaw of sines
+Sum of angles
+
+Law of tangentsThere are other (sometimes practically useful) universal relations: the law of cotangents and Mollweide's formula.
+
+
+==== Notes ====
+To find an unknown angle, the law of cosines is safer than the law of sines. The reason is that the value of sine for the angle of the triangle does not uniquely determine this angle. For example, if sin β = 0.5, the angle β can equal either 30° or 150°. Using the law of cosines avoids this problem: within the interval from 0° to 180° the cosine value unambiguously determines its angle. On the other hand, if the angle is small (or close to 180°), then it is more robust numerically to determine it from its sine than its cosine because the arc-cosine function has a divergent derivative at 1 (or −1).
+We assume that the relative position of specified characteristics is known. If not, the mirror reflection of the triangle will also be a solution. For example, three side lengths uniquely define either a triangle or its reflection.
+
+
+=== Three sides given (SSS) ===
+Let three side lengths a, b, c be specified. To find the angles α, β, the law of cosines can be used:
+Then angle γ = 180° − α − β.
+Some sources recommend to find angle β from the law of sines but (as Note 1 above states) there is a risk of confusing an acute angle value with an obtuse one.
+Another method of calculating the angles from known sides is to apply the law of cotangents.
+
+
+=== Two sides and the included angle given (SAS) ===
+Here the lengths of sides a, b and the angle γ between these sides are known. The third side can be determined from the law of cosines:
+Now we use law of cosines to find the second angle:
+
+Finally, β = 180° − α − γ.
+
+
+=== Two sides and non-included angle given (SSA) ===
+This case is not solvable in all cases; a solution is guaranteed to be unique only if the side length adjacent to the angle is shorter than the other side length.  Assume that two sides b, c and the angle β are known. The equation for the angle γ can be implied  from the law of sines:
+We denote further D = c/b sin β (the equation's right side). There are four possible cases:
+
+If D > 1, no such triangle exists because the side b does not reach line BC. For the same reason a solution does not exist if the angle β ≥ 90° and b ≤ c.
+If D = 1, a unique solution exists: γ = 90°, i.e., the triangle is right-angled.
+If D < 1 two alternatives are possible.
+If b ≥ c, then β ≥ γ (the larger side corresponds to a larger angle). Since no triangle can have two obtuse angles, γ is an acute angle and the solution γ = arcsin D is unique.
+If b < c, the angle γ may be acute: γ = arcsin D or obtuse: γ′ = 180° − γ. The figure on right shows the point C, the side b and the angle γ as the first solution, and the point C′, side b′ and the angle γ′ as the second solution.Once γ is obtained, the third angle α = 180° − β − γ.
+The third side can then be found from the law of sines:
+
+or from the law of cosines:
+
+
+=== A side and two adjacent angles given (ASA) ===
+The known characteristics are the side  c and the angles α, β. The third angle γ = 180° − α − β.
+Two unknown sides can be calculated from the law of sines:
+
+
+=== A side, one adjacent angle and the opposite angle given (AAS) ===
+The procedure for solving an AAS triangle is same as that for an ASA triangle: First, find the third angle by using the angle sum property of a triangle, then find the other two sides using the law of sines.
+
+
+=== Other given lengths ===
+In many cases, triangles can be solved given three pieces of information some of which are the lengths of the triangle's medians, altitudes, or angle bisectors. Posamentier and Lehmann list the results for the question of solvability using no higher than square roots (i.e., constructibility) for each of the 95 distinct cases; 63 of these are constructible.
+
+
+== Solving spherical triangles ==
+The general spherical triangle is fully determined by three of its six characteristics (3 sides and 3 angles). The lengths of the sides a, b, c of a spherical triangle are their central angles, measured in angular units rather than linear units. (On a unit sphere, the angle (in radians) and length around the sphere are numerically the same. On other spheres, the angle (in radians) is equal to the length around the sphere divided by the radius.)
+Spherical geometry differs from planar Euclidean geometry, so the solution of spherical triangles is built on different rules. For example, the sum of the three angles α + β + γ depends on the size of the triangle. In addition, similar triangles cannot be unequal, so the problem of constructing a triangle with specified three angles has a unique solution. The basic relations used to solve a problem are similar to those of the planar case: see Spherical law of cosines and Spherical law of sines.
+Among other relationships that may be useful are the half-side formula and Napier's analogies:
+
+
+=== Three sides given (spherical SSS) ===
+Known: the sides a, b, c (in angular units). The triangle's angles are computed using the spherical law of cosines:
+
+
+=== Two sides and the included angle given (spherical SAS) ===
+Known: the sides a, b and the angle γ between them. The side c can be found from the spherical law of cosines:
+
+The angles α, β can be calculated as above, or by using Napier's analogies:
+
+This problem arises in the navigation problem of finding the great circle between two points on the earth specified by their latitude and longitude; in this application, it is important to use formulas which are not susceptible to round-off errors.  For this purpose, the following formulas (which may be derived using vector algebra) can be used:
+
+where the signs of the numerators and denominators in these expressions should be used to determine the quadrant of the arctangent.
+
+
+=== Two sides and non-included angle given (spherical SSA) ===
+This problem is not solvable in all cases; a solution is guaranteed to be unique only if the side length adjacent to the angle is shorter than the other side length.  Known: the sides b, c and the angle β not between them. A solution exists if the following condition holds:
+
+The angle γ can be found from the spherical law of sines:
+
+As for the plane case, if b < c then there are two solutions: γ and 180° - γ.
+We can find other characteristics by using Napier's analogies:
+
+
+=== A side and two adjacent angles given (spherical ASA) ===
+Known: the side c and the angles α, β. First we determine the angle γ using the spherical law of cosines:
+
+We can find the two unknown sides from the spherical law of cosines (using the calculated angle γ):
+
+or by using Napier's analogies:
+
+
+=== A side, one adjacent angle and the opposite angle given (spherical AAS) ===
+Known: the side a and the angles α, β. The side b can be found from the spherical law of sines:
+
+If the angle for the side a is acute and α > β, another solution exists:
+
+We can find other characteristics by using Napier's analogies:
+
+
+=== Three angles given (spherical AAA) ===
+Known: the angles α, β, γ. From the spherical law of cosines we infer:
+
+
+=== Solving right-angled spherical triangles ===
+The above algorithms become much simpler if one of the angles of a triangle (for example, the angle C) is the right angle. Such a spherical triangle is fully defined by its two elements, and the other three can be calculated using Napier's Pentagon or the following relations.
+
+  
+    
+      
+        sin
+        ⁡
+        a
+        =
+        sin
+        ⁡
+        c
+        ⋅
+        sin
+        ⁡
+        A
+      
+    
+    {\displaystyle \sin a=\sin c\cdot \sin A}
+   (from the spherical law of sines)
+
+  
+    
+      
+        tan
+        ⁡
+        a
+        =
+        sin
+        ⁡
+        b
+        ⋅
+        tan
+        ⁡
+        A
+      
+    
+    {\displaystyle \tan a=\sin b\cdot \tan A}
+  
+
+  
+    
+      
+        cos
+        ⁡
+        c
+        =
+        cos
+        ⁡
+        a
+        ⋅
+        cos
+        ⁡
+        b
+      
+    
+    {\displaystyle \cos c=\cos a\cdot \cos b}
+   (from the spherical law of cosines)
+
+  
+    
+      
+        tan
+        ⁡
+        b
+        =
+        tan
+        ⁡
+        c
+        ⋅
+        cos
+        ⁡
+        A
+      
+    
+    {\displaystyle \tan b=\tan c\cdot \cos A}
+  
+
+  
+    
+      
+        cos
+        ⁡
+        A
+        =
+        cos
+        ⁡
+        a
+        ⋅
+        sin
+        ⁡
+        B
+      
+    
+    {\displaystyle \cos A=\cos a\cdot \sin B}
+   (also from the spherical law of cosines)
+
+  
+    
+      
+        cos
+        ⁡
+        c
+        =
+        cot
+        ⁡
+        A
+        ⋅
+        cot
+        ⁡
+        B
+      
+    
+    {\displaystyle \cos c=\cot A\cdot \cot B}
+  
+
+
+== Some applications ==
+
+
+=== Triangulation ===
+
+If one wants to measure the distance d from shore to a remote ship via triangulation, one marks on the shore two points with known distance l between them (the baseline). Let α, β be the angles between the baseline and the direction to the ship.
+From the formulae above (ASA case, assuming planar geometry) one can compute the distance as the triangle height:
+
+For the spherical case, one can first compute the length of side from the point at α to the ship (i.e. the side opposite to β) via the ASA formula
+
+and insert this into the AAS formula for the right subtriangle that contains the angle α and the sides b and d:
+
+(The planar formula is actually the first term of the Taylor expansion of d of the spherical solution in powers of ℓ.)
+This method is used in cabotage. The angles α, β are defined  by observation of familiar landmarks from the ship.
+
+As another example, if one wants to measure the height h of a mountain or a high building, the angles α, β from two ground points to the top are specified. Let ℓ be the distance between these points. From the same ASA case formulas we obtain:
+
+
+=== The distance between two points on the globe ===
+
+To calculate the distance between two points on the globe,
+
+Point A: latitude λA, longitude LA, and
+Point B: latitude λB, longitude LBwe consider the spherical triangle ABC, where C is the North Pole. Some characteristics are:
+
+If two sides and the included angle given, we obtain from the formulas
+
+Here R is the Earth's radius.
+
+
+== See also ==
+Congruence
+Hansen's problem
+Hinge theorem
+Lénárt sphere
+Snellius–Pothenot problem
+
+
+== References ==
+
+Euclid (1956) [1925]. Sir Thomas Heath (ed.). The Thirteen Books of the Elements. Volume I. Translated with introduction and commentary. Dover. ISBN 0-486-60088-2.
+
+
+== External links ==
+Trigonometric Delights, by Eli Maor, Princeton University Press, 1998.  Ebook version, in PDF format, full text presented.
+Trigonometry by Alfred Monroe Kenyon and Louis Ingold, The Macmillan Company, 1914. In images, full text presented. Google book.
+Spherical trigonometry on Math World.
+Intro to Spherical Trig. Includes discussion of The Napier circle and Napier's rules
+Spherical Trigonometry — for the use of colleges and schools by I. Todhunter, M.A., F.R.S. Historical Math Monograph posted by Cornell University Library.
+Triangulator – Triangle solver. Solve any plane triangle problem with the minimum of input data. Drawing of the solved triangle.
+TriSph – Free software to solve the spherical triangles, configurable to different practical applications and configured for gnomonic.
+Spherical Triangle Calculator – Solves spherical triangles.
+TrianCal – Triangles solver by Jesus S.

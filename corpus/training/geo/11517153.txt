@@ -1,0 +1,16 @@
+The physiotope is the total abiotic matrix of habitat present within any certain ecotope. It refers to the landform, the rocks and the soils, the climate and the hydrology, and the geologic processes which marshalled all these resources together in a certain way and in this time and place
+
+
+== Technical Definition ==
+Specifically, the physiotope denotes spatially explicit functional landscape units that can stratify landscapes into distinct units resulting from geological, morphological and soil processes. In contrast to ecotopes, the physiotope does not include any definition of vegetation cover.  As such, resources used in mapping physiotopes strictly pertain to those implicated in the development and evolution of abiotic components of ecosystems. 
+
+
+== Applications ==
+Physiotopes can be utilized in mapping landscapes to help study the relation between abiotic and biotic parts of nature (eg. how the soil composition, geomorphology, etc. of one area can impact how biotic elements grow) in both land and aquatic ecosystems. They can also be used for analyzing land-use development in relation to geography for insights into policy implications.
+
+
+== See also ==
+Ecological land classification
+
+
+== References ==

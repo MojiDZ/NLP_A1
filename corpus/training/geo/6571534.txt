@@ -1,0 +1,211 @@
+The following outline is provided as an overview of and topical guide to ecology:
+Ecology – scientific study of the distribution and abundance of living organisms and how the distribution and abundance are affected by interactions between the organisms and their environment.  The environment of an organism includes both physical properties, which can be described as the sum of local abiotic factors such as solar insolation, climate and geology, as well as the other organisms that share its habitat.  Also called ecological science.
+
+
+== Essence of ecology ==
+Nature – Natural, physical, or material world and its phenomena, or Natural environment – Living and non-living things on Earth
+Ecosystem – Community of living organisms together with the nonliving components of their environment, or Biome – Community of organisms associated with an environment (ecosystem)
+Community (ecology) – Associated populations of species in a given area, or Biocoenosis – Interacting organisms living together in a habitat
+Species – Basic unit of taxonomic classification, below genus
+Population – All the organisms of a given species that live in a specified region
+Organism – Any individual living being or physical living system
+Biodiversity – Variety and variability of life forms
+Food web – Natural interconnection of food chains
+
+
+== Other criteria ==
+Ecology can also be classified on the basis of:
+
+the primary kinds of organism under study, e.g. animal ecology, plant ecology, insect ecology;
+the biomes principally studied, e.g. forest ecology, grassland ecology, desert ecology, benthic ecology, marine ecology, urban ecology;
+the geographic or climatic area, e.g. arctic ecology, tropical ecology;
+the spatial scale under consideration, e.g. macroecology, landscape ecology;
+the philosophical approach, e.g. systems ecology which adopts a holistic approach;
+the methods used, e.g. molecular ecology.
+
+
+== Subdisciplines of ecology, and subdiscipline classification ==
+Ecology is a broad discipline comprising many subdisciplines. The field of ecology can be subdivided according to several classification schemes:
+
+
+=== By methodology used for investigation ===
+Field ecology – Collection of information outside a laboratory, library or workplace setting –
+Quantitative ecology – application of advanced mathematical and statistical tools to perform ecological researchPages displaying wikidata descriptions as a fallback –
+Theoretical ecology – scientific discipline devoted to the study of ecological systems using theoretical methodsPages displaying wikidata descriptions as a fallback – the development of ecological theory, usually with mathematical, statistical and/or computer modeling tools.
+
+
+=== By spatial scale of ecological system under study ===
+Global ecology – Global sum of all ecosystems on Earth –
+Macroecology – Study of relationships between organisms and their environment at large spatial scales –
+Microecology – Microbial ecology or ecology of a microhabitat.
+
+
+=== By level of organisation or scope ===
+Arranged from lowest to highest level of organisation:
+Autecology – ecological study of a single individual, population, or speciesPages displaying wikidata descriptions as a fallback – the study of individual organisms of a single species in relation to their environment;
+Synecology – Associated populations of species in a given areaPages displaying short descriptions of redirect targets – the study of homogenous or heterogenous groups of organisms in relation to their environment;
+Population ecology – Study of the dynamics of species populations and how these populations interact with the environment – the study of homogenous groups of organisms related as a single species;
+Community ecology – Associated populations of species in a given area – the study of heterogenous groups of organisms of multiple associated species;
+Ecosystem ecology – Study of living and non-living components of ecosystems and their interactions.
+
+
+=== By biological classification or taxon under study ===
+Human ecology – Study of the relationship between humans and their natural, social, and built environments –
+Animal ecology – Scientific study of the relationships between living animals and their environment –
+Insect ecology – The study of how insects interact with the surrounding environment –
+Microbial ecology – Study of the relationship of microorganisms with their environment –
+Plant ecology – The study of effect of the environment on the abundance and distribution of plants.
+
+
+=== By biome under study ===
+Benthic ecology – The study of the interaction of sea-floor organisms with each other and with the environment –
+Desert ecology – The study of interactions between both biotic and abiotic components of desert environments –
+Forest ecology – Study of interactions between the biota and environment in forests. –
+Grassland ecology – Area with vegetation dominated by grasses –
+Marine ecology – The study of the interactions between organisms and environment in the sea –
+Aquatic ecology – The study of interactions between organisms and the environment in water –
+Urban ecology – Scientific study of living organisms.
+
+
+=== By biogeographic realm or climatic area under study ===
+Arctic ecology – Study of the relationships between biotic and abiotic factors in the arctic –
+Polar ecology – Relationship between plants and animals and a polar environment –
+Tropical ecology – Study of the relationships between the biotic and abiotic components of the tropics.
+
+
+=== By ecological aspects or phenomena under investigation ===
+Behavioral ecology – Study of the evolutionary basis for animal behavior due to ecological pressures –
+Chemical ecology – Study of chemically-mediated interactions between living organisms – which deals with the ecological role of biological chemicals used in a wide range of areas including defense against predators and attraction of mates;
+Disease ecology – Sub-discipline of ecology – which studies host-pathogen interactions, particularly those of infectious diseases, within the context of environmental factors;
+Ecophysiology – Study of adaptation of an organism's physiology to environmental conditions – which studies the interaction of physiological traits with the abiotic environment;
+Ecotoxicology – study of effects of released pollutants on the environment and biotaPages displaying wikidata descriptions as a fallback – which looks at the ecological role of toxic chemicals (often pollutants, but also naturally occurring compounds);
+Evolutionary ecology – Interaction of biology and evolution – or ecoevolution which looks at evolutionary changes in the context of the populations and communities in which the organisms exist;
+Fire ecology – Study of fire in ecosystems – which looks at the role of fire in the environment of plants and animals and its effect on ecological communities;
+Functional ecology – branch of ecologyPages displaying wikidata descriptions as a fallback – the study of the roles, or functions, that certain species (or groups thereof) play in an ecosystem;
+Genetic ecology – Study of genetic material in the environment –
+Landscape ecology – Science of relationships between ecological processes in the environment and particular ecosystems –
+Landscape limnology – Spatially explicit study of lakes, streams, and wetlands as they interact with landscapes –
+Molecular ecology – Field of evolutionary biology –
+Paleoecology – Study of interactions between organisms and their environments across geologic timescales –
+Social ecology – Study of relationships between people and their environment –
+Soil ecology – Study of the interaction of soil and life – the ecology of the pedosphere –
+Sensory ecology – study of how organisms acquire, process, and respond to information from their environmentPages displaying wikidata descriptions as a fallback –
+Spatial ecology – Study of the distribution or space occupied by species –
+Thermal ecology – study of the interactions between temperature and organismsPages displaying wikidata descriptions as a fallback – the study of the relationship between temperature and organisms.
+
+
+=== Ecology-involved interdisciplinary fields ===
+Agroecology – Study of ecological processes in agriculture –
+Applied ecology – sub-field within ecology that considers the application of the science of ecology to real-world (usually management) questionsPages displaying wikidata descriptions as a fallback – the practice of employing ecological principles and understanding to solve real world problems (includes agroecology and conservation biology);
+Conservation ecology – Study of threats to biological diversity – which studies how to reduce the risk of species extinction;
+Restoration ecology – Scientific study of renewing and restoring ecosystems – which attempts to understand the ecological basis needed to restore impaired or damaged ecosystems;
+Biogeochemistry – Study of chemical cycles of the earth that are either driven by or influence biological activity –
+Biogeography – Study of the distribution of species and ecosystems in geographic space and through geological time –
+Ecological design – Design approach sensitive to environmental impacts –
+Ecological economics – Interdependence of human economies and natural ecosystems –
+Ecological engineering – Environmental engineering –
+Ecological anthropology – Study of cultural adaptations to environments –
+Festive ecology – Study of ecology and cultural events –
+Ecological health – term in medicine about management of environmental factors that may reduce the risk of unhealthy behaviorPages displaying wikidata descriptions as a fallback –
+Ecosophy – Philosophy of ecological harmony or equilibrium as developed by Arne Næss or Félix Guattari –
+Environmental psychology – Academic study of the mind's relationship to one's immediate surroundings –
+Natural history – Study of organisms including plants or animals in their environment –
+Systems ecology – Holistic approach to the study of ecological systems –
+
+
+=== Other disciplines ===
+Ecology has also inspired (and lent its name to) other non-biological disciplines such as:
+
+Media ecology
+Industrial ecology
+Information ecology
+
+
+== Biogeographic regions ==
+Biosphere – Global sum of all ecosystems on Earth
+
+
+=== Terrestrial realms ===
+Biogeographic realm – Broadest biogeographic division of Earth's land surface. The World Wildlife Fund (WWF) developed a system of eight biogeographic realms (ecozones):
+
+Nearctic – Biogeographic realm encompassing temperate North AmericaPages displaying short descriptions of redirect targets 22.9 mil. km2 (including most of North America)
+Palearctic – Biogeographic realm covering most of EurasiaPages displaying short descriptions of redirect targets 54.1 mil. km2 (including the bulk of Eurasia and North Africa)
+Afrotropical – One of Earth's eight biogeographic realmsPages displaying short descriptions of redirect targets 22.1 mil. km2 (including Sub-Saharan Africa)
+Indomalayan – One of the Earth's eight ecozonesPages displaying short descriptions of redirect targets 7.5 mil. km2 (including the South Asian subcontinent and Southeast Asia)
+Australasian – One of the Earth's eight biogeographic realms 7.7 mil. km2 (including Australia, New Guinea, and neighbouring islands).  The northern boundary of this zone is known as the Wallace line.
+Neotropical – One of Earth's eight biogeographic realmsPages displaying short descriptions of redirect targets 19.0 mil. km2 (including South America and the Caribbean)
+Oceanian – Terrestrial biogeographic realm 1.0 mil. km2 (including Polynesia, Fiji and Micronesia)
+Antarctic – One of Earth's eight biogeographic realms 0.3 mil. km2 (including Antarctica).
+
+
+=== Ecoregions ===
+Ecoregion – Ecologically and geographically defined area that is smaller than a bioregion
+The World has over 800 terrestrial ecoregions.  See Lists of ecoregions by country.
+
+
+== History of ecology ==
+History of ecology – Aspect of history covering the study of ecology
+
+History of human ecology
+
+
+== General ecology concepts ==
+Ecological succession – Process of change in the species structure of an ecological community over time
+Primary succession – Gradual growth and change of an ecosystem on new substrate
+Pioneer species – First species to colonize or inhabit damaged ecosystems
+Ruderal species – Plant species that is first to colonize disturbed lands
+Supertramp – Any type of animal which follows the strategy of high dispersion among many different habitats
+Secondary succession – Redevelopment of an encology after an event that changes it radically
+Carrying capacity – Maximum population size of a species that an environment can support indefinitely
+Ecological collapse – Ecological communities abruptly losing biodiversity, often irreversiblyPages displaying short descriptions of redirect targets
+Competitive exclusion principle – Ecology proposition
+Ecological yield – Harvestable population growth in an ecosystem
+Autotroph – Organism type
+Bacteria – Domain of microorganisms
+Bioinvader – Organism occurring in a new habitat
+Biomass – Biological material from either living (see ecology) or recently living organisms (see bioenergy)
+Biotic material – Any material that originates from living organisms
+Carbon cycle – Natural processes of carbon exchange
+Climate – Statistics of weather conditions in a given region over long periods
+Ecological selection – Natural selection without sexual selection
+Gaia hypothesis – Paradigm that living organisms interact with their surroundings in a self-regulating system
+Natural resource – Resources that exist without actions of humankind.
+Monoculture – Farms producing only one crop at a time
+Decomposition – Process in which organic substances are broken down into simpler organic matter
+Organic matter – Matter composed of organic compounds
+Inorganic substance – A substance lacking organic constituents
+Detritus – Dead particulate organic material
+Biodegradation – Decomposition by living organisms
+Ecological crisis – Change to the environment that destabilizes the continued survival of a population
+Ecological extinction – Ecology term
+Ecophagy – The literal consumption of an ecosystem
+Ecological niche – Fit of a species living under specific environmental conditions
+Niche differentiation – The process by which competing species use the environment differently in a way that helps them to coexist.
+Biological interaction – Effect that organisms have on other organisms
+Neutralism – A relationship between two species that interact but do not affect each other
+Amensalism – Close, long-term biological interaction between distinct organisms (usually species)Pages displaying short descriptions of redirect targets
+Ecological facilitation – Species interactions that benefit at least one of the participants and cause harm to neither
+Mutualism – Mutually beneficial interaction between species
+Commensalism – Beneficial symbiosis between species
+Coexistence theory – A framework to understand and explain how ecologically similar species can coexist without competitively excluding each other
+Competition – Interaction where the fitness of one organism is lowered by the presence of another organism
+Predation – Biological interaction where a predator kills and eats a prey organism
+Parasitism – Relationship between species where one organism lives on or in another organism, causing it harm
+Sexecology – Activism based around ecofetishism
+
+
+== See also ==
+Bibliography of ecology – List of publications on the topic of biology
+Biology – Science that studies life
+Outline of biology – Outline of subdisciplines within biology
+Index of biology articles
+
+
+== References ==
+
+
+== External links ==
+
+What is Ecology?
+Fundamentals of Ecology Textbook-style investigation to the economy of nature, breaks down in four chapters from Population to Ecosystem.
+Ecology (Stanford Encyclopedia of Philosophy)

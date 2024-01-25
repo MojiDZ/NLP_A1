@@ -1,0 +1,35 @@
+There are various definitions of autonomous agent. According to Brustoloni (1991)
+
+ "Autonomous agents are systems capable of autonomous, purposeful action in the real world."
+According to Maes (1995)
+
+ "Autonomous agents are computational systems that inhabit some complex dynamic environment, sense and act autonomously in this environment, and by doing so realize a set of goals or tasks for which they are designed."
+Franklin and Graesser (1997) review different definitions and propose their definition
+
+ "An autonomous agent is a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to effect what it senses in the future." 
+They explain it
+
+ "Humans and some animals are at the high end of being an agent, with multiple, conflicting drives, multiples senses, multiple possible actions, and complex sophisticated control structures. At the low end, with one or two senses, a single action, and an absurdly simple control structure we find a thermostat." 
+
+
+== Agent appearance ==
+Lee et al. (2015) post safety issue from how the combination of external appearance and internal autonomous agent have impact on human reaction about autonomous vehicles. Their study explores the humanlike appearance agent and high level of autonomy are strongly correlated with social presence, intelligence, safety and trustworthiness. In specific, appearance impacts most on affective trust while autonomy impacts most on both affective and cognitive domain of trust where cognitive trust is characterized by knowledge-based factors and affective trust is largely emotion driven 
+
+
+== See also ==
+Actor model
+Ambient intelligence
+Autonomous agency theory
+Embodied agent
+Intelligent agent
+Intelligent control
+Multi-agent system
+
+
+== References ==
+
+
+== External links ==
+"Autonomous Robot Behaviors". Archived from the original on December 3, 2013.
+Requirements for materializing Autonomous Agents
+Sun, Ron (September 1, 2001). Duality of the Mind: A Bottom-up Approach Toward Cognition. New Jersey: Lawrence Erlbaum. p. 304. ISBN 978-0-585-39404-6.

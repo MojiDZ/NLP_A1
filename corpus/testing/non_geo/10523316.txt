@@ -1,0 +1,29 @@
+Degranulation is a cellular process that releases antimicrobial cytotoxic or other molecules from secretory vesicles called granules found inside some cells. It is used by several different cells involved in the immune system, including granulocytes (neutrophils, basophils, eosinophils, and mast cells). It is also used by certain lymphocytes such as natural killer (NK) cells and cytotoxic T cells, whose main purpose is to destroy invading microorganisms.
+
+
+== Mast cells ==
+Degranulation in mast cells is part of an inflammatory response, and substances such as histamine are released. Granules from mast cells mediate processes such as "vasodilation, vascular homeostasis, innate and adaptive immune responses, angiogenesis, and venom detoxification."Antigens interact with IgE molecules already bound to high affinity Fc receptors on the surface of mast cells to induce degranulation, via the activation of tyrosine kinases within the cell. The mast cell releases a mixture of compounds, including histamine, proteoglycans, serotonin, and serine proteases from its cytoplasmic granules.
+
+
+== Eosinophils ==
+In a similar mechanism, activated eosinophils release preformed mediators such as major basic protein, and enzymes such as peroxidase, following interaction between their Fc receptors and IgE molecules that are bound to large parasites like helminths.
+
+
+== Neutrophils ==
+Degranulation in neutrophils can occur in response to infection, and the resulting granules  are released in order to protect against tissue damage. Excessive degranulation of neutrophils, sometimes triggered by bacteria, is associated with certain inflammatory disorders, such as asthma and septic shock.Four kinds of granules exist in neutrophils that display differences in content and regulation. Secretory vesicles are the most likely to release their contents by degranulation, followed by gelatinase granules, specific granules, and azurophil granules.
+
+
+== Cytotoxic T cells and NK cells ==
+Cytotoxic T cells and NK cells release  molecules like perforin and granzymes by
+a process of directed exocytosis to kill infected target cells.
+
+
+== See also ==
+Basophil activation
+
+
+== References ==
+
+
+== External links ==
+Cell+Degranulation at the U.S. National Library of Medicine Medical Subject Headings (MeSH)

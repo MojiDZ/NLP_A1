@@ -1,0 +1,4 @@
+The space cardioid is a 3-dimensional curve derived from the cardioid. It has a parametric representation using trigonometric functions, as follows:
+
+
+== References ==

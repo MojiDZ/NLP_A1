@@ -1,0 +1,1681 @@
+The Pythagorean trigonometric identity, also called simply the Pythagorean identity, is an identity expressing the Pythagorean theorem in terms of trigonometric functions. Along with the sum-of-angles formulae, it is one of the basic relations between the sine and cosine functions.
+The identity is
+
+  
+    
+      
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        θ
+        +
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        θ
+        =
+        1.
+      
+    
+    {\displaystyle \sin ^{2}\theta +\cos ^{2}\theta =1.}
+  As usual, 
+  
+    
+      
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        θ
+      
+    
+    {\displaystyle \sin ^{2}\theta }
+   means 
+  
+    
+      
+        (
+        sin
+        ⁡
+        θ
+        
+          )
+          
+            2
+          
+        
+      
+    
+    {\textstyle (\sin \theta )^{2}}
+  .
+
+
+== Proofs and their relationships to the Pythagorean theorem ==
+
+
+=== Proof based on right-angle triangles ===
+Any similar triangles have the property that if we select the same angle in all of them, the ratio of the two sides defining the angle is the same regardless of which similar triangle is selected, regardless of its actual size: the ratios depend upon the three angles, not the lengths of the sides. Thus for either of the similar right triangles in the figure, the ratio of its horizontal side to its hypotenuse is the same, namely cos θ.
+The elementary definitions of the sine and cosine functions in terms of the sides of a right triangle are:
+
+  
+    
+      
+        sin
+        ⁡
+        θ
+        =
+        
+          
+            
+              o
+              p
+              p
+              o
+              s
+              i
+              t
+              e
+            
+            
+              h
+              y
+              p
+              o
+              t
+              e
+              n
+              u
+              s
+              e
+            
+          
+        
+        =
+        
+          
+            b
+            c
+          
+        
+      
+    
+    {\displaystyle \sin \theta ={\frac {\mathrm {opposite} }{\mathrm {hypotenuse} }}={\frac {b}{c}}}
+  
+  
+    
+      
+        cos
+        ⁡
+        θ
+        =
+        
+          
+            
+              a
+              d
+              j
+              a
+              c
+              e
+              n
+              t
+            
+            
+              h
+              y
+              p
+              o
+              t
+              e
+              n
+              u
+              s
+              e
+            
+          
+        
+        =
+        
+          
+            a
+            c
+          
+        
+      
+    
+    {\displaystyle \cos \theta ={\frac {\mathrm {adjacent} }{\mathrm {hypotenuse} }}={\frac {a}{c}}}
+  The Pythagorean identity follows by squaring both definitions above, and adding; the left-hand side of the identity then becomes
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  o
+                  p
+                  p
+                  o
+                  s
+                  i
+                  t
+                  e
+                
+                
+                  2
+                
+              
+              +
+              
+                
+                  a
+                  d
+                  j
+                  a
+                  c
+                  e
+                  n
+                  t
+                
+                
+                  2
+                
+              
+            
+            
+              
+                h
+                y
+                p
+                o
+                t
+                e
+                n
+                u
+                s
+                e
+              
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {\mathrm {opposite} ^{2}+\mathrm {adjacent} ^{2}}{\mathrm {hypotenuse} ^{2}}}}
+  which by the Pythagorean theorem is equal to 1.  This definition is valid for all angles, due to the definition of defining 
+  
+    
+      
+        x
+        =
+        cos
+        ⁡
+        θ
+      
+    
+    {\displaystyle x=\cos \theta }
+   and 
+  
+    
+      
+        y
+        =
+        sin
+        ⁡
+        θ
+      
+    
+    {\displaystyle y=\sin \theta }
+   for the unit circle and thus 
+  
+    
+      
+        x
+        =
+        c
+        cos
+        ⁡
+        θ
+      
+    
+    {\displaystyle x=c\cos \theta }
+   and 
+  
+    
+      
+        y
+        =
+        c
+        sin
+        ⁡
+        θ
+      
+    
+    {\displaystyle y=c\sin \theta }
+   for a circle of radius c and reflecting our triangle in the y axis and setting 
+  
+    
+      
+        a
+        =
+        x
+      
+    
+    {\displaystyle a=x}
+   and 
+  
+    
+      
+        b
+        =
+        y
+      
+    
+    {\displaystyle b=y}
+  .
+Alternatively, the identities found at Trigonometric symmetry, shifts, and periodicity may be employed. By the periodicity identities we can say if the formula is true for −π < θ ≤ π then it is true for all real θ. Next we prove the identity in the range π/2 < θ ≤ π, to do this we let t = θ − π/2, t will now be in the range 0 < t ≤ π/2. We can then make use of squared versions of some basic shift identities (squaring conveniently removes the minus signs):
+
+  
+    
+      
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        θ
+        +
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        θ
+        =
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        
+          (
+          
+            t
+            +
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+            π
+          
+          )
+        
+        +
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        
+          (
+          
+            t
+            +
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+            π
+          
+          )
+        
+        =
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        t
+        +
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        t
+        =
+        1.
+      
+    
+    {\displaystyle \sin ^{2}\theta +\cos ^{2}\theta =\sin ^{2}\left(t+{\tfrac {1}{2}}\pi \right)+\cos ^{2}\left(t+{\tfrac {1}{2}}\pi \right)=\cos ^{2}t+\sin ^{2}t=1.}
+  All that remains is to prove it for −π < θ < 0; this can be done by squaring the symmetry identities to get
+
+  
+    
+      
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        θ
+        =
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        (
+        −
+        θ
+        )
+        
+           and 
+        
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        θ
+        =
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        (
+        −
+        θ
+        )
+        .
+      
+    
+    {\displaystyle \sin ^{2}\theta =\sin ^{2}(-\theta ){\text{ and }}\cos ^{2}\theta =\cos ^{2}(-\theta ).}
+  
+
+
+==== Related identities ====
+The identities
+
+  
+    
+      
+        1
+        +
+        
+          tan
+          
+            2
+          
+        
+        ⁡
+        θ
+        =
+        
+          sec
+          
+            2
+          
+        
+        ⁡
+        θ
+      
+    
+    {\displaystyle 1+\tan ^{2}\theta =\sec ^{2}\theta }
+  and
+
+  
+    
+      
+        1
+        +
+        
+          cot
+          
+            2
+          
+        
+        ⁡
+        θ
+        =
+        
+          csc
+          
+            2
+          
+        
+        ⁡
+        θ
+      
+    
+    {\displaystyle 1+\cot ^{2}\theta =\csc ^{2}\theta }
+  are also called Pythagorean trigonometric identities. If one leg of a right triangle has length 1, then the tangent of the angle adjacent to that leg is the length of the other leg, and the secant of the angle is the length of the hypotenuse.
+
+  
+    
+      
+        tan
+        ⁡
+        θ
+        =
+        
+          
+            b
+            a
+          
+        
+        ,
+      
+    
+    {\displaystyle \tan \theta ={\frac {b}{a}},}
+  and:
+
+  
+    
+      
+        sec
+        ⁡
+        θ
+        =
+        
+          
+            c
+            a
+          
+        
+        .
+      
+    
+    {\displaystyle \sec \theta ={\frac {c}{a}}.}
+  In this way, this trigonometric identity involving the tangent and the secant follows from the Pythagorean theorem.  The angle opposite the leg of length 1 (this angle can be labeled φ = π/2 − θ) has cotangent equal to the length of the other leg, and cosecant equal to the length of the hypotenuse.  In that way, this trigonometric identity involving the cotangent and the cosecant also follows from the Pythagorean theorem.
+The following table gives the identities with the factor or divisor that relates them to the main identity.
+
+
+=== Proof using the unit circle ===
+
+The unit circle centered at the origin in the Euclidean plane is defined by the equation:
+
+  
+    
+      
+        
+          x
+          
+            2
+          
+        
+        +
+        
+          y
+          
+            2
+          
+        
+        =
+        1.
+      
+    
+    {\displaystyle x^{2}+y^{2}=1.}
+  Given an angle θ, there is a unique point P on the unit circle at an anticlockwise angle of θ from the x-axis, and the x- and y-coordinates of P are:
+
+  
+    
+      
+        x
+        =
+        cos
+        ⁡
+        θ
+         
+        
+           and 
+        
+         
+        y
+        =
+        sin
+        ⁡
+        θ
+        .
+      
+    
+    {\displaystyle x=\cos \theta \ {\text{ and }}\ y=\sin \theta .}
+  Consequently, from the equation for the unit circle:
+
+  
+    
+      
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        θ
+        +
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        θ
+        =
+        1
+        ,
+      
+    
+    {\displaystyle \cos ^{2}\theta +\sin ^{2}\theta =1,}
+  the Pythagorean identity.
+In the figure, the point P has a negative x-coordinate, and is appropriately given by x = cos θ, which is a negative number: cos θ = −cos(π−θ). Point P has a positive y-coordinate, and  sin θ = sin(π−θ) > 0. As θ increases from zero to the full circle θ = 2π, the sine and cosine change signs in the various quadrants to keep x and y with the correct signs. The figure shows how the sign of the sine function varies as the angle changes quadrant.
+Because the x- and y-axes are perpendicular, this Pythagorean identity is equivalent to the Pythagorean theorem for triangles with hypotenuse of length 1 (which is in turn equivalent to the full Pythagorean theorem by applying a similar-triangles argument).  See Unit circle for a short explanation.
+
+
+=== Proof using power series ===
+The trigonometric functions may also be defined using power series, namely (for x an angle measured in radians):
+
+  
+    
+      
+        
+          
+            
+              
+                sin
+                ⁡
+                x
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    n
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    
+                      (
+                      −
+                      1
+                      
+                        )
+                        
+                          n
+                        
+                      
+                    
+                    
+                      (
+                      2
+                      n
+                      +
+                      1
+                      )
+                      !
+                    
+                  
+                
+                
+                  x
+                  
+                    2
+                    n
+                    +
+                    1
+                  
+                
+                ,
+              
+            
+            
+              
+                cos
+                ⁡
+                x
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    n
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    
+                      (
+                      −
+                      1
+                      
+                        )
+                        
+                          n
+                        
+                      
+                    
+                    
+                      (
+                      2
+                      n
+                      )
+                      !
+                    
+                  
+                
+                
+                  x
+                  
+                    2
+                    n
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\sin x&=\sum _{n=0}^{\infty }{\frac {(-1)^{n}}{(2n+1)!}}x^{2n+1},\\\cos x&=\sum _{n=0}^{\infty }{\frac {(-1)^{n}}{(2n)!}}x^{2n}.\end{aligned}}}
+  Using the multiplication formula for power series at Multiplication and division of power series (suitably modified to account for the form of the series here) we obtain
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  sin
+                  
+                    2
+                  
+                
+                ⁡
+                x
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    i
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  ∑
+                  
+                    j
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    
+                      (
+                      −
+                      1
+                      
+                        )
+                        
+                          i
+                        
+                      
+                    
+                    
+                      (
+                      2
+                      i
+                      +
+                      1
+                      )
+                      !
+                    
+                  
+                
+                
+                  
+                    
+                      (
+                      −
+                      1
+                      
+                        )
+                        
+                          j
+                        
+                      
+                    
+                    
+                      (
+                      2
+                      j
+                      +
+                      1
+                      )
+                      !
+                    
+                  
+                
+                
+                  x
+                  
+                    (
+                    2
+                    i
+                    +
+                    1
+                    )
+                    +
+                    (
+                    2
+                    j
+                    +
+                    1
+                    )
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    n
+                    =
+                    1
+                  
+                  
+                    ∞
+                  
+                
+                
+                  (
+                  
+                    
+                      ∑
+                      
+                        i
+                        =
+                        0
+                      
+                      
+                        n
+                        −
+                        1
+                      
+                    
+                    
+                      
+                        
+                          (
+                          −
+                          1
+                          
+                            )
+                            
+                              n
+                              −
+                              1
+                            
+                          
+                        
+                        
+                          (
+                          2
+                          i
+                          +
+                          1
+                          )
+                          !
+                          (
+                          2
+                          (
+                          n
+                          −
+                          i
+                          −
+                          1
+                          )
+                          +
+                          1
+                          )
+                          !
+                        
+                      
+                    
+                  
+                  )
+                
+                
+                  x
+                  
+                    2
+                    n
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    n
+                    =
+                    1
+                  
+                  
+                    ∞
+                  
+                
+                
+                  (
+                  
+                    
+                      ∑
+                      
+                        i
+                        =
+                        0
+                      
+                      
+                        n
+                        −
+                        1
+                      
+                    
+                    
+                      
+                        
+                          (
+                        
+                        
+                          
+                            2
+                            n
+                          
+                          
+                            2
+                            i
+                            +
+                            1
+                          
+                        
+                        
+                          )
+                        
+                      
+                    
+                  
+                  )
+                
+                
+                  
+                    
+                      (
+                      −
+                      1
+                      
+                        )
+                        
+                          n
+                          −
+                          1
+                        
+                      
+                    
+                    
+                      (
+                      2
+                      n
+                      )
+                      !
+                    
+                  
+                
+                
+                  x
+                  
+                    2
+                    n
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  cos
+                  
+                    2
+                  
+                
+                ⁡
+                x
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    i
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  ∑
+                  
+                    j
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    
+                      (
+                      −
+                      1
+                      
+                        )
+                        
+                          i
+                        
+                      
+                    
+                    
+                      (
+                      2
+                      i
+                      )
+                      !
+                    
+                  
+                
+                
+                  
+                    
+                      (
+                      −
+                      1
+                      
+                        )
+                        
+                          j
+                        
+                      
+                    
+                    
+                      (
+                      2
+                      j
+                      )
+                      !
+                    
+                  
+                
+                
+                  x
+                  
+                    (
+                    2
+                    i
+                    )
+                    +
+                    (
+                    2
+                    j
+                    )
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    n
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  (
+                  
+                    
+                      ∑
+                      
+                        i
+                        =
+                        0
+                      
+                      
+                        n
+                      
+                    
+                    
+                      
+                        
+                          (
+                          −
+                          1
+                          
+                            )
+                            
+                              n
+                            
+                          
+                        
+                        
+                          (
+                          2
+                          i
+                          )
+                          !
+                          (
+                          2
+                          (
+                          n
+                          −
+                          i
+                          )
+                          )
+                          !
+                        
+                      
+                    
+                  
+                  )
+                
+                
+                  x
+                  
+                    2
+                    n
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    n
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  (
+                  
+                    
+                      ∑
+                      
+                        i
+                        =
+                        0
+                      
+                      
+                        n
+                      
+                    
+                    
+                      
+                        
+                          (
+                        
+                        
+                          
+                            2
+                            n
+                          
+                          
+                            2
+                            i
+                          
+                        
+                        
+                          )
+                        
+                      
+                    
+                  
+                  )
+                
+                
+                  
+                    
+                      (
+                      −
+                      1
+                      
+                        )
+                        
+                          n
+                        
+                      
+                    
+                    
+                      (
+                      2
+                      n
+                      )
+                      !
+                    
+                  
+                
+                
+                  x
+                  
+                    2
+                    n
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\sin ^{2}x&=\sum _{i=0}^{\infty }\sum _{j=0}^{\infty }{\frac {(-1)^{i}}{(2i+1)!}}{\frac {(-1)^{j}}{(2j+1)!}}x^{(2i+1)+(2j+1)}\\&=\sum _{n=1}^{\infty }\left(\sum _{i=0}^{n-1}{\frac {(-1)^{n-1}}{(2i+1)!(2(n-i-1)+1)!}}\right)x^{2n}\\&=\sum _{n=1}^{\infty }\left(\sum _{i=0}^{n-1}{2n \choose 2i+1}\right){\frac {(-1)^{n-1}}{(2n)!}}x^{2n},\\\cos ^{2}x&=\sum _{i=0}^{\infty }\sum _{j=0}^{\infty }{\frac {(-1)^{i}}{(2i)!}}{\frac {(-1)^{j}}{(2j)!}}x^{(2i)+(2j)}\\&=\sum _{n=0}^{\infty }\left(\sum _{i=0}^{n}{\frac {(-1)^{n}}{(2i)!(2(n-i))!}}\right)x^{2n}\\&=\sum _{n=0}^{\infty }\left(\sum _{i=0}^{n}{2n \choose 2i}\right){\frac {(-1)^{n}}{(2n)!}}x^{2n}.\end{aligned}}}
+  In the expression for sin2, n must be at least 1, while in the expression for cos2, the constant term is equal to 1.  The remaining terms of their sum are (with common factors removed)
+
+  
+    
+      
+        
+          ∑
+          
+            i
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          
+            
+              (
+            
+            
+              
+                2
+                n
+              
+              
+                2
+                i
+              
+            
+            
+              )
+            
+          
+        
+        −
+        
+          ∑
+          
+            i
+            =
+            0
+          
+          
+            n
+            −
+            1
+          
+        
+        
+          
+            
+              (
+            
+            
+              
+                2
+                n
+              
+              
+                2
+                i
+                +
+                1
+              
+            
+            
+              )
+            
+          
+        
+        =
+        
+          ∑
+          
+            j
+            =
+            0
+          
+          
+            2
+            n
+          
+        
+        (
+        −
+        1
+        
+          )
+          
+            j
+          
+        
+        
+          
+            
+              (
+            
+            
+              
+                2
+                n
+              
+              j
+            
+            
+              )
+            
+          
+        
+        =
+        (
+        1
+        −
+        1
+        
+          )
+          
+            2
+            n
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \sum _{i=0}^{n}{2n \choose 2i}-\sum _{i=0}^{n-1}{2n \choose 2i+1}=\sum _{j=0}^{2n}(-1)^{j}{2n \choose j}=(1-1)^{2n}=0}
+  by the binomial theorem.  Consequently,
+
+  
+    
+      
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        x
+        +
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        x
+        =
+        1
+        ,
+      
+    
+    {\displaystyle \sin ^{2}x+\cos ^{2}x=1,}
+  which is the Pythagorean trigonometric identity.
+When the trigonometric functions are defined in this way, the identity in combination with the Pythagorean theorem shows that these power series parameterize the unit circle, which we used in the previous section.  This definition constructs the sine and cosine functions in a rigorous fashion and proves that they are differentiable, so that in fact it subsumes the previous two.
+
+
+=== Proof using the differential equation ===
+Sine and cosine can be defined as the two solutions to the differential equation:
+
+  
+    
+      
+        
+          y
+          ″
+        
+        +
+        y
+        =
+        0
+      
+    
+    {\displaystyle y''+y=0}
+  satisfying respectively y(0) = 0, y′(0) = 1 and y(0) = 1, y′(0) = 0.  It follows from the theory of ordinary differential equations that the first solution, sine, has the second, cosine, as its derivative, and it follows from this that the derivative of cosine is the negative of the sine. The identity is equivalent to the assertion that the function
+
+  
+    
+      
+        z
+        =
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        x
+        +
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        x
+      
+    
+    {\displaystyle z=\sin ^{2}x+\cos ^{2}x}
+  is constant and equal to 1. Differentiating using the chain rule gives:
+
+  
+    
+      
+        
+          
+            d
+            
+              d
+              x
+            
+          
+        
+        z
+        =
+        2
+        sin
+        ⁡
+        x
+        cos
+        ⁡
+        x
+        +
+        2
+        cos
+        ⁡
+        x
+        (
+        −
+        sin
+        ⁡
+        x
+        )
+        =
+        0
+        ,
+      
+    
+    {\displaystyle {\frac {d}{dx}}z=2\sin x\cos x+2\cos x(-\sin x)=0,}
+  so z is constant. A calculation confirms that z(0) = 1, and z is a constant so z = 1 for all x, so the Pythagorean identity is established.
+A similar proof can be completed using power series as above to establish that the sine has as its derivative the cosine, and the cosine has as its derivative the negative sine. In fact, the definitions by ordinary differential equation and by power series lead to similar derivations of most identities.
+This proof of the identity has no direct connection with Euclid's demonstration of the Pythagorean theorem.
+
+
+=== Proof using Euler's formula ===
+Using Euler's formula 
+  
+    
+      
+        
+          e
+          
+            i
+            θ
+          
+        
+        =
+        cos
+        ⁡
+        θ
+        +
+        i
+        sin
+        ⁡
+        θ
+      
+    
+    {\displaystyle e^{i\theta }=\cos \theta +i\sin \theta }
+   and factoring 
+  
+    
+      
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        θ
+        +
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        θ
+      
+    
+    {\displaystyle \cos ^{2}\theta +\sin ^{2}\theta }
+   as the complex difference of two squares,
+
+  
+    
+      
+        
+          
+            
+              
+                1
+              
+              
+                
+                =
+                
+                  e
+                  
+                    i
+                    θ
+                  
+                
+                
+                  e
+                  
+                    −
+                    i
+                    θ
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                (
+                cos
+                ⁡
+                θ
+                +
+                i
+                sin
+                ⁡
+                θ
+                )
+                (
+                cos
+                ⁡
+                θ
+                −
+                i
+                sin
+                ⁡
+                θ
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  cos
+                  
+                    2
+                  
+                
+                ⁡
+                θ
+                +
+                
+                  sin
+                  
+                    2
+                  
+                
+                ⁡
+                θ
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}1&=e^{i\theta }e^{-i\theta }\\[3mu]&=(\cos \theta +i\sin \theta )(\cos \theta -i\sin \theta )\\[3mu]&=\cos ^{2}\theta +\sin ^{2}\theta .\end{aligned}}}
+  
+
+
+== See also ==
+Pythagorean theorem
+List of trigonometric identities
+Unit circle
+Power series
+Differential equation
+
+
+== Notes ==

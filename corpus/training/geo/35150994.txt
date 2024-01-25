@@ -1,0 +1,5 @@
+Cover-abundance is a measure of plant cover, used in phytosociology (or vegetation science). It is based on percentages at the top end, but uses abundance estimates for species with a low plant cover. Several scales of cover-abundance are used, e.g. the original 5-point cover scale of Braun-Blanquet or the Domin scale, with finer subdivisions (from simple presence through 10 grades of linked cover-abundance).
+
+
+== External links ==
+Definition of cover-abundance at encyclopedia.com

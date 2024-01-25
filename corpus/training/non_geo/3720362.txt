@@ -1,0 +1,1032 @@
+Angular distance or angular separation is the measure of the angle between the orientation of two straight lines, rays, or vectors in three-dimensional space, or the central angle subtended by the radii through two points on a sphere. When the rays are lines of sight from an observer to two points in space, it is known as the apparent distance or apparent separation.
+Angular distance appears in mathematics (in particular geometry and trigonometry) and all natural sciences (e.g., kinematics, astronomy, and geophysics). In the classical mechanics of rotating objects, it appears alongside angular velocity, angular acceleration, angular momentum, moment of inertia and torque.
+
+
+== Use ==
+The term angular distance (or separation) is technically synonymous with angle itself, but is meant to suggest the linear distance between objects (for instance, a couple of stars observed from Earth).
+
+
+== Measurement ==
+Since the angular distance (or separation) is conceptually identical to an angle, it is measured in the same units, such as degrees or radians, using instruments such as goniometers or optical instruments specially designed to point in well-defined directions and record the corresponding angles (such as telescopes).
+
+
+== Formulation ==
+To derive the equation that describes the angular separation of two points located on the surface of a sphere as seen from the center of the sphere, we use the example of two astronomical objects 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   and 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+   observed from the Earth. The objects 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   and 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+   are defined by their  celestial coordinates, namely their right ascensions (RA), 
+  
+    
+      
+        (
+        
+          α
+          
+            A
+          
+        
+        ,
+        
+          α
+          
+            B
+          
+        
+        )
+        ∈
+        [
+        0
+        ,
+        2
+        π
+        ]
+      
+    
+    {\displaystyle (\alpha _{A},\alpha _{B})\in [0,2\pi ]}
+  ; and declinations (dec), 
+  
+    
+      
+        (
+        
+          δ
+          
+            A
+          
+        
+        ,
+        
+          δ
+          
+            B
+          
+        
+        )
+        ∈
+        [
+        −
+        π
+        
+          /
+        
+        2
+        ,
+        π
+        
+          /
+        
+        2
+        ]
+      
+    
+    {\displaystyle (\delta _{A},\delta _{B})\in [-\pi /2,\pi /2]}
+  . Let 
+  
+    
+      
+        O
+      
+    
+    {\displaystyle O}
+   indicate the observer on Earth, assumed to be located at the center of the celestial sphere. The dot product of the vectors 
+  
+    
+      
+        
+          O
+          A
+        
+      
+    
+    {\displaystyle \mathbf {OA} }
+   and 
+  
+    
+      
+        
+          O
+          B
+        
+      
+    
+    {\displaystyle \mathbf {OB} }
+   is equal to:
+
+  
+    
+      
+        
+          O
+          A
+        
+        ⋅
+        
+          O
+          B
+        
+        =
+        
+          R
+          
+            2
+          
+        
+        cos
+        ⁡
+        θ
+      
+    
+    {\displaystyle \mathbf {OA} \cdot \mathbf {OB} =R^{2}\cos \theta }
+  which is equivalent to:
+
+  
+    
+      
+        
+          
+            n
+            
+              A
+            
+          
+        
+        ⋅
+        
+          
+            n
+            
+              B
+            
+          
+        
+        =
+        cos
+        ⁡
+        θ
+      
+    
+    {\displaystyle \mathbf {n_{A}} \cdot \mathbf {n_{B}} =\cos \theta }
+  In the 
+  
+    
+      
+        (
+        x
+        ,
+        y
+        ,
+        z
+        )
+      
+    
+    {\displaystyle (x,y,z)}
+   frame, the two unitary vectors are decomposed into:
+
+Therefore, 
+
+then:
+
+  
+    
+      
+        θ
+        =
+        
+          cos
+          
+            −
+            1
+          
+        
+        ⁡
+        
+          [
+          
+            sin
+            ⁡
+            
+              δ
+              
+                A
+              
+            
+            sin
+            ⁡
+            
+              δ
+              
+                B
+              
+            
+            +
+            cos
+            ⁡
+            
+              δ
+              
+                A
+              
+            
+            cos
+            ⁡
+            
+              δ
+              
+                B
+              
+            
+            cos
+            ⁡
+            (
+            
+              α
+              
+                A
+              
+            
+            −
+            
+              α
+              
+                B
+              
+            
+            )
+          
+          ]
+        
+      
+    
+    {\displaystyle \theta =\cos ^{-1}\left[\sin \delta _{A}\sin \delta _{B}+\cos \delta _{A}\cos \delta _{B}\cos(\alpha _{A}-\alpha _{B})\right]}
+  
+
+
+=== Small angular distance approximation ===
+The above expression is valid for any position of A and B on the sphere. In astronomy, it often happens that the considered objects are really close in the sky: stars in a telescope field of view, binary stars, the satellites of the giant planets of the solar system, etc. In the case where 
+  
+    
+      
+        θ
+        ≪
+        1
+      
+    
+    {\displaystyle \theta \ll 1}
+   radian, implying 
+  
+    
+      
+        
+          α
+          
+            A
+          
+        
+        −
+        
+          α
+          
+            B
+          
+        
+        ≪
+        1
+      
+    
+    {\displaystyle \alpha _{A}-\alpha _{B}\ll 1}
+   and 
+  
+    
+      
+        
+          δ
+          
+            A
+          
+        
+        −
+        
+          δ
+          
+            B
+          
+        
+        ≪
+        1
+      
+    
+    {\displaystyle \delta _{A}-\delta _{B}\ll 1}
+  , we can develop the above expression and simplify it. In the small-angle approximation, at second order, the above expression becomes:
+
+  
+    
+      
+        cos
+        ⁡
+        θ
+        ≈
+        1
+        −
+        
+          
+            
+              θ
+              
+                2
+              
+            
+            2
+          
+        
+        ≈
+        sin
+        ⁡
+        
+          δ
+          
+            A
+          
+        
+        sin
+        ⁡
+        
+          δ
+          
+            B
+          
+        
+        +
+        cos
+        ⁡
+        
+          δ
+          
+            A
+          
+        
+        cos
+        ⁡
+        
+          δ
+          
+            B
+          
+        
+        
+          [
+          
+            1
+            −
+            
+              
+                
+                  (
+                  
+                    α
+                    
+                      A
+                    
+                  
+                  −
+                  
+                    α
+                    
+                      B
+                    
+                  
+                  
+                    )
+                    
+                      2
+                    
+                  
+                
+                2
+              
+            
+          
+          ]
+        
+      
+    
+    {\displaystyle \cos \theta \approx 1-{\frac {\theta ^{2}}{2}}\approx \sin \delta _{A}\sin \delta _{B}+\cos \delta _{A}\cos \delta _{B}\left[1-{\frac {(\alpha _{A}-\alpha _{B})^{2}}{2}}\right]}
+  meaning
+
+  
+    
+      
+        1
+        −
+        
+          
+            
+              θ
+              
+                2
+              
+            
+            2
+          
+        
+        ≈
+        cos
+        ⁡
+        (
+        
+          δ
+          
+            A
+          
+        
+        −
+        
+          δ
+          
+            B
+          
+        
+        )
+        −
+        cos
+        ⁡
+        
+          δ
+          
+            A
+          
+        
+        cos
+        ⁡
+        
+          δ
+          
+            B
+          
+        
+        
+          
+            
+              (
+              
+                α
+                
+                  A
+                
+              
+              −
+              
+                α
+                
+                  B
+                
+              
+              
+                )
+                
+                  2
+                
+              
+            
+            2
+          
+        
+      
+    
+    {\displaystyle 1-{\frac {\theta ^{2}}{2}}\approx \cos(\delta _{A}-\delta _{B})-\cos \delta _{A}\cos \delta _{B}{\frac {(\alpha _{A}-\alpha _{B})^{2}}{2}}}
+  hence
+
+  
+    
+      
+        1
+        −
+        
+          
+            
+              θ
+              
+                2
+              
+            
+            2
+          
+        
+        ≈
+        1
+        −
+        
+          
+            
+              (
+              
+                δ
+                
+                  A
+                
+              
+              −
+              
+                δ
+                
+                  B
+                
+              
+              
+                )
+                
+                  2
+                
+              
+            
+            2
+          
+        
+        −
+        cos
+        ⁡
+        
+          δ
+          
+            A
+          
+        
+        cos
+        ⁡
+        
+          δ
+          
+            B
+          
+        
+        
+          
+            
+              (
+              
+                α
+                
+                  A
+                
+              
+              −
+              
+                α
+                
+                  B
+                
+              
+              
+                )
+                
+                  2
+                
+              
+            
+            2
+          
+        
+      
+    
+    {\displaystyle 1-{\frac {\theta ^{2}}{2}}\approx 1-{\frac {(\delta _{A}-\delta _{B})^{2}}{2}}-\cos \delta _{A}\cos \delta _{B}{\frac {(\alpha _{A}-\alpha _{B})^{2}}{2}}}
+  .Given that 
+  
+    
+      
+        
+          δ
+          
+            A
+          
+        
+        −
+        
+          δ
+          
+            B
+          
+        
+        ≪
+        1
+      
+    
+    {\displaystyle \delta _{A}-\delta _{B}\ll 1}
+   and 
+  
+    
+      
+        
+          α
+          
+            A
+          
+        
+        −
+        
+          α
+          
+            B
+          
+        
+        ≪
+        1
+      
+    
+    {\displaystyle \alpha _{A}-\alpha _{B}\ll 1}
+  , at a second-order development it turns that 
+  
+    
+      
+        cos
+        ⁡
+        
+          δ
+          
+            A
+          
+        
+        cos
+        ⁡
+        
+          δ
+          
+            B
+          
+        
+        
+          
+            
+              (
+              
+                α
+                
+                  A
+                
+              
+              −
+              
+                α
+                
+                  B
+                
+              
+              
+                )
+                
+                  2
+                
+              
+            
+            2
+          
+        
+        ≈
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        
+          δ
+          
+            A
+          
+        
+        
+          
+            
+              (
+              
+                α
+                
+                  A
+                
+              
+              −
+              
+                α
+                
+                  B
+                
+              
+              
+                )
+                
+                  2
+                
+              
+            
+            2
+          
+        
+      
+    
+    {\displaystyle \cos \delta _{A}\cos \delta _{B}{\frac {(\alpha _{A}-\alpha _{B})^{2}}{2}}\approx \cos ^{2}\delta _{A}{\frac {(\alpha _{A}-\alpha _{B})^{2}}{2}}}
+  , so that
+
+  
+    
+      
+        θ
+        ≈
+        
+          
+            
+              
+                [
+                
+                  (
+                  
+                    α
+                    
+                      A
+                    
+                  
+                  −
+                  
+                    α
+                    
+                      B
+                    
+                  
+                  )
+                  cos
+                  ⁡
+                  
+                    δ
+                    
+                      A
+                    
+                  
+                
+                ]
+              
+              
+                2
+              
+            
+            +
+            (
+            
+              δ
+              
+                A
+              
+            
+            −
+            
+              δ
+              
+                B
+              
+            
+            
+              )
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \theta \approx {\sqrt {\left[(\alpha _{A}-\alpha _{B})\cos \delta _{A}\right]^{2}+(\delta _{A}-\delta _{B})^{2}}}}
+  
+
+
+=== Small angular distance: planar approximation ===
+If we consider a detector imaging a small sky field (dimension much less than one radian) with the 
+  
+    
+      
+        y
+      
+    
+    {\displaystyle y}
+  -axis pointing up, parallel to the meridian of right ascension 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  , and the 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  -axis along the parallel of declination 
+  
+    
+      
+        δ
+      
+    
+    {\displaystyle \delta }
+  , the angular separation can be written as:
+
+  
+    
+      
+        θ
+        ≈
+        
+          
+            δ
+            
+              x
+              
+                2
+              
+            
+            +
+            δ
+            
+              y
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \theta \approx {\sqrt {\delta x^{2}+\delta y^{2}}}}
+  where 
+  
+    
+      
+        δ
+        x
+        =
+        (
+        
+          α
+          
+            A
+          
+        
+        −
+        
+          α
+          
+            B
+          
+        
+        )
+        cos
+        ⁡
+        
+          δ
+          
+            A
+          
+        
+      
+    
+    {\displaystyle \delta x=(\alpha _{A}-\alpha _{B})\cos \delta _{A}}
+   and 
+  
+    
+      
+        δ
+        y
+        =
+        
+          δ
+          
+            A
+          
+        
+        −
+        
+          δ
+          
+            B
+          
+        
+      
+    
+    {\displaystyle \delta y=\delta _{A}-\delta _{B}}
+  .
+Note that the 
+  
+    
+      
+        y
+      
+    
+    {\displaystyle y}
+  -axis is equal to the declination, whereas the 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  -axis is the right ascension modulated by 
+  
+    
+      
+        cos
+        ⁡
+        
+          δ
+          
+            A
+          
+        
+      
+    
+    {\displaystyle \cos \delta _{A}}
+   because the section of a sphere of radius 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+   at declination (latitude) 
+  
+    
+      
+        δ
+      
+    
+    {\displaystyle \delta }
+   is 
+  
+    
+      
+        
+          R
+          ′
+        
+        =
+        R
+        cos
+        ⁡
+        
+          δ
+          
+            A
+          
+        
+      
+    
+    {\displaystyle R'=R\cos \delta _{A}}
+   (see Figure).
+
+
+== See also ==
+Milliradian
+Gradian
+Hour angle
+Central angle
+Angle of rotation
+Angular diameter
+Angular displacement
+Great-circle distance
+Cosine similarity § Angular distance and similarity
+
+
+== References ==
+
+CASTOR, author Michael A. Earl. "The Spherical Trigonometry vs. Vector Analysis".
+Weisstein, Eric W. "Angular Distance". MathWorld.

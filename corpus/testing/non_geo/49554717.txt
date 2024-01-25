@@ -1,0 +1,651 @@
+The trigonometric functions (especially sine and cosine) for real or complex square matrices occur in solutions of second-order systems of differential equations. They are defined by the same Taylor series that hold for the trigonometric functions of real and complex numbers:
+
+  
+    
+      
+        
+          
+            
+              
+                sin
+                ⁡
+                X
+              
+              
+                
+                =
+                X
+                −
+                
+                  
+                    
+                      X
+                      
+                        3
+                      
+                    
+                    
+                      3
+                      !
+                    
+                  
+                
+                +
+                
+                  
+                    
+                      X
+                      
+                        5
+                      
+                    
+                    
+                      5
+                      !
+                    
+                  
+                
+                −
+                
+                  
+                    
+                      X
+                      
+                        7
+                      
+                    
+                    
+                      7
+                      !
+                    
+                  
+                
+                +
+                ⋯
+              
+              
+                =
+                
+                  ∑
+                  
+                    n
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    
+                      (
+                      −
+                      1
+                      
+                        )
+                        
+                          n
+                        
+                      
+                    
+                    
+                      (
+                      2
+                      n
+                      +
+                      1
+                      )
+                      !
+                    
+                  
+                
+                
+                  X
+                  
+                    2
+                    n
+                    +
+                    1
+                  
+                
+              
+            
+            
+              
+                cos
+                ⁡
+                X
+              
+              
+                
+                =
+                I
+                −
+                
+                  
+                    
+                      X
+                      
+                        2
+                      
+                    
+                    
+                      2
+                      !
+                    
+                  
+                
+                +
+                
+                  
+                    
+                      X
+                      
+                        4
+                      
+                    
+                    
+                      4
+                      !
+                    
+                  
+                
+                −
+                
+                  
+                    
+                      X
+                      
+                        6
+                      
+                    
+                    
+                      6
+                      !
+                    
+                  
+                
+                +
+                ⋯
+              
+              
+                =
+                
+                  ∑
+                  
+                    n
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    
+                      (
+                      −
+                      1
+                      
+                        )
+                        
+                          n
+                        
+                      
+                    
+                    
+                      (
+                      2
+                      n
+                      )
+                      !
+                    
+                  
+                
+                
+                  X
+                  
+                    2
+                    n
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\sin X&=X-{\frac {X^{3}}{3!}}+{\frac {X^{5}}{5!}}-{\frac {X^{7}}{7!}}+\cdots &=\sum _{n=0}^{\infty }{\frac {(-1)^{n}}{(2n+1)!}}X^{2n+1}\\\cos X&=I-{\frac {X^{2}}{2!}}+{\frac {X^{4}}{4!}}-{\frac {X^{6}}{6!}}+\cdots &=\sum _{n=0}^{\infty }{\frac {(-1)^{n}}{(2n)!}}X^{2n}\end{aligned}}}
+  with Xn being the nth power of the matrix X, and I being the identity matrix of appropriate dimensions. 
+Equivalently, they can be defined using the matrix exponential along with the matrix equivalent of Euler's formula, eiX = cos X + i sin X, yielding 
+
+  
+    
+      
+        
+          
+            
+              
+                sin
+                ⁡
+                X
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        e
+                        
+                          i
+                          X
+                        
+                      
+                      −
+                      
+                        e
+                        
+                          −
+                          i
+                          X
+                        
+                      
+                    
+                    
+                      2
+                      i
+                    
+                  
+                
+              
+            
+            
+              
+                cos
+                ⁡
+                X
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        e
+                        
+                          i
+                          X
+                        
+                      
+                      +
+                      
+                        e
+                        
+                          −
+                          i
+                          X
+                        
+                      
+                    
+                    2
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\sin X&={e^{iX}-e^{-iX} \over 2i}\\\cos X&={e^{iX}+e^{-iX} \over 2}.\end{aligned}}}
+  For example, taking X to be a standard Pauli matrix,
+
+  
+    
+      
+        
+          σ
+          
+            1
+          
+        
+        =
+        
+          σ
+          
+            x
+          
+        
+        =
+        
+          
+            (
+            
+              
+                
+                  0
+                
+                
+                  1
+                
+              
+              
+                
+                  1
+                
+                
+                  0
+                
+              
+            
+            )
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle \sigma _{1}=\sigma _{x}={\begin{pmatrix}0&1\\1&0\end{pmatrix}}~,}
+  one has
+
+  
+    
+      
+        sin
+        ⁡
+        (
+        θ
+        
+          σ
+          
+            1
+          
+        
+        )
+        =
+        sin
+        ⁡
+        (
+        θ
+        )
+         
+        
+          σ
+          
+            1
+          
+        
+        ,
+        
+        cos
+        ⁡
+        (
+        θ
+        
+          σ
+          
+            1
+          
+        
+        )
+        =
+        cos
+        ⁡
+        (
+        θ
+        )
+         
+        I
+         
+        ,
+      
+    
+    {\displaystyle \sin(\theta \sigma _{1})=\sin(\theta )~\sigma _{1},\qquad \cos(\theta \sigma _{1})=\cos(\theta )~I~,}
+  as well as, for the cardinal sine function,
+
+  
+    
+      
+        sinc
+        ⁡
+        (
+        θ
+        
+          σ
+          
+            1
+          
+        
+        )
+        =
+        sinc
+        ⁡
+        (
+        θ
+        )
+         
+        I
+        .
+      
+    
+    {\displaystyle \operatorname {sinc} (\theta \sigma _{1})=\operatorname {sinc} (\theta )~I.}
+  
+
+
+== Properties ==
+The analog of the Pythagorean trigonometric identity holds:
+
+  
+    
+      
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        X
+        +
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        X
+        =
+        I
+      
+    
+    {\displaystyle \sin ^{2}X+\cos ^{2}X=I}
+  If X is a diagonal matrix, sin X and cos X are also diagonal matrices with (sin X)nn = sin(Xnn) and (cos X)nn = cos(Xnn), that is, they can be calculated by simply taking the sines or cosines of the matrices's diagonal components.
+The analogs of the trigonometric addition formulas are true if and only if XY = YX:
+
+  
+    
+      
+        
+          
+            
+              
+                sin
+                ⁡
+                (
+                X
+                ±
+                Y
+                )
+                =
+                sin
+                ⁡
+                X
+                cos
+                ⁡
+                Y
+                ±
+                cos
+                ⁡
+                X
+                sin
+                ⁡
+                Y
+              
+            
+            
+              
+                cos
+                ⁡
+                (
+                X
+                ±
+                Y
+                )
+                =
+                cos
+                ⁡
+                X
+                cos
+                ⁡
+                Y
+                ∓
+                sin
+                ⁡
+                X
+                sin
+                ⁡
+                Y
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\sin(X\pm Y)=\sin X\cos Y\pm \cos X\sin Y\\\cos(X\pm Y)=\cos X\cos Y\mp \sin X\sin Y\end{aligned}}}
+  
+
+
+== Other functions ==
+The tangent, as well as inverse trigonometric functions, hyperbolic and inverse hyperbolic functions have also been defined for matrices:
+
+  
+    
+      
+        arcsin
+        ⁡
+        X
+        =
+        −
+        i
+        ln
+        ⁡
+        
+          (
+          
+            i
+            X
+            +
+            
+              
+                I
+                −
+                
+                  X
+                  
+                    2
+                  
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \arcsin X=-i\ln \left(iX+{\sqrt {I-X^{2}}}\right)}
+   (see Inverse trigonometric functions#Logarithmic forms, Matrix logarithm, Square root of a matrix)
+
+  
+    
+      
+        
+          
+            
+              
+                sinh
+                ⁡
+                X
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        e
+                        
+                          X
+                        
+                      
+                      −
+                      
+                        e
+                        
+                          −
+                          X
+                        
+                      
+                    
+                    2
+                  
+                
+              
+            
+            
+              
+                cosh
+                ⁡
+                X
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        e
+                        
+                          X
+                        
+                      
+                      +
+                      
+                        e
+                        
+                          −
+                          X
+                        
+                      
+                    
+                    2
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\sinh X&={e^{X}-e^{-X} \over 2}\\\cosh X&={e^{X}+e^{-X} \over 2}\end{aligned}}}
+  and so on.
+
+
+== References ==

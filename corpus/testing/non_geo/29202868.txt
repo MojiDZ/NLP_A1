@@ -1,0 +1,8 @@
+Dextran 1 is a hapten inhibitor that greatly reduces the risk for anaphylactic reactions when administering dextran.
+
+
+== Mechanism ==
+Dextran 1 is composed of a small fraction (1 kilodalton) of the entire dextran complex. This is enough to bind anti-dextran antibodies but insufficient to result in the formation of immune complexes and resultant immune responses. Thereby, dextran 1 binds up antibodies towards dextran without causing the immune response, leaving less antibodies left to bind to the entire dextran complex, causing less risk of an immune response upon subsequent administration of dextran.
+
+
+== References ==

@@ -1,0 +1,651 @@
+The following outline is provided as an overview of and topical guide to immunology:
+Immunology – study of all aspects of the immune system in all organisms. It deals with the physiological functioning of the immune system in states of both health and disease; malfunctions of the immune system in immunological disorders (autoimmune diseases, hypersensitivities, immune deficiency, transplant rejection); the physical, chemical and physiological characteristics of the components of the immune system in vitro, in situ, and in vivo.
+
+
+== Essence of immunology ==
+Immunology
+
+Branch of Biomedical science
+Immune system
+ImmunityBranches of immunology:1. General Immunology
+2. Basic Immunology
+3. Advanced Immunology
+4. Medical Immunology
+5. Pharmaceutical Immunology
+9. Clinical Immunology
+6. Environmental Immunology
+8. Cellular and Molecular Immunology
+9. Food and Agricultural Immunology
+
+Classical immunology
+Clinical immunology
+Computational immunology
+Diagnostic immunology
+Evolutionary immunology
+Systems immunology
+Immunomics
+Immunoproteomics
+Immunophysics
+Immunochemistry
+Ecoimmunology
+Immunopathology
+Nutritional immunology
+Psychoneuroimmunology
+Reproductive immunology
+Circadian immunology
+Immunotoxicology
+Palaeoimmunology
+Tissue-based immunologyTesticular immunology - Testes
+Immunodermatology - Skin
+Intravascular immunology - Blood
+Osteoimmunology - Bone
+Mucosal immunology - Mucosal surfacesRespiratory tract antimicrobial defense system - Respiratory tractNeuroimmunology - Neuroimmune system in the Central nervous system
+Ocularimmunology - Ocular immune system in the Eye
+Cancer immunology/Immunooncology - Tumors
+
+
+== History of immunology ==
+History of immunology
+
+Timeline of immunology
+
+
+== General immunological concepts ==
+Immunity:Immunity against:Pathogens
+Pathogenic bacteria
+Viruses
+Fungi
+Protozoa
+Parasites
+Tumors
+Allergens
+Self-proteinsAutoimmunity
+Alloimmunity
+Cross-reactivityToleranceCentral tolerance
+Peripheral tolerance
+Clonal anergy
+Clonal deletion
+Tolerance in pregnancy
+ImmunodeficiencyAntigenAntigenicity
+Immunogen
+Superantigen
+Allergen
+Hapten
+EpitopeLinear
+Conformational
+MimotopeTumor antigen
+Antigen-antibody interactionImmunogeneticsAffinity maturationSomatic hypermutation
+Clonal selectionV(D)J recombinationArtemis complex
+Recombination-activating geneRAG1
+RAG2Recombination signal sequencesJunctional diversity
+Immunoglobulin class switching
+Allelic exclusion
+Polyclonal responsePhagocytosisOpsoninIntrinsic immunity
+Leukocyte extravasation
+Cross-presentation
+Immune repertoire
+Original antigenic sin
+Antigen presentation
+Immunological synapse
+Co-stimulation
+
+
+== Components of the immune system ==
+Immune system
+
+
+=== Adaptive immune system ===
+Adaptive immune system
+
+Humoral immunityAntibodiesKinds of antibodiesMonoclonal antibodies
+Polyclonal antibodies
+Autoantibody
+Microantibody
+Neutralizing antibodyClassificationAllotype
+Isotype
+IdiotypeFunctionsAntibody opsonization
+NeutralisationRegionsParatope
+Complementarity-determining region (CDRs)
+Hypervariable region
+Framework region
+Fab Region
+Fc RegionPolyclonal B cell responseCell-mediated immunity
+
+
+=== Innate immune system ===
+Innate immune system
+
+Complement systemClassical complement pathway
+Mannan-binding lectin pathway
+Alternate complement pathway
+Complement membrane attack complexSurface barriers – Physical or chemical barriers that prevent infection (i.e. skin, tears, mucus, saliva, Gastric acid, etc.)Antimicrobial peptides
+Defensins
+LysozymeInflammationInflammatory reflex
+Inflammasome
+Granuloma
+Acute-phase proteinsAmyloid
+Positive
+Negative
+
+
+== Organs of the immune system ==
+Lymphatic system
+
+
+=== Primary lymphoid organs ===
+Primary lymphoid organs
+
+Thymus - Site of T cell maturation
+Bone marrow - Site of haematopoiesis and B cell maturation
+
+
+=== Secondary lymphoid organs ===
+Secondary lymphoid organs
+
+Spleen
+White pulp
+Red pulp
+Marginal zone
+Lymph nodes
+Mucosa-associated lymphoid tissueGut-associated lymphoid tissue
+Bronchus-associated lymphoid tissue
+
+
+== Cells of the immune system ==
+White blood cells
+
+
+=== Myeloid cells ===
+
+Granulocytes
+Neutrophils
+Eosinophils
+Basophils
+Mast cells
+Monocytes
+MacrophagesHistiocytes (Tissue resident macrophages)Adipose tissue macrophages
+Kupffer cell - Liver
+Alveolar macrophage (Dust cell) - Lung
+Langerhans cell - Skin
+Dermal macrophage - Dermis
+Microglia - CNS
+Perivascular macrophage
+Meningeal macrophage - Meninges
+Hofbauer cell - Placenta
+Osteoclasts - Bone
+Bone marrow macrophage - Bone marrow
+Marginal zone macrophage - Spleen
+Metallophilic macrophage - Spleen
+Red pulp macrophage - Splenic red pulp
+Tingible body macrophage (White pulp macrophage) - Splenic white pulpGiant cellsForeign-body giant cell
+Langhans giant cell
+Touton giant cellsEpithelioid cells
+Bone marrow-derived macrophages - Generated in vitroDendritic CellsConventional Dendritic Cells
+Plasmacytoid dendritic cells
+
+
+=== Lymphoid cells ===
+Lymphoid cells
+
+B cells
+Plasma B cells
+Memory B cells
+B-1 cells
+B-2 cells (the conventional B cells most texts refer to)
+Marginal-zone B cells
+Follicular B cells
+T cells
+Naive T cells
+Helper T cells - Commonly termed CD4+ T cells
+Th1 cells
+Th2 cells
+Th3 cells
+Th17 cells
+TFH cells - Follicular helper T cells
+Cytotoxic T cells - Commonly termed CD8+ T cells
+Memory T cells
+Regulatory T cells
+Natural Killer T cells (NKT cells)
+γδ T cells
+Mucosal associated invariant T cells
+Innate lymphoid cells (ILC)
+Group 1 ILC
+Natural killer cells (NK cells)
+Group 2 ILC
+Nuocyte
+Group 3 ILC
+Lymphoid Tissue inducer cells (LTi cells)
+
+
+=== Others ===
+(Non-hematopoietic cells with immune functions)
+Stromal cellsLymph node stromal cells
+Follicular dendritic cellsEpithelial cells
+Pericytes
+Microfold cells (M cells)
+
+
+=== Hematopoiesis ===
+
+LymphopoiesisLymphoblast
+ProlymphocyteT cell developmentThymocyteB cell developmentPre-pro-B cell
+Early pro-B cell
+Late pro-B cell
+Large pre-B cell
+Small pre-B cell
+Immature B cellMyelopoiesisCommon myeloid progenitor (CFU-GEMM)Granulocyte-macrophage progenitor (CFU-GM)GranulopoiesisMyeloblast (CFU-G)
+Promyelocyte
+Myelocyte
+Metamyelocyte
+Band cellMonocytopoiesisMonoblast (CFU-M)CFU-DL - Dendritic cell / Langerhans cell precursorPromonocyteCFU-Baso (Basophil precursor)
+CFU-Eos (Eosinophil precursor)
+Megakaryocyte-erythroid progenitor cell (MEP)MegakaryocytopoiesisCFU-Meg
+Megakaryoblast
+Promegakaryocyte
+Megakaryocyte
+ThrombopoiesisThrombocyte (Platelets)ErythropoiesisProerythroblast
+Normoblast
+ReticulocyteCFU-MastMast cell precursors
+
+
+== Molecules of the immune system ==
+
+
+=== Immune receptors ===
+
+
+==== Antigen receptors ====
+B cellsAntigen receptor - B cell receptor (BCR)
+Subunits- Immunoglobulin heavy chain / Immunoglobulin light chain
+Co-receptorsStimulatoryCD21
+CD19
+CD81InhibitoryCD22Accessory molecule (CD79)Ig-α (CD79A)
+Ig-β (CD79B)T cellsAntigen receptor - T cell receptor (TCR)Subunits - TRA@ / TRB@ / TRD@ / TRG@Co-receptorsCD8 (CD8α / CD8β)
+CD4Accessory moleculesCD3Subunits - one CD3γ / one CD3δ / two CD3εζ-chain (CD247, CD3ζ, TCRζ)
+
+
+==== Pattern recognition receptors (PRRs) ====
+Pattern recognition receptor
+
+Membrane-bound PRRsToll-like receptors (TLRs)
+C-type lectin receptors (CLRs) 
+Group 1 CLRs - Mannose receptors
+Group 2 CLRs - Asialoglycoprotein receptor family
+Dectin 1 subfamily
+DCIR subfamily
+Scavenger receptorsClass A - Trimers
+Class B - Two transmembrane domains
+Others
+Formyl peptide receptors (FPRs)
+Cytoplasmic PRRsNOD-like receptors (NLRs)NLRA (A for acidic transactivating domain)CIITANLRB (B for BIR, or Inhibitor of apoptosis domain)NAIPNLRC (C for CARD domain)
+NLRP (P for Pyrin domain)
+NLRXNLRX1RIG-I-like receptors (RLRs) - Intracellular sensors of viral replication by direct interaction with dsRNA
+Secreted PRRsComplement system (see complement proteins section)
+Collectins
+Peptidoglycan recognition proteins (PGRPs)
+Ficolins
+
+
+==== Complement receptors ====
+Complement receptor
+
+CR1 (CD35)
+CR2 (CD21)
+CR3 - Heterodimer: CD11b / CD18
+CR4 - Heterodimer: CD11c / CD18
+CRIg (Complement receptor of the immunoglobulin family)
+Anaphylatoxin receptorsC3a receptor
+C5a receptor (CD88)
+C5AR2
+
+
+==== Fc receptors ====
+Fc receptor
+
+Fc-gamma receptors (FcγR)FcγRI (CD64)
+FcγRIIA (CD32A)
+FcγRIIB (CD32B)
+FcγRIIIA (CD16a)
+FcγRIIIB (CD16b)
+FcγRT (Neonatal Fc receptor)Fc-alpha receptors (FcαR)FcαRI (CD89, FCAR)
+Fcα/μRFc-epsilon receptors (FcεR)FcεRI - Tetramer: FCER1A / FCER1B / two FCER1G
+FcεRII (CD23)Secreted Fc receptorsPolymeric immunoglobulin receptor (poly-Ig)Fc receptor-like molecules
+
+
+==== Cytokine receptors ====
+Cytokine receptor
+
+Type I cytokine receptors (Hemopoietin receptors) - Share extracellular WSXWS motif, Grouped by common receptor subunitsCommon gamma chain (γ-chain, CD132)IL2R - Heterotrimer: IL2RA (CD25) / IL2RB (CD122) / γc
+IL4R / IL13R - Heterodimer: IL4RA / (IL13RA1/IL13RA2)
+IL7R - Heterodimer: IL7RA (CD127) / γ-chain
+IL9R - Heterodimer: IL9R / γ-chain
+IL15R - Heterotrimer: IL15RA / IL2RB / γ-chain
+IL21R - Heterodimer: IL21R / γ-chainCommon beta chain (β-chain, CD131)IL3R - Heterodimer: IL3RA / β-chain
+IL5R - Heterodimer: IL5RA / β-chain
+GM-CSFR (CD116) - Heterdimer: GM-CSFRA / β-chainCommon gp130 subunit (gp130, CD130)IL6R - Heterodimer: IL6RA / gp130
+IL11R - Heterodimer: IL11RA / gp130
+IL27R - Heterodimer: IL27RA / gp130
+OSMR - Heterodimer: OSMR / gp130
+LIFR (CD118) - Heterodimer: LIFR / gp130IL12 receptor beta 1 subunit (IL12RB1)IL12R - Heterodimer: IL12RB1 / IL12RB2
+IL23R - Heterodimer: IL23RA / IL12RB1OthersEPOR (Erythropoietin receptor) - Homodimer
+G-CSFR (CD114) - Homodimer upon ligand binding
+MPL (CD110, Thrombopoietin receptor) - Homodimer upon ligand binding
+GHR (Growth hormone receptor) - Homodimer upon ligand binding
+PRLR (Prolactin receptor)Type II cytokine receptor - Lack WSXWS motifInterferon receptorsInterferon-α/β receptor (IFNAR) - Heterodimer: IFNAR1 / IFNAR2
+Interferon-γ receptor (IFNGR) - Heterodimer: IFNGR1 / IFNGR2Interleukin receptorsIL10R - Heterodimer: IL10RA / IL10RB
+IL20R - Heterodimer: IL20RA / IL20RB
+IL22R - Heterodimer: IL22RA1 / IL10RB
+IL28R - Heterodimer: IL28RA / IL10RBImmunoglobulin superfamily (Some members)CSF1
+CD117 (c-KIT)
+IL1 receptor family (IL1R)IL1R type 1 (CD121a)
+IL1R type 2 (CD121b)
+IL1R accessory protein (IL1RAP)
+IL1RL1 (IL33R, ST2)IL18R - Heterodimer: IL18R1 / IL18RAPIL17 familyIL17RA
+IL17RB
+IL17RC
+IL17RD
+IL17RETumor necrosis factor (TNF) receptor family - Trimeric cytokine receptors
+Chemokine receptors - 7-transmembrane G protein-coupled receptorsCC chemokine receptors (CCRs)
+CXC chemokine receptors (CXCRs)
+C chemokine receptors (XCRs)XCR1CX3C chemokine receptors (CX3CRs)CX3CR1 (Fractalkine receptor)TGF beta receptors - Single transmembrane pass serine/threonine kinase receptorsTGFBR1
+TGFBR2
+TGFBR3
+
+
+==== Natural killer cell receptors ====
+Natural killer cell receptors
+
+Killer activation receptors (KARs)Natural cytotoxicity receptors (NCRs)
+Natural killer group 2 receptors (NKG2s)
+Activating KIRsKIR2DS1Killer inhibitory receptors (KIRs)Two domains, long cytoplasmic tail
+Two domains, short cytoplasmic tail
+Three domains, long cytoplasmic tail
+Three domains, short cytoplasmic tailKIR3DS1
+
+
+==== Others ====
+Leukocyte immunoglobulin-like receptors (LILRs)LILR subfamily A
+LILR subfamily B
+Eicosanoid receptors
+
+
+=== Antibodies ===
+Antibodies
+
+Immunoglobulin A (IgA)
+IgA1
+IgA2
+Immunoglobulin D (IgD)
+Immunoglobulin E (IgE)
+Immunoglobulin G (IgG)
+IgG1
+IgG2
+IgG3
+IgG4
+Immunoglobulin M (IgM)
+
+
+=== Cytokines ===
+Cytokine
+
+Chemokines
+CC chemokines
+CXC chemokines
+C chemokinesXCL1
+XCL2CX3C chemokinesCX3CL1 (Fractalkine, Neurotactin)Interferons
+Interferon type I
+IFN-α
+IFN-β
+IFN-ω
+Interferon type II
+IFN-γ
+Interleukins
+Tumor necrosis factors
+Colony stimulating factorsCSF1 (M-CSF)
+CSF2 (GM-CSF)
+CSF3 (G-CSF)
+
+
+=== MHCs ===
+Major histocompatibility complex
+
+MHC class I
+MHC class II
+
+
+=== Complement proteins ===
+Early stage (divided by pathway)Classical complement pathwayC1Q complex - C1R / C1S
+C4 - C4a
+C2Mannan-binding lectin pathwayMASP1 / MASP2
+Mannan-binding lectinAlternative complement pathwayFactor B
+Factor D
+Factor P (Properdin)Middle stageC3 - C3a / C3b / iC3b
+C5 - C5a
+C3-convertase
+C5-convertaseLate stageMembrane attack complex (MAC)C6
+C7
+C8
+C9Complement pathway inhibitorsC1-inhibitor - Classical, Lectin, Alternate
+Decay-accelerating factor (CD59) - Classical, Lectin, Alternate
+Factor I - Classical, Lectin, Alternate
+C4BP - Classical, Lectin
+Factor H - Alternate
+
+
+=== Antimicrobial peptides ===
+Antimicrobial peptides
+
+
+=== Transcription factors ===
+NF-κB
+AP-1
+Interferon regulatory factors (IRF)
+NFAT
+T-bet - TH1 differentiation
+GATA3 - TH2 differentiation
+RORγT - TH17 differentiation
+BCL6 - TFH differentiation
+FoxP3 - Treg differentiation
+
+
+=== Signaling pathways ===
+JAK-STAT signaling pathway
+TGF beta signaling pathway
+TLR signalling pathway
+
+
+=== Cell adhesion molecules (CAMs) ===
+Cell adhesion molecules
+
+Integrins - Obligate heterodimers of one alpha and one beta subunitsAlpha subunits
+Beta subunits
+DimersCytoadhesin receptorIntegrin alpha6beta4
+Glycoprotein IIb/IIIa - Heterodimer: ITGA2B / ITGB3Fibrinogen receptorMacrophage-1 antigen (CR3) - Heterodimer:  CD11b / CD18Fibronectin receptor:Integrin alpha2beta1
+Integrin alpha4beta1
+Integrin alpha5beta1Leukocyte-adhesion receptor:LFA-1 - Heterodimer: CD11a / CD18
+Macrophage-1 antigen (CR3) - Heterodimer: CD11b / CD18
+Integrin alphaXbeta2 (CR4) - Heterodimer:  CD11c / CD18Very late antigen receptor:Integrin alpha1beta1
+Integrin alpha2beta1
+Integrin alpha3beta1
+VLA-4 - Heterodimer: CD49d / CD29
+Alpha-5 beta-1
+Integrin alpha6beta1Vitronectin receptor:Alpha-v beta-3
+Alpha-v beta-5Immunoglobulin superfamily CAMsSynCAMs - Synaptic cell adhesion molecules
+NCAMs - Neural cell adhesion molecules
+Intercellular adhesion molecules (ICAMs)
+VCAM-1 (CD106)
+PECAM-1 (CD31)
+L1 family
+SIGLEC family - Sialic acid binding lectins
+CTX family
+Nectins
+CD2 familyCD2
+CD58
+Signaling lymphocytic activation molecules (SLAMs)
+Cadherins
+SelectinsE-selectin
+L-selectin
+P-selectinOthersLymphocyte homing receptorsCD34
+GLYCAM-1
+Addressin (MAdCAM-1)CD44
+Carcinoembryonic antigens
+CD24
+CD44
+CD146
+CD164
+
+
+=== Others ===
+CD69
+Sphingosine-1-phosphate receptors
+Co-stimulatory moleculesCD80 - Expressed by APCs
+CD86 - Expressed by APCs
+CD28 family receptorsCD28 - Expressed by T Cells
+CD278 (ICOS) - Homodimer, expressed by T Cells
+CTLA-4 (CD152)
+PD-1 (CD279)
+
+
+== Immune system disorders ==
+Immune disorder
+
+
+=== Hypersensitivity and Allergy ===
+
+Type 1 hypersensitivity / Allergy / AtopyForeign (Allergen)Atopic eczema
+Allergic urticaria
+Allergic rhinitis (Hay fever)
+Allergic asthma
+Anaphylaxis
+Food allergyMilk allergy
+Egg allergy
+Peanut allergy
+Tree nut allergy
+Seafood allergy
+Soy allergy
+Wheat allergy
+Garlic allergyPenicillin allergy
+Type 2 hypersensitivity / Antibody-dependent cell-mediated cytotoxicity (ADCC)ForeignPernicious anemia
+Hemolytic disease of the newbornAutoimmuneCytotoxicAutoimmune hemolytic anemia
+Idiopathic thrombocytopenic purpura
+Bullous pemphigoid
+Pemphigus vulgaris
+Rheumatic fever
+Goodpasture's syndromeType 5 / Receptor mediatedGraves' disease
+Myasthenia gravisType 3 hypersensitivity / Immune complexForeignHenoch–Schönlein purpura
+Hypersensitivity vasculitis
+Reactive arthritis
+Farmer's lung
+Post-streptococcal glomerulonephritis
+Serum sickness
+Arthus reactionAutoimmuneSystemic lupus erythematosus
+Subacute bacterial endocarditis
+Rheumatoid arthritisType 4 hypersensitivity (Delayed-Type Hypersensitivity)ForeignAllergic contact dermatitis
+Mantoux testAutoimmuneDiabetes mellitus type 1
+Hashimoto's thyroiditis
+Guillain–Barré syndrome
+Multiple sclerosis
+Coeliac disease
+Giant-cell arteritisGVHD (Graft-versus-host disease)Transfusion-associated graft versus host diseaseUnknown/Multiple typesForeignHypersensitivity pneumonitis
+Allergic bronchopulmonary aspergillosis
+Transplant rejection
+Latex allergy (I+IV)AutoimmuneSjögren's syndrome
+Autoimmune hepatitis
+Autoimmune polyendocrine syndrome (APS1 / APS2)
+Autoimmune adrenalitis
+Systemic autoimmune disease
+
+
+=== Immunodeficiency ===
+Immunodeficiency
+
+Primary immunodeficiency
+Acquired immunodeficiency
+Complement deficiency
+
+
+=== Cancers of the immune system ===
+
+
+=== Myeloid diseases ===
+
+
+=== Inflammatory diseases ===
+Sepsis
+Inflammatory bowel disease (IBD)
+Cytokine storm
+
+
+=== Immunoproliferative immunoglobulin disorders ===
+Immunoproliferative immunoglobulin disorders
+
+
+=== Lymphatic organ disease ===
+
+
+== Immunologic techniques and tests ==
+Flow cytometry
+Mass cytometry
+Histology
+Adoptive cell transfer
+Experiments in immunology
+Genetically modified mouse
+Immunofluorescence
+Immunofixation
+Immunoadsorption
+MHC multimer
+Hybridoma technologyRabbit hybridoma
+Developmental studies hybridoma bank
+
+
+== Immunology and health ==
+Prevention
+Immunostimulants
+ImmunotherapyActivation immunotherapyCancer immunotherapy
+Autologous immune enhancement therapyImmunosuppressionSublingual immunotherapy
+Allergen immunotherapy
+Immunosuppressive drug
+Artificial induction of immunity
+ImmunizationActive immunotherapy
+Passive immunityTemporarily induced immunity
+Adoptive immunityVaccinationVaccine-naive
+Vaccine
+Herd immunity
+Adjuvant
+Organ transplantationAllotransplant
+Transplant rejection
+
+
+== Immunologists ==
+List of immunologists
+
+
+== Immunology lists ==
+List of autoimmune diseases
+List of immunologists
+List of viruses
+List of human clusters of differentiation
+List of vaccine ingredients
+List of allergens
+List of cytokines
+List of cytokine receptors
+List of pattern recognition receptors
+List of tissue-resident macrophages
+List of branches of immunology
+List of acute-phase proteins
+List of immune cells
+
+
+== References ==
+
+
+== External links ==
+
+BMC: Immunology- BioMed Central:Immunology is an open access journal publishing original peer-reviewed research articles.
+Nature Reviews Immunology (journal home)
+Janeway's Immunobiology textbook Searchable free online version at the National Center for Biotechnology Information
+Overview at Medical College of Georgia
+MUGEN NoE murine models for immunological disease
+Transplantation Immunology Interesting web site made by the faculty of medicine of the University of Geneva dealing with the immunological issues linked with the transplantation of materials genetically different between donor and recipient (hematopoietical stem cells, organs or the transfusion of blood).
+Online lectures in immunology University of South Carolina
+BRT-Burleson Research Technologies Tests the effects of pharmaceuticals in the developmental stage on the immune system.

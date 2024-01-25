@@ -1,0 +1,27 @@
+In ecology regeneration is the ability of an ecosystem – specifically, the environment and its living population – to renew and recover from damage. It is a kind of biological regeneration.
+Regeneration refers to ecosystems replenishing what is being eaten, disturbed, or harvested. Regeneration's biggest force is photosynthesis which transforms sun energy and nutrients into plant biomass. Resilience to minor disturbances is one characteristic feature of healthy ecosystems. Following major (lethal) disturbances, such as a fire or pest outbreak in a forest, an immediate return to the previous dynamic equilibrium will not be possible. Instead, pioneering species will occupy, compete for space, and establish themselves in the newly opened habitat. The new growth of seedlings and community assembly process is known as regeneration in ecology. As ecological succession sets in, a forest will slowly regenerate towards its former state within the succession (climax or any intermediate stage), provided that all outer parameters (climate, soil fertility availability of nutrients, animal migration paths, air pollution or the absence thereof, etc.) remain unchanged.
+In certain regions like Australia, natural wildfire is a necessary condition for a cyclically stable ecosystem with cyclic regeneration.
+
+
+== Artificial disturbances ==
+While natural disturbances are usually fully compensated by the rules of ecological succession, human interference can significantly alter the regenerative homeostatic faculties of an ecosystem up to a degree that self-healing will not be possible. For regeneration to occur, active restoration must be attempted.
+
+
+== See also ==
+Bush regeneration
+Biocapacity
+Ecological stability
+Ecoscaping
+Forest ecology
+Net Primary Productivity
+Pioneer species
+Regenerative design
+Regenerative agriculture
+Soil regeneration
+
+
+== References ==
+
+
+== Literature ==
+David M. Smith (1996). "Chapter 7:Ecology of Regeneration". The Practice of Silviculture. Wiley. ISBN 978-0471800200. {{cite book}}: External link in |chapter= (help)

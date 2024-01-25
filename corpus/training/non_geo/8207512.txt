@@ -1,0 +1,56 @@
+Biological response modifiers (BRMs) are substances that modify immune responses. They can be endogenous (produced naturally within the body) or exogenous (as pharmaceutical drugs), and they can either enhance an immune response or suppress it. Some of these substances arouse the body's response to an infection, and others can keep the response from becoming excessive. Thus they serve as immunomodulators in immunotherapy (therapy that makes use of immune responses), which can be helpful in treating cancer (where targeted therapy often relies on the immune system being used to attack cancer cells) and in treating autoimmune diseases (in which the immune system attacks the self), such as some kinds of arthritis and dermatitis. Most BRMs are biopharmaceuticals (biologics), including monoclonal antibodies, interleukin 2, interferons, and various types of colony-stimulating factors (e.g., CSF, GM-CSF, G-CSF). "Immunotherapy makes use of BRMs to enhance the activity of the immune system to increase the body's natural defense mechanisms against cancer", whereas BRMs for rheumatoid arthritis aim to reduce inflammation.
+Some conditions which biologics are used to treat are rheumatic disorders such as psoriatic arthritis, ankylosing spondylitis and non-radiographic axial spondyloarthritis, and inflammatory bowel disease.
+
+
+== Medical uses ==
+
+Biologics provide immunotherapy and can function as disease-modifying antirheumatic drugs.Biologics can generally be grouped by their "class", that is, their specific mechanism of action and affected targets. Some classes are TNF inhibitors, anti-IL-17A antibodies, and IL-23 antibodies.For people with moderate to severe psoriatic arthritis, biologics can provide some relief of the symptoms, and even slow down or halt the progression of the disease. Classes of biologics typically used for psoriatic arthritis include TNF inhibitors, anti-IL17-A antibodies, IL-23 antibodies, and those that act on both IL-12 and IL-23.Biologics can treat inflammatory bowel disease. Classes of biologics typicaly used for inflammatory bowel disease include TNF inhibitors, and anti-CD28 antibodies.
+
+
+== Contraindications ==
+Biologics are generally used after considering other less invasive treatments. Before using biologics to treat psoriasis, treatment with topical moisturizers or steroids, or light therapy may provide relief. Other drugs which may provide relief include acitretin, ciclosporin, and methotrexate, but since these drugs have their own major side effects, doctors and patients should discuss whether to try one of these or a biologic first.Most biologics are injections so are not appropriate for use by someone with intense fear of needles. A person with any infection should not use biologics.Other contraindications for biologics include cancer, certain neurologic disorders, being pregnant or breastfeeding, history of heart failure, or history of tuberculosis.
+
+
+== Adverse effects ==
+Common adverse effects of biologic administration are injection site reactions including redness, pain,  and itching. Other adverse effects include headache, skin reactions, respiratory tract infection, and urinary tract infection. Adverse effects may be class-dependent, and so switching to a biologic of another class may ameliorate those effects.Potential serious adverse effects include allergic reactions, liver damage, cancer, and serious infections including tuberculosis, pneumonia, staph infection, and fungal infection.Patients with systemic lupus erythematosus (SLE) who are treated with the standard of care, including biologic response modifiers, experience a higher risk of mortality and opportunistic infection compared to the general population.
+
+
+== Examples ==
+
+
+=== Biopharmaceuticals ===
+
+Biologics for immunosuppression include adalimumab, certolizumab, etanercept, golimumab, infliximab, ixekizumab, belimumab, and ustekinumab.
+
+
+=== Natural BRMs ===
+Extracts from some medicinal mushrooms are natural biological response modifiers.
+
+
+== Manufacturing ==
+
+Genetically engineered cell cultures in pharmaceutical labs produce the biologics.
+
+
+== History ==
+Biologics are the second generation of biopharmaceutical products. The first generation were the biopharmaceutical products which could be extracted from organisms without biotechnology from the Information Age, such as blood for transfusion, early insulin extracted from animals, and vaccines from eggs.When biologic drugs became available they led to significant changes in the management of various autoimmune diseases.
+
+
+== Society and culture ==
+
+
+=== Term ===
+The term "biologic therapy" is nonspecific, and can refer to any biopharmaceutical medication. However, many sources use the term to refer to immunotherapy treatments.The explanation for this is that while "biologic" or "biopharmaceutical" refers to the chemical composition of medications which might be used to treat a range of medical conditions, when the term "biologic" became popular, many biologic medications available provided immunosuppression.
+
+
+=== Legal status ===
+Biosimilar is a term used to describe a biopharmaceutical product which seems so close in composition and effect to another that they are functionally identical, analogous to generic drugs. In this context, some publications describe "biologics" as "biosimilars".
+
+
+=== Economics ===
+Biologic drugs are expensive. In the United States treatment with biologic drugs typically costs US$2,000–6,000 per month, compared to US$12–600 per month for conventional (small-molecule) DMARDs.
+
+
+== References ==
+
+Deepak A. Rao; Le, Tao; Bhushan, Vikas. First Aid for the USMLE Step 1 2008 (First Aid for the Usmle Step 1). McGraw-Hill Medical. ISBN 0-07-149868-0.

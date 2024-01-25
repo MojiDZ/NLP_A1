@@ -1,0 +1,45 @@
+Antigen transfer in the thymus is the transmission of self-antigens between thymic antigen-presenting cells which contributes to the establishment of T cell central tolerance.Thymus represents an origin of T cell development and its responsibility is to select functional but also safe T cells which will not attack self tissues. Self-harmful T cells, further referred to as autoreactive T cells, originate in the thymus because of the stochastic process called V(D)J recombination which conducts the generation of T cell receptors (TCRs) and enables their limitless variability. Two processes of central tolerance take place in thymic medulla, namely clonal deletion (recessive tolerance) and T Regulatory cells selection (dominant tolerance) which force autoreactive T cells to apoptosis or skew them into suppressor T regulatory cells (TRegs), respectively, in order to protect body against manifestations of autoimmunity.These processes are mediated especially by unique subset of stromal cells called Medullary thymic epithelial cells (mTECs) via presentation of Tissue restricted antigens (TRAs) that represent self tissues from almost all parts of the body.
+
+
+== mTECs ==
+mTECs are not only capable to present TRAs as efficient APCs. They are also potent in production of these TRAs via unique process called promiscuous gene expression (PGE) and might serve as their reservoir.
+
+
+=== Drawbacks of antigen presentation ===
+mTECs as APCs reveal some drawbacks on population level. Their numbers in thymic medulla reach only 100,000 per 2-week-old thymus. Furthermore, average lifespan of mTECs does not exceed 2–3 days, probably due to only known PGE activator Autoimmune regulator (Aire), which requires for its proper function generation of DNA double strand breaks. And last but not least, each TRA is expressed only by 1-3% of mTEC population. These facts decrease the chance of efficient recessive or dominant tolerance.
+
+
+=== Relevance of antigen transfer ===
+Unidirectional spreading of mTEC-derived TRAs onto additional APCs via antigen transfer increases the probability of encounter between potential autoreactive T cell and its corresponding TRA and therefore enhances processes of central tolerance. Furthermore, antigen transfer enables TRA processing and presentation by different cellular microenvironments.
+Despite relevance of antigen transfer, seminal study was published, showing mTECs to form fully established central tolerance without support of additional APCs.
+
+
+== Antigen transfer enables indirect presentation of TRAs ==
+First article which touches antigen transfer was published in 2004. Experiments from this study reveal that clonal deletion of autoreactive CD4+ T cells, apart from CD8+ T cells, requires indirect presentation of TRAs by bone marrow (BM) derived APCs. Direct presentation of TRAs by mTECs was shown to be insufficient in this case. Requirement of indirect presentation of some mTEC-derived TRAs in the case of recessive tolerance was perceived also by additional studies which both firstly demonstrated antigen transfer as an instrument that enables this process.  Need of TRA indirect presentation is probably closely related with above mentioned "processing of TRAs by different microenvironments".
+N.B.: BM derived APCs don´t express TRAs, this process is uniquely dedicated to mTECs. Exception is represented by thymic B cells which were shown to express TRAs and Aire.
+
+
+== Thymic dendritic cells ==
+Systemic ablation of dendritic cells (DCs) was shown to cause fatal manifestations of autoimmunity which points to their importance in central tolerance. Indeed, as mTECs represent exclusive donors of TRAs, experiments with first antigen transfer mouse models discovered thymic dendritic cells (DCs) to be so far the only known TRAs acceptors involved in antigen transfer. Indispensability of DCs for the establishment of central tolerance was further verified by recent analysis, which revealed that DCs mediate both recessive and dominant tolerance, with preference for the latter, via presentation of more common TRAs.
+
+
+=== Subsets ===
+
+
+==== tDCs ====
+The most efficient subset in TRA presentation and both modes of central tolerance was found to be CD8α+ thymic-derived DCs (tDCs). This subset was also shown to express XCR1 and to be attracted by mTECs via XCL1 chemokine expression. tDCs rise intrathymically and constitute approximately half of thymic DCs population.
+
+
+==== mDCs ====
+Sirpα+ migratory DCs (mDCs) form second subset of thymic DCs. They rise extrathymically, and were shown to present self antigens, especially blood-borne antigens, in the thymus, which they acquire in the periphery. They were also shown to be more efficient in T regulatory cells selection than clonal deletion.
+
+
+==== pDCs ====
+The last abundant subset of thymic DCs is represented by B220+ plasmacytoid DCs (pDCs) which also rise extrathymically and transfer peripheral antigens from the periphery to the thymus to mediate selection processes.All these thymic DC subsets were shown to participate in antigen transfer. Nevertheless, only tDCs and mDCs were observed to utilize transferred TRAs for indirect presentation which led to the processes of central tolerance.
+
+
+== Mechanism ==
+The unambiguous mechanism of the antigen transfer is still unknown. However, there are three possible ways: I. acquisition of mTEC apoptotic bodies, which could possibly be related with low mTEC lifespan II. acquisition of exosomes and III. acquisition via trogocytosis, how antigen transfer can be mediated.There is also an evidence, that antigen transfer and therefore indirect presentation by thymic DCs are regulated by PGE activator Aire.
+
+
+== References ==

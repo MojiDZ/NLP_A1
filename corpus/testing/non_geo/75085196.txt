@@ -1,0 +1,46 @@
+Effective accelerationism, often abbreviated as "e/acc", is a 21st-century philosophical movement that advocates for an explicitly pro-technology stance. Its proponents believe that unrestricted technological progress (especially driven by artificial intelligence) is a solution to universal human problems like poverty, war and climate change. They see themselves as a counterweight to more cautious views on technological innovation, often giving their opponents the derogatory labels of "doomers" or "decels" (short for deceleration).The movement carries utopian undertones and argues that humans need to develop and build faster to ensure their survival and propagate consciousness throughout the universe. Its founders Guillaume Verdon and the pseudonymous Bayeslord see it as a way to "usher in the next evolution of consciousness, creating unthinkable next-generation lifeforms."Although effective accelerationism has been described as a fringe movement, it has gained mainstream visibility in 2023. A number of high-profile Silicon Valley figures, including investors Marc Andreessen and Garry Tan, explicitly endorsed it by adding "e/acc" to their public social media profiles.
+
+
+== Etymology and central beliefs ==
+Effective accelerationism, a portmanteau of "effective altruism" and "accelerationism", is a fundamentally techno-optimist movement. According to Guillaume Verdon, one of the movement's founders, its aim is for human civilization to "clim[b] the Kardashev gradient", meaning its purpose is for human civilization to rise to next levels on the Kardashev scale by maximizing energy usage.To achieve this goal, effective accelerationism wants to accelerate technological progress. It is strongly focused on artificial general intelligence (AGI), because it sees AGI as fundamental for climbing the Kardashev scale. The movement therefore advocates for unrestricted development and deployment of artificial intelligence. Regulation of artificial intelligence and government intervention in markets more generally is met with opposition. Many of its proponents have libertarian views and think that AGI will be most aligned if many AGIs compete against each other on the marketplace.The founders of the movement see it as rooted in Jeremy England's theory on the origin of life, which is focused on entropy and thermodynamics. According to them, the universe aims to increase entropy, and life is a way of increasing it. By spreading life throughout the universe and making life use up ever increasing amounts of energy, the universe's purpose would thus be fulfilled.
+
+
+== History ==
+
+
+=== Intellectual origins ===
+While Nick Land is seen as the intellectual originator of contemporary accelerationism in general, the precise origins of effective accelerationism remain unclear. The earliest known reference to the movement can be traced back to a May 2022 newsletter published by four pseudonymous authors known by their X (formerly Twitter) usernames @BasedBeffJezos, @bayeslord, @zestular and @creatine_cycle.Effective accelerationism incorporates elements of older Silicon Valley subcultures such as transhumanism and extropianism, which similarly emphasized the value of progress and resisted efforts to restrain the development of technology, as well as the work of the Cybernetic Culture Research Unit.
+
+
+=== Disclosure of the identity of BasedBeffJezos ===
+Forbes disclosed in December 2023 that the @BasedBeffJezos persona is maintained by Guillaume Verdon, a Canadian former Google quantum computing engineer and theoretical physicist. The revelation was supported by a voice analysis conducted by the National Center for Media Forensics of the University of Colorado Denver, which further confirmed the match between Jezos and Verdon. The magazine justified its decision to disclose Verdon's identity on the grounds of it being "in the public interest".On 29 December 2023 Guillaume Verdon was interviewed by Lex Fridman on the Lex Fridman Podcast and introduced as the "founder of [the] e/acc (effective accelerationism) movement".
+
+
+== Relation to other movements ==
+
+
+=== Traditional accelerationism ===
+Traditional accelerationism, as developed by the British philosopher Nick Land, sees the acceleration of technological change as a way to bring about a fundamental transformation of current culture, society, and the political economy. In his earlier writings he saw the acceleration of capitalism as a way to overcome this economic system itself. In contrast, effective accelerationism does not seek to overcome capitalism or to introduce radical societal change but tries to maximize the probability of a technocapital singularity, triggering an intelligence explosion throughout the universe and maximizing energy usage.
+
+
+=== Effective altruism ===
+Effective accelerationism also diverges from the principles of effective altruism, which prioritizes using evidence and reasoning to identify the most effective ways to altruistically improve the world. This divergence especially comes from one school of thought within effective altruism – longtermism. Under a longtermist view, a very cautious handling of AGI is necessary to secure a human-aligned AGI, because longtermists fear that any misaligned AGI could lead to human extinction in the end.In contrast, effective accelerationism emphasizes the transformative potential of technology and capitalism. Its proponents consider that existential risks from AGI are negligible, and that even if it were not, decentralized free markets would much better mitigate this risk than centralized governmental regulation.
+
+
+=== Degrowth ===
+Effective accelerationism also stands in stark contrast with the degrowth movement, sometimes described by it as "decelerationism". The degrowth movement advocates for reducing economic activity and consumption to address ecological and social issues. Effective accelerationism on the contrary embraces technological progress, energy consumption and the dynamics of capitalism, rather than advocating for a reduction in economic activity.
+
+
+== Reception ==
+The "Techno-Optimist Manifesto", a 2023 essay by Marc Andreessen, has been described by the Financial Times and the German Süddeutsche Zeitung as espousing the views of effective accelerationism. In a 2023 essay "Effective obfuscation", Molly White critiques the movement, suggesting it merely provides a superficial philosophical cover for the industry's traditional motives and behaviors. She further argues that a tech industry "led by a bunch of techno-utopianists and those who think they can reduce everything to markets and equations" has already been attempted, primarily serving as a tool for the wealthy to retroactively justify their choices rather than influencing meaningful decision-making.David Swan of the The Sydney Morning Herald has criticized effective accelerationism due to its opposition to government and industry self-regulation. He argues that "innovations like AI needs thoughtful regulations and guardrails [...] to avoid the myriad mistakes Silicon Valley has already made". During the 2023 Reagan National Defense Forum, U.S. Secretary of Commerce Gina Raimondo cautioned against embracing the "move fast and break things" mentality associated with "effective acceleration [sic]". She emphasized the need to exercise caution in dealing with AI, stating "that's too dangerous. You can't break things when you are talking about AI". In a similar vein, Ellen Huet argued on Bloomberg News that some of the ideas of the movement were "deeply unsettling", focusing especially on Guillaume Verdon's "post-humanism" and the view that "natural selection could lead AI to replace us [humans] as the dominant species."
+
+
+== See also ==
+Technological utopianism
+
+
+== References ==
+
+
+== External links ==
+Jezos, Beff; Bayeslord (10 July 2022). "Notes on e/acc principles and tenets". Beff's Newsletter. Substack.

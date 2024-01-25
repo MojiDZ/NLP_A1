@@ -1,0 +1,21 @@
+Navionics is an Italian manufacturer of electronic navigational charts, headquartered in Massarosa, Italy. The company operates worldwide with subsidiaries in Wareham, Massachusetts, Plymouth (United Kingdom), Hyderabad (India) and New South Wales (Australia).
+Navionics was founded in 1984, when Giuseppe Carnevali and Fosco Bianchetti introduced the world's first marine electronic chart plotter, the Geonav. In 2007, Navionics sold the Geonav product line, to focus solely on the production of electronic charts.
+On October 27, 2017, Navionics was acquired by Garmin Ltd.
+In 2018, it was reported that Navionics had exposed hundreds of thousands of customer records, when its MongoDB database wasn't secured with a password.
+
+
+== Products ==
+GPS Plotter Charts: marine and lakes cartography for GPS chartplotters.
+Mobile app: marine and lakes cartography for smartphones and tablets.
+Web application: free marine and lakes cartography for desktop.
+
+
+== Navionics Foundation ==
+The Navionics Foundation was born in 2001 as a legal nonprofit organization that supports schools and educational programs in India. It is supported by Navionics in partnership with the Indian Government Education Office of Hyderabad.
+
+
+== References ==
+
+
+== External links ==
+Navionics Official Website

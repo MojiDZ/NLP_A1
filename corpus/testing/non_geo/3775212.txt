@@ -1,0 +1,5 @@
+Segmental analysis is a method of anatomical analysis for describing the connective morphology of the human body. Instead of describing anatomy in terms of spatial relativity, as in the anatomical position method, segmental analysis describes anatomy in terms of which organs, tissues, etc. connect to each other, and the characteristics of those connections.
+
+
+== Literature ==
+Anderson RH, Becker AE, Freedom RM, et al. Sequential segmental analysis of congenital heart disease. Pediatric Cardiology 1984;5(4):281-7.

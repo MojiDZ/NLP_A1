@@ -1,0 +1,66 @@
+Developer relations, abbreviated as DevRel, is an umbrella term covering the strategies for building mutually beneficial relationships between organizations and developers as the primary users, and often influencers on purchases, of a product. Developer relations is a form of platform evangelism and the activities involved are sometimes referred to as a developer program or DevRel program. A DevRel program may comprise a framework built around some or all of the following aspects:
+Developer marketing: Outreach and engagement activities to create awareness and convert developers to use a product.
+Developer education: Product documentation and education resources to aid learning and build affinity with a product and community.
+Developer experience: Resources like a developer portal, product, and documentation, to activate the developer with the least friction.
+Developer success: Activities to nurture and retain developers as they build and scale with a product.
+Community: Nourishes a community to maintain a sustainable program.
+
+
+== History and roots ==
+Apple is considered to have created the first DevRel program in the 1980s, starting with Mike Murray, who coined the term software evangelist to persuade third-party developers to develop software and applications for the Macintosh platform. Mike Boich was Apple's first Software Evangelist for the Macintosh project  and hired Guy Kawasaki who would become Apple's Chief Evangelist and popularize their DevRel program.
+DevRel started becoming more mainstream in 2013, with companies like New Relic, Twilio, EngineYard, and SendGrid popularizing a Developer-First approach.
+
+
+== Organizational roles ==
+
+
+=== Roles and job titles ===
+DevRel theoretically intersects engineering, marketing, product management, and community management.There are several different types of roles/job titles in DevRel including:
+
+Developer Advocates (aka Developer Evangelists): Focus on getting the word out (i.e., evangelizing) through various means such as speaking at conferences, attending meetups, hosting hackathons, creating code samples, building webinars, hosting virtual office hours and/or advocating by acting as a liaison between the community and internal product teams. They likely have coding experience and may collect feedback, create demos/code samples, or find solutions to issues with the product.
+Developer Experience (DX) Practitioners: Own user experience initiatives for products developers use. DX encompasses both products and documentation, and DX practitioners may deal with SDK or API design, onboarding flows, and documentation.
+Technical Community Managers: Community managers who focus on conversations of a technical nature, about technical aspects of a product. They may identify and track opportunities for Developer Advocacy teams to educate and inspire their peer developers.
+Developer Marketers: Target and capture software developers' attention to grow awareness, adoption and advocacy of tools, solutions, and platforms. They focus on solving real-world problems by providing solutions to help developers improve their workflows and increase development efficiency. They also facilitate developer advocacy by empowering and evangelizing developers to champion a target product.
+Technical Writers: Technical writers produce content such as online help, manuals, white papers, etc. A technical writer is often considered a DevRel role.
+
+
+=== Report structure ===
+DevRel practitioners may report to different groups within an organization – both technical and non-technical. A survey in 2021, showed that the report structure of companies was marketing: 26.2%, combined non-technical departments (marketing, sales, and business development): 30.7%, and combined technical departments (product, engineering, and CTO): 44.1%.
+
+
+=== Salary structure ===
+Annual salaries for DevRel practitioners vary from less than US$50,000 to over $250,000 in some cases. A survey from 2021 indicates that the largest segment of annual salaries was between $100,000 and $150,000.
+
+
+== Companies practicing DevRel ==
+
+
+=== Developer-first versus developer-plus companies ===
+Organizations which practice DevRel may be Developer-first or Developer-plus (aka Dev +) depending on their primary business model. Developer-First companies (e.g., Stripe, Camunda, PerceptiLabs, Unity, and Twilio) have a business-to-developer model (B2D) focused on selling products specifically designed to be used by developers. Developer-Plus companies (e.g., Slack, Spotify, Apple, Qualcomm, and Santander) tend to be business-to-business (B2B) or business-to-consumer (B2C). While the primary focus of Developer-Plus companies is to create and sell products for businesses or consumers, they also make products or services available to developers which benefit or enhance their strategy including: opening new market channels, creating new use cases, contributing to innovation strategies, or optimizing/enhancing existing products.In 2021, a survey showed that 63.6% of organizations with DevRel programs were Developer-Plus, and 36.4% were Developer-First.
+
+
+=== Developer influence and market sizing ===
+Regardless of Developer-Plus or Developer-First, companies are recognizing the growing power developers have in influencing purchasing decisions. This includes new companies focused on making tools for developers, and existing companies whose primary focus was elsewhere, which are now recognizing the developer opportunity. Thus, business leaders are now involved in starting new DevRel programs at their companies or increasing the impact of their existing programs.Products or services targeted at developers comprise an estimated $49 billion (in 2021) Developer-Led landscape that spans many categories including:
+Software Delivery Lifecycle (SDLC): SDLC solutions for processes such as designing, developing, and testing software.
+Dev Tools: Tools for building software.
+Dev Infrastructure: Hardware and software that support the distributed, repeatable construction of software.
+Dev Platforms: Developer-interfacing, code-first, and API-only runtimes.Twilio, is an example of a Developer-First company, and more specifically an API-first company, that helped to shape the API economy (business models and practices designed around APIs), popularize DevRel programs, and became known for platform evangelism. Notably, their three-word billboard in Silicon Valley that simply said: "Ask Your Developer", followed by the Twilio logo, is credited with having started conversations between executives and developers in strategic decision making.
+
+
+=== Breakdown by region ===
+DevRel initiatives are practiced by organizations around the globe. In 2021, the breakdown of companies practicing DevRel globally were primarily in North America (Canada and the US – 61.5%) and Europe (Eastern Europe, Western Europe, and the UK – 21.6%). Other countries/regions include Australia/New Zealand, China, India, and the Middle East.
+
+
+=== Breakdown by industries ===
+While DevRel is primarily prevalent in IT/IS it is also used in other industries. The general breakdown in 2021 was:
+Information Technology/Services 44.6%
+SaaS 20.5%
+Telecom 6.2%
+Financial services 7.7%
+
+
+== Professional events ==
+DevRelCon is an annual DevRel event that has been hosted by hoopy.io since 2015. It covers DevRel, DX, community, and developer marketing, and has been held in various cities around the world including London, Tokyo, and San Francisco.DevRelCon's DevRel Awards celebrate the best of developer relations by highlighting individuals, teams, and initiatives driving developer advocacy, marketing, community, education, and experience.
+
+
+== References ==

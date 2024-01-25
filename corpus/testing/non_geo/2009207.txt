@@ -1,0 +1,394 @@
+The small-angle approximations can be used to approximate the values of the main trigonometric functions, provided that the angle in question is small and is measured in radians:
+
+  
+    
+      
+        
+          
+            
+              
+                sin
+                ⁡
+                θ
+              
+              
+                
+                ≈
+                θ
+              
+            
+            
+              
+                cos
+                ⁡
+                θ
+              
+              
+                
+                ≈
+                1
+                −
+                
+                  
+                    
+                      θ
+                      
+                        2
+                      
+                    
+                    2
+                  
+                
+                ≈
+                1
+              
+            
+            
+              
+                tan
+                ⁡
+                θ
+              
+              
+                
+                ≈
+                θ
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\sin \theta &\approx \theta \\\cos \theta &\approx 1-{\frac {\theta ^{2}}{2}}\approx 1\\\tan \theta &\approx \theta \end{aligned}}}
+  These approximations have a wide range of uses in branches of physics and engineering, including mechanics, electromagnetism, optics, cartography, astronomy, and computer science. One reason for this is that they can greatly simplify differential equations that do not need to be answered with absolute precision.
+There are a number of ways to demonstrate the validity of the small-angle approximations. The most direct method is to truncate the Maclaurin series for each of the trigonometric functions. Depending on the order of the approximation, 
+  
+    
+      
+        
+          cos
+          ⁡
+          θ
+        
+      
+    
+    {\displaystyle \textstyle \cos \theta }
+   is approximated as either 
+  
+    
+      
+        1
+      
+    
+    {\displaystyle 1}
+   or as 
+  
+    
+      
+        1
+        −
+        
+          
+            
+              θ
+              
+                2
+              
+            
+            2
+          
+        
+      
+    
+    {\textstyle 1-{\frac {\theta ^{2}}{2}}}
+  .
+
+
+== Justifications ==
+
+
+=== Graphic ===
+The accuracy of the approximations can be seen below in Figure 1 and Figure 2. As the measure of the angle approaches zero, the difference between the approximation and the original function also approaches 0.
+
+			
+			
+		
+		
+			
+			
+		
+
+
+=== Geometric ===
+
+The red section on the right, d, is the difference between the lengths of the hypotenuse, H, and the adjacent side, A. As is shown, H and A are almost the same length, meaning cos θ is close to 1 and θ2/2 helps trim the red away.
+
+The opposite leg, O, is approximately equal to the length of the blue arc, s. Gathering facts from geometry, s = Aθ, from trigonometry, sin θ = O/H and tan θ = O/A, and from the picture, O ≈ s and H ≈ A leads to:
+
+Simplifying leaves,
+
+
+=== Calculus ===
+Using the squeeze theorem, we can prove that
+ which is a formal restatement of the approximation 
+  
+    
+      
+        sin
+        ⁡
+        (
+        θ
+        )
+        ≈
+        θ
+      
+    
+    {\displaystyle \sin(\theta )\approx \theta }
+   for small values of θ.
+A more careful application of the squeeze theorem proves that  from which we conclude that 
+  
+    
+      
+        tan
+        ⁡
+        (
+        θ
+        )
+        ≈
+        θ
+      
+    
+    {\displaystyle \tan(\theta )\approx \theta }
+   for small values of θ.
+Finally, L'Hôpital's rule tells us that  which rearranges to 
+  
+    
+      
+        cos
+        ⁡
+        (
+        θ
+        )
+        ≈
+        1
+        −
+        
+          
+            
+              θ
+              
+                2
+              
+            
+            2
+          
+        
+      
+    
+    {\textstyle \cos(\theta )\approx 1-{\frac {\theta ^{2}}{2}}}
+   for small values of θ. Alternatively, we can use the double angle formula 
+  
+    
+      
+        cos
+        ⁡
+        2
+        A
+        ≡
+        1
+        −
+        2
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        A
+      
+    
+    {\displaystyle \cos 2A\equiv 1-2\sin ^{2}A}
+  . By letting 
+  
+    
+      
+        θ
+        =
+        2
+        A
+      
+    
+    {\displaystyle \theta =2A}
+  , we get that 
+  
+    
+      
+        cos
+        ⁡
+        θ
+        =
+        1
+        −
+        2
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        
+          
+            θ
+            2
+          
+        
+        ≈
+        1
+        −
+        
+          
+            
+              θ
+              
+                2
+              
+            
+            2
+          
+        
+      
+    
+    {\textstyle \cos \theta =1-2\sin ^{2}{\frac {\theta }{2}}\approx 1-{\frac {\theta ^{2}}{2}}}
+  .
+
+
+=== Algebraic ===
+The Maclaurin expansion (the Taylor expansion about 0) of the relevant trigonometric function is
+where θ is the angle in radians. In clearer terms, 
+
+It is readily seen that the second most significant (third-order) term falls off as the cube of the first term; thus, even for a not-so-small argument such as 0.01, the value of the second most significant term is on the order of 0.000001, or 1/10000 the first term. One can thus safely approximate: 
+
+By extension, since the cosine of a small angle is very nearly 1, and the tangent is given by the sine divided by the cosine, 
+
+
+==== Dual numbers ====
+By using the Maclaurin series of cosine and sine and substituting in θ=θε, where ε is the symbol used in dual numbers, often considered similar to an infinitesimal amount, with a square of 0, the result is that cos(θε)=1 and sin(θε)=θε. These approximations satisfy the Pythagorean Identity, as cos²(θε)+sin²(θε)=1²+(θε)²=1+θ²ε²=1+θ²0=1.
+
+
+== Error of the approximations ==
+Figure 3 shows the relative errors of the small angle approximations. The angles at which the relative error exceeds 1% are as follows:
+
+cos θ ≈ 1 at about 0.1408 radians (8.07°)
+tan θ ≈ θ at about 0.1730 radians (9.91°)
+sin θ ≈ θ at about 0.2441 radians (13.99°)
+cos θ ≈ 1 − θ2/2 at about 0.6620 radians (37.93°)
+
+
+== Angle sum and difference ==
+The angle addition and subtraction theorems reduce to the following when one of the angles is small (β ≈ 0):
+
+
+== Specific uses ==
+
+
+=== Astronomy ===
+In astronomy, the angular size or angle subtended by the image of a distant object is often only a few arcseconds, so it is well suited to the small angle approximation. The linear size (D) is related to the angular size (X) and the distance from the observer (d) by the simple formula:
+
+  
+    
+      
+        D
+        =
+        X
+        
+          
+            d
+            
+              206
+              
+              265
+            
+          
+        
+      
+    
+    {\displaystyle D=X{\frac {d}{206\,265}}}
+  where X is measured in arcseconds.
+The number 206265 is approximately equal to the number of arcseconds in a circle (1296000), divided by 2π, or, the number of arcseconds in 1 radian.
+The exact formula is
+
+  
+    
+      
+        D
+        =
+        d
+        tan
+        ⁡
+        
+          (
+          
+            X
+            
+              
+                
+                  2
+                  π
+                
+                
+                  1
+                  
+                  296
+                  
+                  000
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle D=d\tan \left(X{\frac {2\pi }{1\,296\,000}}\right)}
+  and the above approximation follows when tan X is replaced by X.
+
+
+=== Motion of a pendulum ===
+The second-order cosine approximation is especially useful in calculating the potential energy of a pendulum, which can then be applied with a Lagrangian to find the indirect (energy) equation of motion.
+When calculating the period of a simple pendulum, the small-angle approximation for sine is used to allow the resulting differential equation to be solved easily by comparison with the differential equation describing simple harmonic motion.
+
+
+=== Optics ===
+In optics, the small-angle approximations form the basis of the paraxial approximation.
+
+
+=== Wave Interference ===
+The sine and tangent small-angle approximations are used in relation to the double-slit experiment or a diffraction grating to simplify equations, e.g. 'fringe spacing' = 'wavelength' × 'distance from slits to screen' ÷ 'slit separation'.
+
+
+=== Structural mechanics ===
+The small-angle approximation also appears in structural mechanics, especially in stability and bifurcation analyses (mainly of axially-loaded columns ready to undergo buckling). This leads to significant simplifications, though at a cost in accuracy and insight into the true behavior.
+
+
+=== Piloting ===
+The 1 in 60 rule used in air navigation has its basis in the small-angle approximation, plus the fact that one radian is approximately 60 degrees.
+
+
+=== Interpolation ===
+The formulas for addition and subtraction involving a small angle may be used for interpolating between trigonometric table values:
+Example: sin(0.755)
+
+where the values for sin(0.75) and cos(0.75) are obtained from trigonometric table.
+
+
+== See also ==
+Skinny triangle
+Small oscillations of a pendulum
+Paraxial approximation
+Versine and haversine
+Exsecant and excosecant
+
+
+== References ==

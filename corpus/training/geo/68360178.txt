@@ -1,0 +1,46 @@
+Ecological overshoot is the phenomenon which occurs when the demands made on a natural ecosystem exceed its regenerative capacity. Global ecological overshoot occurs when the demands made by humanity exceed what the biosphere of Earth can provide through its capacity for renewal.
+
+
+== Record of global ecological overshoot ==
+To determine whether ecological overshoot is happening requires the collection of global and nation-specific data regarding the availability of natural resources, the capability of the ecosystems to renew any natural resources that were consumed, and the rate at which the resources are being consumed, usually assessed for each calendar year. 
+This data collection, and analysis is typically done by scientific and conservation organisations, such as the Global Footprint Network, which collects data to assess the ecological footprint of each country and the global community.  
+Ecological data collected so far reveals that the global community has been exceeding the regenerative capacity of the Earth since 1970, which was the year when the consumption capacity of humanity first exceeded the biocapacity the Earth. Each year since 1970 humanity has witnessed global ecological overshoot.
+
+
+=== Earth Overshoot Day ===
+This problem is highlighted each year on Earth Overshoot Day, an illustrative calendar date obtained through calculation, on which day humanity's resource consumption for the year is considered to have exceeded the Earth’s capacity to regenerate those resources for that year.
+
+
+== Global ecological debt ==
+This ecological debt is often referred to as our global 'ecological overshoot'. The data from the Global Footprint Network has been used to create the graph below, it shows that since the 1970s the global population is increasingly compromising the Earth's ecosystem.  The red section of the graph indicates that the global population have been accruing a global ecological overshoot since 1970.  This means that the rate at which we are using natural resources exceeds the time required by the ecosystems to regenerate the resources and absorb the waste products that are involved.  
+The continued over-exploitation of natural resources results in ever more severe damage to global ecosystems over time, this has destabilised many micro ecosystems causing increasing extinction rates and the macro ecosystems are coming under increasing pressure. In this way humans are currently exceeding the carrying capacity of Earth as we increase the ecological overshoot each year. The IPAT equation attempts to quantify the environmental impact ("I") of the human population ("P"), their  affluence ("A") and technology ("T").  Furthermore the Jevons paradox warns us that increasing our efficiency using technology will usually result in increased ecological damage. 
+
+
+== Causes ==
+The majority of the world currently follow an economic paradigm that seeks to grow all three of the IPAT parameters: population size, affluence and use of technology.  These behaviour patterns are causing escalating environmental damage and there is evidence for growing risk of ecological collapse.The outcomes from various possible human behaviour scenarios have been explored in a demographic model developed by Prof Chris Bystroff. According to the Bystroff predictions, continuing with the growth economic paradigm will result in a rapid decrease in population numbers halving global population by 2040. The Bystroff predictions are echoed in further research by Dr William E. Rees, who originally developed the concept of Ecological Footprint. This research states that to reduce ecological overshoot it is necessary to reduce economic consumption drastically to stop growing the economy and to repay the accrued ecological debt by restoration and rewilding back to the one planet level or less. A recent review of the World 3 demographic model by KPMG also concludes that humans need to rethink their pursuit of economic growth or anticipate collapse by 2040. For countries that have already achieved social affluence, although their social performance and resource utilization levels are high, the ecological overshoot brought about by these developments is still maintaining a continuously increasing trend. On the other hand, many low-income countries tried increasing their per capita wealth through economic activities to improve their social shortfalls. However, their social development is slower than the resulting increase in ecological overshoot. In this case, the ecological environment will be more overwhelmed.It is important to bear in mind that the data collected by the Global Footprint Network (GFN) makes the assumption that the whole biocapacity of the Earth is entirely at the disposal of humanity. However it is evident that we need biodiversity in order to survive, therefore unless we reserve some of the global biocapacity for other species we cannot survive. Several organisations argue that to reinstate biodiversity to levels comparable to those preceding the high extinction rates associated with the ongoing Holocene extinction event, at least 50% of the Earths biocapacity would need to be protected as nature reserve areas which are kept free from human intervention.  This suggestion was presented in the book titled Half Earth. Global Footprint Network data shows that for over 50 years humanity has been stressing the ecosystems on the planet beyond their ability to recover.A crisis of human behaviour (the Human Behavioural Crisis) has been highlighted as the driver of anthropogenic ecological overshoot in a peer-reviewed World Scientists' Warning paper led by Joseph J. Merz and co-authored by William E. Rees, Phoebe Barnard et al.
+
+
+== Effects ==
+The most well known symptom of ecological overshoot is the rising extinction rate.  Pandemics of zoonotic diseases, like COVID-19 also become increasingly likely with overpopulation and global travel because we encroach on wildlife habitats and accelerate the spread.  Biocapacity is measured by calculating the amount of biologically productive land and sea area available to provide the resources a population consumes and to absorb its wastes, given the prevailing technology and management practices. Countries differ in the productivity of their ecosystems, and this is reflected in the country-wise accounts kept by the GFN. A country has an ecological reserve if its Ecological footprint is smaller than its biocapacity; otherwise it is operating with an ecological overshoot. The former are often referred to as ecological creditors, and the latter as ecological debtors. Today, most countries, and the world as a whole, are in ecological overshoot. Over 85% of the world population lives in countries operating with an ecological overshoot.  
+
+
+== Solving the problem of Ecological Overshoot ==
+
+The pursuit of growth economics relies on continual increase in our numbers and our consumption.  Several economists have been challenging the wisdom of this prevailing discipline for many years.  Those suggesting a new economic paradigm can be considered collectively as advocates for degrowth.
+
+
+== See also ==
+Haber–Bosch process
+
+
+== References ==
+
+
+== Further reading ==
+The Population Bomb, by Paul R. Ehrlich
+"Too Much Food, Too Many People on a Finite Planet". Steven Earl Salmony. redersupportednews.org (Original: The Herald Sun).
+"The Root Cause of Human Population Growth". Steven Earl Salmony. Media Monitor's Network. 28 July 2019.
+
+
+== External links ==
+EarthOvershoot.org

@@ -1,0 +1,706 @@
+Madhava's sine table is the table of trigonometric sines constructed by the 14th century Kerala mathematician-astronomer Madhava of Sangamagrama (c. 1340 – c. 1425). The table lists the jya-s or Rsines of the twenty-four angles from 3.75° to 90° in steps of 3.75° (1/24 of a right angle, 90°). Rsine is just the sine multiplied by a selected radius and given as an integer. In this table, as in Aryabhata's earlier table, R is taken as 21600 ÷ 2π ≈ 3437.75.
+The table is encoded in the letters of the Sanskrit alphabet using the Katapayadi system, giving entries the appearance of the verses of a poem.
+Madhava's original work containing the table has not been found. The table is reproduced in the Aryabhatiyabhashya of Nilakantha Somayaji(1444–1544) and also in the Yuktidipika/Laghuvivrti commentary of Tantrasamgraha by Sankara Variar (circa. 1500-1560).: 114–123 The verses below are given as in Cultural foundations of mathematics by C.K. Raju.: 114–123  They are also given in the Malayalam Commentary of Karanapaddhati by P.K. Koru but slightly differently.
+
+
+== The table ==
+The verses are:
+
+The quarters of the first six verses represent entries for the twenty-four angles from 3.75° to 90° in steps of 3.75° (first column). The second column contains the Rsine values encoded as Sanskrit words (in Devanagari). The third column contains the same in ISO 15919 transliterations. The fourth column contains the numbers decoded into arcminutes, arcseconds, and arcthirds in modern numerals. The modern values scaled by the traditional “radius” (21600 ÷ 2π, with the modern value of π) with two decimals in the arcthirds are given in the fifth column. 
+
+The last verse means: “These are the great R-sines as said by Madhava, comprising arcminutes, seconds and thirds. Subtracting from each the previous will give the R-sine-differences.”
+By comparing, one can note that Madhava's values are accurately given rounded to the declared precision of thirds except for Rsin(15°) where one feels he should have rounded up to 889′45″16‴ instead.
+Note that in the Katapayadi system the digits are written in the reverse order, so for example the literal entry corresponding to 15° is 51549880 which is reversed and then read as 0889′45″15‴. Note that the 0 does not carry a value but is used for the metre of the poem alone.
+
+
+== A simple way of understanding the table ==
+Without going into the philosophy of why the value of R = 21600 ÷ 2π was chosen etc, the simplest way to relate the jya tables to our modern concept of sine tables is as follows:
+Even today sine tables are given as decimals to a certain precision. If sin(15°) is given as 0.1736, it means the rational 1736 ÷ 10000 is a good approximation of the actual infinite precision number. The only difference is that in the earlier days they had not standardized on decimal values (or powers of ten as denominator) for fractions. Hence they used other denominators based on other considerations (which are not discussed here).
+Hence the sine values represented in the tables may simply be taken as approximated by the given integer values divided by the R chosen for the table.
+Another possible confusion point is the usage of angle measures like arcminute etc in expressing the R-sines. Modern sines are unitless ratios. Jya-s or R-sines are the same multiplied by a measure of length or distance. However, since these tables were mostly used for astronomy, and distance on the celestial sphere is expressed in angle measures, these values are also given likewise. However, the unit is not really important and need not be taken too seriously, as the value will anyhow be used as part of a rational and the unit will cancel out.
+However, this also leads to the usage of sexagesimal subdivisions in Madhava's refining the earlier table of Aryabhata. Instead of choosing a larger R, he gave the extra precision determined by him on top of the earlier given minutes by using seconds and thirds. As before, these may simply be taken as a different way of expressing fractions and not necessarily as angle measures.
+
+
+== Another (more difficult) way to understand the values ==
+Consider some angle whose measure is A. Consider a circle of unit radius and center O. Let the arc PQ of the circle subtend an angle A at the center O. Drop the perpendicular QR from Q to OP; then the length of the line segment RQ is the value of the trigonometric sine of the angle A. Let PS be an arc of the circle whose length is equal to the length of the segment RQ. For various angles A, Madhava's table gives the measures of the corresponding angles 
+  
+    
+      
+        ∠
+      
+    
+    {\displaystyle \angle }
+  POS in arcminutes, arcseconds and sixtieths of an arcsecond.
+As an example, let A be an angle whose measure is 22.50°. In Madhava's table, the entry corresponding to 22.50° is the measure in arcminutes, arcseconds and sixtieths of an arcsecond of the angle whose radian measure is the value of sin 22.50°, which is 0.3826834;
+
+multiply 0.3826834 radians by 180/π to convert to 21.92614 degrees, which is
+1315 arcminutes 34 arcseconds 07 sixtieths of an arcsecond, abbreviated 13153407.For an angle whose measure is A, let
+
+  
+    
+      
+        ∠
+        P
+        O
+        S
+        =
+        m
+        
+           arcminutes, 
+        
+        s
+        
+           arcseconds, 
+        
+        t
+        
+           sixtieths of an arcsecond
+        
+      
+    
+    {\displaystyle \angle POS=m{\text{ arcminutes, }}s{\text{ arcseconds, }}t{\text{ sixtieths of an arcsecond}}}
+  Then:
+
+  
+    
+      
+        
+          
+            
+              
+                sin
+                ⁡
+                (
+                A
+                )
+              
+              
+                
+                =
+                R
+                Q
+              
+            
+            
+              
+              
+                
+                =
+                
+                  length of arc 
+                
+                P
+                S
+              
+            
+            
+              
+              
+                
+                =
+                ∠
+                P
+                O
+                S
+                
+                   in radians
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\sin(A)&=RQ\\&={\text{length of arc }}PS\\&=\angle POS{\text{ in radians}}\\\end{aligned}}}
+  
+
+
+== Derivation of trigonometric sines from the table ==
+Each of the lines in the table specifies eight digits. Let the digits corresponding to angle A (read from left to right) be:
+
+  
+    
+      
+        
+          d
+          
+            1
+          
+        
+        
+        
+          d
+          
+            2
+          
+        
+        
+        
+          d
+          
+            3
+          
+        
+        
+        
+          d
+          
+            4
+          
+        
+        
+        
+          d
+          
+            5
+          
+        
+        
+        
+          d
+          
+            6
+          
+        
+        
+        
+          d
+          
+            7
+          
+        
+        
+        
+          d
+          
+            8
+          
+        
+      
+    
+    {\displaystyle d_{1}\quad d_{2}\quad d_{3}\quad d_{4}\quad d_{5}\quad d_{6}\quad d_{7}\quad d_{8}}
+  Then according to the rules of the Katapayadi system they should be taken from right to left and we have:
+
+  
+    
+      
+        
+          
+            
+              
+                m
+              
+              
+                
+                =
+                
+                  d
+                  
+                    8
+                  
+                
+                ×
+                1000
+                +
+                
+                  d
+                  
+                    7
+                  
+                
+                ×
+                100
+                +
+                
+                  d
+                  
+                    6
+                  
+                
+                ×
+                10
+                +
+                
+                  d
+                  
+                    5
+                  
+                
+              
+            
+            
+              
+                s
+              
+              
+                
+                =
+                
+                  d
+                  
+                    4
+                  
+                
+                ×
+                10
+                +
+                
+                  d
+                  
+                    3
+                  
+                
+              
+            
+            
+              
+                t
+              
+              
+                
+                =
+                
+                  d
+                  
+                    2
+                  
+                
+                ×
+                10
+                +
+                
+                  d
+                  
+                    1
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}m&=d_{8}\times 1000+d_{7}\times 100+d_{6}\times 10+d_{5}\\s&=d_{4}\times 10+d_{3}\\t&=d_{2}\times 10+d_{1}\end{aligned}}}
+  
+  
+    
+      
+        B
+        =
+        
+          m
+          
+            ′
+          
+        
+        
+          s
+          
+            ′
+            ′
+          
+        
+        
+          t
+          
+            ′
+            ′
+            ′
+          
+        
+        =
+        
+          
+            
+              1
+              
+                ∘
+              
+            
+            60
+          
+        
+        
+          (
+          
+            m
+            +
+            
+              
+                s
+                60
+              
+            
+            +
+            
+              
+                t
+                
+                  60
+                  ×
+                  60
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle B=m^{\prime }s^{\prime \prime }t^{\prime \prime \prime }={\frac {1^{\circ }}{60}}\left(m+{\frac {s}{60}}+{\frac {t}{60\times 60}}\right)}
+  The value of the above angle B expressed in radians will correspond to the sine value of A.
+
+  
+    
+      
+        sin
+        ⁡
+        (
+        A
+        )
+        =
+        
+          
+            π
+            180
+          
+        
+        B
+      
+    
+    {\displaystyle \sin(A)={\frac {\pi }{180}}B}
+  As said earlier, this is the same as dividing the encoded value by the taken R value:
+
+  
+    
+      
+        sin
+        ⁡
+        (
+        A
+        )
+        =
+        
+          
+            B
+            
+              
+                21600
+                
+                  ′
+                
+              
+              
+                2
+                π
+              
+            
+          
+        
+      
+    
+    {\displaystyle \sin(A)={\frac {B}{\frac {21600^{\prime }}{2\pi }}}}
+  
+
+
+== Example ==
+The table lists the following digits corresponding to the angle A = 45.00°:
+
+  
+    
+      
+        5
+        
+        1
+        
+        1
+        
+        5
+        
+        0
+        
+        3
+        
+        4
+        
+        2
+      
+    
+    {\displaystyle 5\quad 1\quad 1\quad 5\quad 0\quad 3\quad 4\quad 2}
+  This yields the angle with measure:
+
+  
+    
+      
+        
+          
+            
+              
+                m
+              
+              
+                
+                =
+                2
+                ×
+                1000
+                +
+                4
+                ×
+                100
+                +
+                3
+                ×
+                10
+                +
+                0
+                
+                   arcminutes
+                
+              
+            
+            
+              
+              
+                
+                =
+                2430
+                
+                   arcminutes
+                
+              
+            
+            
+              
+                s
+              
+              
+                
+                =
+                5
+                ×
+                10
+                +
+                1
+                
+                   arcseconds
+                
+              
+            
+            
+              
+              
+                
+                =
+                51
+                
+                   arcseconds
+                
+              
+            
+            
+              
+                t
+              
+              
+                
+                =
+                1
+                ×
+                10
+                +
+                5
+                
+                   sixtieths of an arcsecond
+                
+              
+            
+            
+              
+              
+                
+                =
+                15
+                
+                   sixtieths of an arcsecond
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}m&=2\times 1000+4\times 100+3\times 10+0{\text{ arcminutes}}\\&=2430{\text{ arcminutes}}\\s&=5\times 10+1{\text{ arcseconds}}\\&=51{\text{ arcseconds}}\\t&=1\times 10+5{\text{ sixtieths of an arcsecond}}\\&=15{\text{ sixtieths of an arcsecond}}\end{aligned}}}
+  From which we get:
+
+  
+    
+      
+        B
+        =
+        
+          
+            
+              1
+              
+                ∘
+              
+            
+            60
+          
+        
+        
+          (
+          
+            2430
+            +
+            
+              
+                51
+                60
+              
+            
+            +
+            
+              
+                15
+                
+                  60
+                  ×
+                  60
+                
+              
+            
+          
+          )
+        
+        =
+        
+          
+            116681
+            2880
+          
+        
+      
+    
+    {\displaystyle B={\frac {1^{\circ }}{60}}\left(2430+{\frac {51}{60}}+{\frac {15}{60\times 60}}\right)={\frac {116681}{2880}}}
+  The value of the sine of A = 45.00° as given in Madhava's table is then just B converted to radians:
+
+  
+    
+      
+        sin
+        ⁡
+        
+          45
+          
+            ∘
+          
+        
+        =
+        
+          
+            π
+            180
+          
+        
+        B
+        =
+        
+          
+            π
+            180
+          
+        
+        ×
+        
+          
+            116681
+            2880
+          
+        
+      
+    
+    {\displaystyle \sin 45^{\circ }={\frac {\pi }{180}}B={\frac {\pi }{180}}\times {\frac {116681}{2880}}}
+  Evaluating the above, one can find that sin 45° is 0.70710681… This is accurate to 6 decimal places.
+
+
+== Madhava's method of computation ==
+No work of Madhava detailing the methods used by him for the computation of the sine table has survived. However from the writings of later Kerala mathematicians including Nilakantha Somayaji (Tantrasangraha) and Jyeshtadeva (Yuktibhāṣā) that give ample references to Madhava's accomplishments, it is conjectured that Madhava computed his sine table using the power series expansion of sin x:
+
+  
+    
+      
+        sin
+        ⁡
+        x
+        =
+        x
+        −
+        
+          
+            
+              x
+              
+                3
+              
+            
+            
+              3
+              !
+            
+          
+        
+        +
+        
+          
+            
+              x
+              
+                5
+              
+            
+            
+              5
+              !
+            
+          
+        
+        −
+        
+          
+            
+              x
+              
+                7
+              
+            
+            
+              7
+              !
+            
+          
+        
+        +
+        ⋯
+      
+    
+    {\displaystyle \sin x=x-{\frac {x^{3}}{3!}}+{\frac {x^{5}}{5!}}-{\frac {x^{7}}{7!}}+\cdots }
+  
+
+
+== See also ==
+Madhava series
+Madhava's correction term
+Madhava's value of π
+Āryabhaṭa's sine table
+Ptolemy's table of chords
+
+
+== References ==
+
+
+== Further references ==
+Bag, A.K. (1976). "Madhava's sine and cosine series" (PDF). Indian Journal of History of Science. Indian National Academy of Science. 11 (1): 54–57. Archived from the original (PDF) on 5 July 2015. Retrieved 21 August 2016.
+For an account of Madhava's computation of the sine table see : Van Brummelen, Glen (2009). The mathematics of the heavens and the earth : the early history of trigonometry. Princeton: Princeton University Press. pp. 113–120. ISBN 978-0-691-12973-0.
+For a thorough discussion of the computation of Madhava's sine table with historical references : C.K. Raju (2007). Cultural foundations of mathematics: The nature of mathematical proof and the transmission of calculus from India to Europe in the 16 thc. CE. History of Philosophy, Science and Culture in Indian Civilization. Vol. X Part 4. Delhi: Centre for Studies in Civilizations. pp. 114–123.

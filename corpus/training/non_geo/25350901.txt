@@ -1,0 +1,470 @@
+cis is a mathematical notation defined by cis x = cos x + i sin x, where cos is the cosine function, i is the imaginary unit and sin is the sine function. x is the argument of the complex number (angle between line to point and x-axis in polar form). The notation is less commonly used in mathematics than Euler's formula, eix, which offers an even shorter notation for cos x + i sin x, but cis(x) is widely used as a name for this function in software libraries.
+
+
+== Overview ==
+The cis notation is a shorthand for the combination of functions on the right-hand side of Euler's formula:
+
+  
+    
+      
+        
+          e
+          
+            i
+            x
+          
+        
+        =
+        cos
+        ⁡
+        x
+        +
+        i
+        sin
+        ⁡
+        x
+        ,
+      
+    
+    {\displaystyle e^{ix}=\cos x+i\sin x,}
+  where i2 = −1. So,
+
+  
+    
+      
+        cis
+        ⁡
+        x
+        =
+        cos
+        ⁡
+        x
+        +
+        i
+        sin
+        ⁡
+        x
+        ,
+      
+    
+    {\displaystyle \operatorname {cis} x=\cos x+i\sin x,}
+  i.e. "cis" is an acronym for "Cos i Sin".
+It connects trigonometric functions with exponential functions in the complex plane via Euler's formula. While the domain of definition is usually 
+  
+    
+      
+        x
+        ∈
+        
+          R
+        
+      
+    
+    {\displaystyle x\in \mathbb {R} }
+  , complex values 
+  
+    
+      
+        z
+        ∈
+        
+          C
+        
+      
+    
+    {\displaystyle z\in \mathbb {C} }
+   are possible as well:
+
+  
+    
+      
+        cis
+        ⁡
+        z
+        =
+        cos
+        ⁡
+        z
+        +
+        i
+        sin
+        ⁡
+        z
+        ,
+      
+    
+    {\displaystyle \operatorname {cis} z=\cos z+i\sin z,}
+  so the cis function can be used to extend Euler's formula to a more general complex version.The function is mostly used as a convenient shorthand notation to simplify some expressions, for example in conjunction with Fourier and Hartley transforms, or when exponential functions shouldn't be used for some reason in math education.
+In information technology, the function sees dedicated support in various high-performance math libraries (such as Intel's Math Kernel Library (MKL) or MathCW), available for many compilers, programming languages (including C, C++, Common Lisp, D, Fortran, Haskell, Julia, and Rust), and operating systems (including Windows, Linux, macOS and HP-UX). Depending on the platform the fused operation is about twice as fast as calling the sine and cosine functions individually.
+
+
+== Mathematical identities ==
+
+
+=== Derivative ===
+
+  
+    
+      
+        
+          
+            
+              d
+            
+            
+              
+                d
+              
+              z
+            
+          
+        
+        cis
+        ⁡
+        z
+        =
+        i
+        cis
+        ⁡
+        z
+        =
+        i
+        
+          e
+          
+            i
+            z
+          
+        
+      
+    
+    {\displaystyle {\frac {\mathrm {d} }{\mathrm {d} z}}\operatorname {cis} z=i\operatorname {cis} z=ie^{iz}}
+  
+
+
+=== Integral ===
+
+  
+    
+      
+        ∫
+        cis
+        ⁡
+        z
+        
+        
+          d
+        
+        z
+        =
+        −
+        i
+        cis
+        ⁡
+        z
+        =
+        −
+        i
+        
+          e
+          
+            i
+            z
+          
+        
+      
+    
+    {\displaystyle \int \operatorname {cis} z\,\mathrm {d} z=-i\operatorname {cis} z=-ie^{iz}}
+  
+
+
+=== Other properties ===
+These follow directly from Euler's formula.
+
+  
+    
+      
+        cos
+        ⁡
+        (
+        x
+        )
+        =
+        
+          
+            
+              cis
+              ⁡
+              (
+              x
+              )
+              +
+              cis
+              ⁡
+              (
+              −
+              x
+              )
+            
+            2
+          
+        
+        =
+        
+          
+            
+              
+                e
+                
+                  i
+                  x
+                
+              
+              +
+              
+                e
+                
+                  −
+                  i
+                  x
+                
+              
+            
+            2
+          
+        
+      
+    
+    {\displaystyle \cos(x)={\frac {\operatorname {cis} (x)+\operatorname {cis} (-x)}{2}}={\frac {e^{ix}+e^{-ix}}{2}}}
+  
+
+  
+    
+      
+        sin
+        ⁡
+        (
+        x
+        )
+        =
+        
+          
+            
+              cis
+              ⁡
+              (
+              x
+              )
+              −
+              cis
+              ⁡
+              (
+              −
+              x
+              )
+            
+            
+              2
+              i
+            
+          
+        
+        =
+        
+          
+            
+              
+                e
+                
+                  i
+                  x
+                
+              
+              −
+              
+                e
+                
+                  −
+                  i
+                  x
+                
+              
+            
+            
+              2
+              i
+            
+          
+        
+      
+    
+    {\displaystyle \sin(x)={\frac {\operatorname {cis} (x)-\operatorname {cis} (-x)}{2i}}={\frac {e^{ix}-e^{-ix}}{2i}}}
+  
+  
+    
+      
+        cis
+        ⁡
+        (
+        x
+        +
+        y
+        )
+        =
+        cis
+        ⁡
+        x
+        
+        cis
+        ⁡
+        y
+      
+    
+    {\displaystyle \operatorname {cis} (x+y)=\operatorname {cis} x\,\operatorname {cis} y}
+  
+
+  
+    
+      
+        cis
+        ⁡
+        (
+        x
+        −
+        y
+        )
+        =
+        
+          
+            
+              cis
+              ⁡
+              x
+            
+            
+              cis
+              ⁡
+              y
+            
+          
+        
+      
+    
+    {\displaystyle \operatorname {cis} (x-y)={\operatorname {cis} x \over \operatorname {cis} y}}
+  The identities above hold if x and y are any complex numbers. If x and y are real, then
+
+  
+    
+      
+        
+          |
+        
+        cis
+        ⁡
+        x
+        −
+        cis
+        ⁡
+        y
+        
+          |
+        
+        ≤
+        
+          |
+        
+        x
+        −
+        y
+        
+          |
+        
+        .
+      
+    
+    {\displaystyle |\operatorname {cis} x-\operatorname {cis} y|\leq |x-y|.}
+  
+
+
+== History ==
+The cis notation was first coined by William Rowan Hamilton in Elements of Quaternions (1866) and subsequently used by Irving Stringham (who also called it "sector of x") in works such as Uniplanar Algebra (1893), James Harkness and Frank Morley in their Introduction to the Theory of Analytic Functions (1898), or by George Ashley Campbell (who also referred to it as "cisoidal oscillation") in his works on transmission lines (1901) and Fourier integrals (1928).In 1942, inspired by the cis notation, Ralph V. L. Hartley introduced the cas (for cosine-and-sine) function for the real-valued Hartley kernel, a meanwhile established shortcut in conjunction with Hartley transforms:
+
+  
+    
+      
+        cas
+        ⁡
+        x
+        =
+        cos
+        ⁡
+        x
+        +
+        sin
+        ⁡
+        x
+        .
+      
+    
+    {\displaystyle \operatorname {cas} x=\cos x+\sin x.}
+  In 2016, Reza R. Ahangar, a mathematics professor at TAMUK, defined two hyperbolic function shortcuts as:
+
+  
+    
+      
+        cish
+        ⁡
+        x
+        =
+        cosh
+        ⁡
+        x
+        +
+        i
+        sinh
+        ⁡
+        x
+      
+    
+    {\displaystyle \operatorname {cish} x=\cosh x+i\sinh x}
+  
+
+  
+    
+      
+        sich
+        ⁡
+        x
+        =
+        sinh
+        ⁡
+        x
+        +
+        i
+        cosh
+        ⁡
+        x
+      
+    
+    {\displaystyle \operatorname {sich} x=\sinh x+i\cosh x}
+  
+
+
+== Motivation ==
+The cis notation is sometimes used to emphasize one method of viewing and dealing with a problem over another. The mathematics of trigonometry and exponentials are related but not exactly the same; exponential notation emphasizes the whole, whereas cis x and cos x + i sin x notations emphasize the parts. This can be rhetorically useful to mathematicians and engineers when discussing this function, and further serve as a mnemonic (for cos + i sin).The cis notation is convenient for math students whose knowledge of trigonometry and complex numbers permit this notation, but whose conceptual understanding does not yet permit the notation eix.  As students learn concepts that build on prior knowledge, it is important not to force them into levels of math for which they are not yet prepared: the usual proof that cis x = eix requires calculus, which the student may not have studied before encountering the expression cos x + i sin x.
+This notation was more common when typewriters were used to convey mathematical expressions.
+
+
+== See also ==
+De Moivre's formula
+Euler's formula
+Complex number
+Ptolemy's theorem
+Phasor
+Versor
+
+
+== Notes ==
+
+
+== References ==

@@ -1,0 +1,24 @@
+An antitoxin is an antibody with the ability to neutralize a specific toxin. Antitoxins are produced by certain animals, plants, and bacteria in response to toxin exposure. Although they are most effective in neutralizing toxins, they can also kill bacteria and other microorganisms. Antitoxins are made within organisms, and can be injected into other organisms, including humans, to treat an infectious disease. This procedure involves injecting an animal  with a safe amount of a particular toxin. The animal's body then makes the antitoxin needed to neutralize the toxin. Later, blood is withdrawn from the animal. When the antitoxin is obtained from the blood, it is purified and injected into a human or other animal, inducing temporary passive immunity. To prevent serum sickness, it is often best to use an antitoxin obtained from the same species (e.g. use human antitoxin to treat humans).
+Most antitoxin preparations are prepared from donors with high titers of antibody against the toxin, making them hyperimmune globulins.
+
+
+== History of antitoxin ==
+Antitoxins to diphtheria and tetanus toxins were produced by Emil Adolf von Behring and his colleagues from 1890 onwards. The use of diphtheria antitoxin for the treatment of diphtheria was regarded by The Lancet as the "most important advance of the [19th] Century in the medical treatment of acute infectious disease".In 1888, Behring was sent to Berlin for a brief service at the Academy for Military Medicine. In 1889, he joined the Institute for Hygiene of the University of Berlin, then headed by Robert Koch. Between 1889 and 1895, Behring developed his pioneering ideas on serum therapy and his theory of antitoxins.Early 1887, in Bonn, Behring had found that the serum of tetanus-immune white rats contained a substance that neutralized anthrax bacilli. He recognized this as the source of their "resistance". On 4 December 1890, Behring and Kitasato Shibasaburō published their first paper on blood-serum therapy. On 11 December, another report, signed by Behring, discussed blood-serum therapy not only in the treatment of tetanus, but also in diphtheria.When Paul Ehrlich demonstrated in 1891 that even vegetable poisons led to the formation of antitoxins in an organism, Behring's theory was confirmed.An antitoxin for scarlet fever was developed in 1924, simultaneously by Raymond Dochez and Gladys and George Frederick Dick.
+
+
+== 21st-century serum therapy ==
+
+
+== See also ==
+Toxin-antitoxin system
+Vaccination
+Jim (horse)
+Antiserum
+
+
+== References ==
+
+
+== External links ==
+Shiel, William C. Jr. (4 December 2018). "Medical definition of antitoxin". medterms.com. 2289.
+Antitoxins at the U.S. National Library of Medicine Medical Subject Headings (MeSH)

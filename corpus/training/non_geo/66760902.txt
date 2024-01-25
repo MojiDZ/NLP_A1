@@ -1,0 +1,13 @@
+Psychoinformatics is an emerging interdisciplinary field that uses principles from computer science for the acquisition, organization, and synthesis of data collected from psychology to reveal information about psychological traits such as personality and mood. The term may also be used in context of affective computing or character computing.
+Psychology has historically relied on experiments and questionnaires in order to collect data. These methods face several disadvantages, namely that experiments often consist of a small quantity of users (who must be incentivized to participate) and self-reported questionnaires and interviews are subject to bias and unreliable memory. Psychoinformatics solves these problems by storing Big Data related to psychology (such as communications on smartphones or social media websites) and then data mining for relevant psychological information.
+
+
+== See also ==
+affective computing
+Bioinformatics
+Neuroinformatics
+Psychometrics
+Quantitative psychology
+
+
+== References ==

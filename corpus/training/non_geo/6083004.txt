@@ -1,0 +1,19 @@
+Correlates of immunity or correlates of protection to a virus or other infectious pathogen are measurable signs that a person (or other potential host) is immune, in the sense of being protected against becoming infected and/or developing disease. 
+For many viruses, antibodies and especially neutralizing antibodies serve as a correlate of immunity. Pregnant women, for example, are routinely screened in the UK for rubella antibodies to confirm their immunity, which can cause serious congenital abnormalities in their children. In contrast, for HIV, the simple presence of antibodies is not a correlate of immunity/protection since infected individuals develop antibodies without protection against the disease. 
+The fact that the correlates of immunity/protection remain unclear is a significant barrier to HIV vaccine research. There is evidence that some highly exposed individuals can develop resistance to HIV infection, suggesting that immunity and therefore a vaccine is possible. However, without knowing the correlates of immunity, scientists cannot know exactly what sort of immune response a vaccine would need to stimulate, and the only method of assessing vaccine effectiveness will be through large phase III trials with clinical outcomes (i.e. infection and/or disease, not just laboratory markers).Multiple studies used predictive markers to validate higher levels of neutralizing antibodies corresponding with lower likelihood of breakthrough infection after vaccination in COVID-19.
+
+
+== See also ==
+Immunological memory
+Immunization
+Vaccination
+Seroconversion
+Serostatus
+
+
+== References ==
+
+
+== Further reading ==
+International AIDS Vaccine Initiative
+HIV Vaccine Trials Network

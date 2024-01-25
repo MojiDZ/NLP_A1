@@ -1,0 +1,52 @@
+In immunology, central tolerance (also known as negative selection) is the process of eliminating any developing T or B lymphocytes that are autoreactive, i.e. reactive to the body itself. Through elimination of autoreactive lymphocytes, tolerance ensures that the immune system does not attack self peptides. Lymphocyte maturation (and central tolerance) occurs in primary lymphoid organs such as the bone marrow and the thymus. In mammals, B cells mature in the bone marrow and T cells mature in the thymus.Central tolerance is not perfect, so peripheral tolerance exists as a secondary mechanism to ensure that T and B cells are not self-reactive once they leave primary lymphoid organs. Peripheral tolerance is distinct from central tolerance in that it occurs once developing immune cells exit primary lymphoid organs (the thymus and bone-marrow), prior to their export into the periphery.
+
+
+== Function ==
+Central tolerance is essential to proper immune cell functioning because it helps ensure that mature B cells and T cells do not recognize self-antigens as foreign microbes. More specifically, central tolerance is necessary because T cell receptors (TCRs) and B cell receptors (BCRs) are made by cells through random somatic rearrangement. This process, known as V(D)J recombination, is important because it increases the receptor diversity which increases the likelihood that B cells and T cells will have receptors for novel antigens. Junctional diversity occurs during recombination and serves to further increase the diversity of BCRs and TCRs. The production of random TCRs and BCRs is an important method of defense against microbes due to their high mutation rate. This process also plays an important role in promoting the survival of a species, because there will be a variety of receptor arrangements within a species – this enables a very high chance of at least one member of the species having receptors for a novel antigen.While the process of somatic recombination is essential to a successful immune defense, it can lead to autoreactivity. For example, lack of functional RAG1/2, enzymes necessary for somatic recombination, has been linked to development of immune cytopenias in which antibodies are produced against the patient's blood cells. Due to the nature of a random receptor recombination, there will be some BCRs and TCRs produced that recognize self antigens as foreign. This is problematic, since these B and T cells would, if activated, mount an immune response against self if not killed or inactivated by central tolerance mechanisms. Therefore, without central tolerance, the immune system could attack self, which is not sustainable and could result in an autoimmune disorder.
+
+
+== Mechanism ==
+The result of central tolerance is a population of lymphocytes that do not mount immune response towards self-antigens. These cells use their TCR or BCR specificity to recognize foreign antigens, in order to play their specific roles in immune reaction against those antigens.In this way, the mechanisms of central tolerance ensure that lymphocytes that would recognise self-antigens in a way that could endanger the host, are not released into the periphery. 
+It is of note that T cells, despite tolerance mechanisms, are at least to some extent self-reactive. TCR of conventional T cells must be able to recognize parts of major histocompatibility complex (MHC) molecules (MHC class I in case of CD8+ T cells or MHC class II in case of CD4+ T cells) to create proper interaction with antigen-presenting cell. Furthermore, TCRs of regulatory T cells (Treg cells) are directly reactive towards self-antigens (although their self-reactivity is not very strong) and use this autoreactivity to regulate immune reactions by supressing immune system when it should not be active).    Importantly, lymphocytes can only develop tolerance towards antigens that are present in the bone marrow (for B cells) and thymus (for T cells). 
+
+
+=== T cell ===
+T cell progenitors (also called thymocytes) are created in the bone marrow and then migrate to the thymus where they continue their development.   During this development, the thymocytes perform the V(D)J recombination and some of the developping T cell clones produce TCR that is completely unfunctional (unable to bind peptide-MHC complexes) and some produce TCR that is self-reactive and could therefore promote autoimmunity.   These "problematic" clones are therefore removed from the pool of T cells by specific mechanisms. 
+First, during "positive selection" the thymocytes are tested, ehether their TCR works properly and those with unfunctional TCR are removed by apoptosis.   The mechanism has its name because it selects for survival only those thymocytes whose TCRs do interact with peptide-MHC complexes on antigen presenting cells in the thymus. 
+During the late stage of positive selection, another process called "MHC restricition" (or lineage commitment) takes place. In this process the thymocytes whose TCR recognize with MHCI (MHC class I) molecules become CD4- CD8+ and thymocytes whose TCR recognize MHCII (MHC class II) become CD4+ CD8-. 
+Susequently the positively selected thymocytes go through "negative selection" which tests the thymocytes for self-reactivity. The cells that are strongly self-reactive (and therefore prone to attacking the host cells) are removed by apoptosis. Thymocytes that are still self-reactive, but only slightly develop into T regulatory (Treg) cells. Thymocytes that are not self-reactive become mature naïve T cells. Both the Treg and mature naïve T cells subsequently migrate to the secondary lymphoid organs.    The negative selection has its name because it selects for survival only those thymocytes whose TCRs do not interact (or interact only slightly) with peptide-MHC complexes on antigen presenting cells in the thymus. 
+Two other terms - recesive and dominant tolerance are also important regarding the T cell central tolerance. Both the terms refer to two possible ways of tolerance establishment towards particular antigen (typically self antigen). The "recesive tolerance" means that the antigen is tolerated via deletion of those T cells that would facilitate immune response against the antigen (deletion of autoreactive cells in negative selection). The "dominant tolerance" means that the T cell clones specific for the antigen are deviated into Treg cells and therefore supress the immune response against the antigen (Treg selection during the negative selection).    Steps of T cell tolerance 
+During positive selection, T cells are checked for their ability to bind peptide-MHC complexes with affinity. If the T cell cannot bind the MHC class I or MHC class II complex, it does not receive survival signals, so it dies via apoptosis. T cell receptors with sufficient affinity for peptide-MHC complexes are selected for survival.
+Depending on whether the T cell binds MHC I or II, it will become a CD8+ or CD4+ T cell, respectively.
+Positive selection occurs in the thymic cortex with the help of thymic epithelial cells that contain surface MHC I and MHC II molecules.
+During negative selection, T cells are tested for their affinity to self. If they bind a self peptide, then they are signaled to apoptose (process of clonal deletion).
+The thymic epithelial cells display self antigen to the T cells to test their affinity for self.
+Transcriptional regulators AIRE and Fezf2 play important roles in the expression of self tissue antigens on the thymic epithelial cells in the thymus.
+Negative selection occurs in the cortico-medullary junction and in the thymic medulla.
+The T cells that do not bind self, but do recognize antigen/MHC complexes, and are either CD4+ or CD8+, migrate to secondary lymphoid organs as mature naïve T cells.Regulatory T cells are another type of T cell that mature in the thymus. Selection of T reg cells occurs in the thymic medulla and is accompanied by the transcription of FOXP3. T reg cells are important for regulating autoimmunity by suppressing the immune system when it should not be active.
+
+
+=== B cell ===
+Immature B cells in the bone marrow undergo negative selection when they bind self peptides.Properly functioning B cell receptors recognize non-self antigen, or pathogen-associated molecular proteins (PAMPs).Main outcomes of autoreactivity of BCRs
+Apoptosis (clonal deletion)
+Receptor editing: the self-reactive B cell changes specificity by rearranging genes and develops a new BCR that does not respond to self. This process gives the B cell a chance for editing the BCR before it is signaled to apoptose or becomes anergic.
+Induction of anergy (a state of non-reactivity)
+
+
+== Genetic diseases ==
+Genetic defects in central tolerance can lead to autoimmunity.
+
+Autoimmune Polyendocrinopathy Syndrome Type I is caused by mutations in the human gene AIRE. This leads to a lack of expression of peripheral antigens in the thymus, and hence a lack of negative selection towards key peripheral proteins such as insulin. Multiple autoimmune symptoms result.
+
+
+== History ==
+The first use of central tolerance was by Ray Owen in 1945 when he noticed that dizygotic twin cattle did not produce antibodies when one of the twins was injected with the other's blood. His findings were confirmed by later experiments by Hasek and Billingham. The results were explained by Burnet's clonal selection hypothesis. Burnet and Medawar won the Nobel Prize in 1960 for their work in explaining how immune tolerance works.
+
+
+== See also ==
+Autoimmunity
+Immunology
+Peripheral tolerance
+
+
+== References ==

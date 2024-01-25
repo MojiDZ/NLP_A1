@@ -1,0 +1,2158 @@
+Estimation theory, or estimation of signal parameters via rotational invariant techniques (ESPRIT) is a technique to determine parameters of a mixture of sinusoids in a background noise. This technique is first proposed for frequency estimation, however, with the introduction of phased-array systems in everyday technology, it is also used for angle of arrival estimations.
+
+
+== General description ==
+
+
+=== System model ===
+The model under investigation is the following (1-D version):
+This model describes a system which is fed with 
+  
+    
+      
+        K
+      
+    
+    {\textstyle K}
+   inputs signals 
+  
+    
+      
+        
+          x
+          
+            k
+          
+        
+        [
+        t
+        ]
+        ∈
+        
+          C
+        
+      
+    
+    {\textstyle x_{k}[t]\in \mathbb {C} }
+  , with 
+  
+    
+      
+        k
+        =
+        1
+        ,
+        …
+        ,
+        K
+      
+    
+    {\textstyle k=1,\ldots ,K}
+  , and which produces 
+  
+    
+      
+        M
+      
+    
+    {\textstyle M}
+   output signals 
+  
+    
+      
+        
+          y
+          
+            m
+          
+        
+        [
+        t
+        ]
+        ∈
+        
+          C
+        
+      
+    
+    {\textstyle y_{m}[t]\in \mathbb {C} }
+  , with 
+  
+    
+      
+        m
+        =
+        1
+        ,
+        …
+        ,
+        M
+      
+    
+    {\textstyle m=1,\ldots ,M}
+  . The system's output is sampled at discrete time instances 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  .  All 
+  
+    
+      
+        K
+      
+    
+    {\textstyle K}
+   input signals are weighted and summed up. There are separate weights 
+  
+    
+      
+        
+          a
+          
+            m
+            ,
+            k
+          
+        
+      
+    
+    {\textstyle a_{m,k}}
+   for each input signal and for each output signal. The quantity 
+  
+    
+      
+        
+          n
+          
+            m
+          
+        
+        [
+        t
+        ]
+        ∈
+        
+          C
+        
+      
+    
+    {\textstyle n_{m}[t]\in \mathbb {C} }
+   denotes noise added by the system.
+The one-dimensional form of ESPRIT can be applied if the weights have the following form.That is, the weights are complex exponentials and the phases are integer multiples of some radial frequency 
+  
+    
+      
+        
+          w
+          
+            k
+          
+        
+      
+    
+    {\displaystyle w_{k}}
+  . Note that this frequency only depends on the index of system's input!
+The goal of ESPRIT is to estimate the radial frequencies 
+  
+    
+      
+        
+          w
+          
+            k
+          
+        
+      
+    
+    {\displaystyle w_{k}}
+   given the outputs 
+  
+    
+      
+        
+          y
+          
+            m
+          
+        
+        [
+        t
+        ]
+        ∈
+        
+          C
+        
+      
+    
+    {\textstyle y_{m}[t]\in \mathbb {C} }
+   and the number of input signals 
+  
+    
+      
+        K
+      
+    
+    {\textstyle K}
+  .
+Since, the radial frequencies are the actual objectives, we will change notation from 
+  
+    
+      
+        
+          a
+          
+            m
+            ,
+            k
+          
+        
+      
+    
+    {\textstyle a_{m,k}}
+   to 
+  
+    
+      
+        
+          a
+          
+            m
+          
+        
+        (
+        
+          w
+          
+            k
+          
+        
+        )
+      
+    
+    {\textstyle a_{m}(w_{k})}
+  .Let us now change to a vector notation by putting the weights 
+  
+    
+      
+        
+          a
+          
+            m
+          
+        
+        (
+        
+          w
+          
+            k
+          
+        
+        )
+      
+    
+    {\textstyle a_{m}(w_{k})}
+   in a column vector 
+  
+    
+      
+        
+          a
+        
+        (
+        
+          w
+          
+            k
+          
+        
+        )
+      
+    
+    {\displaystyle \mathbf {a} (w_{k})}
+  .Now, the system model can be rewritten using 
+  
+    
+      
+        
+          a
+        
+        (
+        
+          w
+          
+            k
+          
+        
+        )
+      
+    
+    {\textstyle \mathbf {a} (w_{k})}
+   and the output vector 
+  
+    
+      
+        
+          y
+        
+        [
+        t
+        ]
+      
+    
+    {\textstyle \mathbf {y} [t]}
+   as follows.
+
+
+=== Dividing into virtual sub-arrays ===
+The basis of ESPRIT is that the weight vector 
+  
+    
+      
+        
+          a
+        
+        (
+        
+          w
+          
+            k
+          
+        
+        )
+      
+    
+    {\textstyle \mathbf {a} (w_{k})}
+   has the property that adjacent entries are related as follows:
+
+In order to write down this property for the whole vector 
+  
+    
+      
+        
+          a
+        
+        (
+        
+          w
+          
+            k
+          
+        
+        )
+      
+    
+    {\displaystyle \mathbf {a} (w_{k})}
+   we define two selection matrices 
+  
+    
+      
+        
+          
+            J
+          
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \mathbf {J} _{1}}
+  and 
+  
+    
+      
+        
+          
+            J
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \mathbf {J} _{2}}
+  :Here, 
+  
+    
+      
+        
+          
+            I
+          
+          
+            M
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle \mathbf {I} _{M-1}}
+   is an identity matrix of size 
+  
+    
+      
+        (
+        M
+        −
+        1
+        )
+        ×
+        (
+        M
+        −
+        1
+        )
+      
+    
+    {\textstyle (M-1)\times (M-1)}
+   and 
+  
+    
+      
+        
+          0
+        
+      
+    
+    {\displaystyle \mathbf {0} }
+   is a vector of zeros. The vector 
+  
+    
+      
+        
+          
+            J
+          
+          
+            1
+          
+        
+        
+          a
+        
+        (
+        
+          w
+          
+            k
+          
+        
+        )
+      
+    
+    {\displaystyle \mathbf {J} _{1}\mathbf {a} (w_{k})}
+   contains all elements of 
+  
+    
+      
+        
+          a
+        
+        (
+        
+          w
+          
+            k
+          
+        
+        )
+      
+    
+    {\displaystyle \mathbf {a} (w_{k})}
+   except the last one. The vector 
+  
+    
+      
+        
+          
+            J
+          
+          
+            2
+          
+        
+        
+          a
+        
+        (
+        
+          w
+          
+            k
+          
+        
+        )
+      
+    
+    {\displaystyle \mathbf {J} _{2}\mathbf {a} (w_{k})}
+   contains all elements of 
+  
+    
+      
+        
+          a
+        
+        (
+        
+          w
+          
+            k
+          
+        
+        )
+      
+    
+    {\displaystyle \mathbf {a} (w_{k})}
+   except the first one. Therefore, we can write:In general, we have multiple sinusoids with radial frequencies 
+  
+    
+      
+        
+          w
+          
+            1
+          
+        
+        ,
+        
+          w
+          
+            2
+          
+        
+        ,
+        .
+        .
+        .
+        
+          w
+          
+            K
+          
+        
+      
+    
+    {\displaystyle w_{1},w_{2},...w_{K}}
+  . Therefore, we put the corresponding weight vectors 
+  
+    
+      
+        
+          a
+        
+        (
+        
+          w
+          
+            1
+          
+        
+        )
+        ,
+        
+          a
+        
+        (
+        
+          w
+          
+            2
+          
+        
+        )
+        ,
+        .
+        .
+        .
+        ,
+        
+          a
+        
+        (
+        
+          w
+          
+            K
+          
+        
+        )
+      
+    
+    {\displaystyle \mathbf {a} (w_{1}),\mathbf {a} (w_{2}),...,\mathbf {a} (w_{K})}
+   into a Vandermonde matrix 
+  
+    
+      
+        
+          A
+        
+      
+    
+    {\displaystyle \mathbf {A} }
+  .Moreover, we define a matrix 
+  
+    
+      
+        
+          H
+        
+      
+    
+    {\displaystyle \mathbf {H} }
+   which has complex exponentials on its main diagonal and zero in all other places.
+Now, we can write down the property 
+  
+    
+      
+        
+          a
+        
+        (
+        
+          w
+          
+            k
+          
+        
+        )
+      
+    
+    {\displaystyle \mathbf {a} (w_{k})}
+   for the whole matrix 
+  
+    
+      
+        
+          A
+        
+      
+    
+    {\displaystyle \mathbf {A} }
+  .Note: 
+  
+    
+      
+        
+          H
+        
+      
+    
+    {\displaystyle \mathbf {H} }
+   is multiplied from the right such that it scales each column of 
+  
+    
+      
+        
+          A
+        
+      
+    
+    {\displaystyle \mathbf {A} }
+   by the same value.
+In the next sections, we will use the following matrices:
+
+Here, 
+  
+    
+      
+        
+          
+            A
+          
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \mathbf {A} _{1}}
+   contains the first 
+  
+    
+      
+        M
+        −
+        1
+      
+    
+    {\displaystyle M-1}
+   rows of 
+  
+    
+      
+        
+          A
+        
+      
+    
+    {\displaystyle \mathbf {A} }
+  , while 
+  
+    
+      
+        
+          
+            A
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \mathbf {A} _{2}}
+   contains the last 
+  
+    
+      
+        M
+        −
+        1
+      
+    
+    {\displaystyle M-1}
+   rows of 
+  
+    
+      
+        
+          A
+        
+      
+    
+    {\displaystyle \mathbf {A} }
+  .
+Hence, the basic property becomes:
+
+Notice that 
+  
+    
+      
+        
+          H
+        
+      
+    
+    {\displaystyle \mathbf {H} }
+   applies a rotation to the matrix 
+  
+    
+      
+        
+          
+            A
+          
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \mathbf {A} _{1}}
+   in the complex plane. ESPRIT exploits similar rotations from the covariance matrix of the measured data.
+
+
+=== Signal subspace ===
+The relation 
+  
+    
+      
+        
+          
+            A
+          
+          
+            2
+          
+        
+        =
+        
+          
+            A
+          
+          
+            1
+          
+        
+        
+          H
+        
+      
+    
+    {\displaystyle \mathbf {A} _{2}=\mathbf {A} _{1}\mathbf {H} }
+   is the first major observation required for ESPRIT. The second major observation concerns the signal subspace that can be computed from the output signals 
+  
+    
+      
+        
+          y
+        
+        [
+        t
+        ]
+      
+    
+    {\textstyle \mathbf {y} [t]}
+  .
+We will now look at multiple time instances 
+  
+    
+      
+        t
+        =
+        1
+        ,
+        2
+        ,
+        3
+        ,
+        …
+        ,
+        T
+      
+    
+    {\textstyle t=1,2,3,\dots ,T}
+  . For each time instance, we measure an output vector 
+  
+    
+      
+        
+          y
+        
+        [
+        t
+        ]
+      
+    
+    {\textstyle \mathbf {y} [t]}
+  . Let 
+  
+    
+      
+        
+          Y
+        
+      
+    
+    {\textstyle \mathbf {Y} }
+   denote the matrix of size 
+  
+    
+      
+        M
+        ×
+        T
+      
+    
+    {\displaystyle M\times T}
+   comprising all of these measurements.
+Likewise, let us put all input signals 
+  
+    
+      
+        
+          x
+          
+            k
+          
+        
+        [
+        t
+        ]
+      
+    
+    {\textstyle x_{k}[t]}
+   into a matrix 
+  
+    
+      
+        
+          X
+        
+      
+    
+    {\textstyle \mathbf {X} }
+  .
+The same we do for the noise components:
+The system model can now be written as
+The singular value decomposition (SVD) of 
+  
+    
+      
+        
+          Y
+        
+      
+    
+    {\textstyle \mathbf {Y} }
+   is given aswhere 
+  
+    
+      
+        
+          U
+        
+      
+    
+    {\textstyle \mathbf {U} }
+   and 
+  
+    
+      
+        
+          V
+        
+      
+    
+    {\textstyle \mathbf {V} }
+   are unitary matrices of sizes 
+  
+    
+      
+        M
+        ×
+        M
+      
+    
+    {\textstyle M\times M}
+   and 
+  
+    
+      
+        T
+        ×
+        T
+      
+    
+    {\textstyle T\times T}
+  , respectively. 
+  
+    
+      
+        
+          E
+        
+      
+    
+    {\textstyle \mathbf {E} }
+   is a non-rectangular diagonal matrix of size 
+  
+    
+      
+        M
+        ×
+        T
+      
+    
+    {\textstyle M\times T}
+   that holds the singular values from largest (top left) in descending order. The operator * denotes the complex-conjugate transpose (Hermitian transpose)
+Let us assume that 
+  
+    
+      
+        T
+        ≥
+        M
+      
+    
+    {\textstyle T\geq M}
+  , which means that the number of times 
+  
+    
+      
+        T
+      
+    
+    {\textstyle T}
+   that we conduct a measurement is at least as large as the number of output signals 
+  
+    
+      
+        M
+      
+    
+    {\textstyle M}
+  .
+Notice that in the system model we have 
+  
+    
+      
+        K
+      
+    
+    {\textstyle K}
+   input signals. We presume that the 
+  
+    
+      
+        K
+      
+    
+    {\textstyle K}
+   largest singular values stem from these input signals. All other singular values are presumed to stem from noise. That is, if there was no noise, there would only be 
+  
+    
+      
+        K
+      
+    
+    {\textstyle K}
+   non-zero singular values. We will now decompose each SVD matrix into submatrices where some submatrices correspond to the input signals and some correspond to the input noise, respectively:Here, 
+  
+    
+      
+        
+          
+            U
+          
+          
+            
+              S
+            
+          
+        
+        ∈
+        
+          
+            C
+          
+          
+            M
+            ×
+            K
+          
+        
+      
+    
+    {\textstyle \mathbf {U} _{\mathrm {S} }\in \mathbb {C} ^{M\times K}}
+   and 
+  
+    
+      
+        
+          
+            V
+          
+          
+            
+              S
+            
+          
+        
+        ∈
+        
+          
+            C
+          
+          
+            N
+            ×
+            K
+          
+        
+      
+    
+    {\textstyle \mathbf {V} _{\mathrm {S} }\in \mathbb {C} ^{N\times K}}
+   contain the first 
+  
+    
+      
+        K
+      
+    
+    {\textstyle K}
+   columns of  
+  
+    
+      
+        
+          U
+        
+      
+    
+    {\textstyle \mathbf {U} }
+   and 
+  
+    
+      
+        
+          V
+        
+      
+    
+    {\textstyle \mathbf {V} }
+  , respectively. 
+  
+    
+      
+        
+          
+            E
+          
+          
+            
+              S
+            
+          
+        
+        ∈
+        
+          
+            C
+          
+          
+            K
+            ×
+            K
+          
+        
+      
+    
+    {\textstyle \mathbf {E} _{\mathrm {S} }\in \mathbb {C} ^{K\times K}}
+  is a diagonal matrix comprising the 
+  
+    
+      
+        K
+      
+    
+    {\textstyle K}
+   largest singular values. The SVD can equivalently be written as follows.
+  
+    
+      
+        
+          
+            U
+          
+          
+            
+              S
+            
+          
+        
+      
+    
+    {\textstyle \mathbf {U} _{\mathrm {S} }}
+  , 
+  
+    
+      
+        
+          
+            V
+          
+          
+            
+              S
+            
+          
+        
+      
+    
+    {\textstyle \mathbf {V} _{\mathrm {S} }}
+  , and 
+  
+    
+      
+        
+          
+            E
+          
+          
+            
+              S
+            
+          
+        
+      
+    
+    {\textstyle \mathbf {E} _{\mathrm {S} }}
+   represent the contribution of the input signal 
+  
+    
+      
+        
+          x
+          
+            k
+          
+        
+        [
+        t
+        ]
+      
+    
+    {\textstyle x_{k}[t]}
+   to 
+  
+    
+      
+        
+          Y
+        
+      
+    
+    {\textstyle \mathbf {Y} }
+  . Therefore, we will call 
+  
+    
+      
+        
+          
+            U
+          
+          
+            
+              S
+            
+          
+        
+      
+    
+    {\textstyle \mathbf {U} _{\mathrm {S} }}
+   the signal subspace. In contrast, 
+  
+    
+      
+        
+          
+            U
+          
+          
+            
+              N
+            
+          
+        
+      
+    
+    {\textstyle \mathbf {U} _{\mathrm {N} }}
+  , 
+  
+    
+      
+        
+          
+            V
+          
+          
+            
+              N
+            
+          
+        
+      
+    
+    {\textstyle \mathbf {V} _{\mathrm {N} }}
+  , and 
+  
+    
+      
+        
+          
+            E
+          
+          
+            
+              N
+            
+          
+        
+      
+    
+    {\textstyle \mathbf {E} _{\mathrm {N} }}
+   represent the contribution of noise 
+  
+    
+      
+        
+          n
+          
+            m
+          
+        
+        [
+        t
+        ]
+      
+    
+    {\textstyle n_{m}[t]}
+   to 
+  
+    
+      
+        
+          Y
+        
+      
+    
+    {\textstyle \mathbf {Y} }
+  .
+Hence, by using the system model we can write:andBy modifying the second-last equation, we get:That is, the signal subspace 
+  
+    
+      
+        
+          
+            U
+          
+          
+            
+              S
+            
+          
+        
+      
+    
+    {\textstyle \mathbf {U} _{\mathrm {S} }}
+   is the product of the matrix 
+  
+    
+      
+        
+          A
+        
+      
+    
+    {\textstyle \mathbf {A} }
+   and some other matrix 
+  
+    
+      
+        
+          F
+        
+      
+    
+    {\textstyle \mathbf {F} }
+  . In the following, it is only important that there exist such an invertible matrix 
+  
+    
+      
+        
+          F
+        
+      
+    
+    {\textstyle \mathbf {F} }
+  . Its actual content will not be important.
+Note:
+The signal subspace is usually not computed from the measurement matrix 
+  
+    
+      
+        
+          Y
+        
+      
+    
+    {\textstyle \mathbf {Y} }
+  . Instead, one may use the auto-correlation matrix.
+Hence, 
+  
+    
+      
+        
+          
+            R
+          
+          
+            
+              Y
+              Y
+            
+          
+        
+      
+    
+    {\textstyle \mathbf {R} _{\mathrm {YY} }}
+   can be decomposed into signal subspace and noise subspace
+
+
+=== Putting the things together ===
+These are the two basic properties that are known now:
+
+Let us start with the equation on the right:
+
+Define these abbreviations for the truncated signal subspaces:Moreover, define this matrix:Note that the left-hand side of the last equation has the form of an eigenvalue decomposition, where the eigenvalues are stored in the matrix 
+  
+    
+      
+        
+          H
+        
+      
+    
+    {\displaystyle \mathbf {H} }
+  . As defined in some earlier section, 
+  
+    
+      
+        
+          H
+        
+      
+    
+    {\displaystyle \mathbf {H} }
+   stores complex exponentials on its main diagonals. Their phases are the sought-after radial frequencies 
+  
+    
+      
+        
+          w
+          
+            1
+          
+        
+        ,
+        
+          w
+          
+            2
+          
+        
+        ,
+        .
+        .
+        .
+        
+          w
+          
+            K
+          
+        
+      
+    
+    {\displaystyle w_{1},w_{2},...w_{K}}
+  .
+Using these abbreviations, the following form is obtained:
+
+The idea is now that, if we could compute 
+  
+    
+      
+        
+          P
+        
+      
+    
+    {\displaystyle \mathbf {P} }
+   from this equation, we would be able to find the eigenvalues of 
+  
+    
+      
+        
+          P
+        
+      
+    
+    {\displaystyle \mathbf {P} }
+   which in turn would give us the radial frequencies. However, 
+  
+    
+      
+        
+          
+            S
+          
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \mathbf {S} _{1}}
+   is generally not invertible. For that, a least squares solution can be used
+
+
+=== Estimation of radial frequencies ===
+The eigenvalues 
+  
+    
+      
+        
+          λ
+          
+            1
+          
+        
+        ,
+        
+          λ
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          λ
+          
+            K
+          
+        
+      
+    
+    {\textstyle \lambda _{1},\lambda _{2},\ldots ,\lambda _{K}}
+   of P are complex numbers:The estimated radial frequencies 
+  
+    
+      
+        
+          w
+          
+            1
+          
+        
+        ,
+        
+          w
+          
+            2
+          
+        
+        ,
+        .
+        .
+        .
+        
+          w
+          
+            K
+          
+        
+      
+    
+    {\displaystyle w_{1},w_{2},...w_{K}}
+   are the phases (angles) of the eigenvalues 
+  
+    
+      
+        
+          λ
+          
+            1
+          
+        
+        ,
+        
+          λ
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          λ
+          
+            K
+          
+        
+      
+    
+    {\textstyle \lambda _{1},\lambda _{2},\ldots ,\lambda _{K}}
+  .
+
+
+== Algorithm summary ==
+Collect measurements 
+  
+    
+      
+        
+          y
+        
+        [
+        1
+        ]
+        ,
+        
+          y
+        
+        [
+        2
+        ]
+        ,
+        …
+        ,
+        
+          y
+        
+        [
+        T
+        ]
+      
+    
+    {\textstyle \mathbf {y} [1],\mathbf {y} [2],\ldots ,\mathbf {y} [T]}
+  .
+If not already known: Estimate the number of input signals 
+  
+    
+      
+        K
+      
+    
+    {\textstyle K}
+  .
+Compute auto-correlation matrix.
+Compute singular value decomposition (SVD) of 
+  
+    
+      
+        
+          
+            R
+          
+          
+            
+              Y
+              Y
+            
+          
+        
+      
+    
+    {\textstyle \mathbf {R} _{\mathrm {YY} }}
+   and extract the signal subspace 
+  
+    
+      
+        
+          
+            U
+          
+          
+            
+              S
+            
+          
+        
+        ∈
+        
+          
+            C
+          
+          
+            M
+            ×
+            K
+          
+        
+      
+    
+    {\textstyle \mathbf {U} _{\mathrm {S} }\in \mathbb {C} ^{M\times K}}
+  .
+Compute matrices 
+  
+    
+      
+        
+          
+            S
+          
+          
+            
+              1
+            
+          
+        
+      
+    
+    {\textstyle \mathbf {S} _{\mathrm {1} }}
+   and 
+  
+    
+      
+        
+          
+            S
+          
+          
+            
+              2
+            
+          
+        
+      
+    
+    {\textstyle \mathbf {S} _{\mathrm {2} }}
+  .where 
+  
+    
+      
+        
+          
+            J
+          
+          
+            1
+          
+        
+        =
+        [
+        
+          
+            I
+          
+          
+            M
+            −
+            1
+          
+        
+        
+        
+          0
+        
+        ]
+      
+    
+    {\displaystyle \mathbf {J} _{1}=[\mathbf {I} _{M-1}\quad \mathbf {0} ]}
+   and 
+  
+    
+      
+        
+          
+            J
+          
+          
+            2
+          
+        
+        =
+        [
+        
+          0
+        
+        
+        
+          
+            I
+          
+          
+            M
+            −
+            1
+          
+        
+        ]
+      
+    
+    {\displaystyle \mathbf {J} _{2}=[\mathbf {0} \quad \mathbf {I} _{M-1}]}
+  .
+Solve the equation  for 
+  
+    
+      
+        
+          P
+        
+      
+    
+    {\textstyle \mathbf {P} }
+  . An example would be the least squares solution:(Here, * denotes the Hermitian (conjugate) transpose.)  An alternative would be the total least squares solution.
+Compute the eigenvalues 
+  
+    
+      
+        
+          λ
+          
+            1
+          
+        
+        ,
+        
+          λ
+          
+            2
+          
+        
+        ,
+        …
+        ,
+        
+          λ
+          
+            K
+          
+        
+      
+    
+    {\textstyle \lambda _{1},\lambda _{2},\ldots ,\lambda _{K}}
+   of 
+  
+    
+      
+        
+          P
+        
+      
+    
+    {\textstyle \mathbf {P} }
+  .
+The phases of the eigenvalues 
+  
+    
+      
+        
+          λ
+          
+            k
+          
+        
+        =
+        
+          α
+          
+            k
+          
+        
+        
+          
+            e
+          
+          
+            j
+            
+              ω
+              
+                k
+              
+            
+          
+        
+      
+    
+    {\textstyle \lambda _{k}=\alpha _{k}\mathrm {e} ^{j\omega _{k}}}
+   are the sought-after radial frequencies 
+  
+    
+      
+        
+          ω
+          
+            k
+          
+        
+      
+    
+    {\textstyle \omega _{k}}
+  .
+
+
+== Notes ==
+
+
+=== Choice of selection matrices ===
+In the derivation above, the selection matrices 
+  
+    
+      
+        
+          
+            J
+          
+          
+            1
+          
+        
+      
+    
+    {\textstyle \mathbf {J} _{1}}
+   and 
+  
+    
+      
+        
+          
+            J
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \mathbf {J} _{2}}
+   were used. For simplicity, they were defined as  
+  
+    
+      
+        
+          
+            J
+          
+          
+            1
+          
+        
+        =
+        [
+        
+          
+            I
+          
+          
+            M
+            −
+            1
+          
+        
+        
+        
+          0
+        
+        ]
+      
+    
+    {\displaystyle \mathbf {J} _{1}=[\mathbf {I} _{M-1}\quad \mathbf {0} ]}
+   and 
+  
+    
+      
+        
+          
+            J
+          
+          
+            2
+          
+        
+        =
+        [
+        
+          0
+        
+        
+        
+          
+            I
+          
+          
+            M
+            −
+            1
+          
+        
+        ]
+      
+    
+    {\displaystyle \mathbf {J} _{2}=[\mathbf {0} \quad \mathbf {I} _{M-1}]}
+  . However, at no point during the derivation it was required that 
+  
+    
+      
+        
+          
+            J
+          
+          
+            1
+          
+        
+      
+    
+    {\textstyle \mathbf {J} _{1}}
+   and 
+  
+    
+      
+        
+          
+            J
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \mathbf {J} _{2}}
+   must be defined like this. Indeed, any appropriate matrices may be used as long as the rotational invariance(or some generalization of it) is maintained. And accordingly, 
+  
+    
+      
+        
+          
+            A
+          
+          
+            1
+          
+        
+        :=
+        
+          
+            J
+          
+          
+            1
+          
+        
+        
+          A
+        
+      
+    
+    {\textstyle \mathbf {A} _{1}:=\mathbf {J} _{1}\mathbf {A} }
+   and 
+  
+    
+      
+        
+          
+            A
+          
+          
+            2
+          
+        
+        :=
+        
+          
+            J
+          
+          
+            2
+          
+        
+        
+          A
+        
+      
+    
+    {\textstyle \mathbf {A} _{2}:=\mathbf {J} _{2}\mathbf {A} }
+   may contain any rows of 
+  
+    
+      
+        
+          A
+        
+      
+    
+    {\textstyle \mathbf {A} }
+  .
+
+
+=== Generalized rotational invariance ===
+The rotational invariance used in the derivation may be generalized. So far, the matrix 
+  
+    
+      
+        
+          H
+        
+      
+    
+    {\displaystyle \mathbf {H} }
+   has been defined to be a diagonal matrix that stores the sought-after complex exponentials on its main diagonal. However, 
+  
+    
+      
+        
+          H
+        
+      
+    
+    {\displaystyle \mathbf {H} }
+   may also exhibit some other structure. For instance, it may be an upper triangular matrix. In this case, 
+  
+    
+      
+        
+          
+            
+              
+                
+                  P
+                
+              
+              
+                
+                :=
+                
+                  
+                    F
+                  
+                  
+                    −
+                    1
+                  
+                
+                
+                  H
+                
+                
+                  F
+                
+              
+            
+          
+        
+      
+    
+    {\textstyle {\begin{aligned}\mathbf {P} &:=\mathbf {F} ^{-1}\mathbf {H} \mathbf {F} \end{aligned}}}
+  constitutes a triangularization of 
+  
+    
+      
+        
+          P
+        
+      
+    
+    {\displaystyle \mathbf {P} }
+  .
+
+
+== Algorithm example ==
+A pseudocode is given below for the implementation of ESPRIT algorithm.
+
+function esprit(y, model_order, number_of_sources):
+    m = model_order
+    n = number_of_sources
+    create covariance matrix R, from the noisy measurements y. Size of R will be (m-by-m).
+    compute the svd of R
+    [U, E, V] = svd(R)
+    
+    obtain the orthonormal eigenvectors corresponding to the sources
+    S = U(:, 1:n)                 
+      
+    split the orthonormal eigenvectors in two
+    S1 = S(1:m-1, :) and S2 = S(2:m, :)
+                                               
+    compute P via LS (MATLAB's backslash operator)
+    P = S1\S2 
+       
+    find the angles of the eigenvalues of P
+    w = angle(eig(P)) / (2*pi*elspacing)
+     doa=asind(w)      %return the doa angle by taking the arcsin in degrees 
+    return 'doa
+
+
+== See also ==
+Generalized pencil-of-function method
+Independent component analysis
+
+
+== References ==
+
+
+== Further reading ==
+Paulraj, A.; Roy, R.; Kailath, T. (1985), "Estimation Of Signal Parameters Via Rotational Invariance Techniques - Esprit", Nineteenth Asilomar Conference on Circuits, Systems and Computers, pp. 83–89, doi:10.1109/ACSSC.1985.671426, ISBN 978-0-8186-0729-5, S2CID 2293566.
+Roy, R.; Kailath, T. (1989). "Esprit - Estimation Of Signal Parameters Via Rotational Invariance Techniques" (PDF). IEEE Transactions on Acoustics, Speech, and Signal Processing. 37 (7): 984–995. doi:10.1109/29.32276. S2CID 14254482..
+Ibrahim, A. M.; Marei, M. I.; Mekhamer, S. F.; Mansour, M. M. (2011). "An Artificial Neural Network Based Protection Approach Using Total Least Square Estimation of Signal Parameters via the Rotational Invariance Technique for Flexible AC Transmission System Compensated Transmission Lines". Electric Power Components and Systems. 39 (1): 64–79. doi:10.1080/15325008.2010.513363. S2CID 109581436.
+Haardt, M., Zoltowski, M. D., Mathews, C. P., & Nossek, J. (1995, May). 2D unitary ESPRIT for efficient 2D parameter estimation. In icassp (pp. 2096-2099). IEEE.

@@ -1,0 +1,53 @@
+Bi-specific T-cell engagers (BiTEs) are a class of artificial bispecific monoclonal antibodies that are investigated for use as anti-cancer drugs. They direct a host's immune system, more specifically the T cells' cytotoxic activity, against cancer cells. BiTE is a registered trademark of Micromet AG (fully owned subsidiary of Amgen Inc).BiTEs are fusion proteins consisting of two single-chain variable fragments (scFvs) of different antibodies, or amino acid sequences from four different genes, on a single peptide chain of about 55 kilodaltons. One of the scFvs binds to T cells via the CD3 receptor, and the other to a tumor cell via a tumor specific molecule.
+
+
+== Mechanism of action ==
+Like other bispecific antibodies, and unlike ordinary monoclonal antibodies, BiTEs form a link between T cells and tumor cells. This causes T cells to exert cytotoxic activity on tumor cells by producing proteins like perforin and granzymes, independently of the presence of MHC I or co-stimulatory molecules. These proteins enter tumor cells and initiate the cell's apoptosis.This action mimics physiological processes observed during T cell attacks against tumor cells.
+
+
+== BiTEs in clinical assessment or with clinical approvals ==
+Several BiTEs are currently in preclinical and clinical trials to assess their therapeutic efficacy and safety. 
+
+
+=== Blinatumomab ===
+
+Blinatumomab links T cells with CD19 receptors found on the surface of B cells. The Food and Drug Administration (US) and the European Medicines Agency approved this therapy for adults with Philadelphia chromosome-negative relapsed or refractory acute lymphoblastic leukemia.
+
+
+=== Glofitamab ===
+
+It is a bispecific CD20-directed CD3 T-cell engager. It was approved for medical use in Canada in March 2023, in the United States in June 2023, and in the European Union in July 2023.
+
+
+=== Mosunetuzumab ===
+
+Bispecifically binds CD20 and CD3 to engage T-cells. Mosunetuzumab was approved for medical use in the European Union in June 2022.
+
+
+=== Solitomab ===
+
+Solitomab links T cells with the EpCAM antigen which is expressed by colon, gastric, prostate, ovarian, lung, and pancreatic cancers.
+
+
+=== Talquetamab ===
+
+
+=== Tarlatamab ===
+
+Tarlatamab has shown promise for previously treated small cell lung cancer.
+
+
+=== Tebentafusp ===
+
+After clinical trials, in January 2022, the US FDA approved tebentafusp (a BiTE targeting the gp100 peptide) for HLA-A*02:01-positive adult patients with unresectable or metastatic uveal melanoma.
+
+
+== Further research ==
+Utilizing the same technology, melanoma (with MCSP specific BiTEs) and acute myeloid leukemia (with CD33 specific BiTEs) can be targeted. As of 2008, research in this area is active.Another avenue for novel anti-cancer therapies is re-engineering some of the currently used conventional antibodies like trastuzumab (targeting HER2/neu), cetuximab and panitumumab (both targeting the EGF receptor), using the BiTE approach.As of 2009, BiTEs against CD66e and EphA2 are being developed as well.
+
+
+== References ==
+
+
+== Further reading ==
+Kufer, P; Lutterbüse, R; Baeuerle, PA (2004). "A revival of bispecific antibodies". Trends in Biotechnology. 22 (5): 238–44. doi:10.1016/j.tibtech.2004.03.006. PMID 15109810.

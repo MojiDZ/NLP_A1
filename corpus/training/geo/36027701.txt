@@ -1,0 +1,48 @@
+Ecological assessment (EA) implies the monitoring of ecological resources, to discover the current and changing conditions. EAs are required components of most hazardous waste site investigations. Such assessments, in conjunction with contamination and human health risk assessments, help to evaluate the environmental hazards posed by contaminated sites and to determine remediation requirements.In ecological assessment many abiotic and biotic indicators, reflecting the pluralistic components of ecosystems, are used. Reporting on the state of the environment requires that information on separate indicators are integrated into comprehensive yardsticks or indices. EA is extremely complex because of regional and temporal variation in vulnerability of ecosystems and because of limited understanding of ecosystem functioning and health.
+
+
+== Indicators ==
+Ecological indicators are able to
+
+assess the condition of the environment
+provide an early warning signal of changes in the environment, or
+diagnose the cause of an environmental problem.Ideally the suite of indicators should represent key information about structure, function, and composition of the ecological system.In general EA indicators can be divided into abiotic and biotic indicators. Due to the complexity of ecosystems and environmental processes, a set of indicators reflecting the many facets of ecosystems is needed. Chemical, physical, and biological indicators each have specific advantages and disadvantages for monitoring and assessment.Abiotic indicators, which may give information on the risks or threats from stressors to ecosystems  are comparatively well correlated with sources of pollutants and disturbances but may not reflect ecological end points in themselves.Biotic indicators may reflect end points  and may be used to differentiate "healthy" from "sick" ecosystems. Correlation of biotic indicators with sources of pollutants and other disturbances is relatively difficult due to the complexity of environmental processes and the multitude of potential stressors.Critical appraisal:
+
+small number of indicators lead to fail considering the full complexity of the ecological system
+choice of ecological indicators depends on management programs that have vague long-term goals and objectives
+monitoring programs miss predominantly the scientific demand (lack of defined protocol for identifying ecological indicators)
+
+
+== Types of ecological assessment ==
+Strategic ecological assessment (SEcA) is required to ensure that proposed new developments are compatible with international obligations to conserve protected habitats and their associated species. In common with all forms of Environmental Impact Assessment, the effectiveness of SEcA depends on the ability to define the proposed action or set of actions and to characterize the receiving environment (baseline conditions). The ability to quantify potential impacts and to estimate their risk of occurrence is strongly dependent on the
+
+availability
+accuracy
+reliability and
+resolutionof national data on the distributions of habitats, species and development proposals.The U.S. Nature Conservancy has developed Rapid Ecological Assessment (REA), an integrated methodology to provide the multiple scale, up-to-date information required to guide conservation actions. REA relies on analysis of aerial photography, videography, and satellite image data to identify conservation sites and to direct field sampling and research for cost-effective biological and ecological data acquisitions.
+
+
+== Goals ==
+The goal of EA is to understand the structure and function of ecosystems in order to develop improved management options. Furthermore, developing models to predict the response of ecosystems to changes contributes to finding a particular management strategy.
+The results of the EA will be used to suggest possible improvements of the pollutant´s properties to reduce the potential environmental impacts.
+
+
+== Typical applications ==
+Education
+Agriculture
+Geography
+Engineering
+Marine research.
+
+
+== Ecological assessment in the U.S. ==
+The U.S. Environmental Protection Agency has set a definition for EA. Ecological assessment is a “qualitative or quantitative assessment of the actual or potential effects of a hazardous waste site on plants and animals other than people and domesticated species”. The methodologies used for EA noted down in the Comprehensive Environmental Response, Compensation, and Liability Act are only vaguely defined. As a result, assessment methods applied by both consultants and regulatory agencies range from qualitative approaches, such as listings of potential biotic receptors at a contaminated site, to fully quantitative approaches that include detailed exposure estimations, quantitative toxicity comparisons, and supplementary biota sampling to evaluate uptake estimates.
+
+
+== See also ==
+ Ecology portal
+Ecological Quality Ratio (EQR)
+Sustainable Process Index
+
+
+== References ==

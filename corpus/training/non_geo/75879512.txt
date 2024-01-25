@@ -1,0 +1,29 @@
+Claude is a series of large language models developed by Anthropic. Claude was trained on huge datasets, from sources such as the internet, and various licensed datasets.
+
+
+== Constitutional AI ==
+Constitutional AI is an approach developed by Anthropic for training AI systems, particularly language models like Claude, to be harmless and helpful without relying on extensive human feedback. The method, detailed in the paper "Constitutional AI: Harmlessness from AI Feedback" involves two phases: supervised learning (SL) and reinforcement learning (RL).
+In the SL phase, the model generates responses to prompts, self-critiques these responses based on a set of guiding principles (a "constitution"), and then revises the responses. This process aims to reduce the harmfulness of the AI's outputs. The RL phase involves training the model with AI-generated feedback, where the AI evaluates responses according to the constitutional principles.
+This approach enables the training of AI assistants that are both helpful and harmless, and that can explain their objections to harmful requests, enhancing transparency and reducing reliance on human supervision.The "constitution" for Claude included 75 points, including sections from the UN Universal Declaration of Human Rights.
+
+
+== Models ==
+
+
+=== Claude v1 ===
+Claude was the initial version of Anthropic's language model released in March 2023, Claude demonstrated proficiency in various tasks but had certain limitations in coding, math, and reasoning capabilities.It was released as two versions, Claude and Claude Instant, with Claude Instant being a faster, less expensive and lighter version. Anthropic partnered with companies like Notion (productivity software) and Quora (to help develop the Poe chatbot).
+
+
+=== Claude v2 ===
+Claude 2 was the next major iteration of Claude, which was released in July 11 2023 and available to the general public, whereas the Claude 1 was only available to selected users approved by Anthropic.Claude 2 expanded its context window from 9,000 tokens to 100,000 tokens, which equates to about 75,000 english words. Features included ability to upload PDFs and other documents that enables Claude to read, summarise and assist with tasks.
+
+
+==== Claude v2.1 ====
+Claude 2.1 doubled the number of tokens that the chatbot could handle, increasing it to a window of 200,000 tokens, which equals around 500 pages of written material.Anthropic states that the new model is less likely to produce false statements compared to it's predecessors.
+
+
+== Criticisms ==
+The Claude AI models have faced criticism from users and industry experts for their stringent ethical alignment, potentially reducing performance. This has led to a debate over the "alignment tax" in AI development, with discussions centered on balancing ethical considerations and practical functionality. Critics argue for user autonomy and effectiveness, while proponents stress the importance of ethical AI.User's have been refused assistance with questions such as "how can I kill all python processes in my ubuntu server", ethical tasks that a software engineer or system administrator often may need to do.
+
+
+== References ==

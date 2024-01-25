@@ -1,0 +1,63 @@
+C-ImmSim started, in 1995, as the C-language "version" of IMMSIM, the IMMune system SIMulator, a program written back in 1991 in APL-2 (APL2 is a Registered Trademark of IBM Corp.) by the astrophysicist Phil E. Seiden together with the immunologist Franco Celada to implement the Celada-Seiden model. The porting was mainly conducted and further developed by Filippo Castiglione with the help of few other people.
+
+
+== The Celada-Seiden model ==
+The Celada-Seiden model is a logical description of the mechanisms making up the adaptive immune humoral and cellular response to a genetic antigen at the mesoscopic level.
+The computational counterpart of the Celada-Seiden model is the IMMSIM code.
+The Celada-Seiden model, as well as C-ImmSim, is best viewed as a collection of models in a single program. In fact, there are various components realising a particular function which can be turned on or off. At its current stage, C-ImmSim incorporates the principal "core facts" of today's immunological knowledge, e.g.
+
+the diversity of specific elements,
+MHC restriction,
+clonal selection by antigen affinity,
+thymic education of T cells, antigen processing and presentation (both the cytosolic and endocytic pathways are implemented,
+cell-cell cooperation,
+homeostasis of cells created by the bone marrow,
+hypermutation of antibodies,
+maturation of the cellular and humoral response and memory.Besides, an antigen can represent a bacterium, a virus or an allergen or a tumour cell.
+The high degree of complexity of the Celada-Seiden model makes it suitable to simulate different immunological phenomena, e.g., the hypermutation of antibodies, the germinal centre reaction (GCR), immunization, Thymus selection, viral infections, hypersensitivity, etc.
+Since the first release of C-ImmSim, the code has been modified many times. The actual version now includes features that were not in the original Celada-Seiden model.
+C-ImmSim has been recently customised to simulate the HIV-1 infection. Moreover, it can simulate the immunotherapy to generic solid tumours. These features are all present in the code and people can choose to turn them on and off at compiling time. However, the present user guide deals with the description of the standard immune system response and gives no indication on the features of HIV-1 and cancer.
+The latest version of C-ImmSim allows for the simulation of SARS-CoV-2 infection
+.
+
+
+== Contributors ==
+The porting was possible thank to the aid of Seiden, especially during the initial validation phase. Massimo Bernaschi contributed to the development of C-ImmSim starting as the "beta" release. Most of the optimization of the memory usage and I/O has been possible thanks to Bernaschi in particular for what concerns the development of the parallel version. Other few people contributed to the further development of the code in the coming years.
+
+
+== Related projects ==
+There are other computational models developed on the tracks of the Celada-Seiden model which come from (to a certain extent) the first porting in C-language of IMMSIM by F. Castiglione. They are IMMSIM++ developed by S. Kleinstein, IMMSIM-C developed by R. Puzone, Limmsim developed by J. Textor and SimTriplex developed by Pappalardo.
+
+IMMSIM++, http://www.cs.princeton.edu/immsim/software.html
+IMMSIM-C, http://www.immsim.org/
+LImmSim, http://johannes-textor.name/limmsim.html
+SimTriplexC-ImmSim has been partially described in a series of publications but never extensively, in part because of the availability of other references for the IMMSIM code which could serve as manuals for C-ImmSim as well, in part because it is impractical to compress a full description of C-ImmSim in a regular paper.
+IMMSIM, in the authors' minds, was built around the idea of developing a computerized system to perform experiments similar to the real laboratory in vivo and in vivo experiments; a tool developed and maintained to help biologists to test theories and hypothesis about how the immune system works. They called it "in Machina" or "in silico" experiments. IMMSIM was in part developed keeping an eye on the educational potentialities of these kind of tools, in order to provide to students of biology/immunology courses, a way to play with the immune mechanisms to get a grasp on the fundamental concepts of the cellular and/or molecular interactions in the immune response.
+For this purpose, IMMSIM++ was developed for Microsoft Windows® and offers the chance to explore various (but not all) features of the Celada-Seiden model. However, since only the executable is available that code is not open for testing/development.
+LImmSim is available under the GNU GPL.
+SimTriplex is a customized version of the same model and derives from version 6 of C-ImmSim. It has been developed to simulate cancer immunoprevention.
+
+
+== References ==
+
+Rapin, Nicolas; Lund, Ole; Bernaschi, Massimo; Castiglione, Filippo (2010-04-16). "Computational Immunology Meets Bioinformatics: The Use of Prediction Tools for Molecular Binding in the Simulation of the Immune System". PLOS ONE. Public Library of Science (PLoS). 5 (4): e9862. Bibcode:2010PLoSO...5.9862R. doi:10.1371/journal.pone.0009862. ISSN 1932-6203. PMC 2855701. PMID 20419125.
+F. Pappalardo, M. Pennisi, F. Castiglione, S. Motta. Vaccine protocols optimization: in silico experiences. Biotechnology Advances. 28: 82–93 (2010). doi:10.1016/j.biotechadv.2009.10.001
+P. Paci, R. Carello, M. Bernaschi, G. D'Offizi and F. Castiglione. Immune control of HIV-1 infection after therapy interruption: immediate versus deferred antiretroviral therapy. BMC Infectious Diseases. 9: 172 (2009). doi:10.1186/1471-2334-9-172
+D. Santoni, M.Pedicini, F. Castiglione. Implementation of a regulatory gene network to simulate the TH1/2 differentiation in an agent-based model of hypersensitivity reactions. Bioinformatics, 24(11):1374–1380 (2008). doi:10.1093/bioinformatics/btn135
+F. Castiglione, F. Pappalardo, M. Bernaschi, S. Motta. Optimization of HAART with genetic algorithms and agent-based models of HIV infection. Bioinformatics, 23(24): 3350–3355 (2007) doi: 10.1093/bioinformatics/btm408
+F. Castiglione, K.A. Duca, A. Jarrah, R. Laubenbacher, K. Luzuriaga, D. Hochberg and D.A. Thorley-Lawson. Simulating Epstein Barr Virus Infection with C-ImmSim. Bioinformatics, 23: 1371–1377 (2007)  doi: 10.1093/bioinformatics/btm044
+F. Pappalardo, P.-L. Lollini, F. Castiglione, S. Motta. Modelling and Simulation of Cancer Immunoprevention Vaccine. Bioinformatics, 2005 Jun 15;21(12): 2891–7. doi:10.1093/bioinformatics/bti426
+F. Castiglione, F. Toschi, M. Bernaschi, S. Succi, R. Benedetti, B. Falini and A. Liso. Computational modelling of the immune response to tumour antigens: implications for vaccination. J Theo Biol, 237(4):390-400 (2005)
+Castiglione, Filippo; Poccia, Fabrizio; D'Offizi, Gianpiero; Bernaschi, Massimo (2004). "Mutation, Fitness, Viral Diversity, and Predictive Markers of Disease Progression in a Computational Model of HIV Type 1 Infection". AIDS Research and Human Retroviruses. Mary Ann Liebert Inc. 20 (12): 1314–1323. doi:10.1089/aid.2004.20.1314. ISSN 0889-2229. PMID 15650424.
+F. Castiglione, V. Sleitser and Z. Agur. Analyzing hypersensitivity to chemotherapy in a Cellular Automata model of the immune system, in Cancer Modeling and Simulation, Preziosi L. (ed.), Chapman & Hall/CRC Press (UK), London, June 26, 2003, pp 333–365.
+Bernaschi, M; Castiglione, F (2002). "Selection of escape mutants from immune recognition during HIV infection". Immunology and Cell Biology. Wiley. 80 (3): 307–313. doi:10.1046/j.1440-1711.2002.01082.x. ISSN 0818-9641. PMID 12067418. S2CID 43177412.
+Bernaschi, M.; Castiglione, F. (2001). "Design and implementation of an immune system simulator". Computers in Biology and Medicine. Elsevier BV. 31 (5): 303–331. doi:10.1016/s0010-4825(01)00011-7. ISSN 0010-4825. PMID 11535199.
+Succi, S.; Castiglione, F.; Bernaschi, M. (1997-12-01). "Collective Dynamics in the Immune System Response". Physical Review Letters. American Physical Society (APS). 79 (22): 4493–4496. Bibcode:1997PhRvL..79.4493S. doi:10.1103/physrevlett.79.4493. ISSN 0031-9007.
+Castiglione, F.; Bernaschi, M.; Succi, S. (1997). "Simulating the Immune Response on a Distributed Parallel Computer". International Journal of Modern Physics C. World Scientific Pub Co Pte Lt. 08 (3): 527–545. Bibcode:1997IJMPC...8..527C. doi:10.1142/s0129183197000424. ISSN 0129-1831.
+Kar, T.; Narsaria, U.; Basak, S.; Deb, D.; Castiglione, F.; Mueller, D.; Srivastava, A (2020). "A candidate multi-epitope vaccine against SARS-CoV-2". Scientific Reports. Nature Research. 10 (10895): 10895. Bibcode:2020NatSR..1010895K. doi:10.1038/s41598-020-67749-1. PMC 7331818. PMID 32616763.
+
+
+== External links ==
+"Filippo Castiglione". iac.rm.cnr.it. Retrieved 2020-01-21.
+"Frontpage | Theoretical Immunology at NYU Langone Medical Center". immsimteam.med.nyu.edu. Retrieved 2020-01-21.
+http://www.cs.princeton.edu/immsim/software.html

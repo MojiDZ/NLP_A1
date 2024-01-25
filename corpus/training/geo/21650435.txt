@@ -1,0 +1,41 @@
+Conservation-reliant species are animal or plant species that require continuing species-specific wildlife management intervention such as predator control, habitat management and parasite control to survive, even when a self-sustainable recovery in population is achieved.
+
+
+== History ==
+The term "conservation-reliant species" grew out of the conservation biology undertaken by The Endangered Species Act at Thirty Project (launched 2001) and its popularization by project leader J. Michael Scott. Its first use in a formal publication was in Frontiers in Ecology and the Environment in 2005. Worldwide use of the term has not yet developed and it has not yet appeared in a publication compiled outside North America.
+Passages of the 1973 Endangered Species Act (ESA) carried with it the assumption that endangered species would be delisted as their populations recovered. It assumed they would then thrive under existing regulations and the protections afforded under the ESA would no longer be needed. However, eighty percent of species currently listed under the ESA fail to meet that assumption. To survive, they require species-specific conservation interventions (e.g. control of predators, competitors, nest parasites, prescribed burns, altered hydrological processes, etc.) and thus they are conservation-reliant.
+
+
+== Criteria ==
+The criteria for assessing whether a species is conservation-reliant are:
+Threats to the species’ continued existence are known and treatable.
+The threats are pervasive and recurrent, for example: nest parasites, non-native predators, human disturbance.
+The threats render the species at risk of extinction, absent ongoing conservation management.
+Management actions sufficient to counter threats have been identified and can be implemented, for example: prescribed fires, restrictions on grazing or public access, predator or parasite control.
+National, state or local governments, often in cooperation with private or tribal interests, are capable of carrying out the necessary management actions as long as necessary.
+
+
+== Management actions ==
+There are five major areas of management action for conservation of vulnerable species:
+
+Control of other species may include: control of exotic fauna, exotic flora, other native species and parasites and disease.
+Control of direct human impacts may include control of grazing, human access, on and off-road vehicles, low impact recreation and illegal collecting and poaching.
+Pollution control may include control of chemical run-off, siltation, water quality and use of pesticides and herbicides.
+Active habitat management may include fire management and control, control of soil erosion and waterbodies, habitat restoration and mechanical vegetation control.
+Artificial population recruitment may include captive propagation (forced immigration) or captive breeding.
+
+
+== Case study ==
+A prominent example is in India, where tigers, an apex predator and the national animal, are considered a conservation-reliant species. This keystone species can maintain self-sustaining wild populations; however, they require ongoing management actions because threats are pervasive, recurrent and put them at risk of extinction. The origin of these threats are rooted in the changing socio-economic, political and spatial organization of society in India. Tigers have become extinct in some areas because of extrinsic factors such as habitat destruction, poaching, disease, floods, fires and drought, decline of prey species for the same reasons, as well as intrinsic factors such as demographic stochasticity and genetic deterioration.
+Recognizing the conservation reliance of tigers, Project Tiger is establishing a national science-based framework for monitoring tiger population trends in order to manage the species more effectively. India now has 28 tiger reserves, located in 17 states. These reserves cover 37,761 square kilometres (14,580 sq mi) including 1.14% of the total land area of the country. These reserves are kept free of biotic disturbances, forestry operations, collection of minor forest products, grazing and human disturbance. The populations of tigers in these reserves now constitute some of the most important tiger source populations in the country.
+
+
+== Future ==
+The magnitude and pace of human impacts on the environment make it unlikely that substantial progress will be made in delisting many species unless the definition of "recovery" includes some form of active management. Preventing delisted species from again being at risk of extinction may require continuing, species-specific management actions. Viewing "recovery" of  "conservation-reliant species" as a continuum of phases rather than a simple "recovered/not recovered" status may enhance the ability to manage such species within the framework of the Endangered Species Act. With ongoing loss of habitat, disruption of natural cycles, increasing impacts of non-native invasive species, it is probable that the number of conservation-reliant species will increase.
+It has been proposed that development of "recovery management agreements", with legally and biologically defensible contracts would provide for continuing conservation management following delisting. The use of such formalized agreements will facilitate shared management responsibilities between federal wildlife agencies and other federal agencies, and with state, local, and tribal governments, as well as with private entities that have demonstrated the capability to meet the needs of conservation-reliant species.
+
+
+== See also ==
+
+
+== References ==

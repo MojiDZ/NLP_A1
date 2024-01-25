@@ -1,0 +1,17 @@
+In mathematics, a function f is cofunction of a function g if f(A) = g(B) whenever A and B are complementary angles (pairs that sum to one right angle). This definition typically applies to trigonometric functions. The prefix "co-" can be found already in Edmund Gunter's Canon triangulorum (1620).For example, sine (Latin: sinus) and cosine (Latin: cosinus, sinus complementi) are cofunctions of each other (hence the "co" in "cosine"):
+
+The same is true of secant (Latin: secans) and cosecant (Latin: cosecans, secans complementi) as well as of tangent (Latin: tangens) and cotangent (Latin: cotangens, tangens complementi):
+
+These equations are also known as the cofunction identities.This also holds true for the versine (versed sine, ver) and coversine (coversed sine, cvs), the vercosine (versed cosine, vcs) and covercosine (coversed cosine, cvc), the haversine (half-versed sine, hav) and hacoversine (half-coversed sine, hcv), the havercosine (half-versed cosine, hvc) and hacovercosine (half-coversed cosine, hcc), as well as the exsecant (external secant, exs) and excosecant (external cosecant, exc):
+
+
+== See also ==
+Hyperbolic functions
+Lemniscatic cosine
+Jacobi elliptic cosine
+Cologarithm
+Covariance
+List of trigonometric identities
+
+
+== References ==

@@ -1,0 +1,112 @@
+The Manly-Chesson's Index (or Manly's alpha, or Chesson's index) refers to an index to determine selective feeding on discrete food items. It was described separately by Bryan F. J. Manly and Jean Chesson in the 1970s. It was initially described for two different food types, but was later extended to include more food types.The index for two food types is calculated as:
+
+  
+    
+      
+        
+          
+            
+              β
+              ^
+            
+          
+        
+        =
+        
+          
+            
+              l
+              o
+              g
+              (
+              
+                
+                  R
+                  r
+                
+              
+              )
+            
+            
+              l
+              o
+              g
+              (
+              
+                
+                  B
+                  b
+                
+              
+              )
+              +
+              l
+              o
+              g
+              (
+              
+                
+                  R
+                  r
+                
+              
+              )
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\beta }}={\frac {log({\frac {R}{r}})}{log({\frac {B}{b}})+log({\frac {R}{r}})}}}
+  .
+Where 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+   and 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+   are the number of individuals of present at the start for each species and 
+  
+    
+      
+        r
+      
+    
+    {\displaystyle r}
+   and 
+  
+    
+      
+        b
+      
+    
+    {\displaystyle b}
+   are the number of items consumed of each type respectively. 
+  
+    
+      
+        
+          
+            
+              β
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {\beta }}}
+   is the estimate of preference.
+The use of this index has been widespread with more than 400 citations in the scientific literature.
+
+
+== References ==

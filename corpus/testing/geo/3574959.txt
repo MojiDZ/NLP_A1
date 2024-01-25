@@ -1,0 +1,47 @@
+An ecological pyramid (also trophic pyramid, Eltonian pyramid, energy pyramid, or sometimes food pyramid) is a graphical representation designed to show the biomass or bioproductivity at each trophic level in an ecosystem.
+A pyramid of energy shows how much energy is retained in the form of new biomass from each trophic level, while a pyramid of biomass shows how much biomass (the amount of living or organic matter present in an organism) is present in the organisms. There is also a pyramid of numbers representing the number of individual organisms at each trophic level. Pyramids of energy are normally upright, but other pyramids can be inverted(pyramid of biomass for marine region) or take other shapes.(spindle shaped pyramid)
+Ecological pyramids begin with producers on the bottom (such as plants) and proceed through the various trophic levels (such as herbivores that eat plants, then carnivores that eat flesh, then omnivores that eat both plants and flesh, and so on).  The highest level is the top of the food chain.
+Biomass can be measured by a bomb calorimeter.
+
+
+== Pyramid of Energy ==
+A pyramid of energy or pyramid of productivity shows the production or turnover (the rate at which energy or mass is transferred from one trophic level to the next) of biomass at each trophic level. Instead of showing a single snapshot in time, productivity pyramids show the flow of energy through the food chain. Typical units are grams per square meter per year or calories per square meter per year. As with the others, this graph shows producers at the bottom and higher trophic levels on top.
+When an ecosystem is healthy, this graph produces a standard ecological pyramid. This is because, in order for the ecosystem to sustain itself, there must be more energy at lower trophic levels than there is at higher trophic levels. This allows organisms on the lower levels to not only maintain a stable population, but also to transfer energy up the pyramid. The exception to this generalization is when portions of a food web are supported by inputs of resources from outside the local community. In small, forested streams, for example, the volume of higher levels is greater than could be supported by the local primary production.
+Energy usually enters ecosystems from the Sun. The primary producers at the base of the pyramid use solar radiation to power photosynthesis which produces food. However most wavelengths in solar radiation cannot be used for photosynthesis, so they are reflected back into space or absorbed elsewhere and converted to heat. Only 1 to 2 percent of the energy from the sun is absorbed by photosynthetic processes and converted into food. When energy is transferred to higher trophic levels, on average only about 10% is used at each level to build biomass, becoming stored energy. The rest goes to metabolic processes such as growth, respiration, and reproduction.Advantages of the pyramid of energy as a representation:
+
+It takes account of the rate of production over a period of time.
+Two species of comparable biomass may have very different life spans. Thus, a direct comparison of their total biomasses is misleading, but their productivity is directly comparable.
+The relative energy chain within an ecosystem can be compared using pyramids of energy; also different ecosystems can be compared.
+There are no inverted pyramids.
+The input of solar energy can be added.Disadvantages of the pyramid of energy as a representation:
+
+The rate of biomass production of an organism is required, which involves measuring growth and reproduction through time.
+There is still the difficulty of assigning the organisms to a specific trophic level. As well as the organisms in the food chains there is the problem of assigning the decomposers and detritivores to a particular level.
+
+
+== Pyramid of biomass ==
+A pyramid of biomass shows the relationship between biomass and trophic level by quantifying the biomass present at each trophic level of an ecological community at a particular time. It is a graphical representation of biomass (total amount of living or organic matter in an ecosystem) present in unit area in different trophic levels. Typical units are grams per square meter, or calories per square meter.
+The pyramid of biomass may be "inverted". For example, in a pond ecosystem, the standing crop of phytoplankton, the major producers, at any given point will be lower than the mass of the heterotrophs, such as fish and insects. This is explained as the phytoplankton reproduce very quickly, but have much shorter individual lives.
+
+
+== Pyramid of Numbers ==
+A pyramid of numbers shows graphically the population, or abundance, in terms of the number of individual organisms involved at each level in a food chain. This shows the number of organisms in each trophic level without any consideration for their individual sizes or biomass. The pyramid is not necessarily upright. For example, it will be inverted if beetles are feeding from the output of forest trees, or parasites are feeding on large host animals.
+
+
+== History ==
+The concept of pyramid of numbers ("Eltonian pyramid") was developed by Charles Elton (1927). Later, it would also be expressed in terms of biomass by Bodenheimer (1938). The idea of pyramid of productivity or energy relies on works of G. Evelyn Hutchinson and Raymond Lindeman (1942).
+
+
+== See also ==
+Trophic cascade
+
+
+== References ==
+
+
+== Bibliography ==
+Odum, E.P. 1971.  Fundamentals of Ecology.  Third Edition.  W.B. Saunders Company, Philadelphia,
+
+
+== External links ==
+Food Chains

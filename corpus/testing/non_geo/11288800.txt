@@ -1,0 +1,26 @@
+FITkit is an immunological test for measuring natural rubber latex (NRL) allergens from a variety of rubber products, such as gloves.
+
+
+== Description ==
+FITkit is a method for quantification of the major natural rubber latex (NRL) specific allergens: Hev b 1, Hev b 3, Hev b 5 and Hev b 6.02. The sum of four major allergens shows the allergenic potential of NRL products like gloves, condoms, teats, balloons, etc. These tests are based on the enzyme immunometric assay technique and use specific monoclonal antibodies developed against the clinically relevant latex allergens present in NRL products.
+FITkit is known also under scientific names EIA (enzyme immunoassay) or IEMA (immuno-enzymometric assay).
+The main value of FITkit technology is the focus only on those NRL allergens that are responsible for the majority of NRL sensitivity and allergy cases. Based on FITkit results, allergenicity potential of the tested product can be easily assessed.
+FITkit technology is compliant with the ASTM International standard D7427-08
+FITkit is a trade mark of Icosagen AS (formerly  Quattromed Ltd).
+
+
+== References ==
+Cited references
+
+General references
+
+
+== External links ==
+FITkit and latex allergen testing offered by Icosagen AS.
+
+
+== See also ==
+Latex allergy
+Monoclonal antibodies
+ Quattromed Ltd
+Icosagen AS

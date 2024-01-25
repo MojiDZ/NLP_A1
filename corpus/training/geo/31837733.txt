@@ -1,0 +1,93 @@
+A social-ecological system consists of 'a bio-geo-physical' unit and its associated social actors and institutions.  Social-ecological systems are complex and adaptive and delimited by spatial or functional boundaries surrounding particular ecosystems and their context problems.
+
+
+== Definitions ==
+A social-ecological system (SES) can be defined as: (p. 163)
+
+A coherent system of biophysical and social factors that regularly interact in a resilient, sustained manner;
+A system that is defined at several spatial, temporal, and organisational scales, which may be hierarchically linked;
+A set of critical resources (natural, socio-economic, and cultural) whose flow and use is regulated by a combination of ecological and social systems; and
+A perpetually dynamic, complex system with continuous adaptation.Scholars have used the concept of social-ecological systems to emphasise humans as part of nature and to stress that the delineation between social systems and ecological systems is artificial and arbitrary. While resilience has somewhat different meaning in social and ecological context, the SES approach holds that social and ecological systems are linked through feedback mechanisms, and that both display resilience and complexity.
+
+
+== Theoretical foundations ==
+Social-ecological systems are based on the concept that humans are a part of—not separate from—nature. This concept, which holds that the delineation between social systems and natural systems is arbitrary and artificial, was first put forth by Berkes and Folke, and its theory was further developed by Berkes et al. More recent research into social-ecological system theory has pointed to social-ecological keystones as critical to the structure and function of these systems, and to biocultural diversity as essential to the resilience of these systems.
+
+
+== Integrative approaches ==
+Through to the final decades of the twentieth century, the point of contact between social sciences and natural sciences was very limited in dealing with social-ecological systems. Just as mainstream ecology had tried to exclude humans from the study of ecology, many social science disciplines had ignored the environment altogether and limited their scope to humans. Although some scholars (e.g. Bateson 1979) had tried to bridge the nature-culture divide, the majority of studies focused on investigating processes within the social domain only, treating the ecosystem largely as a "black box" and assuming that if the social system performs adaptively or is well organised institutionally it will also manage the environmental resource base in a sustainable fashion.This changed through the 1970s and 1980s with the rise of several subfields associated with the social sciences but explicitly including the environment in the framing of the issues. These subfields are:
+
+Environmental ethics, which arose from the need to develop a philosophy of relations between humans and their environment, because conventional ethics only applied to relations among people.
+Political ecology, which expands ecological concerns to respond to the inclusion of cultural and political activity within an analysis of ecosystems that are significantly but not always entirely socially constructed.
+Environmental history which arose from the rich accumulation of material documenting relationships between societies and their environment.
+Ecological economics which examines the link between ecology and economics by bridging the two disciplines to promote an integrated view of economics within the ecosystem.
+Common property which examines the linkages between resource management and social organisation, analysing how institutions and property rights systems deal with the dilemma of the "tragedy of the commons".
+Traditional ecological knowledge, which refers to ecological understanding built, not by experts, but by people who live and use the resources of a place.Each of the six areas summarised is a bridge spanning different combinations of natural science and social science thinking.
+
+
+== Conceptual foundations and origins ==
+Elinor Ostrom and her many co-researchers developed a comprehensive "Social-Ecological Systems (SES) framework", which includes much of the theory of common-pool resources and collective self-governance. It draws heavily on systems ecology and complexity theory. The studies of SES include some central societal concerns (e.g. equity and human wellbeing) that have traditionally received little attention in complex adaptive systems theory, and there are areas of complexity theory (e.g. quantum physics) that have little direct relevance for understanding SES.SES theory incorporates ideas from theories relating to the study of resilience, robustness, sustainability, and vulnerability (e.g. Levin 1999, Berkes et al. 2003, Gunderson and Holling 2002,  Norberg and Cumming 2008), but it is also concerned with a wider range of SES dynamics and attributes than any one of these terms implies. While SES theory draws on a range of discipline-specific theories, such as island biogeography, optimal foraging theory, and microeconomic theory, it is much broader than any of these individual theories alone.SES theory emerged from a combination of disciplines and the notion of complexity developed through the work of many scholars, including the Santa Fe Institute (2002). Due to the social context in which SES research was placed, and the possibility of SES research translating into recommendations that may affect real people, SES research was seen as more "self-conscious" and "pluralistic" in its perspectives than complexity theory.Studying SESs from a complex system perspective attempts to link different disciplines into a body of knowledge that is applicable to serious environmental problems. Management processes in the complex systems can be improved by making them adaptive and flexible, able to deal with uncertainty and surprise, and by building capacity to adapt to change. SESs are both complex and adaptive, meaning that they require continuous testing, learning about, and developing knowledge and understanding in order to cope with change and uncertainty.A complex system differs from a simple system in that it has a number of attributes that cannot be observed in simple systems, such as nonlinearity, uncertainty, emergence, scale, and self-organisation.
+
+
+=== Nonlinearity ===
+Nonlinearity is related to fundamental uncertainty. It generates path dependency, which refers to local rules of interaction that change as the system evolves and develops. A consequence of path dependency is the existence of multiple basins of attraction in ecosystem development and the potential for threshold behaviour and qualitative shifts in system dynamics under changing environmental influences. An example for non-linearity in socio-ecological systems is illustrated by the figure on "Conceptual Model of Socioecological Drivers of Change".
+
+
+=== Emergence ===
+Emergence is the appearance of behaviour that could not be anticipated from knowledge of the parts of the system alone.
+
+
+=== Scale ===
+Scale is important when dealing with complex systems. In a complex system many subsystems can be distinguished; and since many complex systems are hierarchic, each subsystem is nested in a larger subsystem etc. For example, a small watershed may be considered an ecosystem, but it is a part of a larger watershed that can also be considered an ecosystem and a larger one that encompasses all the smaller watersheds. Phenomena at each level of the scale tend to have their own emergent properties, and different levels may be coupled through feedback relationships. Therefore, complex systems should always be analysed or managed simultaneously at different scales.
+
+
+=== Self organisation ===
+Self organisation is one of the defining properties of complex systems. The basic idea is that open systems will reorganise at critical points of instability. Holling's adaptive renewal cycle is an illustration of reorganisation that takes place within the cycles of growth and renewal. The self-organisation principle, operationalised through feedback mechanisms, applies to many biological systems, social systems and even to mixture of simple chemicals. High speed computers and nonlinear mathematical techniques help simulate self-organisation by yielding complex results and yet strangely ordered effects. The direction of self-organisation will depend on such things as the system's history; it is path dependent and difficult to predict.
+
+
+== Examples of conceptual framework for analysis ==
+There are several conceptual frameworks developed in relation to the resilience approach.
+
+A framework that focuses on knowledge and understanding of ecosystem dynamics, how to navigate it through management practices, institutions, organisations and social networks and how they relate to drivers of change (Picture A).
+Alternative conceptual model illustrates how it is meaningful to consider a wide range of socio-ecological system properties potentially influencing agricultural intensification, rather than singling out macro-drivers such as population pressure as the primary metric of agrarian change and intensification (Picture B).
+A conceptual model in relation to the robustness of social-ecological systems. There resource could be water or a fishery and the resource users could be farmers irrigating or inshore fishermen. Public infrastructure providers involve, for example, local users associations and government bureaus and public infrastructure include institutional rules and engineering works.  The number refer to links between the entities and are exemplified in the source of the figure (Picture C).
+MuSIASEM or Multi-Scale Integrated Analysis of Societal and Ecosystem Metabolism. This is a method of accounting used to analyse social-ecosystems and to simulate possible patterns of development.
+
+
+== Role of traditional knowledge ==
+Berkes and colleagues distinguish four sets of elements which can be used to describe social-ecological system characteristics and linkages:
+
+Ecosystems
+Local knowledge
+People and technology
+Property rights institutionsKnowledge acquisition of SESs is an ongoing, dynamic learning process, and such knowledge often emerges with people's institutions and organisations. To remain effective it requires institutional framework and social networks to be nested across scales. It is thus the communities which interact with ecosystems on the daily basis and over long periods of time that possess the most relevant knowledge of resource and ecosystem dynamics, together with associated management practices. Some scholars have suggested that management and governance of SESs may benefit from combination of different knowledge systems; others have attempted to import such knowledge into the scientific knowledge field There also those who have argued that it would be difficult to separate these knowledge systems from their institutional and cultural contexts, and those who have questioned the role of traditional and local knowledge systems in the current situation of pervasive environmental change and globalised societies. Other scholars have claimed that valuable lessons can be extracted from such systems for complex system management; lessons that also need to account for interactions across temporal and spatial scales and organisational and institutional levels, and in particular during periods of rapid change, uncertainty and system reorganisation.
+
+
+== Adaptive cycle ==
+The adaptive cycle, originally conceptualised by Holling (1986) interprets the dynamics of complex ecosystems in response to disturbance and change. In terms of its dynamics, the adaptive cycle has been described as moving slowly from exploitation (r) to conservation (K), maintaining and developing very rapidly from K to release (Omega), continuing rapidly to reorganisation (alpha) and back to exploitation (r).  Depending on the particular configuration of the system, it can then begin a new adaptive cycle or alternatively it may transform into a new configuration, shown as an exit arrow. The adaptive cycle is one of the five heuristics used to understand social-ecological system behaviour. The other four heuristics are: resilience, panarchy, transformability, and adaptability, are of considerable conceptual appeal, and it is claimed to be generally applicable to ecological and social systems as well as to coupled social-ecological systems. Adaptability is the capacity of a social-ecological system to learn and adjust to both internal and external processes. Transformability is the capacity of a system to transform into a completely new system, when ecological, economic, or social structures make the current system unsustainable. Adaptability and transformability are prerequisites for resilience.The two main dimensions that determine changes in an adaptive cycle are connectedness and potential. The connectedness dimension is the visual depiction of a cycle and stands for the ability to internally control its own destiny. It "reflects the strength of internal connections that mediate and regulate the influences between inside processes and the outside world" (p. 50). The potential dimension is represented by the vertical axis, and stands for the "inherent potential of a system that is available for change" (p. 393). Social or cultural potential can be characterised by the "accumulated networks of relationships-friendship, mutual respect, and trust among people and between people and institutions of governance" (p. 49). According to the adaptive cycle heuristic, the levels of both dimensions differ during the course of the cycle along the four phases. The adaptive cycle thus predicts that the four phases of the cycle can be distinguished based on distinct combinations of high or low potential and connectedness.
+The notion of panarchy and adaptive cycles has become an important theoretical lens to describe the resilience of ecological systems and, more recently, social-ecological systems. Although panarchy theory originates in ecology, it has found widespread applications in other disciplines. For example, in management, Wieland (2021) describes a panarchy that represents the planetary, political-economic, and supply chain levels. Hereby, the panarchical understanding of the supply chain leads to a social-ecological interpretation of supply chain resilience.
+
+
+== Adaptive governance ==
+The resilience of social-ecological systems is related to the degree of the shock that the system can absorb and remain within a given state. The concept of resilience is a promising tool for analysing adaptive change towards sustainability because it provides a way for analysing how to manipulate stability in the face of change.
+In order to emphasise the key requirements of a social-ecological system for successful adaptive governance, Folke and colleagues contrasted case studies from the Florida Everglades and the Grand Canyon. Both are complex social-ecological systems that have experiences unwanted degradation of their ecosystem services, but differ substantially in terms of their institutional make-up.
+The governance structure in the Everglades is dominated by the interests of agriculture and environmentalists who have been in conflict over the need to conserve the habitat at the expense of agricultural productivity throughout history. Here, a few feedbacks between the ecological system and the social system exist, and the SES is unable to innovate and adapt (the α-phase of reorganisation and growth).
+In contrast, different stakeholders have formed an adaptive management workgroup in the case of Grand Canyon, using planned management interventions and monitoring to learn about changes occurring in the ecosystem including the best ways to subsequently manage them. Such an arrangement in governance creates the opportunity for institutional learning to take place, allowing for a successful period of reorganisation and growth. Such an approach to institutional learning is becoming more common as NGOs, scientist and communities collaborate to manage ecosystems.
+
+
+== Links to sustainable development ==
+The concept of social-ecological systems has been developed in order to provide both a promising scientific gain as well as impact on problems of sustainable development. A close conceptual and methodological relation exists between the analysis of social-ecological systems, complexity research, and transdisciplinarity. These three research concepts are based on similar ideas and models of reasoning. Moreover, the research on social-ecological systems almost always uses transdisciplinary mode of operation in order to achieve an adequate problem orientation and to ensure integrative results. Problems of sustainable development are intrinsically tied to the social-ecological system defined to tackle them. This means that scientists from the relevant scientific disciplines or field of research as well as the involved societal stakeholders have to be regarded as elements of the social-ecological system in question.
+
+
+== See also ==
+Relational mobility
+
+
+== References ==
+
+
+== Further reading ==
+Aravindakshan, S., Krupnik, T.J., Groot, J.C., Speelman, E.N., Amjath-Babu, T.S. and Tittonell, P., 2020. Multi-level socioecological drivers of agrarian change: Longitudinal evidence from mixed rice-livestock-aquaculture farming systems of Bangladesh. Agricultural Systems, 177, p. 102695.(Aravindakshan et al. 2020)
+Ecology Info Center, 2022. What is Panarchy? http://environment-ecology.com/general-systems-theory/535-panarchy.html.
+Gunderson, L. and Holling, C.S. (2002). Panarchy: understanding transformations in human and natural systems. Island Press, Washington, D.C., USA.
+Maclean K, Ross H, Cuthill M, Rist P. 2013. Healthy country, healthy people: An Australian Aboriginal organisation's adaptive governance to enhance its social-ecological system. Geoforum. 45:94–105.

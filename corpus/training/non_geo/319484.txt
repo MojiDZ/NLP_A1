@@ -1,0 +1,730 @@
+In trigonometry, the law of tangents or tangent rule is a statement about the relationship between the tangents of two angles of a triangle and the lengths of the opposing sides.
+In Figure 1, a, b, and c are the lengths of the three sides of the triangle, and α, β, and γ are the angles opposite those three respective sides.  The law of tangents states that
+
+  
+    
+      
+        
+          
+            
+              a
+              −
+              b
+            
+            
+              a
+              +
+              b
+            
+          
+        
+        =
+        
+          
+            
+              tan
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              α
+              −
+              β
+              )
+            
+            
+              tan
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              α
+              +
+              β
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {a-b}{a+b}}={\frac {\tan {\tfrac {1}{2}}(\alpha -\beta )}{\tan {\tfrac {1}{2}}(\alpha +\beta )}}.}
+  The law of tangents, although not as commonly known as the law of sines or the law of cosines, is equivalent to the law of sines, and can be used in any case where two sides and the included angle, or two angles and a side, are known.
+
+
+== Proof ==
+To prove the law of tangents one can start with the law of sines:
+
+  
+    
+      
+        
+          
+            a
+            
+              sin
+              ⁡
+              α
+            
+          
+        
+        =
+        
+          
+            b
+            
+              sin
+              ⁡
+              β
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {a}{\sin \alpha }}={\frac {b}{\sin \beta }}.}
+  Let
+
+  
+    
+      
+        d
+        =
+        
+          
+            a
+            
+              sin
+              ⁡
+              α
+            
+          
+        
+        =
+        
+          
+            b
+            
+              sin
+              ⁡
+              β
+            
+          
+        
+      
+    
+    {\displaystyle d={\frac {a}{\sin \alpha }}={\frac {b}{\sin \beta }}}
+  so that
+
+  
+    
+      
+        a
+        =
+        d
+        sin
+        ⁡
+        α
+        
+        
+          and
+        
+        
+        b
+        =
+        d
+        sin
+        ⁡
+        β
+        .
+      
+    
+    {\displaystyle a=d\sin \alpha \quad {\text{and}}\quad b=d\sin \beta .}
+  It follows that
+
+  
+    
+      
+        
+          
+            
+              a
+              −
+              b
+            
+            
+              a
+              +
+              b
+            
+          
+        
+        =
+        
+          
+            
+              d
+              sin
+              ⁡
+              α
+              −
+              d
+              sin
+              ⁡
+              β
+            
+            
+              d
+              sin
+              ⁡
+              α
+              +
+              d
+              sin
+              ⁡
+              β
+            
+          
+        
+        =
+        
+          
+            
+              sin
+              ⁡
+              α
+              −
+              sin
+              ⁡
+              β
+            
+            
+              sin
+              ⁡
+              α
+              +
+              sin
+              ⁡
+              β
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {a-b}{a+b}}={\frac {d\sin \alpha -d\sin \beta }{d\sin \alpha +d\sin \beta }}={\frac {\sin \alpha -\sin \beta }{\sin \alpha +\sin \beta }}.}
+  Using the trigonometric identity, the factor formula for sines specifically
+
+  
+    
+      
+        sin
+        ⁡
+        α
+        ±
+        sin
+        ⁡
+        β
+        =
+        2
+        sin
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+        (
+        α
+        ±
+        β
+        )
+        
+        cos
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+        (
+        α
+        ∓
+        β
+        )
+        ,
+      
+    
+    {\displaystyle \sin \alpha \pm \sin \beta =2\sin {\tfrac {1}{2}}(\alpha \pm \beta )\,\cos {\tfrac {1}{2}}(\alpha \mp \beta ),}
+  we get
+
+  
+    
+      
+        
+          
+            
+              a
+              −
+              b
+            
+            
+              a
+              +
+              b
+            
+          
+        
+        =
+        
+          
+            
+              2
+              sin
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              α
+              −
+              β
+              )
+              
+              cos
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              α
+              +
+              β
+              )
+            
+            
+              2
+              sin
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              α
+              +
+              β
+              )
+              
+              cos
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              α
+              −
+              β
+              )
+            
+          
+        
+        =
+        
+          
+            
+              sin
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              α
+              −
+              β
+              )
+            
+            
+              cos
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              α
+              −
+              β
+              )
+            
+          
+        
+        
+          
+            /
+          
+        
+        
+          
+            
+              sin
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              α
+              +
+              β
+              )
+            
+            
+              cos
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              α
+              +
+              β
+              )
+            
+          
+        
+        =
+        
+          
+            
+              tan
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              α
+              −
+              β
+              )
+            
+            
+              tan
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              α
+              +
+              β
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {a-b}{a+b}}={\frac {2\sin {\tfrac {1}{2}}(\alpha -\beta )\,\cos {\tfrac {1}{2}}(\alpha +\beta )}{2\sin {\tfrac {1}{2}}(\alpha +\beta )\,\cos {\tfrac {1}{2}}(\alpha -\beta )}}={\frac {\sin {\tfrac {1}{2}}(\alpha -\beta )}{\cos {\tfrac {1}{2}}(\alpha -\beta )}}{\Bigg /}{\frac {\sin {\tfrac {1}{2}}(\alpha +\beta )}{\cos {\tfrac {1}{2}}(\alpha +\beta )}}={\frac {\tan {\tfrac {1}{2}}(\alpha -\beta )}{\tan {\tfrac {1}{2}}(\alpha +\beta )}}.}
+  As an alternative to using the identity for the sum or difference of two sines, one may cite the trigonometric identity
+
+  
+    
+      
+        tan
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+        (
+        α
+        ±
+        β
+        )
+        =
+        
+          
+            
+              sin
+              ⁡
+              α
+              ±
+              sin
+              ⁡
+              β
+            
+            
+              cos
+              ⁡
+              α
+              +
+              cos
+              ⁡
+              β
+            
+          
+        
+      
+    
+    {\displaystyle \tan {\tfrac {1}{2}}(\alpha \pm \beta )={\frac {\sin \alpha \pm \sin \beta }{\cos \alpha +\cos \beta }}}
+  (see tangent half-angle formula).
+
+
+== Application ==
+The law of tangents can be used to compute the missing side and angles of a triangle in which two sides a and b and the enclosed angle γ are given. From 
+
+  
+    
+      
+        tan
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+        (
+        α
+        −
+        β
+        )
+        =
+        
+          
+            
+              a
+              −
+              b
+            
+            
+              a
+              +
+              b
+            
+          
+        
+        tan
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+        (
+        α
+        +
+        β
+        )
+        =
+        
+          
+            
+              a
+              −
+              b
+            
+            
+              a
+              +
+              b
+            
+          
+        
+        cot
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+        γ
+      
+    
+    {\displaystyle \tan {\tfrac {1}{2}}(\alpha -\beta )={\frac {a-b}{a+b}}\tan {\tfrac {1}{2}}(\alpha +\beta )={\frac {a-b}{a+b}}\cot {\tfrac {1}{2}}\gamma }
+  one can compute α − β; together with α + β = 180° − γ this yields α and β; the remaining side c can then be computed using the law of sines.   In the time before electronic calculators were available, this method
+was preferable to an application of  the law of cosines c = √a2 + b2 − 2ab cos γ, as this latter law necessitated an additional lookup in a logarithm table, in order to compute the square root.  In modern times the law of tangents may have better numerical properties than the law of cosines: If γ is small, and a and b are almost equal, then an application of the law of cosines leads to a subtraction of almost equal values, incurring catastrophic cancellation.
+
+
+== Spherical version ==
+On a sphere of unit radius, the sides of the triangle are arcs of great circles. Accordingly, their lengths can be expressed in radians or any other units of angular measure. Let A, B, C be the angles at the three vertices of the triangle and let  a, b, c be the respective lengths of the opposite sides. The spherical law of tangents says
+
+  
+    
+      
+        
+          
+            
+              tan
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              A
+              −
+              B
+              )
+            
+            
+              tan
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              A
+              +
+              B
+              )
+            
+          
+        
+        =
+        
+          
+            
+              tan
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              a
+              −
+              b
+              )
+            
+            
+              tan
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              a
+              +
+              b
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {\tan {\tfrac {1}{2}}(A-B)}{\tan {\tfrac {1}{2}}(A+B)}}={\frac {\tan {\tfrac {1}{2}}(a-b)}{\tan {\tfrac {1}{2}}(a+b)}}.}
+  
+
+
+== History ==
+The law of tangents for planar triangles was described in the 11th century by Ibn Muʿādh al-Jayyānī.The law of tangents for spherical triangles was described in the 13th century by Persian mathematician Nasir al-Din al-Tusi (1201–1274), who also presented the law of sines for plane triangles in his five-volume work Treatise on the Quadrilateral.
+
+
+== See also ==
+Law of sines
+Law of cosines
+Law of cotangents
+Mollweide's formula
+Half-side formula
+Tangent half-angle formula
+
+
+== Notes ==

@@ -1,0 +1,36 @@
+Ecosystem Functional Type (EFT)  is an ecological concept to characterize ecosystem functioning. Ecosystem Functional Types are defined as groups of ecosystems or patches of the land surface that share similar dynamics of matter and energy exchanges between the biota and the physical environment. The EFT concept is analogous to the Plant Functional Types (PFTs) concept, but defined at a higher level of the biological organization. As plant species can be grouped according to common functional characteristics, ecosystems can be grouped according to their common functional behavior.
+One of the most used approaches to implement this concept has been the identification of EFTs from the satellite-derived dynamics of primary production, an essential and integrative descriptor of ecosystem functioning.
+
+
+== History ==
+In 1992, Soriano and Paruelo proposed the concept of Biozones to identify vegetation units that share ecosystem functional characteristics using time-series of satellite images of spectral vegetation indices. Biozones were later renamed to EFTs by Paruelo et al. (2001), using an equivalent definition and methodology. was one of the first authors that used the term EFT as "aggregated components of ecosystems whose interactions with one another and with the environment produce differences in patterns of ecosystem structure and dynamics". Walker (1997)  proposed the use of a similar term, vegetation functional types, for groups of PFTs in sets that constitute the different states of vegetation succession in non-equilibrium ecosystems. The same term was applied by Scholes et al. in a wider sense for those areas having similar ecological attributes, such as PFTs composition, structure, phenology, biomass or productivity. Several studies have applied hierarchy and patch dynamic theories for the definition of ecosystem and landscape functional types at different spatial scales, by scaling-up emergent structural and functional properties from patches to regions. Valentini et al. defined land functional units by focusing on patches of the land surface that are able to exchange mass and energy with the atmosphere and show a coordinated and specific response to environmental factors.
+Paruelo et al. (2001)  and Alcaraz-Segura et al. (2006, 2013)   refined the EFT concept and proposed a remote-sensing based methodology to derive them. Since then, several authors have implemented the idea under the same or similar approaches using NOAA-AVHRR, MODIS and Landsat archives. In brief, all these approaches use the seasonal dynamics of spectral indices related to key functional aspects of ecosystems such as primary production, water exchange, heat exchange and radiative balance.
+
+
+== EFTs identification ==
+The functional classification of EFTs developed by Paruelo et al. (2001) and Alcaraz-Segura et al. (2006, 2013)   uses time series of spectral vegetation indexes to capture the carbon gains dynamics, the most integrative indicator of ecosystem functioning. To build EFTs, these authors derive three descriptors or metrics from the seasonal dynamics (annual curve) of spectral vegetation indexes (VI) that capture most of the variance in the time series (Fig.2): Annual mean of VI (VI_Mean): estimator of annual primary production, one of the most essential and integrative descriptors of ecosystem functioning.
+Intra-annual coefficient of variation of VI (VI_sCV): descriptor of seasonality or differences in carbon gains between the growing and non growing seasons.
+Date of maximum VI value (VI_DMAX): phenological indicator of when in the year does the growing season take place.The range of values of each VI metric is divided into four intervals, giving the potential number of 4x4x4=64 EFTs. Each EFT is assigned a code of two letters and a number (three characters). The first letter of the code (capital) corresponds to the VI_Mean level, ranging from A to D for low to high (increasing) VI_Mean or productivity. The second letter (small) shows the seasonal CV, ranging from a to d for high (decreasing) to low VI_sCV or seasonality. The numbers refer to DMAX or phenology and indicate the season of maximum VI (1–4: spring, summer, autumn and winter).
+
+
+== Current known EFTs applications ==
+To characterize the spatial and temporal heterogeneity of ecosystem functioning at the local and regional scales.
+To describe the biogeographical patterns of functional diversity at the ecosystem level.
+To assess the functional diversity at the ecosystem level by determining the EFTs richness and equity in the landscape.
+To evaluate the environmental and human controls of ecosystem functional diversity.
+To identify priorities for Biodiversity Conservation.
+To assess the representativeness of protected area networks to capture the functional diversity at the ecosystem level.
+To quantify and monitor the level of provision of intermediate support ecosystem services.
+To assess the effects of land-use changes on ecosystem functioning.
+To improve weather forecast models by introducing the effects of inter-annual changes in ecosystem biophysical properties into land-surface and general circulation atmospheric models.
+
+
+== Pros of EFTs ==
+Functional classifications provide a useful framework for understanding the large-scale ecological changes.
+Environmental changes are particularly noticeable at the ecosystem level.
+Ecosystem functional attributes, such as the exchange of energy and matter of an ecosystem, have shorter time response to environmental changes than structural or compositional attributes, such as species composition or vegetation physiognomy.
+Ecosystem functioning can be more easily monitored than structural attributes by using remote sensing at different spatial scales, over large extents, and utilizing a common protocol in space and time.
+Functional attributes allow the qualitative and quantitative evaluation of ecosystem services.
+
+
+== References ==

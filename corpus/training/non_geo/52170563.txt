@@ -1,0 +1,21 @@
+The CD4+/CD8+ ratio is the ratio of T helper cells (with the surface marker CD4) to cytotoxic T cells (with the surface marker CD8). Both CD4+ and CD8+ T cells contain several subsets.The CD4+/CD8+ ratio in the peripheral blood of healthy adults and mice is about 2:1, and an altered ratio can indicate diseases relating to immunodeficiency or autoimmunity. An inverted CD4+/CD8+ ratio (namely, less than 1/1) indicates an impaired immune system. Conversely, an increased CD4+/CD8+ ratio corresponds to increased immune function.Obesity and dysregulated lipid metabolism in the liver leads to loss of CD4+, but not CD8+ cells, contributing to the induction of liver cancer. Regulatory CD4+ cells decline with expanding visceral fat, whereas CD8+ T-cells increase.
+
+
+== Decreased ratio with infection ==
+A reduced CD4+/CD8+ ratio is associated with reduced resistance to infection.Patients with tuberculosis show a reduced CD4+/CD8+ ratio.HIV infection leads to low levels of CD4+ T cells (lowering the CD4+/CD8+ ratio) through a number of mechanisms, including killing of infected CD4+. Acquired immunodeficiency syndrome (AIDS) is (by one definition) a CD4+ T cell count below 200 cells per µL. HIV progresses with declining numbers of CD4+ and expanding number of CD8+ cells (especially CD8+ memory cells), resulting in high morbidity and mortality. When CD4+ T cell numbers decline below a critical level, cell-mediated immunity is lost, and the body becomes progressively more susceptible to opportunistic infections.  Declining CD4+/CD8+ ratio has been found to be a prognostic marker of HIV disease progression.
+
+
+== COVID-19 ==
+In COVID-19 B cell, natural killer cell, and total lymphocyte counts decline, but both CD4+ and CD8+ cells decline to a far greater extent. Low CD4+ predicted greater likelihood of intensive care unit admission, and CD4+ cell count was the only parameter that predicted length of time for viral RNA clearance.
+
+
+== Decreased ratio with aging ==
+A declining CD4+/CD8+ ratio is associated with ageing, and is an indicator of immunosenescence.  Compared to CD4+ T-cells, CD8+ T-cells show a greater increase in adipose tissue in obesity and aging, thereby reducing the CD4+/CD8+ ratio. Amplication of numbers of CD8+ cells are required for adipose tissue inflammation and macrophage infiltration, whereas numbers of CD4+ cells are reduced under those conditions. Antibodies against CD8+ T-cells reduces inflammation associated with diet-induced obesity, indicating that CD8+ T-cells are an important cause of the inflammation. CD8+ cell recruitment of macrophages into adipose tissue can initiate a vicious cycle of further recruitment of both cell types.Elderly persons commonly have a CD4+/CD8+ ratio less than one.  A study of Swedish elderly found that a CD4+/CD8+ ratio less than one was associated with short-term likelihood of death.Immunological aging is characterized by low proportions of naive CD8+ cells and high numbers of memory CD8+ cells, particularly when cytomegalovirus is present. Exercise can reduce or reverse this effect, when not done at extreme intensity and duration.Both effector helper T cells (Th1 and Th2) and regulatory T cells (Treg) cells have a CD4 surface marker, such that although total CD4+ T cells decrease with age, the relative percent of CD4+ T cells increases. The increase in Treg with age results in suppressed immune response to infection, vaccination, and cancer, without suppressing the chronic inflammation associated with aging.
+
+
+== See also ==
+Helper/suppressor ratio
+List of distinct cell types in the adult human body
+
+
+== References ==

@@ -1,0 +1,20 @@
+CREB-regulated transcription coactivator 1 (CRTC1), previously referred to as TORC1 (Transducer Of Regulated CREB activity 1),  is a protein that in humans is encoded by the CRTC1 gene. It is expressed in a limited number of tissues that include fetal brain and liver and adult heart, skeletal muscles, liver and salivary glands and various regions of the adult central nervous system.
+
+
+== Clinical significance ==
+Production of CRTC1 is blocked in Alzheimer's disease.
+
+
+== See also ==
+Transcription coregulator
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+CRTC1+protein,+human at the U.S. National Library of Medicine Medical Subject Headings (MeSH)
+Human CRTC1 genome location and CRTC1 gene details page  in the UCSC Genome Browser.This article incorporates text from the United States National Library of Medicine, which is in the public domain.

@@ -1,0 +1,33 @@
+Ecotopes are the smallest ecologically distinct landscape features in a landscape mapping and classification system.  As such, they represent relatively homogeneous, spatially explicit landscape functional units that are useful for stratifying landscapes into ecologically distinct features for the measurement and mapping of landscape structure, function and change.  
+Like ecosystems, ecotopes are identified using flexible criteria, in the case of ecotopes, by criteria defined within a specific ecological mapping and classification system.   Just as ecosystems are defined by the interaction of biotic and abiotic components, ecotope classification should stratify landscapes based on a combination of both biotic and abiotic factors, including vegetation, soils, hydrology, and other factors.  Other parameters that must be considered in the classification of ecotopes include their period of stability (such as the number of years that a feature might persist), and their spatial scale (minimum mapping unit).  
+The first definition of ecotope was made by Thorvald Sørensen in 1936. Arthur Tansley picked this definition up in 1939 and elaborated it. He stated that an ecotope is "the particular portion, [...], of the physical world that forms a home for the organisms which inhabit it". In 1945 Carl Troll first applied the term to landscape ecology "the smallest spatial object or component of a geographical landscape". Other academics clarified this to suggest that an ecotope is ecologically homogeneous and is the smallest ecological land unit that is relevant. 
+The term "patch" was used in place of the term "ecotope", by Foreman and Godron (1986), who defined a patch as "a nonlinear surface area differing in appearance from its surroundings".  However, by definition, ecotopes must be identified using a full suite of ecosystem characteristics: patches are a more general type of spatial unit than ecotopes. 
+In ecology an ecotope has also been defined as "The species relation to the full range of environmental and biotic variables affecting it" (Whittaker et al., 1973), but the term is rarely used in this context, due to confusion with the ecological niche concept.
+
+
+== See also ==
+Biotope
+Ecotype
+
+
+== References ==
+
+
+== Bibliography ==
+Bastian, O., C. Beierkuhlein, H. J. Klink, J. Löfffler, U. Steinhardt, M. Volk, and M. Wilmking. 2003. Landscape structures and processes. Pages 49–112 in O. Bastian and U. Steinhardt, eds. Development and Perspectives of Landscape Ecology. Kluwer Academic Publishers.
+Farina, A. 1998. Principles and Methods in Landscape Ecology. Chapman & Hall, London; New York.
+Foreman, R. and Godron, M. 1986. Landscape Ecology. Wiley, New York.
+Haber, W. 1994. System ecological concepts for environmental planning. Pages 49–67 in F. Klijn, ed. Ecosystem Classification for Environmental Management. Kluwer Academic Publishers, Dordrecht, The Netherlands.
+Ingegnoli, V. 2002. Landscape Ecology - a Widening Foundation: A Holistic Unifying Approach. Springer, Berlin; New York.
+Klijn, F., and H. A. Udo De Haes. 1994. A hierarchical approach to ecosystems and its implications for ecological land classification. Landscape Ecology 9: 89-104.
+Schmithüsen, J. 1948. "Fliesengefüge der Landschaft" und "Ökotop": Vorschläge zur begrifflichen Ordnung und zur Nomenklatur in der Landschaftsforschung. Berichte zur Deutschen Landeskunde (Bad Godesberg) 5: 74-83.
+Tansley, A. G. 1939. The British Isles and Their Vegetation. Vol. 1 of 2. Cambridge, United Kingdom. 494 pp.
+Troll, C. 1950. Die geografische landschaft und ihre erforschung. Pages 163-181. Studium Generale 3. Springer, Heidelberg, German Democratic Republic.
+Whittaker, R. H., S. A. Levin, and R. B. Root. 1973. Niche, habitat, and ecotope. American Naturalist 107: 321-338.
+Zonneveld, I. S. 1989. The land unit - A fundamental concept in landscape ecology, and its applications. Landscape Ecology 3: 67-86.
+
+
+== External links ==
+
+A set of different definitions of the term "ecotope"
+Ecotope at Encyclopedia of Earth

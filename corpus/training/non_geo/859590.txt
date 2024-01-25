@@ -1,0 +1,1690 @@
+CORDIC (for "coordinate rotation digital computer"), also known as Volder's algorithm, or: Digit-by-digit method Circular CORDIC (Jack E. Volder), Linear CORDIC, Hyperbolic CORDIC (John Stephen Walther), and Generalized Hyperbolic CORDIC (GH CORDIC) (Yuanyong Luo et al.), is a simple and efficient algorithm to calculate trigonometric functions, hyperbolic functions, square roots, multiplications, divisions, and exponentials and logarithms with arbitrary base, typically converging with one digit (or bit) per iteration.  CORDIC is therefore also an example of digit-by-digit algorithms. CORDIC and closely related methods known as pseudo-multiplication and pseudo-division or factor combining are commonly used when no hardware multiplier is available (e.g. in simple microcontrollers and FPGAs), as the only operations it requires are additions, subtractions, bitshift and lookup tables. As such, they all belong to the class of shift-and-add algorithms. In computer science, CORDIC is often used to implement floating-point arithmetic when the target platform lacks hardware multiply for cost or space reasons.
+
+
+== History ==
+Similar mathematical techniques were published by Henry Briggs as early as 1624 and Robert Flower in 1771, but CORDIC is better optimized for low-complexity finite-state CPUs.
+CORDIC was conceived in 1956 by Jack E. Volder at the aeroelectronics department of Convair out of necessity to replace the analog resolver in the B-58 bomber's navigation computer with a more accurate and faster real-time digital solution. Therefore, CORDIC is sometimes referred to as a digital resolver.In his research Volder was inspired by a formula in the 1946 edition of the CRC Handbook of Chemistry and Physics:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  K
+                  
+                    n
+                  
+                
+                R
+                sin
+                ⁡
+                (
+                θ
+                ±
+                φ
+                )
+              
+              
+                
+                =
+                R
+                sin
+                ⁡
+                (
+                θ
+                )
+                ±
+                
+                  2
+                  
+                    −
+                    n
+                  
+                
+                R
+                cos
+                ⁡
+                (
+                θ
+                )
+                ,
+              
+            
+            
+              
+                
+                  K
+                  
+                    n
+                  
+                
+                R
+                cos
+                ⁡
+                (
+                θ
+                ±
+                φ
+                )
+              
+              
+                
+                =
+                R
+                cos
+                ⁡
+                (
+                θ
+                )
+                ∓
+                
+                  2
+                  
+                    −
+                    n
+                  
+                
+                R
+                sin
+                ⁡
+                (
+                θ
+                )
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}K_{n}R\sin(\theta \pm \varphi )&=R\sin(\theta )\pm 2^{-n}R\cos(\theta ),\\K_{n}R\cos(\theta \pm \varphi )&=R\cos(\theta )\mp 2^{-n}R\sin(\theta ),\\\end{aligned}}}
+  where 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+   is such that 
+  
+    
+      
+        tan
+        ⁡
+        (
+        φ
+        )
+        =
+        
+          2
+          
+            −
+            n
+          
+        
+      
+    
+    {\displaystyle \tan(\varphi )=2^{-n}}
+  , and 
+  
+    
+      
+        
+          K
+          
+            n
+          
+        
+        :=
+        
+          
+            1
+            +
+            
+              2
+              
+                −
+                2
+                n
+              
+            
+          
+        
+      
+    
+    {\displaystyle K_{n}:={\sqrt {1+2^{-2n}}}}
+  .
+His research led to an internal technical report proposing the CORDIC algorithm to solve sine and cosine functions and a prototypical computer implementing it. The report also discussed the possibility to compute hyperbolic coordinate rotation, logarithms and exponential functions with modified CORDIC algorithms. Utilizing CORDIC for multiplication and division was also conceived at this time. Based on the CORDIC principle, Dan H. Daggett, a colleague of Volder at Convair, developed conversion algorithms between binary and binary-coded decimal (BCD).In 1958, Convair finally started to build a demonstration system to solve radar fix-taking problems named CORDIC I, completed in 1960 without Volder, who had left the company already. More universal CORDIC II models A (stationary) and B (airborne) were built and tested by Daggett and Harry Schuss in 1962.Volder's CORDIC algorithm was first described in public in 1959, which caused it to be incorporated into navigation computers by companies including Martin-Orlando, Computer Control, Litton, Kearfott, Lear-Siegler, Sperry, Raytheon, and Collins Radio.Volder teamed up with Malcolm McMillan to build Athena, a fixed-point desktop calculator utilizing his binary CORDIC algorithm. The design was introduced to Hewlett-Packard in June 1965, but not accepted. Still, McMillan introduced David S. Cochran (HP) to Volder's algorithm and when Cochran later met Volder he referred him to a similar approach John E. Meggitt (IBM) had proposed as pseudo-multiplication and pseudo-division in 1961. Meggitt's method also suggested the use of base 10 rather than base 2, as used by Volder's CORDIC so far. These efforts led to the ROMable logic implementation of a decimal CORDIC prototype machine inside of Hewlett-Packard in 1966, built by and conceptually derived from Thomas E. Osborne's prototypical Green Machine, a four-function, floating-point desktop calculator he had completed in DTL logic in December 1964. This project resulted in the public demonstration of Hewlett-Packard's first desktop calculator with scientific functions, the HP 9100A in March 1968, with series production starting later that year.When Wang Laboratories found that the HP 9100A used an approach similar to the factor combining method in their earlier LOCI-1 (September 1964) and LOCI-2 (January 1965) Logarithmic Computing Instrument desktop calculators, they unsuccessfully accused Hewlett-Packard of infringement of one of An Wang's patents in 1968.John Stephen Walther at Hewlett-Packard generalized the algorithm into the Unified CORDIC algorithm in 1971, allowing it to calculate hyperbolic functions, natural exponentials, natural logarithms, multiplications, divisions, and square roots. The CORDIC subroutines for trigonometric and hyperbolic functions could share most of their code. This development resulted in the first scientific handheld calculator, the HP-35 in 1972. Based on hyperbolic CORDIC, Yuanyong Luo et al. further proposed a Generalized Hyperbolic CORDIC (GH CORDIC) to directly compute logarithms and exponentials with an arbitrary fixed base in 2019. Theoretically, Hyperbolic CORDIC is a special case of GH CORDIC.Originally, CORDIC was implemented only using the binary numeral system and despite Meggitt suggesting the use of the decimal system for his pseudo-multiplication approach, decimal CORDIC continued to remain mostly unheard of for several more years, so that Hermann Schmid and Anthony Bogacki still suggested it as a novelty as late as 1973 and it was found only later that Hewlett-Packard had implemented it in 1966 already.Decimal CORDIC became widely used in pocket calculators, most of which operate in binary-coded decimal (BCD) rather than binary. This change in the input and output format did not alter CORDIC's core calculation algorithms. CORDIC is particularly well-suited for handheld calculators, in which low cost – and thus low chip gate count – is much more important than speed.
+CORDIC has been implemented in the ARM-based STM32G4, Intel 8087, 80287, 80387 up to the 80486 coprocessor series as well as in the Motorola 68881 and 68882 for some kinds of floating-point instructions, mainly as a way to reduce the gate counts (and complexity) of the FPU sub-system.
+
+
+== Applications ==
+CORDIC uses simple shift-add operations for several computing tasks such as the calculation of trigonometric, hyperbolic and logarithmic functions, real and complex multiplications, division, square-root calculation, solution of linear systems, eigenvalue estimation, singular value decomposition, QR factorization and many others. As a consequence, CORDIC has been used for applications in diverse areas such as signal and image processing, communication systems, robotics and 3D graphics apart from general scientific and technical computation.
+
+
+=== Hardware ===
+The algorithm was used in the navigational system of the Apollo program's Lunar Roving Vehicle to compute bearing and range, or distance from the Lunar module. CORDIC was used to implement the Intel 8087 math coprocessor in 1980, avoiding the need to implement hardware multiplication.CORDIC is generally faster than other approaches when a hardware multiplier is not available (e.g., a microcontroller), or when the number of gates required to implement the functions it supports should be minimized (e.g., in an FPGA or ASIC).
+In fact, CORDIC is a standard drop-in IP in FPGA development applications such as Vivado for Xilinx, while a power series implementation is not due to the specificity of such an IP, i.e. CORDIC can compute many different functions (general purpose) while a hardware multiplier configured to execute power series implementations can only compute the function it was designed for.
+On the other hand, when a hardware multiplier is available (e.g., in a DSP microprocessor), table-lookup methods and power series are generally faster than CORDIC. In recent years, the CORDIC algorithm has been used extensively for various biomedical applications, especially in FPGA implementations.
+The STM32G4 series  and certain STM32H7 series of MCUs implement a CORDIC module to accelerate computations in various mixed signal applications such as graphics for human-machine interface and field oriented control of motors. While not as fast as a power series approximation, CORDIC is indeed faster than interpolating table based implementations such as the ones provided by the ARM CMSIS and C standard libraries. Though the results may be slightly less accurate as the CORDIC modules provided only achieve 20 bits of precision in the result. For example, most of the performance difference compared to the ARM implementation is due to the overhead of the interpolation algorithm, which achieves full floating point precision (24 bits) and can likely achieve relative error to that precision. Another benefit is that the CORDIC module is a coprocessor and can be run in parallel with other CPU tasks.
+The issue with using Taylor series is that while they do provide small absolute error, they do not exhibit well behaved relative error. Other means of polynomial approximation, such as minimax optimization, may be used to control both kinds of error.
+
+
+=== Software ===
+Many older systems with integer-only CPUs have implemented CORDIC to varying extents as part of their IEEE floating-point libraries. As most modern general-purpose CPUs have floating-point registers with common operations such as add, subtract, multiply, divide, sine, cosine, square root, log10, natural log, the need to implement CORDIC in them with software is nearly non-existent. Only microcontroller or special safety and time-constrained software applications would need to consider using CORDIC.
+
+
+== Modes of operation ==
+
+
+=== Rotation mode ===
+CORDIC can be used to calculate a number of different functions. This explanation shows how to use CORDIC in rotation mode to calculate the sine and cosine of an angle, assuming that the desired angle is given in radians and represented in a fixed-point format. To determine the sine or cosine for an angle 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+  , the y or x coordinate of a point on the unit circle corresponding to the desired angle must be found. Using CORDIC, one would start with the vector 
+  
+    
+      
+        
+          v
+          
+            0
+          
+        
+      
+    
+    {\displaystyle v_{0}}
+  :
+
+  
+    
+      
+        
+          v
+          
+            0
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  1
+                
+              
+              
+                
+                  0
+                
+              
+            
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle v_{0}={\begin{bmatrix}1\\0\end{bmatrix}}.}
+  In the first iteration, this vector is rotated 45° counterclockwise to get the vector 
+  
+    
+      
+        
+          v
+          
+            1
+          
+        
+      
+    
+    {\displaystyle v_{1}}
+  . Successive iterations rotate the vector in one or the other direction by size-decreasing steps, until the desired angle has been achieved. Each step angle is 
+  
+    
+      
+        
+          γ
+          
+            i
+          
+        
+        =
+        arctan
+        ⁡
+        
+          (
+          
+            2
+            
+              −
+              i
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \gamma _{i}=\arctan {(2^{-i})}}
+   for 
+  
+    
+      
+        i
+        =
+        0
+        ,
+        1
+        ,
+        2
+        ,
+        …
+      
+    
+    {\displaystyle i=0,1,2,\dots }
+  .
+More formally, every iteration calculates a rotation, which is performed by multiplying the vector 
+  
+    
+      
+        
+          v
+          
+            i
+          
+        
+      
+    
+    {\displaystyle v_{i}}
+   with the rotation matrix 
+  
+    
+      
+        
+          R
+          
+            i
+          
+        
+      
+    
+    {\displaystyle R_{i}}
+  :
+
+  
+    
+      
+        
+          v
+          
+            i
+            +
+            1
+          
+        
+        =
+        
+          R
+          
+            i
+          
+        
+        
+          v
+          
+            i
+          
+        
+        .
+      
+    
+    {\displaystyle v_{i+1}=R_{i}v_{i}.}
+  The rotation matrix is given by
+
+  
+    
+      
+        
+          R
+          
+            i
+          
+        
+        =
+        
+          
+            [
+            
+              
+                
+                  cos
+                  ⁡
+                  (
+                  
+                    γ
+                    
+                      i
+                    
+                  
+                  )
+                
+                
+                  −
+                  sin
+                  ⁡
+                  (
+                  
+                    γ
+                    
+                      i
+                    
+                  
+                  )
+                
+              
+              
+                
+                  sin
+                  ⁡
+                  (
+                  
+                    γ
+                    
+                      i
+                    
+                  
+                  )
+                
+                
+                  cos
+                  ⁡
+                  (
+                  
+                    γ
+                    
+                      i
+                    
+                  
+                  )
+                
+              
+            
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle R_{i}={\begin{bmatrix}\cos(\gamma _{i})&-\sin(\gamma _{i})\\\sin(\gamma _{i})&\cos(\gamma _{i})\end{bmatrix}}.}
+  Using the following two trigonometric identities:
+
+  
+    
+      
+        
+          
+            
+              
+                cos
+                ⁡
+                (
+                
+                  γ
+                  
+                    i
+                  
+                
+                )
+              
+              
+                
+                =
+                
+                  
+                    1
+                    
+                      1
+                      +
+                      
+                        tan
+                        
+                          2
+                        
+                      
+                      ⁡
+                      (
+                      
+                        γ
+                        
+                          i
+                        
+                      
+                      )
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                sin
+                ⁡
+                (
+                
+                  γ
+                  
+                    i
+                  
+                
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      tan
+                      ⁡
+                      (
+                      
+                        γ
+                        
+                          i
+                        
+                      
+                      )
+                    
+                    
+                      1
+                      +
+                      
+                        tan
+                        
+                          2
+                        
+                      
+                      ⁡
+                      (
+                      
+                        γ
+                        
+                          i
+                        
+                      
+                      )
+                    
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\cos(\gamma _{i})&={\frac {1}{\sqrt {1+\tan ^{2}(\gamma _{i})}}},\\\sin(\gamma _{i})&={\frac {\tan(\gamma _{i})}{\sqrt {1+\tan ^{2}(\gamma _{i})}}},\end{aligned}}}
+  the rotation matrix becomes
+
+  
+    
+      
+        
+          R
+          
+            i
+          
+        
+        =
+        
+          
+            1
+            
+              1
+              +
+              
+                tan
+                
+                  2
+                
+              
+              ⁡
+              (
+              
+                γ
+                
+                  i
+                
+              
+              )
+            
+          
+        
+        
+          
+            [
+            
+              
+                
+                  1
+                
+                
+                  −
+                  tan
+                  ⁡
+                  (
+                  
+                    γ
+                    
+                      i
+                    
+                  
+                  )
+                
+              
+              
+                
+                  tan
+                  ⁡
+                  (
+                  
+                    γ
+                    
+                      i
+                    
+                  
+                  )
+                
+                
+                  1
+                
+              
+            
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle R_{i}={\frac {1}{\sqrt {1+\tan ^{2}(\gamma _{i})}}}{\begin{bmatrix}1&-\tan(\gamma _{i})\\\tan(\gamma _{i})&1\end{bmatrix}}.}
+  The expression for the rotated vector 
+  
+    
+      
+        
+          v
+          
+            i
+            +
+            1
+          
+        
+        =
+        
+          R
+          
+            i
+          
+        
+        
+          v
+          
+            i
+          
+        
+      
+    
+    {\displaystyle v_{i+1}=R_{i}v_{i}}
+   then becomes
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  
+                    x
+                    
+                      i
+                      +
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    y
+                    
+                      i
+                      +
+                      1
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          
+            1
+            
+              1
+              +
+              
+                tan
+                
+                  2
+                
+              
+              ⁡
+              (
+              
+                γ
+                
+                  i
+                
+              
+              )
+            
+          
+        
+        
+          
+            [
+            
+              
+                
+                  1
+                
+                
+                  −
+                  tan
+                  ⁡
+                  (
+                  
+                    γ
+                    
+                      i
+                    
+                  
+                  )
+                
+              
+              
+                
+                  tan
+                  ⁡
+                  (
+                  
+                    γ
+                    
+                      i
+                    
+                  
+                  )
+                
+                
+                  1
+                
+              
+            
+            ]
+          
+        
+        
+          
+            [
+            
+              
+                
+                  
+                    x
+                    
+                      i
+                    
+                  
+                
+              
+              
+                
+                  
+                    y
+                    
+                      i
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        ,
+      
+    
+    {\displaystyle {\begin{bmatrix}x_{i+1}\\y_{i+1}\end{bmatrix}}={\frac {1}{\sqrt {1+\tan ^{2}(\gamma _{i})}}}{\begin{bmatrix}1&-\tan(\gamma _{i})\\\tan(\gamma _{i})&1\end{bmatrix}}{\begin{bmatrix}x_{i}\\y_{i}\end{bmatrix}},}
+  where 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+      
+    
+    {\displaystyle x_{i}}
+   and 
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+      
+    
+    {\displaystyle y_{i}}
+   are the components of 
+  
+    
+      
+        
+          v
+          
+            i
+          
+        
+      
+    
+    {\displaystyle v_{i}}
+  . Restricting the angles 
+  
+    
+      
+        
+          γ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \gamma _{i}}
+   such that 
+  
+    
+      
+        tan
+        ⁡
+        (
+        
+          γ
+          
+            i
+          
+        
+        )
+        =
+        ±
+        
+          2
+          
+            −
+            i
+          
+        
+      
+    
+    {\displaystyle \tan(\gamma _{i})=\pm 2^{-i}}
+  , the multiplication with the tangent can be replaced by a division by a power of two, which is efficiently done in digital computer hardware using a bit shift. The expression then becomes
+
+  
+    
+      
+        
+          
+            [
+            
+              
+                
+                  
+                    x
+                    
+                      i
+                      +
+                      1
+                    
+                  
+                
+              
+              
+                
+                  
+                    y
+                    
+                      i
+                      +
+                      1
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        =
+        
+          K
+          
+            i
+          
+        
+        
+          
+            [
+            
+              
+                
+                  1
+                
+                
+                  −
+                  
+                    σ
+                    
+                      i
+                    
+                  
+                  
+                    2
+                    
+                      −
+                      i
+                    
+                  
+                
+              
+              
+                
+                  
+                    σ
+                    
+                      i
+                    
+                  
+                  
+                    2
+                    
+                      −
+                      i
+                    
+                  
+                
+                
+                  1
+                
+              
+            
+            ]
+          
+        
+        
+          
+            [
+            
+              
+                
+                  
+                    x
+                    
+                      i
+                    
+                  
+                
+              
+              
+                
+                  
+                    y
+                    
+                      i
+                    
+                  
+                
+              
+            
+            ]
+          
+        
+        ,
+      
+    
+    {\displaystyle {\begin{bmatrix}x_{i+1}\\y_{i+1}\end{bmatrix}}=K_{i}{\begin{bmatrix}1&-\sigma _{i}2^{-i}\\\sigma _{i}2^{-i}&1\end{bmatrix}}{\begin{bmatrix}x_{i}\\y_{i}\end{bmatrix}},}
+  where
+
+  
+    
+      
+        
+          K
+          
+            i
+          
+        
+        =
+        
+          
+            1
+            
+              1
+              +
+              
+                2
+                
+                  −
+                  2
+                  i
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle K_{i}={\frac {1}{\sqrt {1+2^{-2i}}}},}
+  and 
+  
+    
+      
+        
+          σ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \sigma _{i}}
+   is used to determine the direction of the rotation: if the angle 
+  
+    
+      
+        
+          γ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \gamma _{i}}
+   is positive, then 
+  
+    
+      
+        
+          σ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \sigma _{i}}
+   is +1, otherwise it is −1.
+All 
+  
+    
+      
+        
+          K
+          
+            i
+          
+        
+      
+    
+    {\displaystyle K_{i}}
+   factors can be ignored in the iterative process and then applied all at once afterwards with a scaling factor 
+  
+    
+      
+        K
+        (
+        n
+        )
+      
+    
+    {\displaystyle K(n)}
+  
+
+  
+    
+      
+        K
+        (
+        n
+        )
+        =
+        
+          ∏
+          
+            i
+            =
+            0
+          
+          
+            n
+            −
+            1
+          
+        
+        
+          K
+          
+            i
+          
+        
+        =
+        
+          ∏
+          
+            i
+            =
+            0
+          
+          
+            n
+            −
+            1
+          
+        
+        
+          
+            1
+            
+              1
+              +
+              
+                2
+                
+                  −
+                  2
+                  i
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle K(n)=\prod _{i=0}^{n-1}K_{i}=\prod _{i=0}^{n-1}{\frac {1}{\sqrt {1+2^{-2i}}}},}
+  which is calculated in advance and stored in a table or as a single constant, if the number of iterations is fixed. This correction could also be made in advance, by scaling 
+  
+    
+      
+        
+          v
+          
+            0
+          
+        
+      
+    
+    {\displaystyle v_{0}}
+   and hence saving a multiplication. Additionally, it can be noted that
+
+  
+    
+      
+        K
+        =
+        
+          lim
+          
+            n
+            →
+            ∞
+          
+        
+        K
+        (
+        n
+        )
+        ≈
+        0.6072529350088812561694
+      
+    
+    {\displaystyle K=\lim _{n\to \infty }K(n)\approx 0.6072529350088812561694}
+  to allow further reduction of the algorithm's complexity. Some applications may avoid correcting for 
+  
+    
+      
+        K
+      
+    
+    {\displaystyle K}
+   altogether, resulting in a processing gain 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  :
+
+  
+    
+      
+        A
+        =
+        
+          
+            1
+            K
+          
+        
+        =
+        
+          lim
+          
+            n
+            →
+            ∞
+          
+        
+        
+          ∏
+          
+            i
+            =
+            0
+          
+          
+            n
+            −
+            1
+          
+        
+        
+          
+            1
+            +
+            
+              2
+              
+                −
+                2
+                i
+              
+            
+          
+        
+        ≈
+        1.64676025812107.
+      
+    
+    {\displaystyle A={\frac {1}{K}}=\lim _{n\to \infty }\prod _{i=0}^{n-1}{\sqrt {1+2^{-2i}}}\approx 1.64676025812107.}
+  After a sufficient number of iterations, the vector's angle will be close to the wanted angle 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+  . For most ordinary purposes, 40 iterations (n = 40) are sufficient to obtain the correct result to the 10th decimal place.
+The only task left is to determine whether the rotation should be clockwise or counterclockwise at each iteration (choosing the value of 
+  
+    
+      
+        σ
+      
+    
+    {\displaystyle \sigma }
+  ). This is done by keeping track of how much the angle was rotated at each iteration and subtracting that from the wanted angle; then in order to get closer to the wanted angle 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+  , if 
+  
+    
+      
+        
+          β
+          
+            n
+            +
+            1
+          
+        
+      
+    
+    {\displaystyle \beta _{n+1}}
+   is positive, the rotation is clockwise, otherwise it is negative and the rotation is counterclockwise:
+
+  
+    
+      
+        
+          β
+          
+            0
+          
+        
+        =
+        β
+      
+    
+    {\displaystyle \beta _{0}=\beta }
+  
+  
+    
+      
+        
+          β
+          
+            i
+            +
+            1
+          
+        
+        =
+        
+          β
+          
+            i
+          
+        
+        −
+        
+          σ
+          
+            i
+          
+        
+        
+          γ
+          
+            i
+          
+        
+        ,
+        
+        
+          γ
+          
+            i
+          
+        
+        =
+        arctan
+        ⁡
+        (
+        
+          2
+          
+            −
+            i
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle \beta _{i+1}=\beta _{i}-\sigma _{i}\gamma _{i},\quad \gamma _{i}=\arctan(2^{-i}).}
+  The values of 
+  
+    
+      
+        
+          γ
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \gamma _{n}}
+   must also be precomputed and stored. But for small angles, 
+  
+    
+      
+        arctan
+        ⁡
+        (
+        
+          γ
+          
+            n
+          
+        
+        )
+        =
+        
+          γ
+          
+            n
+          
+        
+      
+    
+    {\displaystyle \arctan(\gamma _{n})=\gamma _{n}}
+   in fixed-point representation, reducing table size.
+As can be seen in the illustration above, the sine of the angle 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+   is the y coordinate of the final vector 
+  
+    
+      
+        
+          v
+          
+            n
+          
+        
+        ,
+      
+    
+    {\displaystyle v_{n},}
+   while the x coordinate is the cosine value.
+
+
+=== Vectoring mode ===
+The rotation-mode algorithm described above can rotate any vector (not only a unit vector aligned along the x axis) by an angle between −90° and +90°. Decisions on the direction of the rotation depend on 
+  
+    
+      
+        
+          β
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \beta _{i}}
+   being positive or negative.
+The vectoring-mode of operation requires a slight modification of the algorithm. It starts with a vector whose x coordinate is positive whereas the y coordinate is arbitrary. Successive rotations have the goal of rotating the vector to the x axis (and therefore reducing the y coordinate to zero). At each step, the value of y determines the direction of the rotation. The final value of 
+  
+    
+      
+        
+          β
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \beta _{i}}
+   contains the total angle of rotation. The final value of x will be the magnitude of the original vector scaled by K. So, an obvious use of the vectoring mode is the transformation from rectangular to polar coordinates.
+
+
+== Implementation ==
+In Java the Math class has a scalb(double x,int scale) method to perform such a shift, C has the ldexp function, and the x86 class of processors have the fscale floating point operation.
+
+
+=== Software Example (Python) ===
+
+
+==== Output ====
+
+
+=== Hardware example ===
+The number of logic gates for the implementation of a CORDIC is roughly comparable to the number required for a multiplier as both require combinations of shifts and additions. The choice for a multiplier-based or CORDIC-based implementation will depend on the context. The multiplication of two complex numbers represented by their real and imaginary components (rectangular coordinates), for example, requires 4 multiplications, but could be realized by a single CORDIC operating on complex numbers represented by their polar coordinates, especially if the magnitude of the numbers is not relevant (multiplying a complex vector with a vector on the unit circle actually amounts to a rotation). CORDICs are often used in circuits for telecommunications such as digital down converters.
+
+
+== Double iterations CORDIC ==
+In two of the publications by Vladimir Baykov, it was proposed to use the double iterations method for the implementation of the functions: arcsine, arccosine, natural logarithm, exponential function, as well as for the calculation of the hyperbolic functions. Double iterations method consists in the fact that unlike the classical CORDIC method, where the iteration step value changes EVERY time, i.e. on each iteration, in the double iteration method, the iteration step value is repeated twice and changes only through one iteration. Hence the designation for the degree indicator for double iterations appeared: 
+  
+    
+      
+        i
+        =
+        0
+        ,
+        0
+        ,
+        1
+        ,
+        1
+        ,
+        2
+        ,
+        2
+        …
+      
+    
+    {\displaystyle i=0,0,1,1,2,2\dots }
+  . Whereas with ordinary iterations: 
+  
+    
+      
+        i
+        =
+        0
+        ,
+        1
+        ,
+        2
+        …
+      
+    
+    {\displaystyle i=0,1,2\dots }
+  . The double iteration method guarantees the convergence of the method throughout the valid range of argument changes.
+The generalization of the CORDIC convergence problems for the arbitrary positional number system with radix 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+   showed  that for the functions sine, cosine, arctangent, it is enough to perform 
+  
+    
+      
+        R
+        −
+        1
+      
+    
+    {\displaystyle R-1}
+   iterations for each value of i (i = 0 or 1 to n, where n is the number of digits), i.e. for each digit of the result. For the natural logarithm, exponential, hyperbolic sine, cosine and arctangent, 
+  
+    
+      
+        R
+      
+    
+    {\displaystyle R}
+   iterations should be performed for each value 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  . For the functions arcsine and arccosine, two 
+  
+    
+      
+        R
+        −
+        1
+      
+    
+    {\displaystyle R-1}
+   iterations should be performed for each number digit, i.e. for each value of 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  .For inverse hyperbolic sine and arcosine functions, the number of iterations will be 
+  
+    
+      
+        2
+        R
+      
+    
+    {\displaystyle 2R}
+   for each 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  , that is, for each result digit.
+
+
+== Related algorithms ==
+CORDIC is part of the class of "shift-and-add" algorithms, as are the logarithm and exponential algorithms derived from Henry Briggs' work.  Another shift-and-add algorithm which can be used for computing many elementary functions is the BKM algorithm, which is a generalization of the logarithm and exponential algorithms to the complex plane.  For instance, BKM can be used to compute the sine and cosine of a real angle 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   (in radians) by computing the exponential of 
+  
+    
+      
+        0
+        +
+        i
+        x
+      
+    
+    {\displaystyle 0+ix}
+  , which is 
+  
+    
+      
+        cis
+        ⁡
+        (
+        x
+        )
+        =
+        cos
+        ⁡
+        (
+        x
+        )
+        +
+        i
+        sin
+        ⁡
+        (
+        x
+        )
+      
+    
+    {\displaystyle \operatorname {cis} (x)=\cos(x)+i\sin(x)}
+  . The BKM algorithm is slightly more complex than CORDIC, but has the advantage that it does not need a scaling factor (K).
+
+
+== See also ==
+Methods of computing square roots
+IEEE 754
+Floating-point units
+Digital Circuits/CORDIC in Wikibooks
+
+
+== References ==
+
+
+== Further reading ==
+Parini, Joseph A. (1966-09-05). "DIVIC Gives Answer to Complex Navigation Questions". Electronics: 105–111. ISSN 0013-5070. (NB. DIVIC stands for DIgital Variable Increments Computer. Some sources erroneously refer to this as by J. M. Parini.)
+Anderson, Stanley F.; Earle, John G.; Goldschmidt, Robert Elliott; Powers, Don M. (1965-11-01). "The IBM System/360 Model 91: Floating-Point Execution Unit" (PDF). IBM Journal of Research and Development. Riverton, New Jersey, USA (published January 1967). 11 (1): 34–53. doi:10.1147/rd.111.0034. Archived from the original (PDF) on 2016-03-05. Retrieved 2016-01-02.
+Liccardo, Michael A. (September 1968). An Interconnect Processor with Emphasis on CORDIC Mode Operation (MSc thesis). Berkeley, CA, USA: University of California, Berkeley, Department of Electrical Engineering. OCLC 500565168.
+US patent 3576983A, Cochran, David S., "Digital calculator system for computing square roots", published 1971-05-04, issued 1971-05-04,  assigned to Hewlett-Packard Co.  ([14])
+Chen, Tien Chi (July 1972). "Automatic Computation of Exponentials, Logarithms, Ratios, and Square Roots" (PDF). IBM Journal of Research and Development. 16 (4): 380–388. doi:10.1147/rd.164.0380. ISSN 0018-8646. Archived from the original (PDF) on 2016-08-12. Retrieved 2016-01-02.
+Egbert, William E. (May 1977). "Personal Calculator Algorithms I: Square Roots" (PDF). Hewlett-Packard Journal. Palo Alto, California, USA: Hewlett-Packard. 28 (9): 22–24. Archived from the original (PDF) on 2015-12-18. Retrieved 2016-01-02. ([15])
+Egbert, William E. (June 1977). "Personal Calculator Algorithms II: Trigonometric Functions" (PDF). Hewlett-Packard Journal. Palo Alto, California, USA: Hewlett-Packard. 28 (10): 17–20. Archived from the original (PDF) on 2016-03-04. Retrieved 2016-01-02. ([16])
+Egbert, William E. (November 1977). "Personal Calculator Algorithms III: Inverse Trigonometric Functions" (PDF). Hewlett-Packard Journal. Palo Alto, California, USA: Hewlett-Packard. 29 (3): 22–23. Archived from the original (PDF) on 2016-03-04. Retrieved 2016-01-02. ([17])
+Egbert, William E. (April 1978). "Personal Calculator Algorithms IV: Logarithmic Functions" (PDF). Hewlett-Packard Journal. Palo Alto, California, USA: Hewlett-Packard. 29 (8): 29–32. Archived from the original (PDF) on 2016-03-04. Retrieved 2016-01-02. ([18])
+Senzig, Don (1975). "Calculator Algorithms". IEEE Compcon Reader Digest. IEEE: 139–141. IEEE Catalog No. 75 CH 0920-9C.
+Baykov, Vladimir D. (1972), Вопросы исследования вычисления элементарных функций по методу «цифра за цифрой» [Problems of elementary functions evaluation based on digit by digit (CORDIC) technique] (PhD thesis) (in Russian), Leningrad State University of Electrical Engineering
+Baykov, Vladimir D.; Smolov, Vladimir B. (1975). Apparaturnaja realizatsija elementarnikh funktsij v CVM Аппаратурная реализация элементарных функций в ЦВМ [Hardware implementation of elementary functions in computers] (in Russian). Leningrad State University. Archived from the original on 2019-03-02. Retrieved 2019-03-02.
+Baykov, Vladimir D.; Seljutin, S. A. (1982).  Вычисление элементарных функций в ЭКВМ [Elementary functions evaluation in microcalculators] (in Russian). Moscow: Radio i svjaz (Радио и связь).
+Baykov, Vladimir D.; Smolov, Vladimir B. (1985). Специализированные процессоры: итерационные алгоритмы и структуры [Special-purpose processors: iterative algorithms and structures] (in Russian). Moscow: Radio i svjaz (Радио и связь).
+Coppens, Thomas, ed. (January 1980). "CORDIC constants in TI 58/59 ROM". Texas Instruments Software Exchange Newsletter. Kapellen, Belgium: TISOFT. 2 (2).
+Coppens, Thomas, ed. (April–June 1980). "Natural logarithm computation scheme / ex computing scheme / 1/x computing scheme". Texas Instruments Software Exchange Newsletter. Kapellen, Belgium: TISOFT. 2 (3). (about CORDIC in TI-58/TI-59)
+TI Graphic Products Team (1995) [1993]. "Transcendental function algorithms". Dallas, Texas, USA: Texas Instruments, Consumer Products. Archived from the original on 2016-03-17. Retrieved 2019-03-02.
+Jorke, Günter; Lampe, Bernhard; Wengel, Norbert (1989). Arithmetische Algorithmen der Mikrorechentechnik (in German) (1 ed.). Berlin, Germany: VEB Verlag Technik. pp. 219, 261, 271–296. ISBN 3341005153. EAN 9783341005156. MPN 5539165. License 201.370/4/89. Retrieved 2015-12-01.
+Zechmeister, M. (2021). Solving Kepler's equation with CORDIC double iterations. Vol. 500. Göttingen, Germany: Institut für Astrophysik, Georg-August-Universität. pp. 109–117. arXiv:2008.02894. doi:10.1093/mnras/staa2441. {{cite book}}: |journal= ignored (help)
+Frerking, Marvin E. (1994). Digital Signal Processing in Communication Systems (1 ed.).
+Kantabutra, Vitit (1996). "On hardware for computing exponential and trigonometric functions". IEEE Transactions on Computers. 45 (3): 328–339. doi:10.1109/12.485571.
+Johansson, Kenny (2008). "6.5 Sine and Cosine Functions". Low Power and Low Complexity Shift-and-Add Based Computations (PDF) (Dissertation thesis). Linköping Studies in Science and Technology (1 ed.). Linköping, Sweden: Department of Electrical Engineering, Linköping University. pp. 244–250. ISBN 978-91-7393-836-5. ISSN 0345-7524. No. 1201. Archived (PDF) from the original on 2017-08-13. Retrieved 2021-08-23. (x+268 pages)
+Banerjee, Ayan (2001). "FPGA realization of a CORDIC based FFT processor for biomedical signal processing". Microprocessors and Microsystems. Kharagpur, West Bengal, India. 25 (3): 131–142. doi:10.1016/S0141-9331(01)00106-5.
+Kahan, William Morton (2002-05-20). "Pseudo-Division Algorithms for Floating-Point Logarithms and Exponentials" (PDF). Berkeley, CA, USA: University of California. Archived from the original (PDF) on 2015-12-25. Retrieved 2016-01-15.
+Cockrum, Chris K. (Fall 2008). "Implementation of a CORDIC Algorithm in a Digital Down-Converter" (PDF).
+Lakshmi, Boppana; Dhar, Anindya Sundar (2009-10-06). "CORDIC Architectures: A Survey". VLSI Design. Kharagpur, West Bengal, India: Department of Electronics and Electrical Communication Engineering, Indian Institute of Technology (published 2010-10-10). 2010: 1–19. doi:10.1155/2010/794891. 794891.
+Savard, John J. G. (2018) [2006]. "Advanced Arithmetic Techniques". quadibloc. Archived from the original on 2018-07-03. Retrieved 2018-07-16.
+
+
+== External links ==
+
+Wang, Shaoyun (July 2011), CORDIC Bibliography Site
+Soft CORDIC IP (verilog HDL code)
+CORDIC Bibliography Site
+BASIC Stamp, CORDIC math implementation
+CORDIC implementation in verilog
+CORDIC Vectoring with Arbitrary Target Value
+Python CORDIC implementation
+Simple C code for fixed-point CORDIC
+Tutorial and MATLAB Implementation – Using CORDIC to Estimate Phase of a Complex Number
+Descriptions of hardware CORDICs in Arx with testbenches in C++ and VHDL
+An Introduction to the CORDIC algorithm
+Implementation of the CORDIC Algorithm in a Digital Down-Converter
+Implementation of the CORDIC Algorithm: fixed point C code for trigonometric and hyperbolic functions, C code for test and performance verification

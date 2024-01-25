@@ -1,0 +1,32 @@
+AquaMaps is a collaborative project with the aim of producing computer-generated (and ultimately, expert reviewed) predicted global distribution maps for marine species on a 0.5 x 0.5 degree grid of the oceans based on data available through online species databases such as FishBase and SeaLifeBase and species occurrence records from OBIS or GBIF and using an environmental envelope model (see niche modelling) in conjunction with expert input. The underlying model represents a modified version of the relative environmental suitability (RES) model developed by Kristin Kaschner to generate global predictions of marine mammal occurrences.According to the AquaMaps website in August 2013, the project held standardized distribution maps for over 17,300 species of fishes, marine mammals and invertebrates.
+The project is also expanding to incorporate freshwater species, with more than 600 biodiversity maps for freshwater fishes of the Americas available as at November 2009. AquaMaps predictions have been validated successfully for a number of species using independent data sets and the model was shown to perform equally well or better than other standard species distribution models, when faced with the currently existing suboptimal input data sets.In addition to displaying individual maps per species, AquaMaps provides tools to generate species richness maps by higher taxon, plus a spatial search for all species overlapping a specified grid square. There is also the facility to create custom maps for any species via the web by modifying the input parameters and re-running the map generating algorithm in real time, and a variety of other tools including the investigation of effects of climate change on species distributions (see relevant section of the AquaMaps search page).
+
+
+== Coordination ==
+The project is coordinated by Dr Rainer Froese of IFM-GEOMAR and involves contributions from other research institutes including the Evolutionary Biology and Ecology Lab, Albert-Ludwigs-University Freiburg, University of British Columbia (UBC), the Swedish Museum of Natural History (NRM - Naturhistoriska Riksmuseet), the WorldFish Center in Malaysia, and CSIRO Marine and Atmospheric Research in Australia. The creation of AquaMaps is supported by MARA, Pew Fellows Program in Marine Conservation, INCOFISH, Sea Around Us Project, Biogeoinformatics of Hexacorals, FishBase and SeaLifeBase.
+
+
+== Research use ==
+A multi-author study by E. Sala et al. utilizing Aquamaps modelled data for marine fishes and invertebrates, entitled "Protecting the global ocean for biodiversity, food and climate", was published in the prestigious journal Nature in 2021.
+
+
+== See also ==
+Environmental niche modelling
+Biogeography
+Biodiversity informatics
+Marine biology
+C-squares - global grid system utilized by AquaMaps for data storage and map creation
+
+
+== References ==
+
+
+== Further reading ==
+Candela L.; Castelli D.; Coro G.; Pagano P.; Sinibaldi F. (2013). "Species distribution modeling in the cloud". Concurrency and Computation: Practice and Experience. 28 (4): 1056–1079. doi:10.1002/cpe.3030.
+
+
+== External links ==
+AquaMaps home page
+Freshwater Biodiversity AquaMaps
+AquaMaps entry in the D4Science Virtual Research Environment, released March 2009
+AquaMaps Virtual Research Environment in the iMarine Infrastructure;

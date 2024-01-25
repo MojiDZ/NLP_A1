@@ -1,0 +1,108 @@
+A dendritic cell (DC) is an antigen-presenting cell (also known as an accessory cell) of the mammalian immune system. A DC's main function is to process antigen material and present it on the cell surface to the T cells of the immune system. They act as messengers between the innate and adaptive immune systems.Dendritic cells are present in tissues that are in contact with the body's external environment, such as the skin (where there is a specialized dendritic cell type called the Langerhans cell), and the inner lining of the nose, lungs, stomach and intestines. They can also be found in an immature and mature state in the blood.  Once activated, they migrate to the lymph nodes, where they interact with T cells and B cells to initiate and shape the adaptive immune response.  At certain development stages they grow branched projections, the dendrites, that give the cell its name (δένδρον or déndron being Greek for 'tree'). While similar in appearance to the dendrites of neurons, these are structures distinct from them. Immature dendritic cells are also called veiled cells, as they possess large cytoplasmic 'veils' rather than dendrites.
+
+
+== History ==
+Dendritic cells were first described by Paul Langerhans (hence Langerhans cells) in the late nineteenth century. The term dendritic cells was coined in 1973 by Ralph M. Steinman and Zanvil A. Cohn. For discovering the central role of dendritic cells in the adaptive immune response, Steinman was awarded the Albert Lasker Award for Basic Medical Research in 2007 and the Nobel Prize in Physiology or Medicine in 2011.
+
+
+== Types ==
+The morphology of dendritic cells results in a very large surface-to-volume ratio.  That is, the dendritic cell has a very large surface area compared to the overall cell volume.
+
+
+=== In vivo – primate ===
+
+The most common division of dendritic cells is conventional dendritic cells (a.k.a. myeloid dendritic cells) vs. plasmacytoid dendritic cell (most likely of lymphoid lineage) as described in the table below:
+
+The markers BDCA-2, BDCA-3, and BDCA-4 can be used to discriminate among the types.
+Lymphoid and myeloid DCs evolve from lymphoid and myeloid precursors, respectively, and thus are of hematopoietic origin. By contrast, follicular dendritic cells (FDC) are probably of mesenchymal rather than hematopoietic origin and do not express MHC class II, but are so named because they are located in lymphoid follicles and have long "dendritic" processes.
+
+
+=== In blood ===
+The blood DCs are typically identified and enumerated in flow cytometry. Three types of DCs have been defined in human blood: the CD1c+ myeloid DCs, the CD141+ myeloid DCs and the CD303+ plasmacytoid DCs. This represents the nomenclature proposed by the nomenclature committee of the International Union of Immunological Societies.
+Dendritic cells that circulate in blood do not have all the typical features of their counterparts in tissue, i.e. they are less mature and have no dendrites. Still, they can perform complex functions including chemokine-production (in CD1c+ myeloid DCs), cross-presentation (in CD141+ myeloid DCs), and IFNalpha production (in CD303+ plasmacytoid DCs).
+
+
+=== In vitro ===
+In some respects, dendritic cells cultured in vitro do not show the same behaviour or capability as dendritic cells isolated ex vivo. Nonetheless, they are often used for research as they are still much more readily available than genuine DCs.
+
+Mo-DC or MDDC refers to cells matured from monocytes.
+HP-DC refers to cells derived from hematopoietic progenitor cells.
+
+
+== Development and life cycle ==
+
+
+=== Formation of immature cells and their maturation ===
+Dendritic cells are derived from hematopoietic bone marrow progenitor cells (HSC). These progenitor cells initially transform into immature dendritic cells.  These cells are characterized by high endocytic activity and low T-cell activation potential.  Immature dendritic cells constantly sample the surrounding environment for pathogens such as viruses and bacteria. This is done through pattern recognition receptors (PRRs) such as the toll-like receptors (TLRs).  TLRs recognize specific chemical signatures found on subsets of pathogens. Immature dendritic cells may also phagocytose small quantities of membrane from live own cells, in a process called nibbling.  Once they have come into contact with a presentable antigen, they become activated into mature dendritic cells and begin to migrate to a lymph node.  Immature dendritic cells phagocytose pathogens and degrade their proteins into small pieces and upon maturation present those fragments at their cell surface using MHC molecules.  Simultaneously, they upregulate cell-surface receptors that act as co-receptors in T-cell activation such as CD80 (B7.1), CD86 (B7.2), and CD40 greatly enhancing their ability to activate T-cells.  They also upregulate CCR7, a chemotactic receptor that induces the dendritic cell to travel through the blood stream to the spleen or through the lymphatic system to a lymph node. Here they act as antigen-presenting cells: they activate helper T-cells and killer T-cells as well as B-cells by presenting them with antigens derived from the pathogen, alongside non-antigen specific costimulatory signals. Dendritic cells can also induce T-cell tolerance (unresponsiveness). Certain C-type lectin receptors (CLRs) on the surface of dendritic cells, some functioning as PRRs, help instruct dendritic cells as to when it is appropriate to induce immune tolerance rather than lymphocyte activation.Every helper T-cell is specific to one particular antigen. Only professional antigen-presenting cells (APCs: macrophages, B lymphocytes, and dendritic cells) are able to activate a resting helper T-cell when the matching antigen is presented.  However, in non-lymphoid organs, macrophages and B cells can only activate memory T cells whereas dendritic cells can activate both memory and naive T cells, and are the most potent of all the antigen-presenting cells. In the lymph node and secondary lymphoid organs, all three APCs can activate naive T cells. Whereas mature dendritic cells are able to activate antigen-specific naive CD8+ T cells, the formation of CD8+ memory T cells requires the interaction of dendritic cells with CD4+ helper T cells. This help from CD4+ T cells additionally activates the matured dendritic cells and licenses (empowers) them to efficiently induce CD8+ memory T cells, which are also able to be expanded a second time. For this activation of CD8+, concurrent interaction of all three cell types, namely CD4+ T helper cells, CD8+ T cells and dendritic cells, seems to be required.As mentioned above, mDC probably arise from monocytes, white blood cells which circulate in the body and, depending on the right signal, can turn into either dendritic cells or macrophages. The monocytes in turn are formed from stem cells in the bone marrow.
+Monocyte-derived dendritic cells can be generated in vitro from peripheral blood mononuclear cell (PBMCs). Plating of PBMCs in a tissue culture flask permits adherence of monocytes. Treatment of these monocytes with interleukin 4 (IL-4) and granulocyte-macrophage colony stimulating factor (GM-CSF) leads to differentiation to immature dendritic cells (iDCs) in about a week. Subsequent treatment with tumor necrosis factor (TNF) further differentiates the iDCs into mature dendritic cells. Monocytes can be induced to differentiate into dendritic cells by a self-peptide Ep1.B derived from apolipoprotein E. These are primarily tolerogenic plasmacytoid dendritic cells.
+
+
+=== Life span ===
+In mice, it has been estimated that dendritic cells are replenished from the blood at a rate of 4000 cells per hour, and undergo a limited number of divisions during their residence in the spleen over 10 to 14 days.
+
+
+=== Research challenges ===
+The exact genesis and development of the different types and subsets of dendritic cells and their interrelationship is only marginally understood at the moment, as dendritic cells are so rare and difficult to isolate that only in recent years they have become subject of focused research. Distinct surface antigens that characterize dendritic cells have only become known from 2000 on; before that, researchers had to work with a 'cocktail' of several antigens which, used in combination, result in isolation of cells with characteristics unique to DCs.
+
+
+== Cytokines ==
+The dendritic cells are constantly in communication with other cells in the body. This communication can take the form of direct cell–cell contact based on the interaction of cell-surface proteins. An example of this includes the interaction of the membrane proteins of the B7 family of the dendritic cell with CD28 present on the lymphocyte. However, the cell–cell interaction can also take place at a distance via cytokines.For example, stimulating dendritic cells in vivo with microbial extracts causes the dendritic cells to rapidly begin producing IL-12. IL-12 is a signal that helps send naive CD4 T cells towards a Th1 phenotype. The ultimate consequence is priming and activation of the immune system for attack against the antigens which the dendritic cell presents on its surface. However, there are differences in the cytokines produced depending on the type of dendritic cell. The plasmacytoid DC has the ability to produce huge amounts of type-1 IFNs, which recruit more activated macrophages to allow phagocytosis.
+
+
+== Disease ==
+
+
+=== Blastic plasmacytoid dendritic cell neoplasm ===
+Blastic plasmacytoid dendritic cell neoplasm is a rare type of myeloid cancer in which malignant pDCs infiltrate the skin, bone marrow, central nervous system, and other tissues. Typically, the disease presents with skin lesions (e.g. nodules, tumors, papules, bruise-like patches, and/or ulcers) that most often occur on the head, face, and upper torso. This presentation may be accompanied by cPC infiltrations into other tissues to result in swollen lymph nodes, enlarged liver, enlarged spleen, symptoms of central nervous system dysfunction, and similar abnormalities in breasts, eyes, kidneys, lungs, gastrointestinal tract, bone, sinuses, ears, and/or testes. The disease may also present as a pDC leukemia, i.e. increased levels of malignant pDC in blood (i.e. >2% of nucleated cells) and bone marrow and evidence (i.e. cytopenias) of bone marrow failure. Blastic plasmacytoid dendritic cell neoplasm has a high rate of recurrence following initial treatments with various chemotherapy regimens. In consequence, the disease has a poor overall prognosis and newer chemotherapeutic and novel non-chemotherapeutic drug regimens to improve the situation are under study.
+
+
+=== Viral infection ===
+HIV, which causes AIDS, can bind to dendritic cells via various receptors expressed on the cell. The best studied example is DC-SIGN (usually on MDC subset 1, but also on other subsets under certain conditions; since not all dendritic cell subsets express DC-SIGN, its exact role in sexual HIV-1 transmission is not clear). When the dendritic cell takes up HIV and then travels to the lymph node, the virus can be transferred to helper CD4+ T-cells, contributing to the developing infection. This infection of dendritic cells by HIV explains one mechanism by which the virus could persist after prolonged HAART.Many other viruses, such as the SARS virus, seem to use DC-SIGN to 'hitchhike' to its target cells. However, most work with virus binding to DC-SIGN expressing cells has been conducted using in vitro derived cells such as moDCs.  The physiological role of DC-SIGN in vivo is more difficult to ascertain.
+
+
+=== Cancer ===
+Dendritic cells are usually not abundant at tumor sites, but increased densities of populations of dendritic cells have been associated with better clinical outcome, suggesting that these cells can participate in controlling cancer progression. Lung cancers have been found to include four different subsets of dendritic cells: three classical dendritic cell subsets and one plasmacytoid dendritic cell subset. At least some of these dendritic cell subsets can activate CD4+ helper T cells and CD8+ cytotoxic T cells, which are immune cells that can also suppress tumor growth. In experimental models, dendritic cells have also been shown to contribute to the success of cancer immunotherapies, for example with the immune checkpoint blocker anti-PD-1.
+
+
+=== Autoimmunity ===
+Altered function of dendritic cells is also known to play a major or even key role in allergy and autoimmune diseases like lupus erythematosus and inflammatory bowel diseases (Crohn's disease and ulcerative colitis).
+
+
+== Other animals ==
+The above applies to humans. In other organisms, the function of dendritic cells can differ slightly. However, the principal function of dendritic cells as known to date is always to act as an immune sentinel. They survey the body and collect information relevant to the immune system, they are then able to instruct and direct the adaptive arms to respond to challenges.
+In addition, an immediate precursor to myeloid and lymphoid dendritic cells of the spleen has been identified. This precursor, termed pre-DC, lacks MHC class II surface expression, and is distinct from monocytes, which primarily give rise to DCs in non-lymphoid tissues.
+Dendritic cells have also been found in turtles.Dendritic cells have been found in rainbow trout (Oncorhynchus mykiss) and zebrafish (Danio rerio) but their role is still not fully understood 
+
+
+== Media ==
+
+			
+			
+		
+		
+			
+			
+		
+		
+			
+			
+		
+
+
+== See also ==
+Histiocyte
+Macrophage
+List of human clusters of differentiation for a list of CD molecules (such as CD80 and CD86)
+List of distinct cell types in the adult human body
+
+
+== References ==
+
+
+== External links ==
+
+[1] Website of the Center for Infection and Immunity of Lille contains information on DCs and their study in research, link currently dead
+Dendritic+Cells at the U.S. National Library of Medicine Medical Subject Headings (MeSH)
+www.dc2007.eu 5th International Meeting on Dendritic Cell Vaccination and other Strategies to tip the Balance of the Immune System
+Website of Ralph M. Steinman at The Rockefeller University contains information on DCs, links to articles, pictures and videos
+"Cancer 'danger receptor' found", BBC News, 15 February 2009

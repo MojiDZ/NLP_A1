@@ -1,0 +1,5382 @@
+In mathematics, the Gudermannian function relates a hyperbolic angle measure 
+  
+    
+      
+        ψ
+      
+    
+    {\textstyle \psi }
+   to a circular angle measure 
+  
+    
+      
+        ϕ
+      
+    
+    {\textstyle \phi }
+   called the gudermannian of 
+  
+    
+      
+        ψ
+      
+    
+    {\textstyle \psi }
+   and denoted 
+  
+    
+      
+        gd
+        ⁡
+        ψ
+      
+    
+    {\textstyle \operatorname {gd} \psi }
+  . The Gudermannian function reveals a close relationship between the circular functions and hyperbolic functions. It was introduced in the 1760s by Johann Heinrich Lambert, and later named for Christoph Gudermann who also described the relationship between circular and hyperbolic functions in 1830. The gudermannian is sometimes called the hyperbolic amplitude as a limiting case of the Jacobi elliptic amplitude 
+  
+    
+      
+        am
+        ⁡
+        (
+        ψ
+        ,
+        m
+        )
+      
+    
+    {\textstyle \operatorname {am} (\psi ,m)}
+   when parameter 
+  
+    
+      
+        m
+        =
+        1.
+      
+    
+    {\textstyle m=1.}
+  
+The real Gudermannian function is typically defined for 
+  
+    
+      
+        −
+        ∞
+        <
+        ψ
+        <
+        ∞
+      
+    
+    {\textstyle -\infty <\psi <\infty }
+   to be the integral of the hyperbolic secant
+
+  
+    
+      
+        ϕ
+        =
+        gd
+        ⁡
+        ψ
+        ≡
+        
+          ∫
+          
+            0
+          
+          
+            ψ
+          
+        
+        sech
+        ⁡
+        t
+        
+        
+          d
+        
+        t
+        =
+        arctan
+        ⁡
+        (
+        sinh
+        ⁡
+        ψ
+        )
+        .
+      
+    
+    {\displaystyle \phi =\operatorname {gd} \psi \equiv \int _{0}^{\psi }\operatorname {sech} t\,\mathrm {d} t=\operatorname {arctan} (\sinh \psi ).}
+  The real inverse Gudermannian function can be defined for 
+  
+    
+      
+        −
+        
+          
+            
+              1
+              2
+            
+          
+        
+        π
+        <
+        ϕ
+        <
+        
+          
+            
+              1
+              2
+            
+          
+        
+        π
+      
+    
+    {\textstyle -{\tfrac {1}{2}}\pi <\phi <{\tfrac {1}{2}}\pi }
+   as the integral of the secant
+
+  
+    
+      
+        ψ
+        =
+        
+          gd
+          
+            −
+            1
+          
+        
+        ⁡
+        ϕ
+        =
+        
+          ∫
+          
+            0
+          
+          
+            ϕ
+          
+        
+        sec
+        ⁡
+        t
+        
+        
+          d
+        
+        t
+        =
+        arsinh
+        ⁡
+        (
+        tan
+        ⁡
+        ϕ
+        )
+        .
+      
+    
+    {\displaystyle \psi =\operatorname {gd} ^{-1}\phi =\int _{0}^{\phi }\operatorname {sec} t\,\mathrm {d} t=\operatorname {arsinh} (\tan \phi ).}
+  The hyperbolic angle measure 
+  
+    
+      
+        ψ
+        =
+        
+          gd
+          
+            −
+            1
+          
+        
+        ⁡
+        ϕ
+      
+    
+    {\displaystyle \psi =\operatorname {gd} ^{-1}\phi }
+   is called the anti-gudermannian of 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+   or sometimes the lambertian of 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  , denoted 
+  
+    
+      
+        ψ
+        =
+        lam
+        ⁡
+        ϕ
+        .
+      
+    
+    {\displaystyle \psi =\operatorname {lam} \phi .}
+   In the context of geodesy and navigation for latitude 
+  
+    
+      
+        ϕ
+      
+    
+    {\textstyle \phi }
+  , 
+  
+    
+      
+        k
+        
+          gd
+          
+            −
+            1
+          
+        
+        ⁡
+        ϕ
+      
+    
+    {\displaystyle k\operatorname {gd} ^{-1}\phi }
+   (scaled by arbitrary constant 
+  
+    
+      
+        k
+      
+    
+    {\textstyle k}
+  ) was historically called the meridional part of 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+   (French: latitude croissante). It is the vertical coordinate of the Mercator projection.
+The two angle measures 
+  
+    
+      
+        ϕ
+      
+    
+    {\textstyle \phi }
+   and 
+  
+    
+      
+        ψ
+      
+    
+    {\textstyle \psi }
+   are related by a common stereographic projection
+
+  
+    
+      
+        s
+        =
+        tan
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+        ϕ
+        =
+        tanh
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+        ψ
+        ,
+      
+    
+    {\displaystyle s=\tan {\tfrac {1}{2}}\phi =\tanh {\tfrac {1}{2}}\psi ,}
+  and this identity can serve as an alternative definition for 
+  
+    
+      
+        gd
+      
+    
+    {\textstyle \operatorname {gd} }
+   and 
+  
+    
+      
+        
+          gd
+          
+            −
+            1
+          
+        
+      
+    
+    {\textstyle \operatorname {gd} ^{-1}}
+   valid throughout the complex plane:
+
+  
+    
+      
+        
+          
+            
+              
+                gd
+                ⁡
+                ψ
+              
+              
+                
+                =
+                
+                  2
+                  arctan
+                
+                
+                  
+                    (
+                  
+                
+                tanh
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                ψ
+                
+                
+                  
+                    )
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                ϕ
+              
+              
+                
+                =
+                
+                  2
+                  artanh
+                
+                
+                  
+                    (
+                  
+                
+                tan
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                ϕ
+                
+                
+                  
+                    )
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {gd} \psi &={2\arctan }{\bigl (}\tanh {\tfrac {1}{2}}\psi \,{\bigr )},\\[5mu]\operatorname {gd} ^{-1}\phi &={2\operatorname {artanh} }{\bigl (}\tan {\tfrac {1}{2}}\phi \,{\bigr )}.\end{aligned}}}
+  
+
+
+== Circular–hyperbolic identities ==
+We can evaluate the integral of the hyperbolic secant using the stereographic projection (hyperbolic half-tangent) as a change of variables:
+
+  
+    
+      
+        
+          
+            
+              
+                gd
+                ⁡
+                ψ
+              
+              
+                
+                ≡
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ψ
+                  
+                
+                
+                  
+                    1
+                    
+                      cosh
+                      ⁡
+                      t
+                    
+                  
+                
+                
+                  d
+                
+                t
+                =
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    tanh
+                    ⁡
+                    
+                      
+                        1
+                        2
+                      
+                    
+                    ψ
+                  
+                
+                
+                  
+                    
+                      1
+                      −
+                      
+                        u
+                        
+                          2
+                        
+                      
+                    
+                    
+                      1
+                      +
+                      
+                        u
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    
+                      2
+                      
+                      
+                        d
+                      
+                      u
+                    
+                    
+                      1
+                      −
+                      
+                        u
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                
+                
+                  
+                    (
+                  
+                
+                u
+                =
+                tanh
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                t
+                
+                  
+                    )
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                2
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    tanh
+                    ⁡
+                    
+                      
+                        1
+                        2
+                      
+                    
+                    ψ
+                  
+                
+                
+                  
+                    1
+                    
+                      1
+                      +
+                      
+                        u
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                
+                  d
+                
+                u
+                =
+                
+                  2
+                  arctan
+                
+                
+                  
+                    (
+                  
+                
+                tanh
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                ψ
+                
+                
+                  
+                    )
+                  
+                
+                ,
+              
+            
+            
+              
+                tan
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                
+                  gd
+                  ⁡
+                  ψ
+                
+              
+              
+                
+                =
+                tanh
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                ψ
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {gd} \psi &\equiv \int _{0}^{\psi }{\frac {1}{\operatorname {cosh} t}}\mathrm {d} t=\int _{0}^{\tanh {\frac {1}{2}}\psi }{\frac {1-u^{2}}{1+u^{2}}}{\frac {2\,\mathrm {d} u}{1-u^{2}}}\qquad {\bigl (}u=\tanh {\tfrac {1}{2}}t{\bigr )}\\[8mu]&=2\int _{0}^{\tanh {\frac {1}{2}}\psi }{\frac {1}{1+u^{2}}}\mathrm {d} u={2\arctan }{\bigl (}\tanh {\tfrac {1}{2}}\psi \,{\bigr )},\\[5mu]\tan {\tfrac {1}{2}}{\operatorname {gd} \psi }&=\tanh {\tfrac {1}{2}}\psi .\end{aligned}}}
+  Letting 
+  
+    
+      
+        ϕ
+        =
+        gd
+        ⁡
+        ψ
+      
+    
+    {\textstyle \phi =\operatorname {gd} \psi }
+   and 
+  
+    
+      
+        s
+        =
+        tan
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+        ϕ
+        =
+        tanh
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+        ψ
+      
+    
+    {\textstyle s=\tan {\tfrac {1}{2}}\phi =\tanh {\tfrac {1}{2}}\psi }
+   we can derive a number of identities between hyperbolic functions of 
+  
+    
+      
+        ψ
+      
+    
+    {\textstyle \psi }
+   and circular functions of 
+  
+    
+      
+        ϕ
+        .
+      
+    
+    {\textstyle \phi .}
+  
+
+  
+    
+      
+        
+          
+            
+              
+                s
+              
+              
+                
+                =
+                tan
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                ϕ
+                =
+                tanh
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                ψ
+                ,
+              
+            
+            
+              
+                
+                  
+                    
+                      2
+                      s
+                    
+                    
+                      1
+                      +
+                      
+                        s
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+              
+              
+                
+                =
+                sin
+                ⁡
+                ϕ
+                =
+                tanh
+                ⁡
+                ψ
+                ,
+                
+              
+              
+                
+                  
+                    
+                      1
+                      +
+                      
+                        s
+                        
+                          2
+                        
+                      
+                    
+                    
+                      2
+                      s
+                    
+                  
+                
+              
+              
+                
+                =
+                csc
+                ⁡
+                ϕ
+                =
+                coth
+                ⁡
+                ψ
+                ,
+              
+            
+            
+              
+                
+                  
+                    
+                      1
+                      −
+                      
+                        s
+                        
+                          2
+                        
+                      
+                    
+                    
+                      1
+                      +
+                      
+                        s
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+              
+              
+                
+                =
+                cos
+                ⁡
+                ϕ
+                =
+                sech
+                ⁡
+                ψ
+                ,
+                
+              
+              
+                
+                  
+                    
+                      1
+                      +
+                      
+                        s
+                        
+                          2
+                        
+                      
+                    
+                    
+                      1
+                      −
+                      
+                        s
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+              
+              
+                
+                =
+                sec
+                ⁡
+                ϕ
+                =
+                cosh
+                ⁡
+                ψ
+                ,
+              
+            
+            
+              
+                
+                  
+                    
+                      2
+                      s
+                    
+                    
+                      1
+                      −
+                      
+                        s
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+              
+              
+                
+                =
+                tan
+                ⁡
+                ϕ
+                =
+                sinh
+                ⁡
+                ψ
+                ,
+                
+              
+              
+                
+                  
+                    
+                      1
+                      −
+                      
+                        s
+                        
+                          2
+                        
+                      
+                    
+                    
+                      2
+                      s
+                    
+                  
+                
+              
+              
+                
+                =
+                cot
+                ⁡
+                ϕ
+                =
+                csch
+                ⁡
+                ψ
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}s&=\tan {\tfrac {1}{2}}\phi =\tanh {\tfrac {1}{2}}\psi ,\\[6mu]{\frac {2s}{1+s^{2}}}&=\sin \phi =\tanh \psi ,\quad &{\frac {1+s^{2}}{2s}}&=\csc \phi =\coth \psi ,\\[10mu]{\frac {1-s^{2}}{1+s^{2}}}&=\cos \phi =\operatorname {sech} \psi ,\quad &{\frac {1+s^{2}}{1-s^{2}}}&=\sec \phi =\cosh \psi ,\\[10mu]{\frac {2s}{1-s^{2}}}&=\tan \phi =\sinh \psi ,\quad &{\frac {1-s^{2}}{2s}}&=\cot \phi =\operatorname {csch} \psi .\\[8mu]\end{aligned}}}
+  These are commonly used as expressions for 
+  
+    
+      
+        gd
+      
+    
+    {\displaystyle \operatorname {gd} }
+   and 
+  
+    
+      
+        
+          gd
+          
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle \operatorname {gd} ^{-1}}
+   for real values of 
+  
+    
+      
+        ψ
+      
+    
+    {\displaystyle \psi }
+   and 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+   with 
+  
+    
+      
+        
+          |
+        
+        ϕ
+        
+          |
+        
+        <
+        
+          
+            
+              1
+              2
+            
+          
+        
+        π
+        .
+      
+    
+    {\displaystyle |\phi |<{\tfrac {1}{2}}\pi .}
+   For example, the numerically well-behaved formulas
+
+  
+    
+      
+        
+          
+            
+              
+                gd
+                ⁡
+                ψ
+              
+              
+                
+                =
+                arctan
+                ⁡
+                (
+                sinh
+                ⁡
+                ψ
+                )
+                ,
+              
+            
+            
+              
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                ϕ
+              
+              
+                
+                =
+                arsinh
+                ⁡
+                (
+                tan
+                ⁡
+                ϕ
+                )
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {gd} \psi &=\operatorname {arctan} (\sinh \psi ),\\[6mu]\operatorname {gd} ^{-1}\phi &=\operatorname {arsinh} (\tan \phi ).\end{aligned}}}
+  (Note, for 
+  
+    
+      
+        
+          |
+        
+        ϕ
+        
+          |
+        
+        >
+        
+          
+            
+              1
+              2
+            
+          
+        
+        π
+      
+    
+    {\displaystyle |\phi |>{\tfrac {1}{2}}\pi }
+   and for complex arguments, care must be taken choosing branches of the inverse functions.)We can also express 
+  
+    
+      
+        ψ
+      
+    
+    {\textstyle \psi }
+   and 
+  
+    
+      
+        ϕ
+      
+    
+    {\textstyle \phi }
+   in terms of 
+  
+    
+      
+        s
+        :
+      
+    
+    {\textstyle s\colon }
+  
+
+  
+    
+      
+        
+          
+            
+              
+                2
+                arctan
+                ⁡
+                s
+              
+              
+                
+                =
+                ϕ
+                =
+                gd
+                ⁡
+                ψ
+                ,
+              
+            
+            
+              
+                2
+                artanh
+                ⁡
+                s
+              
+              
+                
+                =
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                ϕ
+                =
+                ψ
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}2\arctan s&=\phi =\operatorname {gd} \psi ,\\[6mu]2\operatorname {artanh} s&=\operatorname {gd} ^{-1}\phi =\psi .\\[6mu]\end{aligned}}}
+  If we expand 
+  
+    
+      
+        tan
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+      
+    
+    {\textstyle \tan {\tfrac {1}{2}}}
+   and 
+  
+    
+      
+        tanh
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+      
+    
+    {\textstyle \tanh {\tfrac {1}{2}}}
+   in terms of the exponential, then we can see that 
+  
+    
+      
+        s
+        ,
+      
+    
+    {\textstyle s,}
+   
+  
+    
+      
+        exp
+        ⁡
+        ϕ
+        i
+        ,
+      
+    
+    {\displaystyle \exp \phi i,}
+   and 
+  
+    
+      
+        exp
+        ⁡
+        ψ
+      
+    
+    {\displaystyle \exp \psi }
+   are all Möbius transformations of each-other (specifically, rotations of the Riemann sphere):
+
+  
+    
+      
+        
+          
+            
+              
+                s
+              
+              
+                
+                =
+                i
+                
+                  
+                    
+                      1
+                      −
+                      
+                        e
+                        
+                          ϕ
+                          i
+                        
+                      
+                    
+                    
+                      1
+                      +
+                      
+                        e
+                        
+                          ϕ
+                          i
+                        
+                      
+                    
+                  
+                
+                =
+                
+                  
+                    
+                      
+                        e
+                        
+                          ψ
+                        
+                      
+                      −
+                      1
+                    
+                    
+                      
+                        e
+                        
+                          ψ
+                        
+                      
+                      +
+                      1
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                i
+                
+                  
+                    
+                      s
+                      −
+                      i
+                    
+                    
+                      s
+                      +
+                      i
+                    
+                  
+                
+              
+              
+                
+                =
+                exp
+                ⁡
+                ϕ
+                i
+                
+                =
+                
+                  
+                    
+                      
+                        e
+                        
+                          ψ
+                        
+                      
+                      −
+                      i
+                    
+                    
+                      
+                        e
+                        
+                          ψ
+                        
+                      
+                      +
+                      i
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  
+                    
+                      1
+                      +
+                      s
+                    
+                    
+                      1
+                      −
+                      s
+                    
+                  
+                
+              
+              
+                
+                =
+                i
+                
+                  
+                    
+                      i
+                      +
+                      
+                        e
+                        
+                          ϕ
+                          i
+                        
+                      
+                    
+                    
+                      i
+                      −
+                      
+                        e
+                        
+                          ϕ
+                          i
+                        
+                      
+                    
+                  
+                
+                
+                =
+                exp
+                ⁡
+                ψ
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}s&=i{\frac {1-e^{\phi i}}{1+e^{\phi i}}}={\frac {e^{\psi }-1}{e^{\psi }+1}},\\[10mu]i{\frac {s-i}{s+i}}&=\exp \phi i\quad ={\frac {e^{\psi }-i}{e^{\psi }+i}},\\[10mu]{\frac {1+s}{1-s}}&=i{\frac {i+e^{\phi i}}{i-e^{\phi i}}}\,=\exp \psi .\end{aligned}}}
+  For real values of 
+  
+    
+      
+        ψ
+      
+    
+    {\textstyle \psi }
+   and 
+  
+    
+      
+        ϕ
+      
+    
+    {\textstyle \phi }
+   with 
+  
+    
+      
+        
+          |
+        
+        ϕ
+        
+          |
+        
+        <
+        
+          
+            
+              1
+              2
+            
+          
+        
+        π
+      
+    
+    {\displaystyle |\phi |<{\tfrac {1}{2}}\pi }
+  , these Möbius transformations can be written in terms of trigonometric functions in several ways,
+
+  
+    
+      
+        
+          
+            
+              
+                exp
+                ⁡
+                ψ
+              
+              
+                
+                =
+                sec
+                ⁡
+                ϕ
+                +
+                tan
+                ⁡
+                ϕ
+                =
+                tan
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                
+                  
+                    (
+                  
+                
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                π
+                +
+                ϕ
+                
+                  
+                    )
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      1
+                      +
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      ϕ
+                    
+                    
+                      1
+                      −
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      ϕ
+                    
+                  
+                
+                =
+                
+                  
+                    
+                      
+                        1
+                        +
+                        sin
+                        ⁡
+                        ϕ
+                      
+                      
+                        1
+                        −
+                        sin
+                        ⁡
+                        ϕ
+                      
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                exp
+                ⁡
+                ϕ
+                i
+              
+              
+                
+                =
+                sech
+                ⁡
+                ψ
+                +
+                i
+                tanh
+                ⁡
+                ψ
+                =
+                tanh
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                
+                  
+                    (
+                  
+                
+                
+                  −
+                  
+                    
+                      
+                        1
+                        2
+                      
+                    
+                  
+                
+                π
+                i
+                +
+                ψ
+                
+                  
+                    )
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      1
+                      +
+                      i
+                      tanh
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      ψ
+                    
+                    
+                      1
+                      −
+                      i
+                      tanh
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      ψ
+                    
+                  
+                
+                =
+                
+                  
+                    
+                      
+                        1
+                        +
+                        i
+                        sinh
+                        ⁡
+                        ψ
+                      
+                      
+                        1
+                        −
+                        i
+                        sinh
+                        ⁡
+                        ψ
+                      
+                    
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\exp \psi &=\sec \phi +\tan \phi =\tan {\tfrac {1}{2}}{\bigl (}{\tfrac {1}{2}}\pi +\phi {\bigr )}\\[6mu]&={\frac {1+\tan {\tfrac {1}{2}}\phi }{1-\tan {\tfrac {1}{2}}\phi }}={\sqrt {\frac {1+\sin \phi }{1-\sin \phi }}},\\[12mu]\exp \phi i&=\operatorname {sech} \psi +i\tanh \psi =\tanh {\tfrac {1}{2}}{\bigl (}{-{\tfrac {1}{2}}}\pi i+\psi {\bigr )}\\[6mu]&={\frac {1+i\tanh {\tfrac {1}{2}}\psi }{1-i\tanh {\tfrac {1}{2}}\psi }}={\sqrt {\frac {1+i\sinh \psi }{1-i\sinh \psi }}}.\end{aligned}}}
+  These give further expressions for 
+  
+    
+      
+        gd
+      
+    
+    {\displaystyle \operatorname {gd} }
+   and 
+  
+    
+      
+        
+          gd
+          
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle \operatorname {gd} ^{-1}}
+   for real arguments with 
+  
+    
+      
+        
+          |
+        
+        ϕ
+        
+          |
+        
+        <
+        
+          
+            
+              1
+              2
+            
+          
+        
+        π
+        .
+      
+    
+    {\displaystyle |\phi |<{\tfrac {1}{2}}\pi .}
+   For example,
+
+  
+    
+      
+        
+          
+            
+              
+                gd
+                ⁡
+                ψ
+              
+              
+                
+                =
+                2
+                arctan
+                ⁡
+                
+                  e
+                  
+                    ψ
+                  
+                
+                −
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                π
+                ,
+              
+            
+            
+              
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                ϕ
+              
+              
+                
+                =
+                log
+                ⁡
+                (
+                sec
+                ⁡
+                ϕ
+                +
+                tan
+                ⁡
+                ϕ
+                )
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {gd} \psi &=2\arctan e^{\psi }-{\tfrac {1}{2}}\pi ,\\[6mu]\operatorname {gd} ^{-1}\phi &=\log(\sec \phi +\tan \phi ).\end{aligned}}}
+  
+
+
+== Complex values ==
+As a functions of a complex variable, 
+  
+    
+      
+        z
+        ↦
+        w
+        =
+        gd
+        ⁡
+        z
+      
+    
+    {\textstyle z\mapsto w=\operatorname {gd} z}
+   conformally maps the infinite strip 
+  
+    
+      
+        
+          |
+          
+            Im
+            ⁡
+            z
+          
+          |
+        
+        ≤
+        
+          
+            
+              1
+              2
+            
+          
+        
+        π
+      
+    
+    {\textstyle \left|\operatorname {Im} z\right|\leq {\tfrac {1}{2}}\pi }
+   to the infinite strip 
+  
+    
+      
+        
+          |
+          
+            Re
+            ⁡
+            w
+          
+          |
+        
+        ≤
+        
+          
+            
+              1
+              2
+            
+          
+        
+        π
+        ,
+      
+    
+    {\textstyle \left|\operatorname {Re} w\right|\leq {\tfrac {1}{2}}\pi ,}
+   while 
+  
+    
+      
+        w
+        ↦
+        z
+        =
+        
+          gd
+          
+            −
+            1
+          
+        
+        ⁡
+        w
+      
+    
+    {\textstyle w\mapsto z=\operatorname {gd} ^{-1}w}
+   conformally maps the infinite strip 
+  
+    
+      
+        
+          |
+          
+            Re
+            ⁡
+            w
+          
+          |
+        
+        ≤
+        
+          
+            
+              1
+              2
+            
+          
+        
+        π
+      
+    
+    {\textstyle \left|\operatorname {Re} w\right|\leq {\tfrac {1}{2}}\pi }
+   to the infinite strip 
+  
+    
+      
+        
+          |
+          
+            Im
+            ⁡
+            z
+          
+          |
+        
+        ≤
+        
+          
+            
+              1
+              2
+            
+          
+        
+        π
+        .
+      
+    
+    {\textstyle \left|\operatorname {Im} z\right|\leq {\tfrac {1}{2}}\pi .}
+  
+Analytically continued by reflections to the whole complex plane, 
+  
+    
+      
+        z
+        ↦
+        w
+        =
+        gd
+        ⁡
+        z
+      
+    
+    {\textstyle z\mapsto w=\operatorname {gd} z}
+   is a periodic function of period 
+  
+    
+      
+        2
+        π
+        i
+      
+    
+    {\textstyle 2\pi i}
+   which sends any infinite strip of "height" 
+  
+    
+      
+        2
+        π
+        i
+      
+    
+    {\textstyle 2\pi i}
+   onto the strip 
+  
+    
+      
+        −
+        π
+        <
+        Re
+        ⁡
+        w
+        ≤
+        π
+        .
+      
+    
+    {\textstyle -\pi <\operatorname {Re} w\leq \pi .}
+   Likewise, extended to the whole complex plane, 
+  
+    
+      
+        w
+        ↦
+        z
+        =
+        
+          gd
+          
+            −
+            1
+          
+        
+        ⁡
+        w
+      
+    
+    {\textstyle w\mapsto z=\operatorname {gd} ^{-1}w}
+   is a periodic function of period 
+  
+    
+      
+        2
+        π
+      
+    
+    {\textstyle 2\pi }
+   which sends any infinite strip of "width" 
+  
+    
+      
+        2
+        π
+      
+    
+    {\textstyle 2\pi }
+   onto the strip 
+  
+    
+      
+        −
+        π
+        <
+        Im
+        ⁡
+        z
+        ≤
+        π
+        .
+      
+    
+    {\textstyle -\pi <\operatorname {Im} z\leq \pi .}
+   For all points in the complex plane, these functions can be correctly written as:
+
+  
+    
+      
+        
+          
+            
+              
+                gd
+                ⁡
+                z
+              
+              
+                
+                =
+                
+                  2
+                  arctan
+                
+                
+                  
+                    (
+                  
+                
+                tanh
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                z
+                
+                
+                  
+                    )
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                w
+              
+              
+                
+                =
+                
+                  2
+                  artanh
+                
+                
+                  
+                    (
+                  
+                
+                tan
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                w
+                
+                
+                  
+                    )
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {gd} z&={2\arctan }{\bigl (}\tanh {\tfrac {1}{2}}z\,{\bigr )},\\[5mu]\operatorname {gd} ^{-1}w&={2\operatorname {artanh} }{\bigl (}\tan {\tfrac {1}{2}}w\,{\bigr )}.\end{aligned}}}
+  For the 
+  
+    
+      
+        gd
+      
+    
+    {\textstyle \operatorname {gd} }
+   and 
+  
+    
+      
+        
+          gd
+          
+            −
+            1
+          
+        
+      
+    
+    {\textstyle \operatorname {gd} ^{-1}}
+   functions to remain invertible with these extended domains, we might consider each to be a multivalued function (perhaps 
+  
+    
+      
+        Gd
+      
+    
+    {\textstyle \operatorname {Gd} }
+   and 
+  
+    
+      
+        
+          Gd
+          
+            −
+            1
+          
+        
+      
+    
+    {\textstyle \operatorname {Gd} ^{-1}}
+  , with 
+  
+    
+      
+        gd
+      
+    
+    {\textstyle \operatorname {gd} }
+   and 
+  
+    
+      
+        
+          gd
+          
+            −
+            1
+          
+        
+      
+    
+    {\textstyle \operatorname {gd} ^{-1}}
+   the principal branch) or consider their domains and codomains as Riemann surfaces.
+If 
+  
+    
+      
+        u
+        +
+        i
+        v
+        =
+        gd
+        ⁡
+        (
+        x
+        +
+        i
+        y
+        )
+        ,
+      
+    
+    {\textstyle u+iv=\operatorname {gd} (x+iy),}
+   then the real and imaginary components 
+  
+    
+      
+        u
+      
+    
+    {\textstyle u}
+   and 
+  
+    
+      
+        v
+      
+    
+    {\textstyle v}
+   can be found by:
+
+  
+    
+      
+        tan
+        ⁡
+        u
+        =
+        
+          
+            
+              sinh
+              ⁡
+              x
+            
+            
+              cos
+              ⁡
+              y
+            
+          
+        
+        ,
+        
+        tanh
+        ⁡
+        v
+        =
+        
+          
+            
+              sin
+              ⁡
+              y
+            
+            
+              cosh
+              ⁡
+              x
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \tan u={\frac {\sinh x}{\cos y}},\quad \tanh v={\frac {\sin y}{\cosh x}}.}
+  (In practical implementation, make sure to use the 2-argument arctangent, 
+  
+    
+      
+        u
+        =
+        atan2
+        ⁡
+        (
+        sinh
+        ⁡
+        x
+        ,
+        cos
+        ⁡
+        y
+        )
+      
+    
+    {\textstyle u=\operatorname {atan2} (\sinh x,\cos y)}
+  .)
+Likewise, if 
+  
+    
+      
+        x
+        +
+        i
+        y
+        =
+        
+          gd
+          
+            −
+            1
+          
+        
+        ⁡
+        (
+        u
+        +
+        i
+        v
+        )
+        ,
+      
+    
+    {\textstyle x+iy=\operatorname {gd} ^{-1}(u+iv),}
+   then components 
+  
+    
+      
+        x
+      
+    
+    {\textstyle x}
+   and 
+  
+    
+      
+        y
+      
+    
+    {\textstyle y}
+   can be found by:
+
+  
+    
+      
+        tanh
+        ⁡
+        x
+        =
+        
+          
+            
+              sin
+              ⁡
+              u
+            
+            
+              cosh
+              ⁡
+              v
+            
+          
+        
+        ,
+        
+        tan
+        ⁡
+        y
+        =
+        
+          
+            
+              sinh
+              ⁡
+              v
+            
+            
+              cos
+              ⁡
+              u
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \tanh x={\frac {\sin u}{\cosh v}},\quad \tan y={\frac {\sinh v}{\cos u}}.}
+  Multiplying these together reveals the additional identity
+
+  
+    
+      
+        tanh
+        ⁡
+        x
+        
+        tan
+        ⁡
+        y
+        =
+        tan
+        ⁡
+        u
+        
+        tanh
+        ⁡
+        v
+        .
+      
+    
+    {\displaystyle \tanh x\,\tan y=\tan u\,\tanh v.}
+  
+
+
+=== Symmetries ===
+The two functions can be thought of as rotations or reflections of each-other, with a similar relationship as 
+  
+    
+      
+        sinh
+        ⁡
+        i
+        z
+        =
+        i
+        sin
+        ⁡
+        z
+      
+    
+    {\textstyle \sinh iz=i\sin z}
+   between sine and hyperbolic sine:
+
+  
+    
+      
+        
+          
+            
+              
+                gd
+                ⁡
+                i
+                z
+              
+              
+                
+                =
+                i
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                z
+                ,
+              
+            
+            
+              
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                i
+                z
+              
+              
+                
+                =
+                i
+                gd
+                ⁡
+                z
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {gd} iz&=i\operatorname {gd} ^{-1}z,\\[5mu]\operatorname {gd} ^{-1}iz&=i\operatorname {gd} z.\end{aligned}}}
+  The functions are both odd and they commute with complex conjugation. That is, a reflection across the real or imaginary axis in the domain results in the same reflection in the codomain:
+
+  
+    
+      
+        
+          
+            
+              
+                gd
+                ⁡
+                (
+                −
+                z
+                )
+              
+              
+                
+                =
+                −
+                gd
+                ⁡
+                z
+                ,
+              
+              
+                
+                gd
+                ⁡
+                
+                  
+                    
+                      z
+                      ¯
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      gd
+                      ⁡
+                      z
+                    
+                    ¯
+                  
+                
+                ,
+              
+              
+                
+                gd
+                ⁡
+                (
+                −
+                
+                  
+                    
+                      z
+                      ¯
+                    
+                  
+                
+                )
+              
+              
+                
+                =
+                −
+                
+                  
+                    
+                      gd
+                      ⁡
+                      z
+                    
+                    ¯
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                (
+                −
+                z
+                )
+              
+              
+                
+                =
+                −
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                z
+                ,
+              
+              
+                
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                
+                  
+                    
+                      z
+                      ¯
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        gd
+                        
+                          −
+                          1
+                        
+                      
+                      ⁡
+                      z
+                    
+                    ¯
+                  
+                
+                ,
+              
+              
+                
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                (
+                −
+                
+                  
+                    
+                      z
+                      ¯
+                    
+                  
+                
+                )
+              
+              
+                
+                =
+                −
+                
+                  
+                    
+                      
+                        gd
+                        
+                          −
+                          1
+                        
+                      
+                      ⁡
+                      z
+                    
+                    ¯
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {gd} (-z)&=-\operatorname {gd} z,&\quad \operatorname {gd} {\bar {z}}&={\overline {\operatorname {gd} z}},&\quad \operatorname {gd} (-{\bar {z}})&=-{\overline {\operatorname {gd} z}},\\[5mu]\operatorname {gd} ^{-1}(-z)&=-\operatorname {gd} ^{-1}z,&\quad \operatorname {gd} ^{-1}{\bar {z}}&={\overline {\operatorname {gd} ^{-1}z}},&\quad \operatorname {gd} ^{-1}(-{\bar {z}})&=-{\overline {\operatorname {gd} ^{-1}z}}.\end{aligned}}}
+  The functions are periodic, with periods 
+  
+    
+      
+        2
+        π
+        i
+      
+    
+    {\textstyle 2\pi i}
+   and 
+  
+    
+      
+        2
+        π
+      
+    
+    {\textstyle 2\pi }
+  :
+
+  
+    
+      
+        
+          
+            
+              
+                gd
+                ⁡
+                (
+                z
+                +
+                2
+                π
+                i
+                )
+              
+              
+                
+                =
+                gd
+                ⁡
+                z
+                ,
+              
+            
+            
+              
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                (
+                z
+                +
+                2
+                π
+                )
+              
+              
+                
+                =
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                z
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {gd} (z+2\pi i)&=\operatorname {gd} z,\\[5mu]\operatorname {gd} ^{-1}(z+2\pi )&=\operatorname {gd} ^{-1}z.\end{aligned}}}
+  A translation in the domain of 
+  
+    
+      
+        gd
+      
+    
+    {\textstyle \operatorname {gd} }
+   by 
+  
+    
+      
+        ±
+        π
+        i
+      
+    
+    {\textstyle \pm \pi i}
+   results in a half-turn rotation and translation in the codomain by one of 
+  
+    
+      
+        ±
+        π
+        ,
+      
+    
+    {\textstyle \pm \pi ,}
+   and vice versa for 
+  
+    
+      
+        
+          gd
+          
+            −
+            1
+          
+        
+        :
+      
+    
+    {\textstyle \operatorname {gd} ^{-1}\colon }
+  
+
+  
+    
+      
+        
+          
+            
+              
+                gd
+                ⁡
+                (
+                
+                  ±
+                  π
+                  i
+                
+                +
+                z
+                )
+              
+              
+                
+                =
+                
+                  
+                    {
+                    
+                      
+                        
+                          π
+                          −
+                          gd
+                          ⁡
+                          z
+                          
+                        
+                        
+                          
+                            
+                              if 
+                            
+                          
+                           
+                           
+                          Re
+                          ⁡
+                          z
+                          ≥
+                          0
+                          ,
+                        
+                      
+                      
+                        
+                          −
+                          π
+                          −
+                          gd
+                          ⁡
+                          z
+                          
+                        
+                        
+                          
+                            
+                              if 
+                            
+                          
+                           
+                           
+                          Re
+                          ⁡
+                          z
+                          <
+                          0
+                          ,
+                        
+                      
+                    
+                    
+                  
+                
+              
+            
+            
+              
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                (
+                
+                  ±
+                  π
+                
+                +
+                z
+                )
+              
+              
+                
+                =
+                
+                  
+                    {
+                    
+                      
+                        
+                          π
+                          i
+                          −
+                          
+                            gd
+                            
+                              −
+                              1
+                            
+                          
+                          ⁡
+                          z
+                          
+                        
+                        
+                          
+                            
+                              if 
+                            
+                          
+                           
+                           
+                          Im
+                          ⁡
+                          z
+                          ≥
+                          0
+                          ,
+                        
+                      
+                      
+                        
+                          −
+                          π
+                          i
+                          −
+                          
+                            gd
+                            
+                              −
+                              1
+                            
+                          
+                          ⁡
+                          z
+                          
+                        
+                        
+                          
+                            
+                              if 
+                            
+                          
+                           
+                           
+                          Im
+                          ⁡
+                          z
+                          <
+                          0.
+                        
+                      
+                    
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {gd} ({\pm \pi i}+z)&={\begin{cases}\pi -\operatorname {gd} z\quad &{\mbox{if }}\ \ \operatorname {Re} z\geq 0,\\[5mu]-\pi -\operatorname {gd} z\quad &{\mbox{if }}\ \ \operatorname {Re} z<0,\end{cases}}\\[15mu]\operatorname {gd} ^{-1}({\pm \pi }+z)&={\begin{cases}\pi i-\operatorname {gd} ^{-1}z\quad &{\mbox{if }}\ \ \operatorname {Im} z\geq 0,\\[3mu]-\pi i-\operatorname {gd} ^{-1}z\quad &{\mbox{if }}\ \ \operatorname {Im} z<0.\end{cases}}\end{aligned}}}
+  A reflection in the domain of 
+  
+    
+      
+        gd
+      
+    
+    {\textstyle \operatorname {gd} }
+   across either of the lines 
+  
+    
+      
+        x
+        ±
+        
+          
+            
+              1
+              2
+            
+          
+        
+        π
+        i
+      
+    
+    {\textstyle x\pm {\tfrac {1}{2}}\pi i}
+   results in a reflection in the codomain across one of the lines 
+  
+    
+      
+        ±
+        
+          
+            
+              1
+              2
+            
+          
+        
+        π
+        +
+        y
+        i
+        ,
+      
+    
+    {\textstyle \pm {\tfrac {1}{2}}\pi +yi,}
+   and vice versa for 
+  
+    
+      
+        
+          gd
+          
+            −
+            1
+          
+        
+        :
+      
+    
+    {\textstyle \operatorname {gd} ^{-1}\colon }
+  
+
+  
+    
+      
+        
+          
+            
+              
+                gd
+                ⁡
+                (
+                
+                  ±
+                  π
+                  i
+                
+                +
+                
+                  
+                    
+                      z
+                      ¯
+                    
+                  
+                
+                )
+              
+              
+                
+                =
+                
+                  
+                    {
+                    
+                      
+                        
+                          π
+                          −
+                          
+                            
+                              
+                                gd
+                                ⁡
+                                z
+                              
+                              ¯
+                            
+                          
+                          
+                        
+                        
+                          
+                            
+                              if 
+                            
+                          
+                           
+                           
+                          Re
+                          ⁡
+                          z
+                          ≥
+                          0
+                          ,
+                        
+                      
+                      
+                        
+                          −
+                          π
+                          −
+                          
+                            
+                              
+                                gd
+                                ⁡
+                                z
+                              
+                              ¯
+                            
+                          
+                          
+                        
+                        
+                          
+                            
+                              if 
+                            
+                          
+                           
+                           
+                          Re
+                          ⁡
+                          z
+                          <
+                          0
+                          ,
+                        
+                      
+                    
+                    
+                  
+                
+              
+            
+            
+              
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                (
+                
+                  ±
+                  π
+                
+                −
+                
+                  
+                    
+                      z
+                      ¯
+                    
+                  
+                
+                )
+              
+              
+                
+                =
+                
+                  
+                    {
+                    
+                      
+                        
+                          π
+                          i
+                          +
+                          
+                            
+                              
+                                
+                                  gd
+                                  
+                                    −
+                                    1
+                                  
+                                
+                                ⁡
+                                z
+                              
+                              ¯
+                            
+                          
+                          
+                        
+                        
+                          
+                            
+                              if 
+                            
+                          
+                           
+                           
+                          Im
+                          ⁡
+                          z
+                          ≥
+                          0
+                          ,
+                        
+                      
+                      
+                        
+                          −
+                          π
+                          i
+                          +
+                          
+                            
+                              
+                                
+                                  gd
+                                  
+                                    −
+                                    1
+                                  
+                                
+                                ⁡
+                                z
+                              
+                              ¯
+                            
+                          
+                          
+                        
+                        
+                          
+                            
+                              if 
+                            
+                          
+                           
+                           
+                          Im
+                          ⁡
+                          z
+                          <
+                          0.
+                        
+                      
+                    
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {gd} ({\pm \pi i}+{\bar {z}})&={\begin{cases}\pi -{\overline {\operatorname {gd} z}}\quad &{\mbox{if }}\ \ \operatorname {Re} z\geq 0,\\[5mu]-\pi -{\overline {\operatorname {gd} z}}\quad &{\mbox{if }}\ \ \operatorname {Re} z<0,\end{cases}}\\[15mu]\operatorname {gd} ^{-1}({\pm \pi }-{\bar {z}})&={\begin{cases}\pi i+{\overline {\operatorname {gd} ^{-1}z}}\quad &{\mbox{if }}\ \ \operatorname {Im} z\geq 0,\\[3mu]-\pi i+{\overline {\operatorname {gd} ^{-1}z}}\quad &{\mbox{if }}\ \ \operatorname {Im} z<0.\end{cases}}\end{aligned}}}
+  This is related to the identity
+
+  
+    
+      
+        tanh
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+        (
+        
+          π
+          i
+        
+        ±
+        z
+        )
+        =
+        tan
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+        (
+        
+          π
+        
+        ∓
+        gd
+        ⁡
+        z
+        )
+        .
+      
+    
+    {\displaystyle \tanh {\tfrac {1}{2}}({\pi i}\pm z)=\tan {\tfrac {1}{2}}({\pi }\mp \operatorname {gd} z).}
+  
+
+
+=== Specific values ===
+A few specific values (where 
+  
+    
+      
+        ∞
+      
+    
+    {\textstyle \infty }
+   indicates the limit at one end of the infinite strip):
+
+  
+    
+      
+        
+          
+            
+              
+                gd
+                ⁡
+                (
+                0
+                )
+              
+              
+                
+                =
+                0
+                ,
+              
+              
+                
+                
+                  gd
+                
+                
+                  
+                    (
+                  
+                
+                
+                  ±
+                  
+                    log
+                  
+                  
+                    
+                      (
+                    
+                  
+                  2
+                  +
+                  
+                    
+                      3
+                    
+                  
+                  
+                    
+                      )
+                    
+                  
+                
+                
+                  
+                    )
+                  
+                
+              
+              
+                
+                =
+                ±
+                
+                  
+                    
+                      1
+                      3
+                    
+                  
+                
+                π
+                ,
+              
+            
+            
+              
+                gd
+                ⁡
+                (
+                π
+                i
+                )
+              
+              
+                
+                =
+                π
+                ,
+              
+              
+                
+                
+                  gd
+                
+                
+                  
+                    (
+                  
+                
+                
+                  ±
+                  
+                    
+                      
+                        1
+                        3
+                      
+                    
+                  
+                
+                π
+                i
+                
+                  
+                    )
+                  
+                
+              
+              
+                
+                =
+                ±
+                
+                  log
+                
+                
+                  
+                    (
+                  
+                
+                2
+                +
+                
+                  
+                    3
+                  
+                
+                
+                  
+                    )
+                  
+                
+                i
+                ,
+              
+            
+            
+              
+                gd
+                ⁡
+                (
+                
+                  ±
+                  ∞
+                
+                )
+              
+              
+                
+                =
+                ±
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                π
+                ,
+              
+              
+                
+                
+                  gd
+                
+                
+                  
+                    (
+                  
+                
+                
+                  ±
+                  
+                    log
+                  
+                  
+                    
+                      (
+                    
+                  
+                  1
+                  +
+                  
+                    
+                      2
+                    
+                  
+                  
+                    
+                      )
+                    
+                  
+                
+                
+                  
+                    )
+                  
+                
+              
+              
+                
+                =
+                ±
+                
+                  
+                    
+                      1
+                      4
+                    
+                  
+                
+                π
+                ,
+              
+            
+            
+              
+                
+                  gd
+                
+                
+                  
+                    (
+                  
+                
+                
+                  ±
+                  
+                    
+                      
+                        1
+                        2
+                      
+                    
+                  
+                
+                π
+                i
+                
+                  
+                    )
+                  
+                
+              
+              
+                
+                =
+                ±
+                ∞
+                i
+                ,
+              
+              
+                
+                
+                  gd
+                
+                
+                  
+                    (
+                  
+                
+                
+                  ±
+                  
+                    
+                      
+                        1
+                        4
+                      
+                    
+                  
+                
+                π
+                i
+                
+                  
+                    )
+                  
+                
+              
+              
+                
+                =
+                ±
+                
+                  log
+                
+                
+                  
+                    (
+                  
+                
+                1
+                +
+                
+                  
+                    2
+                  
+                
+                
+                  
+                    )
+                  
+                
+                i
+                ,
+              
+            
+            
+              
+              
+              
+                
+                  gd
+                
+                
+                  
+                    (
+                  
+                
+                
+                  log
+                
+                
+                  
+                    (
+                  
+                
+                1
+                +
+                
+                  
+                    2
+                  
+                
+                
+                  
+                    )
+                  
+                
+                ±
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                π
+                i
+                
+                  
+                    )
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                π
+                ±
+                
+                  log
+                
+                
+                  
+                    (
+                  
+                
+                1
+                +
+                
+                  
+                    2
+                  
+                
+                
+                  
+                    )
+                  
+                
+                i
+                ,
+              
+            
+            
+              
+              
+              
+                
+                  gd
+                
+                
+                  
+                    (
+                  
+                
+                
+                  −
+                  log
+                
+                
+                  
+                    (
+                  
+                
+                1
+                +
+                
+                  
+                    2
+                  
+                
+                
+                  
+                    )
+                  
+                
+                ±
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                π
+                i
+                
+                  
+                    )
+                  
+                
+              
+              
+                
+                =
+                −
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                π
+                ±
+                
+                  log
+                
+                
+                  
+                    (
+                  
+                
+                1
+                +
+                
+                  
+                    2
+                  
+                
+                
+                  
+                    )
+                  
+                
+                i
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {gd} (0)&=0,&\quad {\operatorname {gd} }{\bigl (}{\pm {\log }{\bigl (}2+{\sqrt {3}}{\bigr )}}{\bigr )}&=\pm {\tfrac {1}{3}}\pi ,\\[5mu]\operatorname {gd} (\pi i)&=\pi ,&\quad {\operatorname {gd} }{\bigl (}{\pm {\tfrac {1}{3}}}\pi i{\bigr )}&=\pm {\log }{\bigl (}2+{\sqrt {3}}{\bigr )}i,\\[5mu]\operatorname {gd} ({\pm \infty })&=\pm {\tfrac {1}{2}}\pi ,&\quad {\operatorname {gd} }{\bigl (}{\pm {\log }{\bigl (}1+{\sqrt {2}}{\bigr )}}{\bigr )}&=\pm {\tfrac {1}{4}}\pi ,\\[5mu]{\operatorname {gd} }{\bigl (}{\pm {\tfrac {1}{2}}}\pi i{\bigr )}&=\pm \infty i,&\quad {\operatorname {gd} }{\bigl (}{\pm {\tfrac {1}{4}}}\pi i{\bigr )}&=\pm {\log }{\bigl (}1+{\sqrt {2}}{\bigr )}i,\\[5mu]&&{\operatorname {gd} }{\bigl (}{\log }{\bigl (}1+{\sqrt {2}}{\bigr )}\pm {\tfrac {1}{2}}\pi i{\bigr )}&={\tfrac {1}{2}}\pi \pm {\log }{\bigl (}1+{\sqrt {2}}{\bigr )}i,\\[5mu]&&{\operatorname {gd} }{\bigl (}{-\log }{\bigl (}1+{\sqrt {2}}{\bigr )}\pm {\tfrac {1}{2}}\pi i{\bigr )}&=-{\tfrac {1}{2}}\pi \pm {\log }{\bigl (}1+{\sqrt {2}}{\bigr )}i.\end{aligned}}}
+  
+
+
+== Derivatives ==
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      d
+                    
+                    
+                      
+                        d
+                      
+                      z
+                    
+                  
+                
+                gd
+                ⁡
+                z
+              
+              
+                
+                =
+                sech
+                ⁡
+                z
+                ,
+              
+            
+            
+              
+                
+                  
+                    
+                      d
+                    
+                    
+                      
+                        d
+                      
+                      z
+                    
+                  
+                
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                z
+              
+              
+                
+                =
+                sec
+                ⁡
+                z
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\frac {\mathrm {d} }{\mathrm {d} z}}\operatorname {gd} z&=\operatorname {sech} z,\\[10mu]{\frac {\mathrm {d} }{\mathrm {d} z}}\operatorname {gd} ^{-1}z&=\sec z.\end{aligned}}}
+  
+
+
+== Argument-addition identities ==
+By combining hyperbolic and circular argument-addition identities,
+
+  
+    
+      
+        
+          
+            
+              
+                tanh
+                ⁡
+                (
+                z
+                +
+                w
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      tanh
+                      ⁡
+                      z
+                      +
+                      tanh
+                      ⁡
+                      w
+                    
+                    
+                      1
+                      +
+                      tanh
+                      ⁡
+                      z
+                      
+                      tanh
+                      ⁡
+                      w
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                tan
+                ⁡
+                (
+                z
+                +
+                w
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      tan
+                      ⁡
+                      z
+                      +
+                      tan
+                      ⁡
+                      w
+                    
+                    
+                      1
+                      −
+                      tan
+                      ⁡
+                      z
+                      
+                      tan
+                      ⁡
+                      w
+                    
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\tanh(z+w)&={\frac {\tanh z+\tanh w}{1+\tanh z\,\tanh w}},\\[10mu]\tan(z+w)&={\frac {\tan z+\tan w}{1-\tan z\,\tan w}},\end{aligned}}}
+  with the circular–hyperbolic identity,
+
+  
+    
+      
+        tan
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+        (
+        gd
+        ⁡
+        z
+        )
+        =
+        tanh
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+        z
+        ,
+      
+    
+    {\displaystyle \tan {\tfrac {1}{2}}(\operatorname {gd} z)=\tanh {\tfrac {1}{2}}z,}
+  we have the Gudermannian argument-addition identities:
+
+  
+    
+      
+        
+          
+            
+              
+                gd
+                ⁡
+                (
+                z
+                +
+                w
+                )
+              
+              
+                
+                =
+                2
+                arctan
+                ⁡
+                
+                  
+                    
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      gd
+                      ⁡
+                      z
+                      )
+                      +
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      gd
+                      ⁡
+                      w
+                      )
+                    
+                    
+                      1
+                      +
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      gd
+                      ⁡
+                      z
+                      )
+                      
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      gd
+                      ⁡
+                      w
+                      )
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                (
+                z
+                +
+                w
+                )
+              
+              
+                
+                =
+                2
+                artanh
+                ⁡
+                
+                  
+                    
+                      tanh
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      
+                        gd
+                        
+                          −
+                          1
+                        
+                      
+                      ⁡
+                      z
+                      )
+                      +
+                      tanh
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      
+                        gd
+                        
+                          −
+                          1
+                        
+                      
+                      ⁡
+                      w
+                      )
+                    
+                    
+                      1
+                      −
+                      tanh
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      
+                        gd
+                        
+                          −
+                          1
+                        
+                      
+                      ⁡
+                      z
+                      )
+                      
+                      tanh
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      
+                        gd
+                        
+                          −
+                          1
+                        
+                      
+                      ⁡
+                      w
+                      )
+                    
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {gd} (z+w)&=2\arctan {\frac {\tan {\tfrac {1}{2}}(\operatorname {gd} z)+\tan {\tfrac {1}{2}}(\operatorname {gd} w)}{1+\tan {\tfrac {1}{2}}(\operatorname {gd} z)\,\tan {\tfrac {1}{2}}(\operatorname {gd} w)}},\\[12mu]\operatorname {gd} ^{-1}(z+w)&=2\operatorname {artanh} {\frac {\tanh {\tfrac {1}{2}}(\operatorname {gd} ^{-1}z)+\tanh {\tfrac {1}{2}}(\operatorname {gd} ^{-1}w)}{1-\tanh {\tfrac {1}{2}}(\operatorname {gd} ^{-1}z)\,\tanh {\tfrac {1}{2}}(\operatorname {gd} ^{-1}w)}}.\end{aligned}}}
+  Further argument-addition identities can be written in terms of other circular functions, but they require greater care in choosing branches in inverse functions. Notably,
+
+  
+    
+      
+        
+          
+            
+              
+                gd
+                ⁡
+                (
+                z
+                +
+                w
+                )
+              
+              
+                
+                =
+                u
+                +
+                v
+                ,
+                
+                
+                  where
+                
+                 
+                tan
+                ⁡
+                u
+                =
+                
+                  
+                    
+                      sinh
+                      ⁡
+                      z
+                    
+                    
+                      cosh
+                      ⁡
+                      w
+                    
+                  
+                
+                ,
+                 
+                tan
+                ⁡
+                v
+                =
+                
+                  
+                    
+                      sinh
+                      ⁡
+                      w
+                    
+                    
+                      cosh
+                      ⁡
+                      z
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                (
+                z
+                +
+                w
+                )
+              
+              
+                
+                =
+                u
+                +
+                v
+                ,
+                
+                
+                  where
+                
+                 
+                tanh
+                ⁡
+                u
+                =
+                
+                  
+                    
+                      sin
+                      ⁡
+                      z
+                    
+                    
+                      cos
+                      ⁡
+                      w
+                    
+                  
+                
+                ,
+                 
+                tanh
+                ⁡
+                v
+                =
+                
+                  
+                    
+                      sin
+                      ⁡
+                      w
+                    
+                    
+                      cos
+                      ⁡
+                      z
+                    
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {gd} (z+w)&=u+v,\quad {\text{where}}\ \tan u={\frac {\sinh z}{\cosh w}},\ \tan v={\frac {\sinh w}{\cosh z}},\\[10mu]\operatorname {gd} ^{-1}(z+w)&=u+v,\quad {\text{where}}\ \tanh u={\frac {\sin z}{\cos w}},\ \tanh v={\frac {\sin w}{\cos z}},\end{aligned}}}
+  which can be used to derive the per-component computation for the complex Gudermannian and inverse Gudermannian.In the specific case 
+  
+    
+      
+        z
+        =
+        w
+        ,
+      
+    
+    {\textstyle z=w,}
+   double-argument identities are
+
+  
+    
+      
+        
+          
+            
+              
+                gd
+                ⁡
+                (
+                2
+                z
+                )
+              
+              
+                
+                =
+                2
+                arctan
+                ⁡
+                (
+                sin
+                ⁡
+                (
+                gd
+                ⁡
+                z
+                )
+                )
+                ,
+              
+            
+            
+              
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                (
+                2
+                z
+                )
+              
+              
+                
+                =
+                2
+                artanh
+                ⁡
+                (
+                sinh
+                ⁡
+                (
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                z
+                )
+                )
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {gd} (2z)&=2\arctan(\sin(\operatorname {gd} z)),\\[5mu]\operatorname {gd} ^{-1}(2z)&=2\operatorname {artanh} (\sinh(\operatorname {gd} ^{-1}z)).\end{aligned}}}
+  
+
+
+== Taylor series ==
+The Taylor series near zero, valid for complex values 
+  
+    
+      
+        z
+      
+    
+    {\textstyle z}
+   with 
+  
+    
+      
+        
+          |
+        
+        z
+        
+          |
+        
+        <
+        
+          
+            
+              1
+              2
+            
+          
+        
+        π
+        ,
+      
+    
+    {\textstyle |z|<{\tfrac {1}{2}}\pi ,}
+   are
+
+  
+    
+      
+        
+          
+            
+              
+                gd
+                ⁡
+                z
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    k
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    
+                      E
+                      
+                        k
+                      
+                    
+                    
+                      (
+                      k
+                      +
+                      1
+                      )
+                      !
+                    
+                  
+                
+                
+                  z
+                  
+                    k
+                    +
+                    1
+                  
+                
+                =
+                z
+                −
+                
+                  
+                    1
+                    6
+                  
+                
+                
+                  z
+                  
+                    3
+                  
+                
+                +
+                
+                  
+                    1
+                    24
+                  
+                
+                
+                  z
+                  
+                    5
+                  
+                
+                −
+                
+                  
+                    61
+                    5040
+                  
+                
+                
+                  z
+                  
+                    7
+                  
+                
+                +
+                
+                  
+                    277
+                    72576
+                  
+                
+                
+                  z
+                  
+                    9
+                  
+                
+                −
+                …
+                ,
+              
+            
+            
+              
+                
+                  gd
+                  
+                    −
+                    1
+                  
+                
+                ⁡
+                z
+              
+              
+                
+                =
+                
+                  ∑
+                  
+                    k
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                
+                  
+                    
+                      
+                        |
+                      
+                      
+                        E
+                        
+                          k
+                        
+                      
+                      
+                        |
+                      
+                    
+                    
+                      (
+                      k
+                      +
+                      1
+                      )
+                      !
+                    
+                  
+                
+                
+                  z
+                  
+                    k
+                    +
+                    1
+                  
+                
+                =
+                z
+                +
+                
+                  
+                    1
+                    6
+                  
+                
+                
+                  z
+                  
+                    3
+                  
+                
+                +
+                
+                  
+                    1
+                    24
+                  
+                
+                
+                  z
+                  
+                    5
+                  
+                
+                +
+                
+                  
+                    61
+                    5040
+                  
+                
+                
+                  z
+                  
+                    7
+                  
+                
+                +
+                
+                  
+                    277
+                    72576
+                  
+                
+                
+                  z
+                  
+                    9
+                  
+                
+                +
+                …
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {gd} z&=\sum _{k=0}^{\infty }{\frac {E_{k}}{(k+1)!}}z^{k+1}=z-{\frac {1}{6}}z^{3}+{\frac {1}{24}}z^{5}-{\frac {61}{5040}}z^{7}+{\frac {277}{72576}}z^{9}-\dots ,\\[10mu]\operatorname {gd} ^{-1}z&=\sum _{k=0}^{\infty }{\frac {|E_{k}|}{(k+1)!}}z^{k+1}=z+{\frac {1}{6}}z^{3}+{\frac {1}{24}}z^{5}+{\frac {61}{5040}}z^{7}+{\frac {277}{72576}}z^{9}+\dots ,\end{aligned}}}
+  where the numbers 
+  
+    
+      
+        
+          E
+          
+            k
+          
+        
+      
+    
+    {\textstyle E_{k}}
+   are the Euler secant numbers, 1, 0, -1, 0, 5, 0, -61, 0, 1385 ... (sequences A122045, A000364, and A028296 in the OEIS). These series were first computed by James Gregory in 1671.Because the Gudermannian and inverse Gudermannian functions are the integrals of the hyperbolic secant and secant functions, the numerators 
+  
+    
+      
+        
+          E
+          
+            k
+          
+        
+      
+    
+    {\textstyle E_{k}}
+   and 
+  
+    
+      
+        
+          |
+        
+        
+          E
+          
+            k
+          
+        
+        
+          |
+        
+      
+    
+    {\textstyle |E_{k}|}
+   are same as the numerators of the Taylor series for sech and sec, respectively, but shifted by one place.
+The reduced unsigned numerators are 1, 1, 1, 61, 277, ... and the reduced denominators are 1, 6, 24, 5040, 72576, ... (sequences A091912 and A136606 in the OEIS).
+
+
+== History ==
+
+The function and its inverse are related to the Mercator projection. The vertical coordinate in the Mercator projection is called isometric latitude, and is often denoted 
+  
+    
+      
+        ψ
+        .
+      
+    
+    {\textstyle \psi .}
+   In terms of latitude 
+  
+    
+      
+        ϕ
+      
+    
+    {\textstyle \phi }
+   on the sphere (expressed in radians) the isometric latitude can be written
+
+  
+    
+      
+        ψ
+        =
+        
+          gd
+          
+            −
+            1
+          
+        
+        ⁡
+        ϕ
+        =
+        
+          ∫
+          
+            0
+          
+          
+            ϕ
+          
+        
+        sec
+        ⁡
+        t
+        
+        
+          d
+        
+        t
+        .
+      
+    
+    {\displaystyle \psi =\operatorname {gd} ^{-1}\phi =\int _{0}^{\phi }\sec t\,\mathrm {d} t.}
+  The inverse from the isometric latitude to spherical latitude is 
+  
+    
+      
+        ϕ
+        =
+        gd
+        ⁡
+        ψ
+        .
+      
+    
+    {\textstyle \phi =\operatorname {gd} \psi .}
+   (Note: on an ellipsoid of revolution, the relation between geodetic latitude and isometric latitude is slightly more complicated.)
+Gerardus Mercator plotted his celebrated map in 1569, but the precise method of construction was not revealed. In 1599, Edward Wright described a method for constructing a Mercator projection numerically from trigonometric tables, but did not produce a closed formula. The closed formula was published in 1668 by James Gregory.
+The Gudermannian function per se was introduced by Johann Heinrich Lambert in the 1760s at the same time as the hyperbolic functions. He called it the "transcendent angle", and it went by various names until 1862 when Arthur Cayley suggested it be given its current name as a tribute to Christoph Gudermann's work in the 1830s on the theory of special functions.
+Gudermann had published articles in Crelle's Journal that were later collected in a book
+which expounded 
+  
+    
+      
+        sinh
+      
+    
+    {\textstyle \sinh }
+   and 
+  
+    
+      
+        cosh
+      
+    
+    {\textstyle \cosh }
+   to a wide audience (although represented by the symbols 
+  
+    
+      
+        
+          
+            S
+            i
+            n
+          
+        
+      
+    
+    {\textstyle {\mathfrak {Sin}}}
+   and 
+  
+    
+      
+        
+          
+            C
+            o
+            s
+          
+        
+      
+    
+    {\textstyle {\mathfrak {Cos}}}
+  ).
+The notation 
+  
+    
+      
+        gd
+      
+    
+    {\textstyle \operatorname {gd} }
+   was introduced by Cayley who starts by calling 
+  
+    
+      
+        ϕ
+        =
+        gd
+        ⁡
+        u
+      
+    
+    {\textstyle \phi =\operatorname {gd} u}
+   the Jacobi elliptic amplitude 
+  
+    
+      
+        am
+        ⁡
+        u
+      
+    
+    {\textstyle \operatorname {am} u}
+   in the degenerate case where the elliptic modulus is 
+  
+    
+      
+        m
+        =
+        1
+        ,
+      
+    
+    {\textstyle m=1,}
+   so that 
+  
+    
+      
+        
+          
+            1
+            +
+            m
+            sin
+            
+              
+              
+                2
+              
+            
+            
+            ϕ
+          
+        
+      
+    
+    {\textstyle {\sqrt {1+m\sin \!^{2}\,\phi }}}
+   reduces to 
+  
+    
+      
+        cos
+        ⁡
+        ϕ
+        .
+      
+    
+    {\textstyle \cos \phi .}
+   This is the inverse of the integral of the secant function. Using Cayley's notation,
+
+  
+    
+      
+        u
+        =
+        
+          ∫
+          
+            0
+          
+        
+        
+          
+            
+              d
+              ϕ
+            
+            
+              cos
+              ⁡
+              ϕ
+            
+          
+        
+        =
+        
+          log
+          
+          tan
+        
+        
+          
+            (
+          
+        
+        
+          
+            
+              1
+              4
+            
+          
+        
+        π
+        +
+        
+          
+            
+              1
+              2
+            
+          
+        
+        ϕ
+        
+          
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle u=\int _{0}{\frac {d\phi }{\cos \phi }}={\log \,\tan }{\bigl (}{\tfrac {1}{4}}\pi +{\tfrac {1}{2}}\phi {\bigr )}.}
+  He then derives "the definition of the transcendent",
+
+  
+    
+      
+        gd
+        ⁡
+        u
+        =
+        
+          
+            
+              1
+              i
+            
+          
+          log
+          
+          tan
+        
+        
+          
+            (
+          
+        
+        
+          
+            
+              1
+              4
+            
+          
+        
+        π
+        +
+        
+          
+            
+              1
+              2
+            
+          
+        
+        u
+        i
+        
+          
+            )
+          
+        
+        ,
+      
+    
+    {\displaystyle \operatorname {gd} u={{\frac {1}{i}}\log \,\tan }{\bigl (}{\tfrac {1}{4}}\pi +{\tfrac {1}{2}}ui{\bigr )},}
+  observing that "although exhibited in an imaginary form, [it] is a real function of 
+  
+    
+      
+        u
+      
+    
+    {\textstyle u}
+  ".
+The Gudermannian and its inverse were used to make trigonometric tables of circular functions also function as tables of hyperbolic functions. Given a hyperbolic angle 
+  
+    
+      
+        ψ
+      
+    
+    {\textstyle \psi }
+  , hyperbolic functions could be found by first looking up 
+  
+    
+      
+        ϕ
+        =
+        gd
+        ⁡
+        ψ
+      
+    
+    {\textstyle \phi =\operatorname {gd} \psi }
+   in a Gudermannian table and then looking up the appropriate circular function of 
+  
+    
+      
+        ϕ
+      
+    
+    {\textstyle \phi }
+  , or by directly locating 
+  
+    
+      
+        ψ
+      
+    
+    {\textstyle \psi }
+   in an auxiliary 
+  
+    
+      
+        
+          gd
+          
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle \operatorname {gd} ^{-1}}
+   column of the trigonometric table.
+
+
+== Generalization ==
+The Gudermannian function can be thought of mapping points on one branch of a hyperbola to points on a semicircle. Points on one sheet of an n-dimensional hyperboloid of two sheets can be likewise mapped onto a n-dimensional hemisphere via stereographic projection. The hemisphere model of hyperbolic space uses such a map to represent hyperbolic space.
+
+
+== Applications ==
+The angle of parallelism function in hyperbolic geometry is the complement of the gudermannian, 
+  
+    
+      
+        
+          
+            Π
+          
+        
+        (
+        ψ
+        )
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        π
+        −
+        gd
+        ⁡
+        ψ
+        .
+      
+    
+    {\displaystyle {\mathit {\Pi }}(\psi )={\tfrac {1}{2}}\pi -\operatorname {gd} \psi .}
+  
+On a Mercator projection a line of constant latitude is parallel to the equator (on the projection) and is displaced by an amount proportional to the inverse Gudermannian of the latitude.
+The Gudermannian (with a complex argument) may be used to define the transverse Mercator projection.The Gudermannian appears in a non-periodic solution of the inverted pendulum.
+The Gudermannian appears in a moving mirror solution of the dynamical Casimir effect.
+If an infinite number of infinitely long, equidistant, parallel, coplanar, straight wires are kept at equal potentials with alternating signs, the potential-flux distribution in a cross-sectional plane perpendicular to the wires is the complex Gudermannian.
+The Gudermannian function is a sigmoid function, and as such is sometimes used as an activation function in machine learning.
+The (scaled and shifted) Gudermannian is the cumulative distribution function of the hyperbolic secant distribution.
+A function based on the Gudermannian provides a good model for the shape of spiral galaxy arms.
+
+
+== See also ==
+Tractrix
+Catenary § Catenary of equal strength
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Penn, Michael (2020) "the Gudermannian function!" on YouTube.

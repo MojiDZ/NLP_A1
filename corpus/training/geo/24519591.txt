@@ -1,0 +1,47 @@
+Forest-Range Environmental Study Ecosystems, known as FRES, is a system for the classification of ecosystems developed by the United States Forest Service as a management tool for the entire lower 48. Thirty four ecosystems were defined for grasslands, forests and woodlands.
+
+
+== Forest and woodland classification ==
+FRES 10  White pine - red pine - jack pine
+FRES 11  Spruce - fir
+FRES 12  Longleaf - slash pine
+FRES 13  Loblolly - shortleaf pine
+FRES 14  Oak pine
+FRES 15  Oak - hickory
+FRES 16  Oak - gum - cypress
+FRES 17  Elm - ash - cottonwood
+FRES 18  Maple - beech - birch
+FRES 19  Aspen - birch
+FRES 20  Douglas-fir
+FRES 21  Ponderosa pine
+FRES 22  Western white pine
+FRES 23  Fir - spruce
+FRES 24  Hemlock - Sitka spruce
+FRES 25  Larch
+FRES 26  Lodgepole pine
+FRES 27  Redwood
+FRES 28  Western hardwoods
+FRES 29  Sagebrush
+FRES 30  Desert shrub
+FRES 31  Shinnery
+FRES 32  Texas savanna
+FRES 33  Southwestern shrubsteppe
+FRES 34  Chaparral - mountain shrub
+FRES 35  Pinyon - juniper
+
+
+== Grassland classification ==
+FRES 36  Mountain grasslands
+FRES 37  Mountain meadows
+FRES 38  Plains grasslands
+FRES 39  Prairie
+FRES 40  Desert grasslands
+FRES 41  Wet grasslands
+FRES 42  Annual grasslands
+
+
+== Alpine classification ==
+FRES 44  Alpine meadows and barren
+
+
+== Notes ==

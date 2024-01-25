@@ -1,0 +1,28 @@
+Network Protocol Virtualization or Network Protocol Stack Virtualization is a concept of providing network connections as a service, without concerning application developer to decide the exact communication stack composition.
+
+
+== Concept ==
+Network Protocol Virtualization (NPV) was firstly proposed by Heuschkel et al. in 2015 as a rough sketch as part of a transition concept for network protocol stacks. The concept evolved and was published in a deployable state in 2018.The key idea is to decouple applications from their communication stacks. Today the socket API requires application developer to compose the communication stack by hand by choosing between IPv4/IPv6 and UDP/TCP. NPV proposes the network protocol stack should be tailored to the observed network environment (e.g. link layer technology, or current network performance). Thus, the network stack should not be composed at development time, but at runtime and needs the possibility to be adapted if needed.
+Additionally the decoupling relaxes the chains of the ISO OSI network layer model, and thus enables alternative concepts of communication stacks. Heuschkel et al. proposes the concept of Application layer middleboxes as example to add additional layers to the communication stack to enrich the communication with useful services (e.g. HTTP optimizations)
+The Figure illustrates the dataflow. Applications interface to the NPV software through some kind of API. Heuschkel et al. proposed socket API equivalent replacements but envision more sophisticated interfaces for future applications. The application payload is assigned by a scheduler to one (of potentially many) communication stack to get processed to network packets, that get sent using networking hardware. A management component decide how communication stacks get composed and how the scheduling scheme should be. To support decisions a management interface is provided to integrate the management system in software-defined networking contexts.
+NPV has been further investigated as a central element of LPWAN Internet of Things (IoT) scenarios. Specifically, the deployment of applications that are agnostic to the underlying transport, network, link and physical layers was explored by Rolando Herrero in 2020. In this context, NPV becomes a very successful and flexible tool to accomplish the deployment and management of constrained sensors, actuators and controllers in massive IoT access networks.
+
+
+== Implementations ==
+Currently there is just one academic implementation available to demonstrate the concept. Heuschkel et al. published this implementation as demonstrator in 2016. 
+The last iteration of this code is available under AGPLv3 on Github.
+
+
+== See also ==
+Application virtualization
+Hardware virtualization
+Virtualization
+
+
+== References ==
+
+
+== External links ==
+An introduction to Virtualization
+MAKI
+VirtualStack (NPV Prototype)

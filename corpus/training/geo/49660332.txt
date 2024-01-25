@@ -1,0 +1,51 @@
+Analysis of similarities (ANOSIM) is a non-parametric statistical test widely used in the field of ecology. The test was first suggested by K. R. Clarke as an ANOVA-like test, where instead of operating on raw data, operates on a ranked dissimilarity matrix.
+Given a matrix of rank dissimilarities between a set of samples, each belonging to a single site (e.g. a single treatment group), the ANOSIM tests whether we can reject the null hypothesis that the similarity between sites is greater than or equal to the similarity within each site.
+The test statistic R is calculated in the following way:
+
+  
+    
+      
+        R
+        =
+        
+          
+            
+              
+                r
+                
+                  B
+                
+              
+              −
+              
+                r
+                
+                  W
+                
+              
+            
+            
+              M
+              
+                /
+              
+              2
+            
+          
+        
+      
+    
+    {\displaystyle R={\frac {r_{B}-r_{W}}{M/2}}}
+  where rB is the average of rank similarities of pairs of samples (or replicates) originating from different sites, rW is the average of rank similarity of pairs among replicates within sites, and M = n(n − 1)/2 where n is the number of samples.
+The test statistic R is constrained between the values −1 to 1, where positive numbers suggest more similarity within sites and values close to zero represent no difference between sites and within sites similarities. Negative R values suggest more similarity between sites than within sites and may raise the possibility of wrong assignment of samples to sites.
+For the purpose of hypothesis testing, where the null hypothesis is that the similarities within sites are smaller or equal to the similarities between sites, the R statistic is usually compared to a set of R′ values that are achieved by means of randomly shuffling site labels between the samples and calculating the resulting R′, repeated many times.  The percent of times that the actual R surpassed the permutations derived R′ values is the p-value for the actual R statistic.
+Ranking of dissimilarity in ANOSIM and NMDS (non-metric multidimensional scaling) go hand in hand.
+Combining both methods complement visualisation of group differences along with significance testing.ANOSIM is implemented in several statistical software including PRIMER, the R Vegan package  and PAST.
+
+
+== References ==
+
+
+== External links ==
+http://www.pisces-conservation.com/caphelp/index.html?analysisofsimilarity(anosim.html
+https://bizfluent.com/about-5475541-similarities-between-swot-pest-analysis.html

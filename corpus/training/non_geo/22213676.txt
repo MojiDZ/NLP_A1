@@ -1,0 +1,2033 @@
+In trigonometry, Mollweide's formula is a pair of relationships between sides and angles in a triangle.A variant in more geometrical style was first published by Isaac Newton in 1707 and then by Friedrich Wilhelm von Oppel in 1746. Thomas Simpson published the now-standard expression in 1748. Karl Mollweide republished the same result in 1808 without citing those predecessors.It can be used to check the consistency of solutions of triangles.Let 
+  
+    
+      
+        a
+        ,
+      
+    
+    {\displaystyle a,}
+   
+  
+    
+      
+        b
+        ,
+      
+    
+    {\displaystyle b,}
+   and 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+   be the lengths of the three sides of a triangle.
+Let 
+  
+    
+      
+        α
+        ,
+      
+    
+    {\displaystyle \alpha ,}
+   
+  
+    
+      
+        β
+        ,
+      
+    
+    {\displaystyle \beta ,}
+   and 
+  
+    
+      
+        γ
+      
+    
+    {\displaystyle \gamma }
+   be the measures of the angles opposite those three sides respectively.  Mollweide's formulas are
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      a
+                      +
+                      b
+                    
+                    c
+                  
+                
+                =
+                
+                  
+                    
+                      cos
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      α
+                      −
+                      β
+                      )
+                    
+                    
+                      sin
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      γ
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  
+                    
+                      a
+                      −
+                      b
+                    
+                    c
+                  
+                
+                =
+                
+                  
+                    
+                      sin
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      α
+                      −
+                      β
+                      )
+                    
+                    
+                      cos
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      γ
+                    
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\frac {a+b}{c}}={\frac {\cos {\tfrac {1}{2}}(\alpha -\beta )}{\sin {\tfrac {1}{2}}\gamma }},\\[10mu]{\frac {a-b}{c}}={\frac {\sin {\tfrac {1}{2}}(\alpha -\beta )}{\cos {\tfrac {1}{2}}\gamma }}.\end{aligned}}}
+  
+
+
+== Relation to other trigonometric identities ==
+Because in a planar triangle 
+  
+    
+      
+        
+          
+            
+              1
+              2
+            
+          
+        
+        γ
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        π
+        −
+        
+          
+            
+              1
+              2
+            
+          
+        
+        (
+        α
+        +
+        β
+        )
+        ,
+      
+    
+    {\displaystyle {\tfrac {1}{2}}\gamma ={\tfrac {1}{2}}\pi -{\tfrac {1}{2}}(\alpha +\beta ),}
+   these identities can alternately be written in a form in which they are more clearly a limiting case of Napier's analogies for spherical triangles (this was the form used by Von Oppel),
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      a
+                      +
+                      b
+                    
+                    c
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      cos
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      α
+                      −
+                      β
+                      )
+                    
+                    
+                      cos
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      α
+                      +
+                      β
+                      )
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  
+                    
+                      a
+                      −
+                      b
+                    
+                    c
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      sin
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      α
+                      −
+                      β
+                      )
+                    
+                    
+                      sin
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      α
+                      +
+                      β
+                      )
+                    
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\frac {a+b}{c}}&={\frac {\cos {\tfrac {1}{2}}(\alpha -\beta )}{\cos {\tfrac {1}{2}}(\alpha +\beta )}},\\[10mu]{\frac {a-b}{c}}&={\frac {\sin {\tfrac {1}{2}}(\alpha -\beta )}{\sin {\tfrac {1}{2}}(\alpha +\beta )}}.\end{aligned}}}
+  Dividing one by the other to eliminate 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+   results in the law of tangents,
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      a
+                      +
+                      b
+                    
+                    
+                      a
+                      −
+                      b
+                    
+                  
+                
+                =
+                
+                  
+                    
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      α
+                      +
+                      β
+                      )
+                    
+                    
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      α
+                      −
+                      β
+                      )
+                    
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\frac {a+b}{a-b}}={\frac {\tan {\tfrac {1}{2}}(\alpha +\beta )}{\tan {\tfrac {1}{2}}(\alpha -\beta )}}.\end{aligned}}}
+  In terms of half-angle tangents alone, Mollweide's formula can be written as 
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      a
+                      +
+                      b
+                    
+                    c
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      1
+                      +
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      α
+                      
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      β
+                    
+                    
+                      1
+                      −
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      α
+                      
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      β
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  
+                    
+                      a
+                      −
+                      b
+                    
+                    c
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      α
+                      −
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      β
+                    
+                    
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      α
+                      +
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      β
+                    
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\frac {a+b}{c}}&={\frac {1+\tan {\tfrac {1}{2}}\alpha \,\tan {\tfrac {1}{2}}\beta }{1-\tan {\tfrac {1}{2}}\alpha \,\tan {\tfrac {1}{2}}\beta }},\\[10mu]{\frac {a-b}{c}}&={\frac {\tan {\tfrac {1}{2}}\alpha -\tan {\tfrac {1}{2}}\beta }{\tan {\tfrac {1}{2}}\alpha +\tan {\tfrac {1}{2}}\beta }},\end{aligned}}}
+  or equivalently
+
+  
+    
+      
+        
+          
+            
+              
+                tan
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                α
+                
+                tan
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                β
+              
+              
+                
+                =
+                
+                  
+                    
+                      a
+                      +
+                      b
+                      −
+                      c
+                    
+                    
+                      a
+                      +
+                      b
+                      +
+                      c
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  
+                    
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      α
+                    
+                    
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      β
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        
+                          
+                            −
+                          
+                        
+                      
+                      a
+                      −
+                      b
+                      +
+                      c
+                    
+                    
+                      −
+                      a
+                      +
+                      b
+                      +
+                      c
+                    
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\tan {\tfrac {1}{2}}\alpha \,\tan {\tfrac {1}{2}}\beta &={\frac {a+b-c}{a+b+c}},\\[10mu]{\frac {\tan {\tfrac {1}{2}}\alpha }{\tan {\tfrac {1}{2}}\beta }}&={\frac {{\phantom {-}}a-b+c}{-a+b+c}}.\end{aligned}}}
+  Multiplying the respective sides of these identities gives one half-angle tangent in terms of the three sides,
+
+  
+    
+      
+        
+          
+            (
+          
+        
+        
+          tan
+          ⁡
+          
+            
+              
+                1
+                2
+              
+            
+          
+          α
+        
+        
+          
+            
+              )
+            
+          
+          
+            2
+          
+        
+        =
+        
+          
+            
+              (
+              a
+              +
+              b
+              −
+              c
+              )
+              (
+              a
+              −
+              b
+              +
+              c
+              )
+            
+            
+              (
+              a
+              +
+              b
+              +
+              c
+              )
+              (
+              −
+              a
+              +
+              b
+              +
+              c
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\bigl (}{\tan {\tfrac {1}{2}}\alpha }{\bigr )}^{2}={\frac {(a+b-c)(a-b+c)}{(a+b+c)(-a+b+c)}}.}
+  which becomes the law of cotangents after taking the square root,
+
+  
+    
+      
+        
+          
+            
+              cot
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              α
+            
+            
+              s
+              −
+              a
+            
+          
+        
+        =
+        
+          
+            
+              cot
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              β
+            
+            
+              s
+              −
+              b
+            
+          
+        
+        =
+        
+          
+            
+              cot
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              γ
+            
+            
+              s
+              −
+              c
+            
+          
+        
+        =
+        
+          
+            
+              
+                s
+                
+                  
+                    
+                      
+                        )
+                      
+                    
+                  
+                
+              
+              
+                (
+                s
+                −
+                c
+                )
+                (
+                s
+                −
+                b
+                )
+                (
+                s
+                −
+                a
+                )
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle {\frac {\cot {\tfrac {1}{2}}\alpha }{s-a}}={\frac {\cot {\tfrac {1}{2}}\beta }{s-b}}={\frac {\cot {\tfrac {1}{2}}\gamma }{s-c}}={\sqrt {\frac {s{\vphantom {)}}}{(s-c)(s-b)(s-a)}}},}
+  where 
+  
+    
+      
+        s
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        (
+        a
+        +
+        b
+        +
+        c
+        )
+      
+    
+    {\textstyle s={\tfrac {1}{2}}(a+b+c)}
+   is the semiperimeter.
+The identities can also be proven equivalent to the law of sines and law of cosines.
+
+
+== Dual relations ==
+In spherical trigonometry, the law of cosines and derived identities such as Napier's analogies have precise duals swapping central angles measuring the sides and dihedral angles at the vertices. In the infinitesimal limit, the law of cosines for sides reduces to the planar law of cosines and two of Napier's analogies reduce to Mollweide's formulas above. But the law of cosines for angles degenerates to 
+  
+    
+      
+        0
+        =
+        0.
+      
+    
+    {\displaystyle 0=0.}
+   By dividing squared side length by the spherical excess 
+  
+    
+      
+        E
+        ,
+      
+    
+    {\displaystyle E,}
+   we obtain a non-vanishing ratio, the spherical trigonometry relation:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      
+                        tan
+                        
+                          2
+                        
+                      
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      c
+                    
+                    
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      E
+                    
+                  
+                
+                =
+                
+                  
+                    
+                      sin
+                      ⁡
+                      γ
+                    
+                    
+                      sin
+                      ⁡
+                      α
+                      
+                      sin
+                      ⁡
+                      β
+                    
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\frac {\tan ^{2}{\tfrac {1}{2}}c}{\tan {\tfrac {1}{2}}E}}={\frac {\sin \gamma }{\sin \alpha \,\sin \beta }}.\end{aligned}}}
+  In the infinitesimal limit, as the half-angle tangents of spherical sides reduce to lengths of planar sides, the half-angle tangent of spherical excess reduces to twice the area 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   of a planar triangle, so on the plane this is:
+
+  
+    
+      
+        
+          
+            
+              c
+              
+                2
+              
+            
+            
+              2
+              A
+            
+          
+        
+        =
+        
+          
+            
+              sin
+              ⁡
+              γ
+            
+            
+              sin
+              ⁡
+              α
+              
+              sin
+              ⁡
+              β
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle {\frac {c^{2}}{2A}}={\frac {\sin \gamma }{\sin \alpha \,\sin \beta }},}
+  and likewise for 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+   and 
+  
+    
+      
+        b
+        .
+      
+    
+    {\displaystyle b.}
+  
+As corollaries (multiplying or dividing the above formula in terms of 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+   and 
+  
+    
+      
+        b
+      
+    
+    {\displaystyle b}
+  ) we obtain two dual statements to Mollweide's formulas. The first expresses the area in terms of two sides and the included angle, and the other is the law of sines:
+
+  
+    
+      
+        
+          
+            
+              a
+              b
+            
+            
+              2
+              A
+            
+          
+        
+        =
+        
+          
+            1
+            
+              sin
+              ⁡
+              γ
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle {\frac {ab}{2A}}={\frac {1}{\sin \gamma }},}
+  
+  
+    
+      
+        
+          
+            a
+            b
+          
+        
+        =
+        
+          
+            
+              sin
+              ⁡
+              α
+            
+            
+              sin
+              ⁡
+              β
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {a}{b}}={\frac {\sin \alpha }{\sin \beta }}.}
+  We can alternately express the second formula in a form closer to one of Mollweide's formulas (again the law of tangents):
+
+  
+    
+      
+        
+          
+            
+              tan
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              (
+              α
+              +
+              β
+              )
+            
+            
+              cot
+              ⁡
+              
+                
+                  
+                    1
+                    2
+                  
+                
+              
+              γ
+            
+          
+        
+        =
+        
+          
+            
+              a
+              −
+              b
+            
+            
+              a
+              +
+              b
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {\tan {\tfrac {1}{2}}(\alpha +\beta )}{\cot {\tfrac {1}{2}}\gamma }}={\frac {a-b}{a+b}}.}
+  
+
+
+== Cyclic quadrilateral ==
+A generalization of Mollweide's formula holds for a cyclic quadrilateral 
+  
+    
+      
+        ◻
+        A
+        B
+        C
+        D
+        .
+      
+    
+    {\displaystyle \square ABCD.}
+   Denote the lengths of sides 
+  
+    
+      
+        
+          |
+        
+        A
+        B
+        
+          |
+        
+        =
+        a
+        ,
+      
+    
+    {\displaystyle |AB|=a,}
+   
+  
+    
+      
+        
+          |
+        
+        B
+        C
+        
+          |
+        
+        =
+        b
+        ,
+      
+    
+    {\displaystyle |BC|=b,}
+   
+  
+    
+      
+        
+          |
+        
+        C
+        D
+        
+          |
+        
+        =
+        c
+        ,
+      
+    
+    {\displaystyle |CD|=c,}
+   and 
+  
+    
+      
+        
+          |
+        
+        D
+        A
+        
+          |
+        
+        =
+        d
+      
+    
+    {\displaystyle |DA|=d}
+   and angle measures 
+  
+    
+      
+        ∠
+        
+          D
+          A
+          B
+        
+        =
+        α
+        ,
+      
+    
+    {\displaystyle \angle {DAB}=\alpha ,}
+   
+  
+    
+      
+        ∠
+        
+          A
+          B
+          C
+        
+        =
+        β
+        ,
+      
+    
+    {\displaystyle \angle {ABC}=\beta ,}
+   
+  
+    
+      
+        ∠
+        
+          B
+          C
+          D
+        
+        =
+        γ
+        ,
+      
+    
+    {\displaystyle \angle {BCD}=\gamma ,}
+   and 
+  
+    
+      
+        ∠
+        
+          C
+          D
+          A
+        
+        =
+        δ
+        .
+      
+    
+    {\displaystyle \angle {CDA}=\delta .}
+   If 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   is the point of intersection of the diagonals, denote 
+  
+    
+      
+        ∠
+        
+          C
+          E
+          D
+        
+        =
+        θ
+        .
+      
+    
+    {\displaystyle \angle {CED}=\theta .}
+   Then:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      a
+                      +
+                      c
+                    
+                    
+                      b
+                      +
+                      d
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      sin
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      α
+                      +
+                      β
+                      )
+                    
+                    
+                      cos
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      γ
+                      −
+                      δ
+                      )
+                    
+                  
+                
+                tan
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                θ
+                ,
+              
+            
+            
+              
+                
+                  
+                    
+                      a
+                      −
+                      c
+                    
+                    
+                      b
+                      −
+                      d
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      cos
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      α
+                      +
+                      β
+                      )
+                    
+                    
+                      sin
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      (
+                      δ
+                      −
+                      γ
+                      )
+                    
+                  
+                
+                cot
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                θ
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\frac {a+c}{b+d}}&={\frac {\sin {\tfrac {1}{2}}(\alpha +\beta )}{\cos {\tfrac {1}{2}}(\gamma -\delta )}}\tan {\tfrac {1}{2}}\theta ,\\[10mu]{\frac {a-c}{b-d}}&={\frac {\cos {\tfrac {1}{2}}(\alpha +\beta )}{\sin {\tfrac {1}{2}}(\delta -\gamma )}}\cot {\tfrac {1}{2}}\theta .\end{aligned}}}
+  Several variant formulas can be constructed by substituting based on the cyclic quadrilateral identities,
+
+  
+    
+      
+        
+          
+            
+              
+                sin
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                (
+                α
+                +
+                β
+                )
+                =
+                
+                  
+                    
+                      −
+                    
+                  
+                
+                cos
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                (
+                β
+                −
+                γ
+                )
+                =
+                
+                  
+                    
+                      −
+                    
+                  
+                
+                sin
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                (
+                γ
+                +
+                δ
+                )
+                =
+                cos
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                (
+                δ
+                −
+                α
+                )
+                ,
+              
+            
+            
+              
+                cos
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                (
+                α
+                +
+                β
+                )
+                =
+                −
+                sin
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                (
+                β
+                −
+                γ
+                )
+                =
+                −
+                cos
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                (
+                γ
+                +
+                δ
+                )
+                =
+                sin
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                (
+                δ
+                −
+                α
+                )
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\sin {\tfrac {1}{2}}(\alpha +\beta )={\phantom {-}}\cos {\tfrac {1}{2}}(\beta -\gamma )={\phantom {-}}\sin {\tfrac {1}{2}}(\gamma +\delta )=\cos {\tfrac {1}{2}}(\delta -\alpha ),\\[3mu]\cos {\tfrac {1}{2}}(\alpha +\beta )=-\sin {\tfrac {1}{2}}(\beta -\gamma )=-\cos {\tfrac {1}{2}}(\gamma +\delta )=\sin {\tfrac {1}{2}}(\delta -\alpha ).\end{aligned}}}
+  As rational relationships in terms of half-angle tangents of two adjacent angles, these formulas can be written:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      a
+                      +
+                      c
+                    
+                    
+                      b
+                      +
+                      d
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      α
+                      +
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      β
+                    
+                    
+                      1
+                      +
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      α
+                      
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      β
+                    
+                  
+                
+                tan
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                θ
+                ,
+              
+            
+            
+              
+                
+                  
+                    
+                      b
+                      −
+                      d
+                    
+                    
+                      a
+                      −
+                      c
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      α
+                      −
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      β
+                    
+                    
+                      1
+                      −
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      α
+                      
+                      tan
+                      ⁡
+                      
+                        
+                          
+                            1
+                            2
+                          
+                        
+                      
+                      β
+                    
+                  
+                
+                tan
+                ⁡
+                
+                  
+                    
+                      1
+                      2
+                    
+                  
+                
+                θ
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\frac {a+c}{b+d}}&={\frac {\tan {\tfrac {1}{2}}\alpha +\tan {\tfrac {1}{2}}\beta }{1+\tan {\tfrac {1}{2}}\alpha \,\tan {\tfrac {1}{2}}\beta }}\tan {\tfrac {1}{2}}\theta ,\\[10mu]{\frac {b-d}{a-c}}&={\frac {\tan {\tfrac {1}{2}}\alpha -\tan {\tfrac {1}{2}}\beta }{1-\tan {\tfrac {1}{2}}\alpha \,\tan {\tfrac {1}{2}}\beta }}\tan {\tfrac {1}{2}}\theta .\end{aligned}}}
+  A triangle may be regarded as a quadrilateral with one side of length zero. From this perspective, as 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+   approaches zero, a cyclic quadrilateral converges into a triangle 
+  
+    
+      
+        △
+        
+          A
+          ′
+        
+        
+          B
+          ′
+        
+        
+          C
+          ′
+        
+        ,
+      
+    
+    {\displaystyle \triangle A'B'C',}
+   and the formulas above simplify to the analogous triangle formulas. Relabeling to match the convention for triangles, in the limit 
+  
+    
+      
+        
+          a
+          ′
+        
+        =
+        b
+        ,
+      
+    
+    {\displaystyle a'=b,}
+   
+  
+    
+      
+        
+          b
+          ′
+        
+        =
+        c
+        ,
+      
+    
+    {\displaystyle b'=c,}
+   
+  
+    
+      
+        
+          c
+          ′
+        
+        =
+        a
+        ,
+      
+    
+    {\displaystyle c'=a,}
+   
+  
+    
+      
+        
+          α
+          ′
+        
+        =
+        α
+        +
+        δ
+        −
+        π
+        =
+        π
+        −
+        θ
+        ,
+      
+    
+    {\displaystyle \alpha '=\alpha +\delta -\pi =\pi -\theta ,}
+   
+  
+    
+      
+        
+          β
+          ′
+        
+        =
+        β
+        ,
+      
+    
+    {\displaystyle \beta '=\beta ,}
+   and 
+  
+    
+      
+        
+          γ
+          ′
+        
+        =
+        γ
+        .
+      
+    
+    {\displaystyle \gamma '=\gamma .}
+  
+
+
+== References ==
+
+
+== Further reading ==
+De Kleine, H. Arthur (1988), "Proof Without Words: Mollweide's Equation", Mathematics Magazine, 61 (5): 281
+Karjanto, Natanael (2011), "Mollweide's Formula in Teaching Trigonometry", Teaching Mathematics and Its Applications, 30: 70–74, arXiv:1808.08049, doi:10.1093/teamat/hrr008
+Wu, Rex H. (2007), "The Story of Mollweide and Some Trigonometric Identities" (PDF) (preprint)
+Wu, Rex H. (2020), "Proof Without Words: The Mollweide Equations from the Law of Sines", Mathematics Magazine, 93 (5): 386, doi:10.1080/0025570X.2020.1817707

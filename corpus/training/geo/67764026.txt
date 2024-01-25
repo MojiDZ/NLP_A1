@@ -1,0 +1,48 @@
+Biogeoclimatic ecosystem classification (BEC) is an ecological classification framework used in British Columbia to define, describe, and map ecosystem-based units at various scales, from broad, ecologically-based climatic regions down to local ecosystems or sites. BEC is termed an ecosystem classification as the approach integrates site, soil, and vegetation characteristics to develop and characterize all units. BEC has a strong application focus and guides to classification and management of forests, grasslands and wetlands are available for much of the province to aid in identification of the ecosystem units.
+
+
+== History ==
+The biogeoclimatic ecosystem classification (BEC) system evolved from the work of Vladimir J. Krajina, a Czech-trained professor of ecology and botany at the University of British Columbia and his students, from 1949 - 1970. Krajina conceptualized the biogeoclimatic approach as an attempt to describe the ecologically diverse and largely undescribed landscape of British Columbia, the mountainous western-most province of Canada, using a unique blend of various contemporary traditions. These included the American tradition of community change and climax, the state factor concept of Jenny, the Braun-Blanquet approach, the Russian biogeocoenose, and environmental grids, and the European microscopic pedology approachThe biogeoclimatic approach was subsequently adopted by the Forest Service of British Columbia in 1976—initially as a five-year program to develop the classification to assist with tree species selection in reforestation. The classification concepts adopted from Krajina were modified by the staff of the B.C. Forest Service in the implementation of a provincial classification. Over the past 40 years, the BEC approach has been expanded and applied to all regions of British Columbia. It has developed into a comprehensive framework for understanding ecosystems in a climatically and topographically complex region.
+
+
+== Classification Framework ==
+Biogeoclimatic ecosystem classification (BEC) is best described as a classification framework that leverages a modified Braun-Blanquet vegetation classification approach to identify and delineate ecologically equivalent climatic regions and site conditions (Figure 1). 
+The framework integrates vegetation classification with two other component hierarchical classifications: climate (or zonal) and site (Figure 2) where the vegetation classification hierarchy is used to develop the other two component hierarchies.  The emphasis of the approach is to create ecological units with similar site potential as reflected by mature or climax plant communities.
+
+
+=== Vegetation Component ===
+The BEC approach classifies vegetation in a hierarchy (see Figure 2) that presents vegetation communities at various levels of generalization. At upper levels of the hierarchy, the communities may have the same dominant tree species and occur in the same broad climate, for example, western redcedar - western hemlock forests of maritime climates of British Columbia. Whereas, at lower levels of the hierarchy, the communities will have very similar understorey species and will occur on similar site conditions, for example, western redcedar forests dominated by skunk cabbage (Lysitchiton americanum) occurring on wet, swampy sites.
+Categories of the vegetation hierarchy are modelled after the Braun-Blanquet approach including the class, order, alliance, and association levels. Subcategories are generally also applied (i.e., subassociation, suballiance, suborder). Fundamentally, the climax plant association is the basic unit of BEC. In the BEC approach, mature or climax plant associations of the zonal site define biogeoclimatic subzones and ecologically equivalent sites within a given biogeoclimatic unit are recognized and differentiated by mature or climax plant associations and used to define site units. The climax forest state is recognized where main canopy tree species are the same as those regenerating in the understory. Climax forests of British Columbia  (BC) are most commonly dominated by shade-tolerant tree species; however, under some climates or site conditions, shade-intolerant species will regenerate under the canopy. For example, in the driest forested biogeoclimatic units of BC, several pine species that are considered seral species through most of their distribution regenerate under the forest canopy and are recognized as zonal climax species: lodgepole pine (Pinus contorta) in the Sub-Boreal Pine Spruce [SBPS] zone and ponderosa pine (P. ponderosa) in the Ponderosa Pine [PP] zone.
+
+
+=== Climate or Zonal Component ===
+The BEC system classifies climates using a zonal site approach. The zonal site concept arose from the early works of the Russian soil scientist Vasily Dokuchaev (late 1800’s) and soil scientist/forester Georgy N. Vysotsky. They considered that sites and soils with average conditions best reflected the regional climate. BEC adopted the zonal concept and developed specific site and soils criteria to define a zonal site. The mature/climax plant association that occurs on zonal sites is termed the zonal plant association and is used to characterize, differentiate and map biogeoclimatic subzones (see Figure 2). In the climate component hierarchy, subzones are the fundamental unit, which are grouped into zones based largely on similarity of shade-tolerant (climax) tree species composition of the zonal plant association. Zonal plant orders characterize Biogeoclimatic Zones; zonal plant associations characterize Biogeoclimatic Subzones; and, zonal plant subassociations can be used to characterize Biogeoclimatic Variants.
+
+
+=== Site Component ===
+Plant associations and subassociations are similarly used to define zonal and azonal ecosystems on different site conditions within a consistent climate regime (biogeoclimatic subzone/variant). This approach emphasizes site conditions as the effects of climate regime are controlled. These biogeoclimatic and site specific ecosystem units are termed site series (see Figure 2). In the forested environments of BC, soil moisture and soil nutrient gradients are the primary site-level gradients. Soil moisture regime is strongly influenced by position on a slope (Figure 3). Soil moisture and soil nutrient regimes are the two categorical axes used in an edatopic grid to characterize the generalized environmental conditions of vegetation units within a biogeoclimatic unit for most types of terrestrial ecosystems (see Figure 4 for an example). Site series from different climates (biogeoclimatic units), which share the same mature or climax plant association, are said to occupy ecologically equivalent conditions and are combined into site associations. Site associations are similar in concept to forest site types of Cajander and habitat types of the U.S. Pacific Northwest. Where seral plant associations are defined, they are linked directly to the site series (Figure 5).
+
+			
+			
+		
+		
+			
+			
+		
+		
+			
+			
+		
+
+
+== Uses of BEC ==
+The BEC system is used by resource managers in British Columbia to assist them with the management of natural ecosystems for forestry, conservation, and wildlife, The system was initially developed to determine, on a site-specific basis, the ecologically suitable tree species for regeneration after forest harvesting. It has evolved into a tool that is also used for:
+
+Setting standards for species selection and stocking after harvest
+Setting conservation targets
+Determining at-risk ecosystems
+Understanding range management issues
+Determining wildlife suitability and capabilityFigure 6 demonstrates how the BEC system is used to present ecologically suitable tree species for regeneration.
+
+
+== References ==

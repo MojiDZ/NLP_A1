@@ -1,0 +1,124 @@
+In the mathematical subfields of numerical analysis and mathematical analysis, a trigonometric polynomial is a finite linear combination of functions sin(nx) and cos(nx) with n taking on the values of one or more natural numbers. The coefficients may be taken as real numbers, for real-valued functions. For complex coefficients, there is no difference between such a function and a finite Fourier series.
+Trigonometric polynomials are widely used, for example in trigonometric interpolation applied to the  interpolation of periodic functions. They are used also in the discrete Fourier transform.
+The term trigonometric polynomial for the real-valued case can be seen as using the analogy: the functions sin(nx) and cos(nx) are similar to the monomial basis for polynomials. In the complex case the trigonometric polynomials are spanned by the positive and negative powers of eix, Laurent polynomials in z under the change of variables z = eix.
+
+
+== Formal definition ==
+Any function T of the form
+
+with 
+  
+    
+      
+        
+          a
+          
+            n
+          
+        
+        ,
+        
+          b
+          
+            n
+          
+        
+        ∈
+        
+          C
+        
+      
+    
+    {\displaystyle a_{n},b_{n}\in \mathbb {C} }
+   for 
+  
+    
+      
+        0
+        ≤
+        n
+        ≤
+        N
+      
+    
+    {\displaystyle 0\leq n\leq N}
+  , is called a complex trigonometric polynomial of degree N. Using Euler's formula the polynomial can be rewritten as
+
+Analogously, letting 
+  
+    
+      
+        
+          a
+          
+            n
+          
+        
+        ,
+        
+          b
+          
+            n
+          
+        
+        ∈
+        
+          R
+        
+        ,
+        
+        0
+        ≤
+        n
+        ≤
+        N
+      
+    
+    {\displaystyle a_{n},b_{n}\in \mathbb {R} ,\quad 0\leq n\leq N}
+   and 
+  
+    
+      
+        
+          a
+          
+            N
+          
+        
+        ≠
+        0
+      
+    
+    {\displaystyle a_{N}\neq 0}
+   or 
+  
+    
+      
+        
+          b
+          
+            N
+          
+        
+        ≠
+        0
+      
+    
+    {\displaystyle b_{N}\neq 0}
+  , then
+
+is called a real trigonometric polynomial of degree N.
+
+
+== Properties ==
+A trigonometric polynomial can be considered a periodic function on the real line, with period some divisor of 2π, or as a function on the unit circle.
+A basic result is that the trigonometric polynomials are dense in the space of continuous functions on the unit circle, with the uniform norm; this is a special case of the Stone–Weierstrass theorem. More concretely, for every continuous function f and every ε > 0, there exists a trigonometric polynomial T such that |f(z) − T(z)| < ε for all z. Fejér's theorem states that the arithmetic means of the partial sums of the Fourier series of f converge uniformly to f, provided f is continuous on the circle, thus giving an explicit way to find an approximating trigonometric polynomial T.
+A trigonometric polynomial of degree N has a maximum of 2N roots in any interval [a, a + 2π) with a in R, unless it is the zero function.
+
+
+== Notes ==
+
+
+== References ==
+Powell, Michael J. D. (1981), Approximation Theory and Methods, Cambridge University Press, ISBN 978-0-521-29514-7
+Rudin, Walter (1987), Real and complex analysis (3rd ed.), New York: McGraw-Hill, ISBN 978-0-07-054234-1, MR 0924157.

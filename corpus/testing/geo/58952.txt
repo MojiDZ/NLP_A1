@@ -1,0 +1,65 @@
+Timeline of astronomical maps, catalogs and surveys
+
+c. 1800 BC — Babylonian star catalog (see Babylonian star catalogues)
+c. 1370 BC; Observations for the Babylonia MUL.APIN (an astro catalog).
+c. 350 BC — Shi Shen's star catalog has almost 800 entries
+c. 300 BC — star catalog of Timocharis of Alexandria
+c. 134 BC — Hipparchus makes a detailed star map
+c. 150 — Ptolemy completes his Almagest, which contains a catalog of stars, observations of planetary motions, and treatises on geometry and cosmology
+c. 705 — Dunhuang Star Chart, a manuscript star chart from the Mogao Caves at Dunhuang
+c. 750 — The first Zij treatise, Az-Zij ‛alā Sinī al-‛Arab, written by Ibrāhīm al-Fazārī and Muḥammad ibn Ibrāhīm al-Fazārī
+c. 777 — Yaʿqūb ibn Ṭāriq's Az-Zij al-Mahlul min as-Sindhind li-Darajat Daraja
+c. 830 — Muhammad ibn Musa al-Khwarizmi's Zij al-Sindhind
+c. 840 — Al-Farghani's Compendium of the Science of the Stars
+c. 900 — Al-Battani's Az-Zij as-Sabi
+964 — Abd al-Rahman al-Sufi (Azophi)'s star catalog Book of the Fixed Stars
+1031 — Al-Biruni's al-Qanun al-Mas'udi, making first use of a planisphere projection, and discussing the use of the astrolabe and the armillary sphere.
+1088 — The first almanac is the Almanac of Azarqueil written by Abū Ishāq Ibrāhīm al-Zarqālī (Azarqueil)
+1115–1116 — Al-Khazini's Az-Zij as-Sanjarī (Sinjaric Tables)
+c. 1150 — Gerard of Cremona publishes Tables of Toledo based on the work of Azarqueil
+1252–1270 — Alfonsine tables recorded by order of Alfonso X
+1272 — Nasir al-Din al-Tusi's Zij-i Ilkhani (Ilkhanic Tables)
+1395 — Cheonsang Yeolcha Bunyajido star map created at the order of King Taejo
+c. 1400 — Jamshid al-Kashi's Khaqani Zij
+1437 — Publication of Ulugh Beg's Zij-i-Sultani
+1551 — Prussian Tables by Erasmus Reinhold
+late 16th century — Tycho Brahe updates Ptolemy's Almagest
+1577–1580 — Taqi ad-Din Muhammad ibn Ma'ruf's Unbored Pearl
+1598 — Tycho Brahe publishes his "Thousand Star Catalog"
+1603 — Johann Bayer's Uranometria
+1627 — Johannes Kepler publishes his Rudolphine Tables of 1006 stars from Tycho plus 400 more
+1678 — Edmond Halley publishes a catalog of 341 southern stars, the first systematic southern sky survey
+1712 —  Isaac Newton and Edmond Halley publish a catalog based on data from a Royal Astronomer who left all his data under seal, the official version would not be released for another decade.
+1725 — Posthumous publication of John Flamsteed's Historia Coelestis Britannica
+1771 — Charles Messier publishes his first list of nebulae
+1824 — Urania's Mirror by Sidney Hall
+1862 — Friedrich Wilhelm Argelander publishes his final edition of the Bonner Durchmusterung catalog of stars north of declination -1°.
+1864 — John Herschel publishes the General Catalogue of nebulae and star clusters
+1887 — Paris conference institutes Carte du Ciel project to map entire sky to 14th magnitude photographically
+1890 — John Dreyer publishes the New General Catalogue of nebulae and star clusters
+1932 — Harlow Shapley and Adelaide Ames publish A Survey of the External Galaxies Brighter than the Thirteenth Magnitude, later known as the Shapley-Ames Catalog
+1948 — Antonín Bečvář publishes the Skalnate Pleso Atlas of the Heavens (Atlas Coeli Skalnaté Pleso 1950.0)
+1950–1957 — Completion of the Palomar Observatory Sky Survey (POSS) with the Palomar 48-inch Schmidt optical reflecting telescope.  Actual date quoted varies upon source.
+1962 — A.S. Bennett of the Cambridge Radio Astronomy Group publishes the Revised 3C Catalogue of 328 radio sources
+1965 — Gerry Neugebauer and Robert Leighton begin a 2.2 micrometre sky survey with a 1.6-meter telescope on Mount Wilson
+1982 — IRAS space observatory completes an all-sky mid-infrared survey
+1990 — Publication of APM Galaxy Survey of 2+ million galaxies, to study large-scale structure of the cosmos
+1991 — ROSAT space observatory begins an all-sky X-ray survey
+1993 — Start of the 20 cm VLA FIRST survey
+1997 — Two Micron All Sky Survey (2MASS) commences, first version of Hipparcos Catalogue published
+1998 — Sloan Digital Sky Survey commences
+2003 — 2dF Galaxy Redshift Survey published; 2MASS completes
+2012 — On March 14, 2012, a new atlas and catalog of the entire infrared sky as imaged by Wide-field Infrared Survey Explorer was released.
+2020 — On July 19, 2020, after a 20-year-long survey, astrophysicists of the Sloan Digital Sky Survey published the largest, most detailed 3D map of the universe so far, fill a gap of 11 billion years in its expansion history, and provide data which supports the theory of a flat geometry of the universe and confirms that different regions seem to be expanding at different speeds.
+2020 — On October 8, 2020, scientists released the largest and most detailed 3D maps of the Universe, called "PS1-STRM". The data of the MAST was created using neural networks and combines data from the Sloan Digital Sky Survey and others. Users can query the dataset online or download it in its entirety of ~300GB.
+2021 — A celestial map is published to the journal Astronomy & Astrophysics identifying over 250,000 supermassive black holes, using data from 52 stations across nine different countries in Europe.
+
+
+== See also ==
+Timeline of knowledge about galaxies, clusters of galaxies, and large-scale structure
+List of asteroid close approaches to Earth
+List of potentially habitable exoplanets
+List of nearby stellar associations and moving groups
+
+
+== References ==

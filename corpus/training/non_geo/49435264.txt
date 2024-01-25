@@ -1,0 +1,25 @@
+Complement-dependent cytotoxicity (CDC) is an effector function of IgG and IgM antibodies. When they are bound to surface antigen on target cell (e.g. bacterial or viral infected cell), the classical complement pathway is triggered by bonding protein C1q to these antibodies, resulting in formation of a membrane attack complex (MAC) and target cell lysis.
+Complement system is efficiently activated by human IgG1, IgG3 and IgM antibodies, weakly by IgG2 antibodies and it is not activated by IgG4 antibodies.It is one mechanism of action by which therapeutic antibodies or antibody fragments can achieve an antitumor effect.
+
+
+== Use of CDC assays ==
+
+
+=== Therapeutic antibodies ===
+Development of antitumor therapeutic antibodies involves in vitro analysis of their effector functions including ability to trigger CDC to kill target cells. Classical approach is to incubate antibodies with target cells and source of complement (serum). Then cell death is determined with several approaches:
+
+Radioactive method: target cells are labeled with 51Cr before CDC assay, chromium is released during cell lysis and amount of radioactivity is measured.
+Measuring of the metabolic activity of live cells (live cells staining): after incubation of target cells with antibodies and complement, plasma membrane-permeable dye is added (e.g. calcein-AM or resazurin). Live cells metabolise it into impermeable fluorescent product that can be detected by flow cytometry. This product can’t be formed in metabolically inactive dead cells.
+Measuring of the activity of released intracellular enzymes: dead cells release enzyme (e.g. LDH or GAPDH) and addition of its substrate leads to color change, that is usually quantified as change of absorbance or luminiscence.
+Dead cells staining: a (fluorescent) dye gets inside the dead cells through their damaged plasma membrane. For instance propidium iodide binds to DNA of dead cells and fluorescent signal is measured by flow cytometry.
+
+
+=== HLA typing and crossmatch test ===
+CDC assays are used to find a suitable donor for organ or bone marrow transplantation, namely donor with matching phenotype of histocompatibility system HLA. At first, HLA typing is done for patient and donor to determine their HLA phenotypes. When potentially suitable couple is found, crossmatch test is done to exclude that patient produces donor-specific anti-HLA antibodies, which could cause graft rejection.CDC form of HLA typing (other words serologic typing) uses batch of anti-HLA antibodies from characterised allogeneic antisera or monoclonal antibodies. These antibodies are incubated one by one with patient‘s or donor‘s lymphocytes and source of complement. Amount of dead cells (and thus positive result) is measured by dead or live cells staining. Nowadays CDC typing is being replaced by molecular typing, which can identify nucleotide sequences of HLA molecules via PCR.CDC assay is usually used for performing crossmatch test. The basic version involves incubation of patient’s serum with donor’s lymphocytes and second incubation after adding rabbit complement. Presence of dead cell (positive test) means that donor isn‘t suitable for this particular patient. There are modifications available to increase test sensitivity including extension of minimal incubation time, adding antihuman globulin (AHG), removing unbound antibodies before adding complement, separation of T cell and B cell subset. Besides CDC crossmatch there is  flow-cytometric crossmatch available, that is more sensitive and can detect even complement non-activating antibodies.
+
+
+== See also ==
+Contrast with antibody-dependent cellular cytotoxicity (ADCC)
+
+
+== References ==

@@ -1,0 +1,67 @@
+The AI boom, or AI spring, is the ongoing period of rapid progress in the field of artificial intelligence. Prominent examples include protein folding prediction and generative AI, led by laboratories including Google DeepMind and OpenAI.
+The AI boom is expected to have a profound cultural, philosophical, religious, economic, and social impact, as questions such as AI alignment, qualia, and the development of  artificial general intelligence became widely prominent topics of popular discussion.
+
+
+== History ==
+In 2012, a University of Toronto research team used artificial neural networks and deep learning techniques to lower their error rate below 25% for the first time during the ImageNet challenge for object recognition in computer vision. The event catalyzed the AI boom later in that decade, when many alumni of the ImageNet challenge became leaders in the tech industry. The generative AI race began in earnest in 2016 or 2017 following the founding of OpenAI and earlier advances made in graphical processing units, the amount and quality of training data, generative adversarial networks, diffusion models and transformer architectures. In 2018, the Artificial Intelligence Index, an initiative from Stanford University, reported a global explosion of commercial and research efforts in AI. Europe published the largest number of papers in the field that year, followed by China and North America. Technologies such as AlphaFold led to more accurate predictions of protein folding and better drug development. Economic researchers and lawmakers began to discuss the impact of AI more frequently. By 2022, large language models saw increased usage in chatbot applications; text-to-image-models could generate images that appeared to be human-made; and speech synthesis software was able to replicate human speech efficiently.According to metrics from 2017 to 2021, the United States outranks the rest of the world in terms of venture capital funding, the number of startups, and patents granted in AI. Scientists who have immigrated to the U.S. play an outsize role in the country's development of AI technology. Many of them were educated in China, prompting debates about national security concerns amid worsening relations between the two countries.Experts have framed AI development as a competition for economic and geopolitical advantage between the United States and China. In 2021 an analyst for the Council on Foreign Relations outlined ways that the U.S. could maintain its position amid progress made by China. In 2023 an analyst at the Center for Strategic and International Studies advocated for the U.S. to use its dominance in AI technology to drive its foreign policy instead of relying on trade agreements.
+
+
+== Advances ==
+
+
+=== Biomedical ===
+There have been proposals to use AI to advance radical forms of human life extension.AlphaFold 2 score of more than 90 in CASP's global distance test (GDT) is considered a significant achievement in computational biology and great progress towards a decades-old grand challenge of biology. Nobel Prize winner and structural biologist Venki Ramakrishnan called the result "a stunning advance on the protein folding problem", adding that "It has occurred decades before many people in the field would have predicted. It will be exciting to see the many ways in which it will fundamentally change biological research." AlphaFold 2's success received widespread media attention.The ability to predict protein structures accurately based on the constituent amino acid sequence is expected to have a wide variety of benefits in the life sciences space including accelerating advanced drug discovery and enabling better understanding of diseases. Writing about the event, the MIT Technology Review noted that the AI had "solved a fifty-year old grand challenge of biology." It went on to note that the AI algorithm could "predict the shape of proteins to within the width of an atom."
+
+
+=== Images and videos ===
+In 2016, artificial intelligence was used to alter images and videos of real people, faking their actions or speech.Text-to-image models captured widespread public attention when OpenAI announced DALL-E, a transformer system, in January 2021. A successor capable of generating complex and realistic images, DALL-E 2, was unveiled in April 2022. An alternative text-to-image model, Midjourney, was released in July 2022. Another alternative, open-source model Stable Diffusion, released in August 2022.Following other text-to-image models, language model-powered text-to-video platforms such as DAMO, Make-A-Video, Imagen Video and Phenaki can generate video from text and/or text/image prompts.
+
+
+=== Language ===
+GPT-3 is a large language model that was released in 2020 by OpenAI and is capable of generating high-quality human-like text. An upgraded version called GPT-3.5 was used in ChatGPT, which later garnered attention for its detailed responses and articulate answers across many domains of knowledge. A new version called GPT-4 was released on March 14, 2023, and was used in the Microsoft Bing search engine. Other language models have been released, such as PaLM and Gemini by Google and LLaMA by Meta Platforms.
+In January 2023, DeepL Write, an AI-based tool to improve monolingual texts, was released. In December 2023, Gemini, the latest model by Google, was unveiled, claiming to beat previous state-of-the-art-model GPT-4 on most benchmarks.
+
+
+=== Music and voice ===
+In 2016, Google DeepMind unveiled WaveNet, a deep learning network that produced English, Mandarin, and piano music. 15.ai, released in 2020, was one of the first publicly available speech synthesis software that allowed users to generate natural, emotive, high-fidelity voices from text to resemble fictional characters. ElevenLabs allowed users to upload voice samples and create audio that sounds similar to the samples. The company was criticized after controversial statements were generated based on the vocal styles of celebrities, public officials, and other famous individuals, raising concerns that the technology could make deepfakes even more convincing. An unofficial song created using the voices of musicians Drake and The Weeknd raised questions about the ethics and legality of similar software.
+
+
+== Impact ==
+
+
+=== Cultural ===
+During the AI boom, different factions emerged, including the effective accelerationists, effective altruists, and catastrophists.
+
+
+=== Dominance by tech giants ===
+The commercial AI scene is dominated by American Big Tech companies such as Alphabet Inc., Amazon, Apple Inc., Meta Platforms, and Microsoft, whose investments in this area have surpassed those from U.S.-based venture capitalists. Some of these players already own the vast majority of existing cloud computing infrastructure, which could help entrench them further in the marketplace.
+
+
+=== Intellectual property ===
+Tech companies have been sued by artists and software developers for using their work to train AI models.
+
+
+== Concerns ==
+
+
+=== Economic disruption ===
+There are concerns that as AI becomes more sophisticated, it will perform better than human workers and be more cost-effective.
+
+
+=== Risks to humanity ===
+Many experts have stated that the AI boom has started an arms race in which large companies are competing against each other to have the most powerful AI model on the market with little concern about safety.  During the AI boom, numerous safety concerns have been expressed by experts. In particular, there have been concerns about the development of powerful models with speed and profit prioritized over safety and user protection. There have already been significant numbers of reports about racist, sexist, homophobic, and other types of discrimination from ChatGPT, Microsoft's Tay, and leading AI facial recognition models. With incomplete understanding about how AI works, many researchers around the globe have voiced  concerns about potential future implications of the AI boom. Public reaction to the AI boom has been mixed, with some parties hailing the new possibilities that AI creates, its potential for benefiting humanity, and sophistication, while other parties denounced it for threatening job security, and for giving 'uncanny' or flawed responses.In the midst of the AI boom, the hype surrounding artificial intelligence has been described as posing significant dangers. The enthusiasm and pressure generated by public fascination with AI can drive developers to expedite the creation and deployment of AI systems. This rush may lead to the omission of crucial safety procedures, potentially resulting in serious existential risks. As noted by Holden Karnofsky, the imperative competition to meet consumer expectations might tempt organizations to prioritize speed over thorough safety checks, thus jeopardizing the responsible development of AI.The prevailing AI race mindset heightens the risks associated with the development of artificial general intelligence. While competition can foster innovation and progress, an intense race to outperform rivals may encourage the prioritization of short-term gains over long-term safety. A "winner-takes-all" mentality can further incentivize cutting corners, potentially creating a race to the bottom and compromising ethical considerations in responsible AI development.Prominent voices in the AI community have advocated for a cautious approach, urging AI companies to avoid unnecessary hype and acceleration. Concerns arise from the belief that pouring money into the AI sector too rapidly could lead to incautiousness from companies, as they race to develop transformative AI without due consideration for key risks. Despite prevailing hype and investment in AI, some argue that it is not too late to mitigate the risks associated with acceleration. Advocates for caution stress the importance of raising awareness about key risks, strong security procedures, and investing in AI safety measures, such as alignment research, standards, and monitoring.
+
+
+== Regulations ==
+In December 2023, the European Union finalized the world's first comprehensive set of rules in the form of the Artificial Intelligence Act to address the risks associated with AI, but experts fear that the legislation will lag behind technological progress being made in the field.
+
+
+== See also ==
+AI winter, a period of reduced funding and interest in artificial intelligence research
+History of artificial intelligence
+History of artificial neural networks
+Hype cycle
+Technological singularity
+
+
+== References ==

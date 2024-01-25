@@ -1,0 +1,4 @@
+In biology, BLOTTO is a blocking reagent made from nonfat dry milk, phosphate buffered saline, and sodium azide. Its name is an almost-acronym of bovine lacto transfer technique optimizer. It constitutes an inexpensive source of nonspecific protein (milk casein) which blocks protein binding sites in a variety of experimental paradigms, notably Southern blots, Western blots, and ELISA.  Its use was first reported in 1984 by Johnson and Elder's lab at Scripps.  Prior to 1984, partially purified proteins such as bovine serum albumin, ovalbumin, or gelatin from various species had been used as blocking reagents but had the disadvantage of being expensive.
+
+
+== References ==

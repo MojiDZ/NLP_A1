@@ -1,0 +1,1258 @@
+In mathematics, the values of the trigonometric functions can be expressed approximately, as in 
+  
+    
+      
+        cos
+        ⁡
+        (
+        π
+        
+          /
+        
+        4
+        )
+        ≈
+        0.707
+      
+    
+    {\displaystyle \cos(\pi /4)\approx 0.707}
+  , or exactly, as in 
+  
+    
+      
+        cos
+        ⁡
+        (
+        π
+        
+          /
+        
+        4
+        )
+        =
+        
+          
+            2
+          
+        
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle \cos(\pi /4)={\sqrt {2}}/2}
+  .  While trigonometric tables contain many approximate values, the exact values for certain angles can be expressed by a combination of arithmetic operations and square roots.
+
+
+== Common angles ==
+The trigonometric functions of angles that are multiples of 15°, 18°, or 22.5° have simple algebraic values. These values are listed in the following table for angles from 0° to 90°. For angles outside of this range, trigonometric values can be found by applying the reflection and shift identities. In the table below, 
+  
+    
+      
+        ∞
+      
+    
+    {\displaystyle \infty }
+   stands for the ratio 1:0. These values can also be considered to be undefined (see division by zero).
+
+
+== Expressibility with square roots ==
+Some exact trigonometric values, such as 
+  
+    
+      
+        sin
+        ⁡
+        (
+        
+          60
+          
+            ∘
+          
+        
+        )
+        =
+        
+          
+            3
+          
+        
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle \sin(60^{\circ })={\sqrt {3}}/2}
+  , can be expressed in terms of a combination of arithmetic operations and square roots.  Such numbers are called constructible, because one length can be constructed by compass and straightedge from another if and only if the ratio between the two lengths is such a number.  However, some trigonometric values, such as 
+  
+    
+      
+        cos
+        ⁡
+        (
+        
+          20
+          
+            ∘
+          
+        
+        )
+      
+    
+    {\displaystyle \cos(20^{\circ })}
+  , have been proven to not be constructible.
+The sine and cosine of an angle are constructible if and only if the angle is constructible.  If an angle is a rational multiple of π radians, whether or not it is constructible can be determined as follows. Let the angle be 
+  
+    
+      
+        a
+        π
+        
+          /
+        
+        b
+      
+    
+    {\displaystyle a\pi /b}
+   radians, where a and b are relatively prime integers. Then it is constructible if and only if the prime factorization of the denominator, b, consists of any number of Fermat primes, each with an exponent of 1, times any power of two.  For example, 
+  
+    
+      
+        
+          15
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle 15^{\circ }}
+   and 
+  
+    
+      
+        
+          24
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle 24^{\circ }}
+   are constructible because they are equivalent to 
+  
+    
+      
+        π
+        
+          /
+        
+        12
+      
+    
+    {\displaystyle \pi /12}
+   and 
+  
+    
+      
+        2
+        π
+        
+          /
+        
+        15
+      
+    
+    {\displaystyle 2\pi /15}
+   radians, respectively, and 12 is the product of 3 and 4, which are a Fermat prime and a power of two, and 15 is the product of Fermat primes 3 and 5. On the other hand, 
+  
+    
+      
+        
+          20
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle 20^{\circ }}
+   is not constructible because it corresponds to a denominator of 9 = 32, and the Fermat prime cannot be raised to a power greater than one.  As another example, 
+  
+    
+      
+        (
+        360
+        
+          /
+        
+        7
+        
+          )
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle (360/7)^{\circ }}
+   is not constructible, because the denominator of 7 is not a Fermat prime.
+
+
+== Derivations of constructible values ==
+The values of trigonometric numbers can be derived through a combination of methods.  The values of sine and cosine of 30, 45, and 60 degrees are derived by analysis of the 30-60-90 and 90-45-45 triangles.  If the angle is expressed in radians as 
+  
+    
+      
+        a
+        π
+        
+          /
+        
+        b
+      
+    
+    {\displaystyle a\pi /b}
+  , this takes care of the case where a is 1 and b is 2, 3, 4, or 6.
+
+
+=== Half-angle formula ===
+
+If the denominator, b, is multiplied by additional factors of 2, the sine and cosine can be derived with the half-angle formulas.  For example, 22.5° (π/8 rad) is half of 45°, so its sine and cosine are:
+
+  
+    
+      
+        sin
+        ⁡
+        (
+        
+          22.5
+          
+            ∘
+          
+        
+        )
+        =
+        
+          
+            
+              
+                1
+                −
+                cos
+                ⁡
+                (
+                
+                  45
+                  
+                    ∘
+                  
+                
+                )
+              
+              2
+            
+          
+        
+        =
+        
+          
+            
+              
+                1
+                −
+                
+                  
+                    
+                      2
+                    
+                    2
+                  
+                
+              
+              2
+            
+          
+        
+        =
+        
+          
+            
+              2
+              −
+              
+                
+                  2
+                
+              
+            
+            2
+          
+        
+      
+    
+    {\displaystyle \sin(22.5^{\circ })={\sqrt {\frac {1-\cos(45^{\circ })}{2}}}={\sqrt {\frac {1-{\frac {\sqrt {2}}{2}}}{2}}}={\frac {\sqrt {2-{\sqrt {2}}}}{2}}}
+  
+
+  
+    
+      
+        cos
+        ⁡
+        (
+        
+          22.5
+          
+            ∘
+          
+        
+        )
+        =
+        
+          
+            
+              
+                1
+                +
+                cos
+                ⁡
+                (
+                
+                  45
+                  
+                    ∘
+                  
+                
+                )
+              
+              2
+            
+          
+        
+        =
+        
+          
+            
+              
+                1
+                +
+                
+                  
+                    
+                      2
+                    
+                    2
+                  
+                
+              
+              2
+            
+          
+        
+        =
+        
+          
+            
+              2
+              +
+              
+                
+                  2
+                
+              
+            
+            2
+          
+        
+      
+    
+    {\displaystyle \cos(22.5^{\circ })={\sqrt {\frac {1+\cos(45^{\circ })}{2}}}={\sqrt {\frac {1+{\frac {\sqrt {2}}{2}}}{2}}}={\frac {\sqrt {2+{\sqrt {2}}}}{2}}}
+  Repeated application of the cosine half-angle formula leads to nested square roots that continue in a pattern where each application adds a 
+  
+    
+      
+        
+          
+            2
+            +
+            ⋯
+          
+        
+      
+    
+    {\displaystyle {\sqrt {2+\cdots }}}
+   to the numerator and the denominator is 2. For example:
+
+  
+    
+      
+        cos
+        ⁡
+        
+          (
+          
+            
+              π
+              16
+            
+          
+          )
+        
+        =
+        
+          
+            
+              2
+              +
+              
+                
+                  2
+                  +
+                  
+                    
+                      2
+                    
+                  
+                
+              
+            
+            2
+          
+        
+        
+        cos
+        ⁡
+        
+          (
+          
+            
+              π
+              32
+            
+          
+          )
+        
+        =
+        
+          
+            
+              2
+              +
+              
+                
+                  2
+                  +
+                  
+                    
+                      2
+                      +
+                      
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+              
+            
+            2
+          
+        
+      
+    
+    {\displaystyle \cos \left({\frac {\pi }{16}}\right)={\frac {\sqrt {2+{\sqrt {2+{\sqrt {2}}}}}}{2}}\qquad \cos \left({\frac {\pi }{32}}\right)={\frac {\sqrt {2+{\sqrt {2+{\sqrt {2+{\sqrt {2}}}}}}}}{2}}}
+  
+
+  
+    
+      
+        cos
+        ⁡
+        
+          (
+          
+            
+              π
+              12
+            
+          
+          )
+        
+        =
+        
+          
+            
+              
+                
+                  6
+                
+              
+              +
+              
+                
+                  2
+                
+              
+            
+            4
+          
+        
+        =
+        
+          
+            
+              2
+              +
+              
+                
+                  3
+                
+              
+            
+            2
+          
+        
+        
+        cos
+        ⁡
+        
+          (
+          
+            
+              π
+              24
+            
+          
+          )
+        
+        =
+        
+          
+            
+              2
+              +
+              
+                
+                  2
+                  +
+                  
+                    
+                      3
+                    
+                  
+                
+              
+            
+            2
+          
+        
+      
+    
+    {\displaystyle \cos \left({\frac {\pi }{12}}\right)={\frac {{\sqrt {6}}+{\sqrt {2}}}{4}}={\frac {\sqrt {2+{\sqrt {3}}}}{2}}\qquad \cos \left({\frac {\pi }{24}}\right)={\frac {\sqrt {2+{\sqrt {2+{\sqrt {3}}}}}}{2}}}
+  
+
+
+=== Sine of 18° ===
+Cases where the denominator, b, is 5 times a power of 2 can start from the following derivation of 
+  
+    
+      
+        sin
+        ⁡
+        (
+        
+          18
+          
+            ∘
+          
+        
+        )
+      
+    
+    {\displaystyle \sin(18^{\circ })}
+  ,  since 
+  
+    
+      
+        
+          18
+          
+            ∘
+          
+        
+        =
+        π
+        
+          /
+        
+        10
+      
+    
+    {\displaystyle 18^{\circ }=\pi /10}
+   radians. The derivation uses the multiple angle formulas for sine and cosine. By the double angle formula for sine:
+
+  
+    
+      
+        sin
+        ⁡
+        (
+        
+          36
+          
+            ∘
+          
+        
+        )
+        =
+        2
+        sin
+        ⁡
+        (
+        
+          18
+          
+            ∘
+          
+        
+        )
+        cos
+        ⁡
+        (
+        
+          18
+          
+            ∘
+          
+        
+        )
+      
+    
+    {\displaystyle \sin(36^{\circ })=2\sin(18^{\circ })\cos(18^{\circ })}
+  By the triple angle formula for cosine:
+
+  
+    
+      
+        cos
+        ⁡
+        (
+        
+          54
+          
+            ∘
+          
+        
+        )
+        =
+        
+          cos
+          
+            3
+          
+        
+        ⁡
+        (
+        
+          18
+          
+            ∘
+          
+        
+        )
+        −
+        3
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        (
+        
+          18
+          
+            ∘
+          
+        
+        )
+        cos
+        ⁡
+        (
+        
+          18
+          
+            ∘
+          
+        
+        )
+        =
+        cos
+        ⁡
+        (
+        
+          18
+          
+            ∘
+          
+        
+        )
+        (
+        1
+        −
+        4
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        (
+        
+          18
+          
+            ∘
+          
+        
+        )
+        )
+      
+    
+    {\displaystyle \cos(54^{\circ })=\cos ^{3}(18^{\circ })-3\sin ^{2}(18^{\circ })\cos(18^{\circ })=\cos(18^{\circ })(1-4\sin ^{2}(18^{\circ }))}
+  Since sin(36°) = cos(54°), we equate these two expressions and cancel a factor of cos(18°):
+
+  
+    
+      
+        2
+        sin
+        ⁡
+        (
+        
+          18
+          
+            ∘
+          
+        
+        )
+        =
+        1
+        −
+        4
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        (
+        
+          18
+          
+            ∘
+          
+        
+        )
+      
+    
+    {\displaystyle 2\sin(18^{\circ })=1-4\sin ^{2}(18^{\circ })}
+  This quadratic equation has only one positive root:
+
+  
+    
+      
+        sin
+        ⁡
+        (
+        
+          18
+          
+            ∘
+          
+        
+        )
+        =
+        
+          
+            
+              
+                
+                  5
+                
+              
+              −
+              1
+            
+            4
+          
+        
+      
+    
+    {\displaystyle \sin(18^{\circ })={\frac {{\sqrt {5}}-1}{4}}}
+  
+
+
+=== Using other identities ===
+The sines and cosines of many other angles can be derived using the results described above and a combination of the multiple angle formulas and the sum and difference formulas.  For example, for the case where b is 15 times a power of 2, since 
+  
+    
+      
+        
+          24
+          
+            ∘
+          
+        
+        =
+        
+          60
+          
+            ∘
+          
+        
+        −
+        
+          36
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle 24^{\circ }=60^{\circ }-36^{\circ }}
+  , its cosine can be derived by the cosine difference formula:
+
+  
+    
+      
+        
+          
+            
+              
+                cos
+                ⁡
+                (
+                
+                  24
+                  
+                    ∘
+                  
+                
+                )
+              
+              
+                
+                =
+                cos
+                ⁡
+                (
+                
+                  60
+                  
+                    ∘
+                  
+                
+                )
+                cos
+                ⁡
+                (
+                
+                  36
+                  
+                    ∘
+                  
+                
+                )
+                +
+                sin
+                ⁡
+                (
+                
+                  60
+                  
+                    ∘
+                  
+                
+                )
+                sin
+                ⁡
+                (
+                
+                  36
+                  
+                    ∘
+                  
+                
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    1
+                    2
+                  
+                
+                
+                  
+                    
+                      
+                        
+                          5
+                        
+                      
+                      +
+                      1
+                    
+                    4
+                  
+                
+                +
+                
+                  
+                    
+                      3
+                    
+                    2
+                  
+                
+                
+                  
+                    
+                      10
+                      −
+                      2
+                      
+                        
+                          5
+                        
+                      
+                    
+                    4
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      1
+                      +
+                      
+                        
+                          5
+                        
+                      
+                      +
+                      
+                        
+                          30
+                          −
+                          6
+                          
+                            
+                              5
+                            
+                          
+                        
+                      
+                    
+                    8
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\cos(24^{\circ })&=\cos(60^{\circ })\cos(36^{\circ })+\sin(60^{\circ })\sin(36^{\circ })\\&={\frac {1}{2}}{\frac {{\sqrt {5}}+1}{4}}+{\frac {\sqrt {3}}{2}}{\frac {\sqrt {10-2{\sqrt {5}}}}{4}}\\&={\frac {1+{\sqrt {5}}+{\sqrt {30-6{\sqrt {5}}}}}{8}}\end{aligned}}}
+  
+
+
+=== Denominator of 17 ===
+
+Since 17 is a Fermat prime, a regular 17-gon is constructible, which means that the sines and cosines of angles such as 
+  
+    
+      
+        2
+        π
+        
+          /
+        
+        17
+      
+    
+    {\displaystyle 2\pi /17}
+   radians can be expressed in terms of square roots.  In particular, in 1796, Carl Friedrich Gauss showed that:
+
+  
+    
+      
+        cos
+        ⁡
+        
+          (
+          
+            
+              
+                2
+                π
+              
+              17
+            
+          
+          )
+        
+        =
+        
+          
+            
+              −
+              1
+              +
+              
+                
+                  17
+                
+              
+              +
+              
+                
+                  34
+                  −
+                  2
+                  
+                    
+                      17
+                    
+                  
+                
+              
+              +
+              2
+              
+                
+                  17
+                  +
+                  3
+                  
+                    
+                      17
+                    
+                  
+                  −
+                  
+                    
+                      170
+                      +
+                      38
+                      
+                        
+                          17
+                        
+                      
+                    
+                  
+                
+              
+            
+            16
+          
+        
+      
+    
+    {\displaystyle \cos \left({\frac {2\pi }{17}}\right)={\frac {-1+{\sqrt {17}}+{\sqrt {34-2{\sqrt {17}}}}+2{\sqrt {17+3{\sqrt {17}}-{\sqrt {170+38{\sqrt {17}}}}}}}{16}}}
+  The sines and cosines of other constructible angles with a denominator divisible by 17 can be derived from this one.
+
+
+== Roots of unity ==
+
+An irrational number that can be expressed as the sine or cosine of a rational multiple of π radians is called a trigonometric number.: ch. 5  Since 
+  
+    
+      
+        sin
+        ⁡
+        (
+        x
+        )
+        =
+        cos
+        ⁡
+        (
+        x
+        −
+        π
+        
+          /
+        
+        2
+        )
+        ,
+      
+    
+    {\displaystyle \sin(x)=\cos(x-\pi /2),}
+   the case of a sine can be omitted from this definition. Therefore any trigonometric number can be written as 
+  
+    
+      
+        cos
+        ⁡
+        (
+        2
+        π
+        k
+        
+          /
+        
+        n
+        )
+      
+    
+    {\displaystyle \cos(2\pi k/n)}
+  , where k and n are integers.  This number can be thought of as the real part of the complex number 
+  
+    
+      
+        cos
+        ⁡
+        (
+        2
+        π
+        k
+        
+          /
+        
+        n
+        )
+        +
+        i
+        sin
+        ⁡
+        (
+        2
+        π
+        k
+        
+          /
+        
+        n
+        )
+      
+    
+    {\displaystyle \cos(2\pi k/n)+i\sin(2\pi k/n)}
+  . De Moivre's formula shows that numbers of this form are roots of unity:
+
+  
+    
+      
+        
+          
+            (
+            
+              cos
+              ⁡
+              
+                (
+                
+                  
+                    
+                      2
+                      π
+                      k
+                    
+                    n
+                  
+                
+                )
+              
+              +
+              i
+              sin
+              ⁡
+              
+                (
+                
+                  
+                    
+                      2
+                      π
+                      k
+                    
+                    n
+                  
+                
+                )
+              
+            
+            )
+          
+          
+            n
+          
+        
+        =
+        cos
+        ⁡
+        (
+        2
+        π
+        k
+        )
+        +
+        i
+        sin
+        ⁡
+        (
+        2
+        π
+        k
+        )
+        =
+        1
+      
+    
+    {\displaystyle \left(\cos \left({\frac {2\pi k}{n}}\right)+i\sin \left({\frac {2\pi k}{n}}\right)\right)^{n}=\cos(2\pi k)+i\sin(2\pi k)=1}
+  Since the root of unity is a root of the polynomial xn − 1, it is algebraic. Since the trigonometric number is the average of the root of unity and its complex conjugate, and algebraic numbers are closed under arithmetic operations, every trigonometric number is algebraic.
+The real part of any root of unity is trigonometric, unless it is rational.  By Niven's theorem, the only rational numbers that can be expressed as the real part of a root of unity are 0, 1, −1, 1/2, and −1/2.
+
+
+== Extended table of exact values: Until 360 degrees ==
+As in the previous table, in the table below, 
+  
+    
+      
+        ∞
+      
+    
+    {\displaystyle \infty }
+   stands for the ratio 1:0. These values can also be considered to be undefined (see division by zero).
+
+
+== See also ==
+List of trigonometric identities
+
+
+== References ==
+
+
+== Bibliography ==

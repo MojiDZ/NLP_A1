@@ -1,0 +1,22 @@
+Community respiration (CR) refers to the total amount of carbon-dioxide that is produced by individuals organisms in a given
+community, originating from the cellular respiration of organic material. CR is an important ecological index as it dictates the amount
+of production for the higher trophic levels and influence biogeochemical cycles.
+CR is often used as a proxy for the biological activity of the microbial community.
+
+
+== Overview ==
+The process of cellular respiration is foundational to the ecological index, community respiration (CR). Cellular respiration can be used to explain relationships between heterotrophic organisms and the autotrophic ones they consume. The process of cellular respiration consists of a series of metabolic reactions using biological material produced by autotrophic organisms, such as oxygen (O2) and glucose  (C6H12O6) to turn its chemical energy into adenosine triphosphate (ATP) which can then be used in other metabolic reactions to power the organism, creating carbon dioxide (CO2) and water (H2O) as a by-product.The overall process of cellular respiration can be summarized with, C6H12O6 + 6O2 → 6CO2 + 6H2O + ATP.
+The ATP created during cellular respiration is absolutely necessary for a living being to function as it is the 'Energy currency" of the cell and none of the other metabolic functions could be sustained without it. The process of cellular respiration is an essential component of the Carbon Cycle, which tracks the recycling of carbon through the earth and atmosphere in various compounds such as: CO2 ,H2CO3, HCO3- ,C6H12O6 , CH4 to name a few.
+The concentration of carbon dioxide in a given area can act as a proxy indicator for metabolic metabolic function of an individual, or individuals in that area. Since the process of cellular respiration consumes oxygen and produces carbon dioxide the amount of carbon dioxide can be used to infer the amount of oxygen used in the environment specifically for metabolic requirements. Since cellular respiration has been studied in depth across all taxa, research surrounding the process can have many further biological implications. Community respiration is a good example, but our data is low. More research needs to be done to further elucidate its usefulness as a ecological index.
+
+
+== Significance ==
+Community respiration (CR) is an important ecological index used primarily in marine and freshwater aquatic ecosystems and is often tightly coupled with Gross Primary Production (GPP).  Since CR is a measure of the total amount of CO2 that is produced by all the organisms in a community solely from cellular respiration it can be a useful tool in finding the amount of O2 which is used directly to fuel Cellular respiration. The elements can be isolated by using the Electron Transport System (ETS) as a respiratory index and measuring that, which would indicate the rate of cellular respiration. CR can be used in conjunction with other ecological indexes such as Dissolved oxygen concentration (DO), Gross Primary Production (GPP), Nutrient availability, Light availability and Temperature. Using CR as a measure of the total amount of Carbon dioxide that is produced by a community is useful to aid in our understanding of an ecosystems biogeochemical cycles.CR is also useful in understanding an ecosystems net balance and trophic levels
+Using Dissolved oxygen as another ecological index to compare it to is one of the more useful applications of community respiration. Because global warming is so significant, it is of great concern to scientists. As ocean temperatures rise, the levels of dissolved oxygen drop from the subsequent oxygen loss by warmer water. GPP and CR will differ significantly because of their sensitivity to global warming.
+
+
+== See also ==
+Microbial ecology
+
+
+== References ==

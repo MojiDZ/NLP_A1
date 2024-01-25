@@ -1,0 +1,7 @@
+In immunology, cryptic self epitopes are a source of autoimmunity.
+Self epitopes, which are found in high concentration on the surface of antigen-presenting cells (APCs) in association with its major histocompatibility complex (MHC) are known as dominant epitopes. These are stimulants of negative selection mechanisms to remove potentially self destructing autoreactive T cells. Their "self" antigens are displayed to a developing T-cell and signal those "self-reactive" T-cells to die via programmed cell death (apoptosis) and thereby deletion from the T cell repertoire, preventing autoimmunity.
+However, self epitopes which appear in very low concentration on APC are termed cryptic in the sense that they do not delete autoreactive T-cells which will then join the peripheral adult T cell repertoire. This causes autoimmunity in the body.
+
+
+== References ==
+Lanzavecchia, A (1995). "How can cryptic epitopes trigger autoimmunity?". J. Exp. Med. 181 (6): 1945–8. doi:10.1084/jem.181.6.1945. PMC 2192044. PMID 7539032.

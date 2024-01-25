@@ -1,0 +1,188 @@
+In biodiversity studies, the checkerboard score or C-score is a statistic which determines the randomness of the distribution of two or more species through a collection of biomes.  The statistic, first published by Stone and Roberts in 1990, expands on the earlier work of Diamond that defined a notion of "checkerboard distributions" as an indicator of species competition.
+A low c-score indicates a higher randomness, i.e. a greater likelihood that the distribution of one species has not been directly affected by the presence of other species.
+
+
+== Definition and calculation ==
+Given two species sp1, sp2 and n islands, an incident matrix is built.
+In the 
+  
+    
+      
+        2
+        ×
+        n
+      
+    
+    {\displaystyle 2\times n}
+   incident matrix, each row represents one of the two species and each column represents a different island.
+The matrix is then filled with each cell being set to either 0 or 1. Cell with the value of 0 means that a given species doesn't exist in the given island whilst the value of 1 means that the species do exist in the given island.
+The calculation of the co-occurrence of two species sp1, sp2 in the given set of islands is done as follows:
+
+  
+    
+      
+        
+          C
+          
+            i
+            j
+          
+        
+        =
+        (
+        
+          r
+          
+            i
+          
+        
+        −
+        
+          S
+          
+            i
+            j
+          
+        
+        )
+        (
+        
+          r
+          
+            j
+          
+        
+        −
+        
+          S
+          
+            i
+            j
+          
+        
+        )
+      
+    
+    {\displaystyle C_{ij}=(r_{i}-S_{ij})(r_{j}-S_{ij})}
+  Cij  - C-score for the two species sp1, sp2 in the given set of islands
+Sij - The number of co-occurrences of sp1, sp2
+ri  -  Number of islands in which sp1 has 1
+rj -  Number of islands in which sp2 has 1The checkerboard score (c-score) for the colonisation pattern is then calculated as the mean number of checkerboard units per species-pair in the community:
+For M species, there are P = M(M-1)/2 species-pairs, so C-score is calculated:
+
+  
+    
+      
+        C
+        =
+        
+          ∑
+          
+            j
+            =
+            0
+          
+          
+            M
+          
+        
+        
+          ∑
+          
+            i
+            <
+            j
+          
+        
+        
+          C
+          
+            i
+            j
+          
+        
+        
+          /
+        
+        P
+      
+    
+    {\displaystyle C=\sum _{j=0}^{M}\sum _{i<j}C_{ij}/P}
+  The C-score is sensitive to the proportion of islands that are occupied, thereby confounding comparisons between matrices or sets of species pairs within them.  An extension of the C-score therefore standardizes by the number of islands each species-pair occupies using:
+
+  
+    
+      
+        
+          C
+          
+            i
+            j
+          
+        
+        =
+        (
+        
+          r
+          
+            i
+          
+        
+        −
+        
+          S
+          
+            i
+            j
+          
+        
+        )
+        (
+        
+          r
+          
+            j
+          
+        
+        −
+        
+          S
+          
+            i
+            j
+          
+        
+        )
+        
+          /
+        
+        (
+        
+          r
+          
+            i
+          
+        
+        +
+        
+          r
+          
+            j
+          
+        
+        −
+        
+          S
+          
+            i
+            j
+          
+        
+        )
+      
+    
+    {\displaystyle C_{ij}=(r_{i}-S_{ij})(r_{j}-S_{ij})/(r_{i}+r_{j}-S_{ij})}
+  
+
+
+== References ==

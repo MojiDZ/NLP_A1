@@ -1,0 +1,19 @@
+Ecological triage refers to the decision making of environmental conservation using the concepts of medical triage. In medicine, the allocation of resources in an urgent situation is prioritized for those with the greatest need and those who would receive the greatest benefit. Similarly, the two parameters of ecological triage are the level of threat and the probability of ecological recovery. Because there are limitations to resources such as time, money, and manpower, it is important to prioritize specific efforts and distribute resources efficiently. Ecological triage differentiates between areas with an attainable emergent need, those who would benefit from preventive measures, and those that are beyond repair.
+
+
+== Methods ==
+Ecological triage is not simple, dichotomous decision making. It involves a complex array of factors including assumptions, mathematical calculations, and planning for uncertainties. When assessing an ecosystem, there are a myriad of factors conservationists consider, but there are also variables which they are unable to account for. Conservationists and scientists often have incomplete understanding of population dynamics, impacts of external threats, and efficacy of different conservation tactics. It is important to incorporate these unknowns when assessing a population or ecosystem. By following the principles of triage, we are able to allow for the efficient allocation of resources as conservationists continue to develop the best options for ecological preservation and restoration.
+
+
+=== Info-Gap Decision Model ===
+Due to the multitude of variables within a population or ecosystem, it is important to address the unknown factors which may not initially be accounted for. Many ecologists utilize the Info-gap decision theory, which focuses on strategies that are most likely to succeed despite uncertainties. This process is composed of three main elements:
+Mathematical calculations which assess performance as a result of management. This step determines the number of management options, evaluates the existing subpopulations, estimates the management period, and assesses the impact of inaction.
+Expectations of performance. To evaluate performance, an extinction-investment curve is utilized. It evaluates data regarding the probability of species extinction (without intervention), budget allocation, and budget required to halve probability of extinction. This step sets forth a threshold below which performance is considered unacceptable.
+A model describing uncertainty. The uncertainty model examines the possible values which may render the extinction-investment curve incorrect. It considers how factors may vary in dynamic situations and creates a function of uncertainty.
+
+
+== Criticisms ==
+Some critics of environmental triage believe the process chooses "winners" and "losers" and therefore abandons certain demographics. Other criticism argues that ecological triage allows for the government to justify under-funding environmental programs. By utilizing a formal decision-making model, the government can deem certain projects as a lost cause and choose to withhold funding. Critics and supporters alike stress the necessity of expanding the environmental budget to provide the best conservation and restoration efforts.
+
+
+== References ==

@@ -1,0 +1,23 @@
+Broadly neutralizing HIV-1 antibodies (bNAbs) are neutralizing antibodies which neutralize multiple HIV-1 viral strains. bNAbs are unique in that they target conserved epitopes of the virus, meaning the virus may mutate, but the targeted epitopes will still exist. In contrast, non-bNAbs are specific for individual viral strains with unique epitopes. The discovery of bNAbs has led to an important area of research, namely, discovery of a vaccine, not only limited to HIV, but also other rapidly mutating viruses like influenza.
+
+
+== Characteristics ==
+The following table shows the characteristics of various HIV-1 bNAbs
+In addition to targeting conserved epitopes, bNAbs are known to have long variable regions on their immunoglobulin (Ig) isotypes and subclasses. When compared to non-bNAbs, sequence variability from the germline immunoglobulin isotype is 7 fold. This implies that bNAbs develop from intense affinity maturation in the germinal centers hence the reason for high sequence variability on the variable Ig domain. Indeed HIV-1 patients who develop bNAbs have been shown to have high germinal center activity as exhibited by their comparatively higher levels of plasma CXCL13, which is a biomarker of germinal center activity.Online databases like bNAber and LANL constantly report and update the discovery of new HIV bNAbs.
+
+
+== History of HIV bNAbs ==
+In 1990, researchers identified the first HIV bNAb, far more powerful than any antibody seen before. They described the exact viral component, or epitope that triggered the antibody. Six amino acids at the tip of HIV's surface protein, gp120, were responsible. The first bNAb turned out to be clinically irrelevant, but in 1994 another team isolated a bNAb that worked on cells taken from patients. This antibody attached to a "conserved" portion of gp120 that outlasts many of its mutations, affecting 17/24 tested strains at low doses. Another bNAb was discovered that acted on protein gp41 across many strains. Antibodies require antigens to trigger them and these were not originally identified.Over time more bNAbs were isolated, while single cell antibody cloning made it possible to produce large quantities of the antibodies for study. Low levels of bNAbs are now found in up to 25% of HIV patients. bNAbs evolve over years, accumulating some three times as many mutations as other antibodies.By 2006, researchers had identified a few so-called "broadly neutralizing antibodies" (bNAbs) that worked on multiple HIV strains. They analyzed 1800 blood samples from HIV-infected people from Africa, South Asia and the English-speaking world. They individually probed 30,000 of one woman's antibody-producing B cells and isolated two that were able to stop more than 70% of 162 divergent HIV strains from establishing an infection. Since 2009, researchers have identified more than 50 HIV bNAbs. Integrated web resource BNAber, focused on broadly neutralizing HIV-1 antibodies, has recently been introduced.In 2006, a Malawian man joined a study within weeks of becoming infected. Over a year, he repeatedly donated blood, which researchers used to create a timeline of changes in his virus' gp120, his antibody response and the ultimate emergence of a bNAb. Researchers want to direct this evolution in other subjects to achieve similar results. A screen of massive gp120 libraries led to one that strongly bound both an original antibody and the mature bNAb that evolved from it. Giving patients a modified gp120 that contains little more than the epitope that both antibodies target could act to "prime" the immune system, followed by a booster that contains trimer spikes in the most natural configuration possible. However, it is still under study whether bNAbs could prevent HIV infection.In 2009, researchers isolated and characterized the first HIV bNAbs seen in a decade. The two broadest neutralizers were PGT151 and PGT152. They could block about two-thirds of a large panel of HIV strains. Unlike most other bNAbs, these antibodies do not bind to known epitopes, on Env or on Env's subunits (gp120 or gp41). Instead, they attach to parts of both. Gp120 and gp41 assemble as a trimer. The bNAbs binding site occurs only on the trimer structure, the form of Env that invades host cells.Recent years have seen an increase in HIV-1 bNAb discovery.
+
+
+== See also ==
+HIV vaccine development
+UB-421
+
+
+== References ==
+
+
+== External links ==
+bNAber, Database of Broadly Neutralizing HIV-1 Antibodies (bNAbs)
+LANL Antibody Database

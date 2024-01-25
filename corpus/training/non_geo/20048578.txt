@@ -1,0 +1,422 @@
+In mathematics, the Regiomontanus's angle maximization problem, is a famous optimization problem posed by the 15th-century German mathematician Johannes Müller (also known as Regiomontanus). The problem is as follows:
+
+A painting hangs from a wall.  Given the heights of the top and bottom of the painting above the viewer's eye level, how far from the wall should the viewer stand in order to maximize the angle subtended by the painting and whose vertex is at the viewer's eye?If the viewer stands too close to the wall or too far from the wall, the angle is small; somewhere in between it is as large as possible.
+The same approach applies to finding the optimal place from which to kick a ball in rugby. For that matter, it is not necessary that the alignment of the picture be at right angles: we might be looking at a window of the Leaning Tower of Pisa or a realtor showing off the advantages of a sky-light in a sloping attic roof.
+
+
+== Solution by elementary geometry ==
+There is a unique circle passing through the top and bottom of the painting and tangent to the eye-level line.  By elementary geometry, if the viewer's position were to move along the circle, the angle subtended by the painting would remain constant.  All positions on the eye-level line except the point of tangency are outside of the circle, and therefore the angle subtended by the painting from those points is smaller.
+Let
+
+a = the height of the painting´s bottom above eye level;
+b = the height of the painting´s top above eye level;A right triangle is formed from the centre of the circle, the centre of the picture and the bottom of the picture. The hypotenuse has the length of the circle´s radius a+(b-a)/2, the length of the two legs are the distance from the wall to the point of tangency and (b-a)/2 respectively. According to the Pythagorean theorem, the distance from the wall to the point of tangency is therefore 
+  
+    
+      
+        
+          
+            a
+            b
+            
+            
+
+            
+          
+        
+      
+    
+    {\displaystyle {\sqrt {ab\,{}}}}
+  , i. e. the  geometric mean  of the heights of the top and bottom of the painting.
+
+
+== Solution by calculus ==
+In the present day, this problem is widely known because it appears as an exercise in many first-year calculus textbooks (for example that of Stewart ).
+Let
+
+a = the height of the bottom of the painting above eye level;
+b = the height of the top of the painting above eye level;
+x = the viewer's distance from the wall;
+α = the angle of elevation of the bottom of the painting, seen from the viewer's position;
+β = the angle of elevation of the top of the painting, seen from the viewer's position.The angle we seek to maximize is β − α.  The tangent of the angle increases as the angle increases; therefore it suffices to maximize
+
+  
+    
+      
+        tan
+        ⁡
+        (
+        β
+        −
+        α
+        )
+        =
+        
+          
+            
+              tan
+              ⁡
+              β
+              −
+              tan
+              ⁡
+              α
+            
+            
+              1
+              +
+              tan
+              ⁡
+              β
+              tan
+              ⁡
+              α
+            
+          
+        
+        =
+        
+          
+            
+              
+                
+                  b
+                  x
+                
+              
+              −
+              
+                
+                  a
+                  x
+                
+              
+            
+            
+              1
+              +
+              
+                
+                  b
+                  x
+                
+              
+              ⋅
+              
+                
+                  a
+                  x
+                
+              
+            
+          
+        
+        =
+        (
+        b
+        −
+        a
+        )
+        
+          
+            x
+            
+              
+                x
+                
+                  2
+                
+              
+              +
+              a
+              b
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \tan(\beta -\alpha )={\frac {\tan \beta -\tan \alpha }{1+\tan \beta \tan \alpha }}={\frac {{\frac {b}{x}}-{\frac {a}{x}}}{1+{\frac {b}{x}}\cdot {\frac {a}{x}}}}=(b-a){\frac {x}{x^{2}+ab}}.}
+  Since b − a is a positive constant, we only need to maximize the fraction that follows it.  Differentiating, we get
+
+  
+    
+      
+        
+          
+            d
+            
+              d
+              x
+            
+          
+        
+        
+          (
+          
+            
+              x
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                +
+                a
+                b
+              
+            
+          
+          )
+        
+        =
+        
+          
+            
+              a
+              b
+              −
+              
+                x
+                
+                  2
+                
+              
+            
+            
+              (
+              
+                x
+                
+                  2
+                
+              
+              +
+              a
+              b
+              
+                )
+                
+                  2
+                
+              
+            
+          
+        
+        
+        
+          
+            {
+            
+              
+                
+                  
+
+                  
+                  >
+                  0
+                
+                
+                  
+                    if 
+                  
+                  0
+                  ≤
+                  x
+                  <
+                  
+                    
+                      a
+                      b
+                      
+                      
+
+                      
+                    
+                  
+                  ,
+                
+              
+              
+                
+                  
+
+                  
+                  =
+                  0
+                
+                
+                  
+                    if 
+                  
+                  x
+                  =
+                  
+                    
+                      a
+                      b
+                      
+                      
+
+                      
+                    
+                  
+                  ,
+                
+              
+              
+                
+                  
+
+                  
+                  <
+                  0
+                
+                
+                  
+                    if 
+                  
+                  x
+                  >
+                  
+                    
+                      a
+                      b
+                      
+                      
+
+                      
+                    
+                  
+                  .
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle {d \over dx}\left({\frac {x}{x^{2}+ab}}\right)={\frac {ab-x^{2}}{(x^{2}+ab)^{2}}}\qquad {\begin{cases}{}>0&{\text{if }}0\leq x<{\sqrt {ab\,{}}},\\{}=0&{\text{if }}x={\sqrt {ab\,{}}},\\{}<0&{\text{if }}x>{\sqrt {ab\,{}}}.\end{cases}}}
+  Therefore the angle increases as x goes from 0 to √ab and decreases as x increases from √ab.  The angle is therefore as large as possible precisely when x = √ab, the geometric mean of a and b.
+
+
+== Solution by algebra ==
+We have seen that it suffices to maximize
+
+  
+    
+      
+        
+          
+            x
+            
+              
+                x
+                
+                  2
+                
+              
+              +
+              a
+              b
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {x}{x^{2}+ab}}.}
+  This is equivalent to minimizing the reciprocal:
+
+  
+    
+      
+        
+          
+            
+              
+                x
+                
+                  2
+                
+              
+              +
+              a
+              b
+            
+            x
+          
+        
+        =
+        x
+        +
+        
+          
+            
+              a
+              b
+            
+            x
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {x^{2}+ab}{x}}=x+{\frac {ab}{x}}.}
+  Observe that this last quantity is equal to
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                
+                  x
+                
+              
+              −
+              
+                
+                  
+                    
+                      a
+                      b
+                    
+                    x
+                  
+                
+              
+              
+            
+            )
+          
+          
+            2
+          
+        
+        +
+        2
+        
+          
+            a
+            b
+            
+            
+
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \left({\sqrt {x}}-{\sqrt {\frac {ab}{x}}}\,\right)^{2}+2{\sqrt {ab\,{}}}.}
+  
+This is as small as possible precisely when the square is 0, and that happens when x = √ab.  Alternatively, we might cite this as an instance of the inequality between the arithmetic and geometric means.
+
+
+== References ==

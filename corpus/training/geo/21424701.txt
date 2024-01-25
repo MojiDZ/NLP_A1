@@ -1,0 +1,92 @@
+Defaunation is the global, local, or functional extinction of animal populations or species from ecological communities. The growth of the human population, combined with advances in harvesting technologies, has led to more intense and efficient exploitation of the environment. This has resulted in the depletion of large vertebrates from ecological communities, creating what has been termed "empty forest". Defaunation differs from extinction; it includes both the disappearance of species and declines in abundance. Defaunation effects were first implied at the Symposium of Plant-Animal Interactions at the University of Campinas, Brazil in 1988 in the context of Neotropical forests. Since then, the term has gained broader usage in conservation biology as a global phenomenon.It is estimated that more than 50 percent of all wildlife has been lost in the last 40 years. In 2016, it was estimated that by 2020, 68% of the world's wildlife would be lost. In South America, there is believed to be a 70 percent loss. A 2021 study found that only around 3% of the planet's terrestrial surface is ecologically and faunally intact, with healthy populations of native animal species and little to no human footprint.In November 2017, over 15,000 scientists around the world issued a second warning to humanity, which, among other things, urged for the development and implementation of policies to halt "defaunation, the poaching crisis, and the exploitation and trade of threatened species."
+
+
+== Drivers ==
+
+
+=== Overexploitation ===
+
+The intensive hunting and harvesting of animals threatens endangered vertebrate species across the world. Game vertebrates are considered valuable products of tropical forests and savannas. In Brazilian Amazonia, 23 million vertebrates are killed every year; large-bodied primates, tapirs, white-lipped peccaries, giant armadillos, and tortoises are some of the animals most sensitive to harvest. Overhunting can reduce the local population of such species by more than half, as well as reducing population density. Populations located nearer to villages are significantly more at risk of depletion. Abundance of local game species declines as density of local settlements, such as villages, increases.Hunting and poaching may lead to local population declines or extinction in some species. Most affected species undergo pressure from multiple sources but the scientific community is still unsure of the complexity of these interactions and their feedback loops.One case study in Panama found an inverse relationship between poaching intensity and abundance for 9 of 11 mammal species studied. In addition, preferred game species experienced greater declines and had higher spatial variation in abundance.
+
+
+=== Habitat destruction and fragmentation ===
+Human population growth results in changes in land-use, which can cause natural habitats to become fragmented, altered, or destroyed. Large mammals are often more vulnerable to extinction than smaller animals because they require larger home ranges and thus are more prone to suffer the effects of deforestation. Large species such as elephants, rhinoceroses, large primates, tapirs and peccaries are the first animals to disappear in fragmented rainforests.A case study from Amazonian Ecuador analyzed two oil-road management approaches and their effects on the surrounding wildlife communities. The free-access road had forests that were cleared and fragmented and the other had enforced access control. Fewer species were found along the first road with density estimates being almost 80% lower than at the second site that which had minimal disturbance. This finding suggests that disturbances affected the local animals' willingness and ability to travel between patches.
+
+Fragmentation lowers populations while increasing extinction risk when the remaining habitat size is small. When there is more unfragmented land, there is more habitat for more diverse species. A larger land patch also means it can accommodate more species with larger home ranges.  However, when patch size decreases, there is an increase in the number of isolated fragments which can remain unoccupied by local fauna. If this persists, species may become extinct in the area.A study on deforestation in the Amazon looked at two patterns of habitat fragmentation: "fish-bone" in smaller properties and another unnamed large property pattern. The large property pattern contained fewer fragments than the smaller fish-bone pattern. The results suggested that higher levels of fragmentation within the fish-bone pattern led to the loss of species and decreased diversity of large vertebrates. Human impacts, such as the fragmentation of forests, may cause large areas to lose the ability to maintain biodiversity and ecosystem function due to loss of key ecological processes. This can consequently cause changes within environments and skew evolutionary processes.In North America, wild bird populations have declined by 29%, or around three billion, since 1970, largely as the result of anthropogenic causes such as habitat loss for human use, the primary driver of the decline, along with widespread use of neonicotinoid insecticides and the proliferation of domesticated cats allowed to roam outdoors.
+
+
+=== Invasive species ===
+Human influences, such as colonization and agriculture, have caused species to become distributed outside of their native ranges. Fragmentation also has cascading effects on native species, beyond reducing habitat and resource availability; it leaves areas vulnerable to non-native invasions. Invasive species can out-compete or directly prey upon native species, as well as alter the habitat so that native species can no longer survive.In extinct animal species for which the cause of extinction is known, over 50% were affected by invasive species. For 20% of extinct animal species, invasive species are the only cited cause of extinction. Invasive species are the second-most important cause of extinction for mammals.
+
+
+== Global patterns ==
+Tropical regions are the most heavily impacted by defaunation. These regions, which include the Brazilian Amazon, the Congo Basin of Central Africa, and Indonesia, experience the greatest rates of overexploitation and habitat degradation. However, specific causes are varied, and areas with one endangered group (such as birds) do not necessarily also have other endangered groups (such as mammals, insects, or amphibians).Deforestation of the Brazilian Amazon leads to habitat fragmentation and overexploitation. Hunting pressure in the Amazon rainforest has increased as traditional hunting techniques have been replaced by modern weapons such as shotguns. Access roads built for mining and logging operations fragment the forest landscape and allow hunters to move into forested areas which previously were untouched. The bushmeat trade in Central Africa incentivizes the overexploitation of local fauna. Indonesia has the most endangered animal species of any area in the world. International trade in wild animals, as well as extensive logging, mining and agriculture operations, drive the decline and extinction of numerous species.
+
+
+== Ecological impacts ==
+
+
+=== Genetic loss ===
+Inbreeding and genetic diversity loss often occur with endangered species populations because they have small and/or declining populations. Loss of genetic diversity lowers the ability of a population to deal with change in their environment and can make individuals within the community homogeneous. If this occurs, these animals are more susceptible to disease and other occurrences that may target a specific genome. Without genetic diversity, one disease could eradicate an entire species. Inbreeding lowers reproduction and survival rates. It is suggested that these genetic factors contribute to the extinction risk in threatened/endangered species.
+
+
+=== Seed dispersal ===
+
+
+==== Effects on plants and forest structure ====
+The consequences of defaunation can be expected to affect the plant community. There are three non-mutually exclusive conclusions as to the consequences on tropical forest plant communities:
+
+If seed dispersal agents are targeted by hunters, the effectiveness and amount of dispersal for those plant species will be reduced
+The species composition of the seedling and sapling layers will be altered by hunting, and
+Selective hunting of medium/large-sized animals instead of small-sized animals will lead to different seed predation patterns, with an emphasis on smaller seedsOne recent study analyzed seedling density and composition from two areas, Los Tuxtlas and Montes Azules. Los Tuxtlas, which is affected more by human activity, showed higher seedling density and a smaller average number of different species than in the other area. Results suggest that an absence of vertebrate dispersers can change the structure and diversity of forests. As a result, a plant community that relies on animals for dispersal could potentially have an altered biodiversity, species dominance, survival, demography, and spatial and genetic structure.Poaching is likely to alter plant composition because the interactions between game and plant species varies in strength. Some game species interact strongly, weakly, or not at all with species. A change in plant species composition is likely to be a result because the net effect removal of game species varies among the plant species they interact with.
+
+
+==== Effects on small-bodied seed dispersers and predators ====
+As large-bodied vertebrates are increasingly lost from seed-dispersal networks, small-bodied seed dispersers (i.e. bats, birds, dung beetles) and seed predators (i.e. rodents) are affected. Defaunation leads to reduced species diversity. This is due to relaxed competition; small-bodied species normally compete with large-bodied vertebrates for food and other resources. As an area becomes defaunated, dominant small-bodied species take over, crowding out other similar species and leading to an overall reduced species diversity. The loss of species diversity is reflective of a larger loss of biodiversity, which has consequences for the maintenance of ecosystem services.The quality of the physical habitat may also suffer. Bird and bat species (many of who are small bodied seed dispersers) rely on mineral licks as a source of sodium, which is not available elsewhere in their diets. In defaunated areas in the Western Amazon, mineral licks are more thickly covered by vegetation and have lower water availability. Bats were significantly less likely to visit these degraded mineral licks. The degradation of such licks will thus negatively affect the health and reproduction of bat populations.Defaunation has negative consequences for seed dispersal networks as well. In the western Amazon, birds and bats have separate diets and thus form separate guilds within the network. It is hypothesized that large-bodied vertebrates, being generalists, connect separate guilds, creating a stable, resilient network. Defaunation results in a highly modular network in which specialized frugivores instead act as the connector hubs.
+
+
+=== Food webs ===
+According to a 2022 study published in Science, terrestrial mammal food web links have declined by 53% over the past 130,000 years as a result of human population expansion and accompanying defaunation.
+
+
+=== Ecosystem services ===
+
+Changes in predation dynamics, seed predation, seed dispersal, carrion removal, dung removal, vegetation trampling, and other ecosystem processes as a result of defaunation can affect ecosystem supporting and regulatory services, such as nutrient cycling and decomposition, crop pollination, pest control, and water quality.
+
+
+=== Conservation ===
+Efforts against defaunation include wildlife overpasses and riparian corridors. Both of these can be otherwise known as wildlife crossing mechanisms. Wildlife overpasses are specifically used for the purpose of protecting many animal species from the roads. Many countries use them and they have been found to be very effective in protecting species and allowing forests to be connected. These overpasses look like bridges of forest that cross over many roads, like a walk bridge for humans, allowing animals to migrate from one side of the forest to the other safely since the road cut off the original connectivity. It was concluded in a study done by Pell and Jones, looking at bird use of these corridors in Australia, that many birds did, in fact, use these corridors to travel from one side of forest to the other and although they did not spend much time in the corridor specifically, they did commonly use them. Riparian corridors are very similar to overpasses they are just on flat land and not on bridges, however, they also work as connective "bridges" between fragmented pieces of forest. One study done connected the corridors with bird habitat and use for seed dispersal. The conclusions of this study showed that some species of birds are highly dependent on these corridors as connections between forest, as flying across the open land is not ideal for many species. Overall both of these studies agree that some sort of connectivity needs to be established between fragments in order to keep the forest ecosystem in the best health possible and that they have in fact been very effective.
+
+
+== Marine ==
+Defaunation in the ocean has occurred later and less intensely than on land. A relatively small number of marine species have been driven to extinction. However, many species have undergone local, ecological, and commercial extinction. Most large marine animal species still exist, such that the size distribution of global species assemblages has changed little since the Pleistocene, but individuals of each species are smaller on average, and overfishing has caused reductions in genetic diversity. Most extinctions and population declines to date have been driven by human overexploitation.Overfishing has reduced populations of oceanic sharks and rays  by 71% since 1970, with more than three quarters of species facing extinction.
+
+
+=== Consequences ===
+Marine defaunation has a wide array of effects on ecosystem structure and function. The loss of animals can have both top-down (cascading) and bottom-up effects, as well as consequences for biogeochemical cycling and ecosystem stability.
+Two of the most important ecosystem services threatened by marine defaunation are the provision of food and coastal storm protection.
+
+
+== See also ==
+Anthropocene
+Anthropocentrism
+Bushmeat
+Holocene extinction
+Human impact on the environment
+Human overpopulation
+Insect population decline
+
+
+== References ==
+
+
+== Further reading ==
+Benítez-López, A.; Alkemade, R.; Schipper, A. M.; Ingram, D. J.; Verweij, P. A.; Eikelboom, J. A. J.; Huijbregts, M. A. J. (April 14, 2017). "The impact of hunting on tropical mammal and bird populations" (PDF). Science. 356 (6334): 180–83. Bibcode:2017Sci...356..180B. doi:10.1126/science.aaj1891. hdl:1874/349694. PMID 28408600. S2CID 19603093.
+Finn, Catherine; Grattarola, Florencia; Pincheira-Donoso, Daniel (2023). "More losers than winners: investigating Anthropocene defaunation through the diversity of population trends". Biological Reviews. doi:10.1111/brv.12974.
+Fricke, Evan C; Ordonez, Alejandro; Rogers, Haldre S; Svenning, Jens-Christian (2022). "The effects of defaunation on plants' capacity to track climate change". Science. 375 (6577): 210–214. doi:10.1126/science.abk3510. PMID 35025640. S2CID 245933147.
+Hallmann, Caspar A.; Sorg, Martin; Jongejans, Eelke; Siepel, Henk; Hofland, Nick; Schwan, Heinz; Stenmans, Werner; Müller, Andreas; Sumser, Hubert; Hörren, Thomas; Goulson, Dave; de Kroon, Hans (October 18, 2017). "More than 75 percent decline over 27 years in total flying insect biomass in protected areas". PLOS One. 12 (10): e0185809. Bibcode:2017PLoSO..1285809H. doi:10.1371/journal.pone.0185809. PMC 5646769. PMID 29045418.
+Young, Hillary S.; McCauley, Douglas J.; Galetti, Mauro; Dirzo, Rodolfo (2016). "Patterns, Causes, and Consequences of Anthropocene Defaunation". Annual Review of Ecology, Evolution, and Systematics. 47: 333–358. doi:10.1146/annurev-ecolsys-112414-054142.
+
+
+== External links ==
+Mongobay.com : Defaunation, like deforestation, threatens global biodiversity: Interview with Rodolfo Dirzo (archived 13 July 2009)

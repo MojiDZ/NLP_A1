@@ -1,0 +1,20 @@
+The cholinergic anti-inflammatory pathway regulates the innate immune response to injury, pathogens, and tissue ischemia.  It is the efferent, or motor arm of the inflammatory reflex, the neural circuit that responds to and regulates the inflammatory response.
+
+
+== Regulating the immune response ==
+In 1987, a study showed that administration of armin, an irreversible inhibitor of acetylcholinesterase, by injection 24 hours before sepsis modelling invoked essential depression of a lethality of mice from experimental infectious process. Later (in 1995) this data has been confirmed at cholinergic stimulation by other cholinomimetics. Inhibitors of acetylcholinesterase can cause higher accessibility of acetylcholine and activation of cholinergic anti-inflammatory pathway as well.
+Tumor necrosis factors (TNF) (and other cytokines) are produced by cells of the innate immune system during local injury and infection.  These contribute to initiating a cascade of mediator release, and recruiting inflammatory cells to the site of infection to contain infection, referred to as "innate immunity.".  TNF amplifies and prolongs the inflammatory response by activating other cells to release interleukin-1 (IL-1), high mobility group B1 (HMGB1) and other cytokines.  These inflammatory cytokine responses confer protective advantages to the host at the site of bacterial infection. A “beneficial” inflammatory response is limited, resolves in 48–72 hours, and does not spread systemically. The cholinergic anti-inflammatory pathway provides a braking effect on the innate immune response which protects the body against the damage that can occur if a localized inflammatory response spreads beyond the local tissues, which results in toxicity or damage to the kidney, liver, lungs, and other organs.
+
+
+== Neurophysiological and immunological mechanism ==
+The vagus nerve is the tenth cranial nerve. It regulates heart rate, broncho-constriction, digestion, and the innate immune response.  The vagus nerve innervates the celiac ganglion, the site of origin of the splenic nerve. Stimulation of the efferent vagus nerve slows heart rate, induces gastrointestinal motility, and inhibits TNF production in spleen.  Stimulation of the efferent pathway of the vagus nerve releases acetylcholine, the neurotransmitter which interacts with the α7 subunit of the nicotinic AChR (α7 nAChR). nAChR is expressed on the cell membrane of macrophages and other cytokine secreting cells. Binding of acetylcholine to nAChR activates intracellular signal transduction which inhibits the release of pro-inflammatory cytokines. Ligand receptor signaling does suppress production of anti-inflammatory cytokines (IL-10).
+
+
+== Relationship with psychological stress ==
+Inflammatory markers tend to be elevated in people who experience various forms of psychological stress. Psychological stress increases activation in the sympathetic branch of the autonomic nervous system (ANS) resulting in increased adrenergic input to the spleen via sympathetic nerve fibers descending into lymphoid tissues. The main neural structure responsible for down-regulating psychological stress levels is the prefrontal cortex (PFC). The PFC counters sympathetic nervous system activation by inhibiting arousal-eliciting activity in pre-autonomic neural structures such as the amygdala and hypothalamus and by increasing activity in the vagal branch of the ANS. Thus, the prefrontal input to the ANS modulate the inflammatory response to psychological stress in part via the cholinergic anti-inflammatory pathway. In recent years, this PFC-Vagus Nerve-Spleen axis has been linked to cellular senescence and various pathologies such as neurodegenerative diseases and cancer.
+
+
+== See also ==
+
+
+== References ==

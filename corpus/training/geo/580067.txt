@@ -1,0 +1,73 @@
+Ecoinformatics, or ecological informatics, is the science of information in ecology and environmental science. It integrates environmental and information sciences to define entities and natural processes with language common to both humans and computers. However, this is a rapidly developing area in ecology and there are alternative perspectives on what constitutes ecoinformatics.
+A few definitions have been circulating, mostly centered on the creation of tools to access and analyze natural system data. However, the scope and aims of ecoinformatics are certainly broader than the development of metadata standards to be used in documenting datasets. Ecoinformatics aims to facilitate environmental research and management by developing ways to access, integrate databases of environmental information, and develop new algorithms enabling different environmental datasets to be combined to test ecological hypotheses. Ecoinformatics is related to the concept of ecosystem services.Ecoinformatics characterize the semantics of natural system knowledge. For this reason, much of today's ecoinformatics research relates to the branch of computer science known as knowledge representation, and active ecoinformatics projects are developing links to activities such as the Semantic Web.
+Current initiatives to effectively manage, share, and reuse ecological data are indicative of the increasing importance of fields like ecoinformatics to develop the foundations for effectively managing ecological information. Examples of these initiatives are  National Science Foundation Datanet projects, DataONE, Data Conservancy, and Artificial Intelligence for Environment & Sustainability.
+
+
+== Software Development Lifecycle ==
+Central to the concept of ecoinformatics is the Software Development Lifecycle (SDLC), a systematic framework for writing, implementing, and maintaining software products. Typically in Ecoinformatics projects, the development pipeline includes data collection, usually from several different environmental data sources, then integrating these data sources together, and then analyzing the data. Here, each step of the SDLC is described in the context of ecoinformatics, per Michener et al. It is important to note that the plan, collect, assure, describes and preserve steps refer to the data collection entity, which can be individual researchers or large data-collection networks, while the discover, integrate, and analyze steps typically refer to the individual researcher. 
+Plan: Ecoinformatics projects require data from several databases. Each database holds different data, and therefore researchers should identify what types of environmental or ecological data they will need to answer their research question. 
+Collect: Data is collected in several different ways. In ecoinformatics, this is usually restricted to manually entering data into a spreadsheet, and parsing data from an existing database. The growth of relational databases has made it easier for ecologists to download relevant data and integrate datasets together
+Assure: Data entries should be checked thoroughly to validate their accuracy and usability, such as to check for outliers and erroneous points. The same principle applies to data downloaded from datasets. This responsibility falls on both the ecologist downloading the data, and the entity that sets up the data collection system. 
+Describe: An accurate description of the metadata of a dataset that is used in a study should include enough information to deduce the data collection and processing methodology, when the data were collected, why the data were collected, and how the data were stored. This is important for reproducibility, especially for projects that build on each other and may recycle data
+Preserve: After data is collected by an institutional entity, it should be archived such that it is easily accessible. Ideally, this is in databases that are maintained and not at risk of deprecation
+Discover: While there are good practices for discovering data to start a research project, this process is often marred by a lack of usable, published data, as researchers may collect data specific to their study, but may not publish this data for wider use. On the data collection end, this can be addressed by better data-sharing practices, such as by linking datasets when publishing papers or studies. On the data procurement end, this can be addressed by more precise data searching, such as using key words to find relevant datasets. 
+Integrate: Synthesizing datasets together can be difficult and labor-intensive, largely due to the methodological differences in data collection. There are several approaches to this, but the best practices typically involve computational approaches, namely using R or Python, to automate the processes and prevent errors
+Analyze: Data analysis can take several forms, and should be tailored to the specific ecological project. However, all data analysis methods should be well-documented, including the procedure for analysis, justification for analysis methods, and any shortcomings in a specific approach.
+
+
+== Applications of Ecoinformatics Across Ecology ==
+
+
+=== Ecosystem Ecology ===
+Ecosystem studies, by definition, encompass interactions across the entire life sciences spectrum, from microscopic biochemical reactions to large-scale geological phenomena. As a result, big databases may not be designed specifically for any particular research question, but should be inclusive enough to support most studies. Since ecosystem-level questions require a broad perspective, data-related ecosystem projects would likely incorporate data from several databases.
+A common framework for incorporating data into ecosystem-level studies is the network science model, in which data collection mechanisms and resources are treated like a large, interconnected network instead of individual entities. The network may include several data collection stations within one databases, or may span across multiple databases. Currently there are several large-scale networks, but they do not generate data on the scale to consider ecology as a big data science. 
+A current challenge for ecoinformatics in ecosystem ecology is that most funding is prioritized for generating new data rather than maintaining existing data infrastructures. Integrating data across the different spatial scales can also be difficult, since each dataset may hold different types of data. 
+
+
+=== Urban Ecology ===
+The current push for smart cities, and sensor network integration into infrastructure, has positioned as a major source of data for ecological studies. Typical urban ecology questions address the effects of urbanization on the local ecosystem, and how to drive future development to promote urban biodiversity. 
+While sensor networks in cities typically collect environmental data to optimize city processes, they may also be used for ecological initiatives, especially with respect to understanding the complex, multi-layered relationship between cities and their local ecosystem. It can also be used to better understand the current landscape of cities, and identify avenues for rewinding of cities. For example, analyzing mobility patterns can identify areas that may lend themselves well to building parks and green spaces. Bird watching data can also be used to identify the types of bird species in a local area.
+
+
+=== Infectious Disease ===
+Like other disciplines of ecology, emerging infectious disease and epidemiology span multiple scales, from understanding the genetics that drive disease trends to large-scale spatiotemporal analyses. As a result, infectious disease studies can incorporate everything from bioinformatics, genetic sequences, amino acid sequences, and environmental observation data. 
+On the micro-scale, these data can then be used to predict infectivity/transmissibility, drug resistance, drug candidates, and mutation sites. On the macro-scale, it can be used to identify societal trends or environmental factors that lend themselves to spillover, locations of infection, and practices that cause disease transmission. 
+
+
+== Databases ==
+USGS National Streamflow sensor network
+GBIF
+Neotoma
+Paleobiology database
+European Vegetation Archive
+USDA Forest Inventory Analysis
+TRY
+BIEN
+AmeriFlux
+TEAM
+iNaturalist
+NEON
+GLEON
+LTER
+CZO
+TERN
+SAEON
+
+
+== References ==
+
+
+== External links ==
+ecoinformatics.org, Online Resource for Managing Ecological Data and Information
+Ecoinformatics Collaboratory, Research links and public wiki for discussion.
+Ecoinformatics Education, Ecosystem Informatics at Oregon State University
+industrial Environmental Informatics, Industrial Environmental Informatics at HTW-Berlin, University of Applied Sciences
+International Society for Ecological Informatics
+Canadian Facility for Ecoinformatics Research, Ecoinformatics at the University of Ottawa, Canada
+Ecoinformatics program at the National Center for Ecological Analysis & Synthesis
+Ecological Informatics: An International Journal on Computational Ecology and Ecological Data Science
+Ecological Data
+NSF DataNet call for proposals
+DataONE
+Data Conservancy
+[1], EcoInformatics Summer Institute, an NSF-funded REU site (Research Experience for Undergraduates)

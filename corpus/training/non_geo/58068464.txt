@@ -1,0 +1,42 @@
+Cortical thymic epithelial cells (cTECs) form unique parenchyma cell population of the thymus which critically contribute to the development of T cells.
+Thymus tissue is compartmentalized into cortex and medulla and each of these two compartments comprises its specific thymic epithelial cell subset. cTECs reside in the outer part- cortex, which mostly serves as a developmental site for T cells.  Precursors of T cells originate in the bone marrow from which they migrate via bloodstream into thymic cortex, where they encounter stromal cells including cTECs, which form the microenvironment crucial for proliferation and development of T cells by expression of DLL4 (delta-like notch ligand 4), cytokines IL-7, TGFβ or stem cell factor and chemokines CCL25, CXCL12 or CCRL1 etc.  Essential part of T cell development forms process called VDJ recombination, mediated by RAG recombinases, that stochastically changes DNA sequences of T cell receptors (TCR) and endows them with diverse recognition specificity. Thanks to this process, T cells can recognize vast repertoire of pathogens, but also self-peptides or even their TCRs don't respond to any surrounding signals. Major role of thymic epithelial cells is to test, whether TCRs are "functional" and on the other hand "harmless" to our body. While cTECs control the functionality of TCRs during the process called positive selection, Medullary thymic epithelial cells (mTECs) that home in the inner part of the thymus- medulla, present on their MHC molecules self-peptides, generated mostly by protein Autoimmune regulator, to eliminate T cells with self-reactive TCRs via processes of central tolerance e.g. negative selection and protect the body against development of autoimmunity.
+
+
+== Positive selection of T cells ==
+Major function of cTECs is to positively select those T cells that are capable to recognize and interact with MHC molecules on their surface . Once T cell precursors enter the thymic cortex, they start their transformation from double negative stages (T cell without surface expression of CD4 and CD8 co-receptors) to a double positive stage (T cell with surface expression of both co-receptors) that expresses fully recombined TCR. This stage undergoes above mentioned selection process.
+
+
+=== Double positive–single positive transition ===
+Interaction between TCR of double positive T cell and MHC I molecule leads to loss of CD4 expression and double positive T cell becomes CD8 single positive T cell, conversely, engagement of MHC II molecule leads to the development into CD4 single positive T cell. It was also described that CD8/CD4 restriction is influenced by transcription factors Runx3, in the case of CD8 restriction, and Th-POK which directs the development into CD4 T cell lineage and represses the expression of Runx3. More than 90% of double positive T cells are unable to reach this interaction and they die by neglect.
+
+
+=== Cortex–medulla migration ===
+Besides double positive-single positive transition, TCR-MHC interaction also triggers the expression of CCR7, chemokine receptor which recognizes chemokines CCL19 and CCL21, that are largely produced by mTECs in the medulla, and positively selected T cells start to migrate to medulla via their gradient.
+
+
+== Unique proteolytic pathways ==
+It is incompletely understood whether presence of peptide ligands on MHC molecules of cTECs plays some role in positive selection. But it is likely that these peptide-MHC complexes are unique and different from self-peptides presented by mTECs, since cTECs developed unique proteolytic pathways. Indeed, there is slight evidence focused on unique cTEC peptide ligands, nevertheless, its more systematic characterization is still required.
+
+
+=== Thymoproteasome (β5t) ===
+Enzymatic machinery for MHC I antigen processing and presentation in cTECs involves thymoproteasome, which is defined by the presence of β5t subunit encoded by Psmb11 gene. Knockout of this gene revealed only slight reduction in positive selection of CD8 T cells, but TCR repertoire of these cells was shown to be limited  and they revealed impaired immunological properties e.g. bad antigen responsiveness and failure to maintain naive population in the periphery. β5t subunit was shown to reduce chymotrypsin-like activity of thymoproteasomes, resulting in generation of low affinity peptides. Such finding was confirmed by study that was focused on properties of thymoproteasome- chopped peptides. Importantly, low affinity interactions are considered to result in positive selection, whereas high affinity interactions are typical for negative selection and interaction with mTECs.
+
+
+=== Cathepsin L ===
+MHC II processing and presentation in cTECs took advantage of several proteolytic pathways including cathepsin L, encoded by Ctsl gene. Cathepsin S which is produced by most of the antigen- presenting cells along with mTECs is absent in cTECs.  Cathepsin L not only cleaves invariant chain as other cathepsins, nevertheless was shown to cleave peptides for MHC II presentation and enlarge the pool of cTEC unique peptide ligands. Ctsl knockout mouse revealed severe reduction in frequency and repertoire of CD4 T cells and impairment of invariant chain degradation. Another study revealed that reduction of T cell repertoire wasn't caused by absence of invariant chain degradation, rather due to alterations in repertoire of cathepsin L cleaved peptides.
+
+
+=== Thymus specific serine protease ===
+Thymus specific serine protease is another cTEC specific enzyme, encoded by Prss16 gene, which is also involved in MHC II peptide processing. Prss16 knockout mice revealed reduced repertoire of positively selected CD4 T cells.
+
+
+=== Macroautophagy ===
+Common feature of cTECs and mTECs is constitutive macroautophagy. This process involves engulfment of portion of cytoplasm that contains organelles and vesicles into autophagosome that fuses with late endosomes or lysosomes and its content is chopped to small peptides. cTECs and mTECs utilize this endogenous pathway for MHC II presentation during selection processes, instead of common loading of exogenous peptides. Mouse with deficient macroautophagy, specifically in the thymus, revealed reduced numbers and repertoire of CD4 T cells.
+
+
+== Development ==
+cTECs and mTECs originate from endoderm, more specifically from the third pharyngeal pouch and it has been shown that they share common progenitor cell. Importantly, mTECs during their development possess classical markers of cTECs including CD205 and β5t  which are completely absent in mature mTECs, suggesting another possible cTEC function, namely they might serve as a progenitor cell reservoir for mTECs. Indeed, several lineage tracing studies confirmed that cTEC progenitors  or even mature cTECs  are capable to give rise to mTECs.
+Nevertheless, there is available series of publications which suggests different mTEC progenitor pools  or even argue that cTECs and mTECs reveal distinct unipotent progenitor cells.
+
+
+== References ==

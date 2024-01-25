@@ -1,0 +1,36 @@
+CD3 (cluster of differentiation 3) is a protein complex and T cell co-receptor that is involved in activating both the cytotoxic T cell (CD8+ naive T cells) and T helper cells (CD4+ naive T cells). It is composed of four distinct chains. In mammals, the complex contains a CD3γ chain, a CD3δ chain, and two CD3ε chains. These chains associate with the T-cell receptor (TCR) and the CD3-zeta (ζ-chain) to generate an activation signal in T lymphocytes. The TCR, CD3-zeta, and the other CD3 molecules together constitute the TCR complex.
+
+
+== Structure ==
+The CD3γ, CD3δ, and CD3ε chains are highly related cell-surface proteins of the immunoglobulin superfamily containing a single extracellular immunoglobulin domain.
+A structure of the extracellular and transmembrane regions of the CD3γε/CD3δε/CD3ζζ/TCRαβ complex was solved with CryoEM, showing for the first time how the CD3 transmembrane regions enclose the TCR transmembrane regions in an open barrel.Containing aspartate residues, the transmembrane region of the CD3 chains is negatively charged, a characteristic that allows these chains to associate with the positively charged TCR chains.The intracellular tails of the CD3γ, CD3ε, and CD3δ molecules each contain a single conserved motif known as an immunoreceptor tyrosine-based activation motif, or ITAM for short, which is essential for the signaling capacity of the TCR. The intracellular tail of CD3ζ contains 3 ITAM motifs.
+
+
+== Regulation ==
+Phosphorylation of the ITAM on CD3 renders the CD3 chain capable of binding an enzyme called ZAP70 (zeta associated protein), a kinase that is important in the signaling cascade of the T cell.
+
+
+== As a drug target ==
+Because CD3 is required for T-cell activation, drugs (often monoclonal antibodies) that target it are being investigated as immunosuppressant therapies (e.g., otelixizumab, teplizumab) for type 1 diabetes and other autoimmune diseases.
+
+
+== As a drug target in cancer research ==
+New anticancer drug treatments are being developed based upon the CD3 T cell co-receptor, with molecules being designed for altering the co-stimulatory signal to help get the T-cell to recognize the cancer cell and become fully activated.  Cancers that possess the B7-H3 immunoregulatory checkpoint receptor on the tumor cell have been one such target in clinical trials.  This B7-H3 protein is expressed on cancer cell for several types of cancer. Often, the drug will contain two domains, one binding the T-cell's CD3 and the other targeting and binding cancer cells.
+
+
+== Immunohistochemistry ==
+CD3 is initially expressed in the cytoplasm of pro-thymocytes, the stem cells from which T-cells arise in the thymus. The pro-thymocytes differentiate into common thymocytes, and then into medullary thymocytes, and it is at this latter stage that CD3 antigen begins to migrate to the cell membrane. The antigen is found bound to the membranes of all mature T-cells, and in virtually no other cell type, although it does appear to be present in small amounts in Purkinje cells.
+This high specificity, combined with the presence of CD3 at all stages of T-cell development, makes it a useful immunohistochemical marker for T cells in tissue sections. The antigen remains present in almost all T-cell lymphomas and leukaemias, and can therefore be used to distinguish them from superficially similar B-cell and myeloid neoplasms.
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+ Media related to CD3 (immunology) at Wikimedia Commons
+CD3+Antigens at the U.S. National Library of Medicine Medical Subject Headings (MeSH)
+Mouse CD Antigen Chart
+Human CD Antigen Chart

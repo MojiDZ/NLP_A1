@@ -1,0 +1,50 @@
+Eoxins are proposed to be a family of proinflammatory eicosanoids (signaling compounds that regulate inflammatory and immune responses). They are produced by human eosinophils (a class of white blood cells), mast cells, the L1236 Reed–Sternberg cell line derived from Hodgkin's lymphoma, and certain other tissues. These cells produce the eoxins by initially metabolizing arachidonic acid, an omega-6 (ω-6) fatty acid, via any enzyme possessing 15-lipoxygenase activity. The product of this initial metabolic step, 15(S)-hydroperoxyeicosatetraenoic acid, is then converted to a series of eoxins by the same enzymes that metabolize the 5-lipoxygenase product of arachidonic acid metabolism, i.e. 5-Hydroperoxy-eicosatetraenoic acid to a series of leukotrienes. That is, the eoxins are 14,15-disubstituted analogs of the 5,6-disubstituted leukotrienes.A closely related set of 15-lipoxygenase metabolites are derived from anandamide (i.e. arachidonic acid containing ethanolamine esterified to its carboxy residue). These eoxin-like metabolites, termed eoxamides, are also formed by L1235 Reed-Sternberg cells and proposed to play a role in Hodgkins disease.Eoxins have been suggested to contribute to inflammation in airway allergies and the development and/or progression of certain types of cancer, particularly Hodgkin's lymphoma (a cancer originating from white blood cells), prostate cancer, and colon carcinoma.
+
+
+== History and name ==
+The eoxins are 14,15-analogs of LTA4, LTC4, LTD4, and LTE4. Because the leukotrienes and 14,15-leukotrienes have very similar names, the 14,15-leukotrienes were renamed "eoxins" to avoid the confusion that might arise from referring to both group as "leukotrienes".  The eoxins derive their name from eosinophils, the cell type where they were originally discovered in abundance.
+
+
+== Types ==
+As indicated in the following Biochemistry section, there are 4 types of chemically distinct eoxins that are made serially from the 15-lipoxygenase metabolite of arachidonic acid viz., 15(S)-hydroperoxy-5Z,8Z,11Z,13E-eicosatetraenoic acid (i.e. 15(S)-HpETE):
+
+Eoxin A4
+Eoxin C4
+Eoxin D4
+Eoxin E4
+
+
+== Biochemistry ==
+A 15-lipoxygenase (i.e. ALOX15 or ALOX15B) metabolizes arachidonic acid to 15(S)-HpETE (see 15-Hydroxyicosatetraenoic acid); 15(S)-HpETE is then converted to its 14,15-trans-epoxide, 14,15-trans-epoxide oxido-5Z,8Z,10E,13E-eicosatetraenoic acid (i.e., Eoxin A4 (also termed EXA4) by one of the 15-lipoxygenases. 15-(S)-HpETE is then  metabolized to 14(R)-glutothionyl-15(S)hydroxy-5Z,8Z,10E,13E-eicosatetraenoic acid (i.e. Eoxin C4 or EXC4) by conjugation to glutathione through the action of leukotriene C4 synthase. EXC4 contains glutathione (i.e. γ-L-glutamyl-L-cysteinylglycine) bound in the R configuration to carbon 14.  EXC4 is further metabolized by removal of the γ-L-glutamyl residue to form EXD4 which is in turn further metabolized by removal of the glycine residue to form EXE4. These metabolic transformations are similar to and therefore thought to be mediated by the same enzymes that metabolize the 5-hydroperoxyeicosatetraenoci acid of arachidonic acid (i.e. 5(S)-HpETE) to the peptide-leukotriens, LTA4, LTC4, LTD4, and LTE4.The eoxin-forming pathway sequence is as follows:
+Arachidonic acid → 15(S)-hydroperoxy-5Z,8Z,11Z,13E-eicosatetraenoic acid (15(S)-HPETE)) via 15-LOX-1 or possibly 15-LOX-2, i.e. ALOX15 and ALOX15B, respectively
+15(S)-HPETE → EXA4 via 15-LOX-1
+EXA4     → EXC4 via LTC4 synthase aka "glutathione S-transferase II"
+EXC4     → EXD4 via unidentified gamma-glutamyltransferase class enzyme
+EXD4     → EXE4 via unidentified dipeptidase class enzymeThe Arachidonic acid + O2 → 15(S)-HpETE → EXA4 → EXC4 → EXD4 → EXE4) metabolic pathway is analogous to the leukotriene-forming pathway (i.e. Arachidonic acid + O2 → 5(S)-HpETE → LTA4 → LTC4 → LTD4 → LTE4). EXA4, similar to LXA4, is viewed as an intracellular intermediate that is rapidly converted to down-stream products while EXC4, EXD4, and EXE4, similar to LTC4, LTD4, and LTE4, are regarded as extracellular agents which stimulate cell function.
+
+
+=== Sources ===
+Cells and tissues rich in 15-LOX-1 activity such as human eosinophils, umbilical cord-derived mast cells, nasal polyps from allergic subjects, airway epitheleal cells, and L1236 Reed-Sternberg cells derived from Hodgkin's Disease tumors produce eoxins.  EC4 is also made by a mixture of polymorphonuclear neutrophis and eosinophils isolated from the blood of allergen-treated mini pigs and ECA4 is made by mouse eosinophils; lacking 15-LOX-1, it is assumed that these cells employ 12/15-lipoxygenase to initiate this synthesis. Indeed, mice made deficient of 12/15-lipooxygenase exhibit an attenuated allergic airway inflammation response compared to wild type control mice.
+
+
+== Function ==
+The eoxins were first defined in 2008 and have not yet been determined to have any roles in human physiology or pathology.  However, their production is stimulated in human eosinophils by physiological agonists such as prostaglandin D2, leukotriene C4, and interleukin 5. Furthermore, Eoxins stimulate vascular permeability in an ex vivo human vascular endothelial model system, and in a small study of 32 volunteers EXC4 production by eosinophils isolated from severe and aspirin-intolerant asthmatics was greater than that from healthy volunteers and mild asthmatic patients.  These findings have led to suggestions that eoxins have pro-inflammatory actions and are involved in severe asthma, aspirin-induced asthma attacks, and perhaps other allergic reactions. A subsequent study found that eoxin levels in the exhaled breath of aspirin-sensitive and aspirin-intolerant asthmatic individuals did not rise after aspirin challenge and did not correlate with disease severity.The production of eoxins by Reed-Sternburg cells has also led to suggestion that they are involve in the lymphoma of Hodgkins disease and, possibly, prostate cancer, colon cancer, and other cancer types.
+
+
+== Eoxamides ==
+The same pathways that metabolize arachidonic acid to eoxines have been shown to metabolize anandamide, N-arachidonoylethanolamine (i.e. arachidonic acid containing ethanolamine esterified to its carboxy residue) into a set of eoxamides that are identical to their eoxin counterparts except that they possess an ethanolamine ester. These metabolites have been named EXA4 ethanol amide, EXC4 ethanol amide, EXD4 ethanol amide, and EXE4 ethanol amide. These products were formed by the L1236 Reed Sternberg cell line presented with anandamide; human platelets presented with eoxamideA4 produced EXC4 ethanol amide, EXD4 ethanol amide, and EXE4 ethanol amide. The activity and function of these ethanol amide metabolites has not been reported.
+
+
+== See also ==
+Arachidonate 5-lipoxygenase
+Arachidonate 15-lipoxygenase
+Leukotriene
+15-Hydroxyicosatetraenoic acid
+
+
+== References ==
+
+
+== External links ==
+15-LOX Gene Atlas entry
+15-LOX BRENDA homo sapiens entry

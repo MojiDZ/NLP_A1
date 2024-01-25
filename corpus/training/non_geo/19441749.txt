@@ -1,0 +1,43 @@
+An inherently funny word is a word that is humorous without context, often more for its phonetic structure than for its meaning.
+Vaudeville tradition holds that words with the /k/ sound are funny. A 2015 study at the University of Alberta suggested that the humor of certain nonsense words can be explained by whether they seem rude, and by the property of entropy: the improbability of certain letters being used together in a word. The philosopher Arthur Schopenhauer posited that humor is a product of one's expectations being violated.
+
+
+== Funny words in English ==
+Vaudeville words can be found in Neil Simon's 1972 play The Sunshine Boys, in which an aging comedian gives a lesson to his nephew on comedy, saying that words with k sounds are funny:
+Fifty-seven years in this business, you learn a few things. You know what words are funny and which words are not funny. Alka Seltzer is funny. You say 'Alka Seltzer' you get a laugh ... Words with 'k' in them are funny. Casey Stengel, that's a funny name. Robert Taylor is not funny. Cupcake is funny. Tomato is not funny. Cookie is funny. Cucumber is funny. Car keys. Cleveland ... Cleveland is funny. Maryland is not funny. Then, there's chicken. Chicken is funny. Pickle is funny. Cab is funny. Cockroach is funny – not if you get 'em, only if you say 'em.
+Richard Wiseman, a professor of the public understanding of psychology at the University of Hertfordshire, conducted a small experiment to determine whether words with a k sound were actually considered funnier than others for English speakers. His LaughLab tested the degree of funniness among a family of jokes based on animal sounds; the joke rated the funniest was also the one with the most k sounds:
+
+Two ducks were sitting in a pond. One of the ducks said: "Quack". The other duck said: "I was going to say that!"
+A 2019 study presented at the International Conference on Machine Learning showed Artificial Intelligence (AI) could predict human ratings of humorous words. After collecting humor ratings from multiple people on 120,000 individual words, they were able to analyze the data using AI algorithms to identify clusters of people with similar tastes in humor. The words with the highest mean humor ratings were identified as "asshattery", "clusterfuck", "douchebaggery", "poppycock", "craptacular", "cockamamie", "gobbledegook", "nincompoops", "wanker", and "kerfuffle". This study not only found that AI could predict average humor ratings of individual words (and differences in mean ratings between women and men), but it could also predict differences in individual senses of humor.Robert Beard, a professor emeritus of linguistics at Bucknell University, told an interviewer that "The first thing people always write in [to his website] about is funny words". Beard's first book was The 100 Funniest Words in English, and among his own selected words are "absquatulate", "bowyangs", "collywobbles", "fartlek", "filibuster", "gongoozle", "hemidemisemiquaver", and "snollygoster".
+
+
+== Rudeness and entropy ==
+A 2015 study published in the Journal of Memory and Language examined the humor of nonsense words. The study used a computer program to generate pronounceable nonsense words that followed typical English spelling conventions and tested them for their perceived comedic value to human test subjects.The funniest nonsense words tended to be those that reminded people of real words that are considered rude or offensive. This category included four of the top-six nonsense words that were rated the funniest in the experiment: "whong", "dongl", "shart" (now slang, not a nonsense word), and "focky". To explain why these words seemed funny, the study's author said "The expectation that you've read or uttered a rude word is raised – and then violated, because in fact it's harmless nonsense. There's a sense of relief – of getting away with it."After removing from consideration the words that seemed rude, another factor was suggested to also be significant. The study's lead author, Chris Westbury from the University of Alberta, suggests that the humor of certain invented words can be explained by the property of entropy. Entropy (specifically Shannon entropy) here expresses how unlikely the letter combinations in certain nonsense words are: the more unlikely the letters are to be used together in English, the more funny the combination is likely to be found. Nonsense words such as "rumbus", "skritz", and "yuzz-a-ma-tuzz", which were created by children's book author and illustrator Dr. Seuss, were found to have less probable letter combinations and to seem funnier than most ordinary English words. According to Westbury, "there's actually a consistent relationship between how funny [non‑words] are and how weird they are".The entropy explanation also supports the notion that words with a 'k' in them tend to be more funny, as the letter 'k' is one of the least frequently used letters in the English language.The idea that humor can be predicted by a word's entropy corresponds to the work of 19th-century German philosopher Arthur Schopenhauer, who posited that humor is a product of one's expectations being violated. According to Westbury, "One reason puns are funny is that they violate our expectation that a word has one meaning". Violating expectations corresponds mathematically to having a low probability combination of letters, which also makes the word seem particularly funny, according to Westbury.To provide a possible evolutionary explanation of these phenomena, the authors of the study said that unusual occurrences may be experienced as indicating the presence of potential threats, and that humor may be a way of signalling to others that one has realized that a perceived threat is actually harmless. Westbury said "Strange as it may seem, that same mechanism may be activated when you see an unlikely looking word or a highly taboo one – you experience relief as you recognize that it's completely harmless – just a joke."
+
+
+== See also ==
+Anti-humor – a form of ironic humor involving saying something that is meaningless or not funny when the audience expects it to be funny.
+Cellar door (phrase) – a phrase mentioned as an example of a word or phrase that is beautiful purely in terms of its sound without regard for its semantics
+Ideophone – words that evoke an idea in sound
+Linguistic relativity, and the theme that a rose by any other name would smell as sweet – explorations of how a phenomenon such as inherent funniness of words is an accident
+Malapropism – the use of an incorrect word in place of a word that sounds similar
+Mondegreen – mishearing or misinterpretation of a phrase as a result of near-homophony
+Nonsense verse – the poetic use of nonsensical words or phrases
+Onomatopoeia – a word that suggests a sound that it describes
+Place names considered unusual – includes names which seem offensive, inadvertently humorous, or highly charged
+Sound symbolism – the idea that vocal sounds or phonemes carry meaning by themselves
+
+
+== References ==
+
+
+== Further reading ==
+Barry, Dave (1991), Dave Barry Talks Back, 1st edn., New York: Crown. ISBN 0-517-58546-4.
+Shibles, Warren, Humor Reference Guide: A Comprehensive Classification and Analysis (Hardcover) 1998 ISBN 0-8093-2097-5
+Westbury, C.; Shaoul, C.; Moroschan, G.; Ramscar, M. (January 2016). "Telling the world's least funny jokes: On the quantification of humor as entropy". Journal of Memory and Language. 86: 141–156. doi:10.1016/j.jml.2015.09.001.
+
+
+== External links ==
+
+Cummings, Kevin; Fogarty, Mignon. "Grammar Girl: Words that sound funny". Quick and Dirty Tips. Retrieved 20 June 2017.
+"Bumfuzzle, Cattywampus, Gardyloo & More: Top 10 Funny-Sounding & Interesting Words". Merriam-Webster. Retrieved 20 June 2017.

@@ -1,0 +1,41 @@
+Assimilative capacity is the ability for pollutants to be absorbed by an environment without detrimental effects to the environment or those who use of it. Natural absorption into an environment is achieved through dilution, dispersion and removal through chemical or biological processes. The term assimilative capacity has been used interchangeably with environmental capacity, receiving capacity and absorptive capacity. It is used as a measurement perimeter in hydrology, meteorology and pedology for a variety of environments examples consist of: lakes, rivers, oceans, cities and soils. Assimilative capacity is a subjective measurement that is quantified by governments and institutions such as Environmental Protection Agency (EPA) of environments into guidelines. Using assimilative capacity as a guideline can help the allocation of resources while reducing the impact on organisms in an environment. This concept is paired with carrying capacity in order to facilitate sustainable development of city regions. Assimilative capacity has been critiqued as to its effectiveness due to ambiguity in its definition that can confuses readers and false assumptions that a small amount of pollutants has no harmful effect on an environment.
+
+
+== Hydrosphere ==
+Assimilative capacity in hydrology is defined as the maximum amount of contaminating pollutants that a body of water can naturally absorb without exceeding the water quality guidelines and criteria. This determines the concentration of pollutants that can cause detrimental effects on aquatic life and humans that use it. Self-purification and dilution are the main factors effecting the total amount of assimilative capacity a body of water has. Estimations of breaches of assimilative capacity focus on the health of aquatic organisms in order to predict an excess of pollutants in a body of water. Dilution is the main way that bodies of water reduce the concentration of contaminants to levels under their assimilative capacity. This means that body of water that move rapidly or have a large volume of water will have larger assimilative capacities then a slow-moving stream.
+
+
+=== Coastal and Marine ===
+Coastal and Marine environments will have much greater assimilative capacity due to the large volumes of water creating a much greater dilution factor. Contaminants added into areas would be needed in much greater volumes in order to exceed the assimilative capacity and create harmful negative effects on aquatic life. However, oceans often are the end point for many pollutants resulting in large accumulation of pollutants. It is estimated that “270 tonnes of nitrogen enter the sea annually” in Western Australia.
+
+
+=== Rivers ===
+Rivers have a large focus on being monitored as they are the primary place for runoff from agricultural industries. This results in there being large changes in their original conditions. Agricultural runoff is high in contaminants including Phosphorus and Nitrogen. When phosphorus is added to a river eutrophication occurs a rapid production of algae that’s production was previously limited by the amount of phosphorus in the water. These algae have a high biochemical oxygen demand and reduce the available oxygen for other aquatic organisms. Close monitoring of the assimilative capacity or rivers is needed in order to stop eutrophication which can result in the loss of many aquatic organism.
+
+
+== Atmosphere ==
+Assimilative capacity of the atmosphere is defined as the maximum load of pollutants that can be added without compromise of its resources. Meteorologists calculate assimilative capacity through the atmosphere using ventilation coefficient or through the pollution potential. The ventilation coefficient is calculated by multiply the mixing height (the height at which vigorous mixing of gasses occur) with the average wind speed. Atmospheric concentrations change rapidly as gasses move due to winds, convection current and dispersion of gasses. The pollution potential is determined by calculating the concentration of pollutants and comparing that to the acceptable limits. This way of calculating takes into consideration the current level of pollutants and assesses how much more can be added in order to reach the assimilative capacity. Sulphur dioxide (SO2), Nitrogen monoxide (NO) and Nitrogen dioxide (NO2) and suspended particulate matter (SPM) are important pollutants to measure. High concentrations sulphur dioxide can cause acid rain which damages structures and increases acidity of soils and bodies of water. High concentrations nitrogen monoxide and nitrogen dioxide can cause photochemical smog which has adverse effects on those with compromised lungs. High concentrations of suspended particulate matter can be absorbed by the lungs into the bloodstream can cause pneumonia.
+
+
+== Uses to determine management of environments ==
+Assimilative capacity is used as a monitoring guideline for sustainable growth of city regions. Assimilative capacity allows governments to understand how much pressure a region is under. Working within the assimilative capacity means that regions will be constructed with future stability in mind. “An assimilative capacity study develops specific scientific modelling to support and assist municipalities and other legislative authorities in predicting the impacts of land use”.
+
+
+=== United States ===
+In the United States legislation on assimilative capacity as a guideline for the maximum amount of pollutants to be added to bodies of water comes from each individual state and from the environmental protection agency. Assimilative capacity is a quantitatively useful concept codified in the Clean Water Act and other laws and regulations that is unrelated to the perception of an environmental crisis.  Assimilative capacity specifically refers to the capacity for a body of water to absorb constituents without exceeding a specific concentration, such as a water quality objective. Water quality objectives are set and periodically revised by regulatory agencies, such as the Environmental Protection Agency (EPA), to define the limits of water quality for different uses, which include human health, but also other ecologically important functions, wildlife habitat, irrigated agriculture, etc. For example, if the irrigation water quality objective for salt is 450 mg/L of total dissolved solids, the assimilative capacity of a body of water would be the amount of salt that could be added to the water such that its concentration would not exceed 450 mg/L.
+
+
+=== India ===
+India uses assimilative capacity in management of land, water and air. Though each have largely varying assimilative capacities due to variations in type of pollutants and the difference in dilution dispersion and chemical and biological breakdown in differing environments.
+
+
+== Comparison to accommodative capacity ==
+Assimilative capacity has been critiqued as to the value it adds as a tool for creating guidelines in hydrology. There is a large amount of ambiguity in the definition as it is subjective. It has been questioned as to what exactly statements such as whether harmful to aquatic organism means “death of individual organisms, elimination of food chains, or a change in energy flow patterns”. Inconsistency in assimilative capacity has led to the term to be restricted by the National Oceanic and Atmospheric Administration (NOAA) and Environmental Protection Agency (EPA). Accommodative capacity is used to mean “the rate at which waste material can be added to a body of water in such a way that the ambient concentration of contaminants is maintained below levels that produce unacceptable biological impact”. Accommodative capacity has been suggested to remove ambiguity as uses of it have been more greatly defined in quantitative numbers.
+
+
+== See also ==
+Water pollution
+Sewage
+
+
+== References ==

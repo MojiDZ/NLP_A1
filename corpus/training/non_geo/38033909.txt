@@ -1,0 +1,36 @@
+A Lénárt sphere is a educational manipulative and writing surface for exploring spherical geometry, invented by Hungarian István Lénárt as a modern replacement for a spherical blackboard. It can be used for visualizing the geometry of points, great and small circles, triangles, polygons, conics, and other objects on a sphere, and comparing spherical geometry to Euclidean geometry as drawn on a flat piece of paper or blackboard. The included spherical ruler and compass support synthetic straightedge and compass construction on the sphere.
+
+
+== Products ==
+The Lénárt sphere and accessories are produced by the company Lénárt Educational Research and Technology.
+The basic set includes:
+An eight-inch transparent plastic sphere
+A torus-shaped support to place under the sphere
+Hemispherical transparencies that fit over the sphere for students to draw on with marker pens or cut out shapes with scissors
+A spherical ruler with two scaled edges for drawing great-circle arcs and measuring spherical angles and great-circle distances
+A spherical compass and center locator for drawing small circles
+A set of wet-wipe markers for writing and drawing on the sphere and transparencies
+A hanger for displaying spherical constructions and designs
+A 16-page booklet of suggested activities, "Getting Started on the Lenart Sphere"
+A four-color polyconic projection of the earth that one can cut out and transform into a globeThe company also sells replacement parts, extra transparency sheets, wet-wipe markers, and Lénárt's book Non-Euclidean Adventures on the Lenart Sphere, which describes more activities for students.
+
+
+== Related tools ==
+Spherical Easel is an interactive geometry software tool for exploring spherical geometry (see § External links). Other interactive geometry software is typically limited to the flat plane.
+
+
+== History ==
+
+Spherical trigonometry is fundamental to ancient astronomy and astrology, celestial navigation, and geodesy and cartography, and it used to be a standard part of undergraduate mathematics education. In recent decades hand computations have been replaced by electronic computers and spherical trigonometry has been pushed out of the typical mathematics curriculum by other topics.The Lénárt sphere was invented by István Lénárt in Hungary in the early 1990s and its use is described in his 2003 book comparing planar and spherical geometry.The Lénárt sphere is widely used throughout Europe in university courses on non-Euclidean geometry and geographic information systems (GIS).
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+Official website, lenartsphere.com
+Spherical Easel, interactive spherical geometry software
+Profile of István Lénárt at ResearchGate with some of Lénárt's research papers

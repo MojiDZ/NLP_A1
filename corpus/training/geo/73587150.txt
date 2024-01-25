@@ -1,0 +1,25 @@
+Bioreceptivity is defined as "the ability of a material to be colonized by living organisms." First defined by Guillitte in 1995 as a new term in ecology to discuss the beneficial applications of building materials for ecological uses. Previous understandings termed the colonization of organisms as "degradation," implying a negative connotation, leading to the creation of "bioreceptivity" for positive benefits of colonization on materials. It is an interdisciplinary field of study between materials science and ecology.
+Bioreceptive design is commonly mistaken for biomimicry, or nature inspired design. Marco Cruz and Richard Beckett provide an alternative explanation known as architectural bark, in which it is both nature-inspired and nature-integrated where colonization by the microbiome and organisms plays a role in the architectural design. Bioreceptivity is different from green infrastructure, such as green roofs, green walls, and storm water management, but has been observed to be related to these research areas in architecture. Bioreceptive design has led to further research studies in concrete materials for use in urban environments through walls and non-green spaces. However, bioreceptive designs have implications outside creating new green spaces, and can be used for conservation biology and ecological restoration.
+
+
+== Urban ecologies ==
+A more recent trend in architectural design has been an effort to include green spaces in public areas to improve the connection between people and nature. However the creation of green spaces includes pressures such as space, natural resource demand, and development limitations that reduce the amount of green spaces available in urban environments.  Land space is limited due to increased urbanization and human dominated landscapes reduce regional biodiversity. To adapt to these challenges, designers are utilizing the vertical spaces provided by urban architecture to promote biodiversity. To address the issue of space availability, wall space has been shown to be a promising area to improve vegetation and native flora, creating an effective method for natural conservation. A "Nature  takes its course," method can also allow for vegetation to naturally colonize new urban spaces without economic constraints on landscape design and vegetation selection.
+
+
+== In conservation ==
+Bioreceptive designs help promote biodiversity, and have been used outside of the architectural context for implications in conservation biology.
+
+
+=== Examples of Bioreceptive Design ===
+Urban Reef is a company founded by Pierre Oskam and Max Latour to create habitats and promote biodiversity in urban environments. The company utilizes 3D printing with natural materials to create "reef" structures that provide microclimates and nutrients for organisms in city environments.
+EcoShape is building Artificial Reefs using ceramics, geo-textiles, bio-rocks, and 3D printing to promote coral reef growth.  Utilizing recycled materials they are able to design reef balls that can promote niche habitats for plants and coral, while providing hollow structures for fish and mammals.
+Jason deCaires Taylor is an artist who utilizes bioreceptive and pH neutral concrete that promotes coral reef growth and provides ecological restoration in marine environments. Additionally their work has led to the creation of the world's first underwater sculpture park that provides a non-invasive artistic experience without disrupting the marine environment. Taylor's pieces integrate messages on the complexity of human and the environment, while also integrating reflection on conservation.
+
+
+== See also ==
+Living Walls
+Restoration Ecology
+Urban Ecology
+
+
+== References ==

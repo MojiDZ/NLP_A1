@@ -1,0 +1,41 @@
+Ecological classification or ecological typology is the classification of land or water into geographical units that represent variation in one or more ecological features. Traditional approaches focus on geology, topography, biogeography, soils, vegetation, climate conditions, living species, habitats, water resources, and sometimes also anthropic factors. Most approaches pursue the cartographical delineation or regionalisation of distinct areas for mapping and planning.
+
+
+== Approaches to classifications ==
+Different approaches to ecological classifications have been developed in terrestrial, freshwater and marine disciplines. Traditionally these approaches have focused on biotic components (vegetation classification), abiotic components (environmental approaches) or implied ecological and evolutionary processes (biogeographical approaches). Ecosystem classifications are specific kinds of ecological classifications that consider all four elements of the definition of ecosystems: a biotic component, an abiotic complex, the interactions between and within them, and the physical space they occupy (ecotope).
+
+
+=== Vegetation classification ===
+Vegetation is often used to classify terrestrial ecological units. Vegetation classification can be based on vegetation structure and floristic composition. Classifications based entirely on vegetation structure overlap with land cover mapping categories.Many schemes of vegetation classification are in use by the land, resource and environmental management agencies of different national and state jurisdictions. The International Vegetation Classification (IVC or EcoVeg) has been recently proposed but has not been yet widely adopted.Vegetation classifications have limited use in aquatic systems, since only a handful of freshwater or marine habitats are  dominated by plants (e.g. kelp forests or seagrass meadows). Also, some extreme terrestrial environments, like subterranean or cryogenic ecosystems, are not properly described in vegetation classifications.
+
+
+=== Biogeographical approach ===
+The disciplines of phytogeography and biogeography study the geographic distribution of plant communities and faunal communities. Common patterns of distribution of several taxonomic groups are generalised into bioregions, floristic provinces or zoogeographic regions.
+
+
+=== Environmental approach ===
+Climate classifications are used in terrestrial disciplines due to the major influence of climate on biological life in a region. The most popular classification scheme is probably the Köppen climate classification scheme. Similarly geological and soil properties can affect terrestrial vegetation.
+In marine disciplines, the stratification of water layers discriminate types based on the availability of light and nutrient, or changes in biogeochemical properties.
+
+
+=== Ecosystem classifications ===
+American geographer Robert Bailey defined a hierarchy of ecosystem units ranging from micro-ecosystems (individual homogeneous sites, in the order of 10 square kilometres (4 sq mi) in area), through meso-ecosystems (landscape mosaics, in the order of 1,000 square kilometres (400 sq mi)) to macro-ecosystems (ecoregions, in the order of 100,000 square kilometres (40,000 sq mi)).: Ch:2, p:25–28 Bailey outlined five different methods for identifying ecosystems: gestalt ("a whole that is not derived through considerable of its parts"), in which regions are recognized and boundaries drawn intuitively; a map overlay system where different layers like geology, landforms and soil types are overlain to identify ecosystems; multivariate clustering of site attributes; digital image processing of remotely sensed data grouping areas based on their appearance or other spectral properties; or by a "controlling factors method" where a subset of factors (like soils, climate, vegetation physiognomy or the distribution of plant or animal species) are selected from a large array of possible ones are used to delineate ecosystems.: Ch:3, p:29–40 In contrast with Bailey's methodology, Puerto Rico ecologist Ariel Lugo and coauthors identified ten characteristics of an effective classification system. For example that it be based on georeferenced, quantitative data; that it should minimize subjectivity and explicitly identify criteria and assumptions; that it should be structured around the factors that drive ecosystem processes; that it should reflect the hierarchical nature of ecosystems; that it should be flexible enough to conform to the various scales at which ecosystem management operates.The International Union for The Conservation of Nature (IUCN) developed a global ecosystem typology that conforms to the definition of ecosystems as ecological units that comprise a biotic component, an abiotic complex, the interactions between and within them, and occupy a finite physical space or ecotope. This typology is based on six design principles: representation of ecological processes, representation of biota, conceptual consistency throughout the biosphere, scalable structure, spatially explicit units, parsimony and utility. This approach has led to a dual representation of ecosystem functionality and composition within a flexible hierarchical structure that can be built from a top-down approach (subdivision of upper units by function) and a bottom-up approach (representation of compositional variation within functional units).
+
+
+== See also ==
+Land use
+Landscape ecology
+
+
+== References ==
+
+
+== Bibliography ==
+Gregorich, E. G., and et al. "Soil and Environmental Science Dictionary." Canadian ecological land classification system, pp 111 (2001). Canadian Society of Soil Science. CRC Press LLC. ISBN 0-8493-3115-3.
+Klijn, F., and H. A. Udo De Haes. 1994. "A hierarchical approach to ecosystems and its implications for ecological land classification." In: Landscape Ecology vol. 9 no. 2 pp 89–104 (1994).  The Hague, SPB Academic Publishing bv.
+
+
+== External links ==
+Example of ecological land classification in British Columbia (Canada)
+EcoSim Software Inc ELC eTool
+International Association for Vegetation Scientists (IAVS) – Vegetation Classification Methods

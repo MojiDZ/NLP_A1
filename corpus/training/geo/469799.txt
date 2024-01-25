@@ -1,0 +1,48 @@
+Land rehabilitation as a part of environmental remediation is the process of returning the land in a given area to some degree of its former state, after some process (industry, natural disasters, etc.) has resulted in its damage. Many projects and developments will result in the land becoming degraded, for example mining, farming and forestry.
+
+
+== Mine rehabilitation ==
+
+Modern mine rehabilitation aims to minimize and mitigate the environmental effects of modern mining, which may in the case of open pit mining involve movement of significant volumes of rock. Rehabilitation management is an ongoing process, often resulting in open pit mines being backfilled.
+After mining finishes, the mine area must undergo rehabilitation. 
+
+Waste dumps are contoured to flatten them out, to further stabilize them against erosion.
+If the ore contains sulfides it is usually covered with a layer of clay to prevent access of rain and oxygen from the air, which can oxidize the sulfides to produce sulfuric acid.
+Landfills are covered with topsoil, and vegetation is planted to help consolidate the material.
+Dumps are usually fenced off to prevent livestock denuding them of vegetation.
+The open pit is then surrounded with a fence, to prevent access, and it generally eventually fills up with groundwater.
+Tailings dams are left to evaporate, then covered with waste rock, clay if need be, and soil, which is planted to stabilize it.For underground mines, rehabilitation is not always a significant problem or cost. This is because of the higher grade of the ore and lower volumes of waste rock and tailings. In some situations, stopes are backfilled with concrete slurry using waste, so that minimal waste is left at surface.
+The removal of plant and infrastructure is not always part of a rehabilitation programme, as many old mine plants have cultural heritage and cultural value. Often in gold mines, rehabilitation is performed by scavenger operations which treat the soil within the plant area for spilled gold using modified placer mining gravity collection plants.
+Also possible is that the section of the mine that is below ground, is kept and used to provide heating, water and/or methane. Heat extraction can be done using heat exchangers, that convey the heat to a nearby city (hence making it be used for district heating purposes.
+Water can be harvested from the mine as well (mines are often filled with water once the mine has been shut down and the pumps no longer operate). Methane is also often present in the mine shafts, in small quantities (often around 0,1%). This can still be recovered though with specialised systems. An added advantage of recovering the methane finally is that the methane does not come into the atmosphere, and so does not contribute to global warming.
+
+
+== Mine rehabilitation market ==
+Depending on the country, mining companies are regulated by federal and state bodies to rehabilitate the affected land and to restore biodiversity offset areas around the mines.Mine rehabilitation, a legal obligation for mining companies in Australia for which they are required to pay bonds, could be a source of considerable employment generation and economic investment in regional areas, if governments were willing to enforce the laws covering the process.Before mining activities begin, a rehabilitation security bond must be provided. The Australian mine rehabilitation bonds totals $9.49bn, with the state of NSW bond totalling $2.68 billion in 2019. The size of mining security bonds has been questioned by NSW's Auditor General  as being insufficient to cover the complete costs associated with mine rehabilitation activities.
+In addition to operational mine rehabilitation activities, often referred to as 'progressive rehabilitation', abandoned mines are also restored. The financing for restoration of abandoned mines is drawn from operating mines as well as public sources. The cost of reclaiming the abandoned mines in the US is estimated at $9.6bn.
+
+
+== See also ==
+Land restoration
+Forest restoration, Reforestation
+Prairie restoration
+Restoration ecology
+Environmental remediation
+Holistic management
+Mine reclamation
+Land recycling
+Soil salinity control - rehabilitation of salinized soils
+Watertable control - rehabilitation of waterlogged soils
+Land reclamation
+
+
+== References ==
+
+
+== External links ==
+Rehabilitation of waterlogged and saline soils: [1], free downloads of software and articles on land drainage.
+Bio Recycle
+Sydney Water BioSolids
+EEMP - a non-profit 501 (c) 3 organization dedicated to communicate the lessons of rehabilitation and restoration through media around the world.
+Federal Environmental Laws that Govern U.S. Mining: [2]
+NSW Australia Mine Rehabilitation: [3]

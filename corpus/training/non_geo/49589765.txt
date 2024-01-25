@@ -1,0 +1,6 @@
+Bürgi's Kunstweg is a set of algorithms invented by Jost Bürgi at the end of the 16th century. They can be used for the calculation of sines to an arbitrary precision. Bürgi used these algorithms to calculate a Canon Sinuum, a table of sines in steps of 2 arc seconds. It is thought that this table had 8 sexagesimal places. Some authors have speculated that this table only covered the range from 0 to 45 degrees, but nothing seems to support this claim. Such tables were extremely important for navigation at sea. Johannes Kepler called the Canon Sinuum the most precise known table of sines. Bürgi explained his algorithms in his work Fundamentum Astronomiae which he presented to Emperor Rudolf II. in 1592.
+The principles of iterative sine table calculation through the Kunstweg are as follows: cells in a column sum up the values of the two previous cells in the same column. The final cell's value is divided by two, and the next iteration starts. Finally, the values of the last column get normalized. Rather accurate approximations of sines are obtained after few iterations.
+As recently as 2015, Folkerts et al. showed that this simple process converges indeed towards the true sines. According to Folkerts, this was the first step towards difference calculus.
+
+
+== References ==

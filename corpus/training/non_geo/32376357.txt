@@ -1,0 +1,231 @@
+In trigonometry, the law of cotangents is a relationship among the lengths of the sides of a triangle and the cotangents of the halves of the three angles.Just as three quantities whose equality is expressed by the law of sines are equal to the diameter of the circumscribed circle of the triangle (or to its reciprocal, depending on how the law is expressed), so also the law of cotangents relates the radius of the inscribed circle of a triangle (the inradius) to its sides and angles.
+
+
+== Statement ==
+Using the usual notations for a triangle (see the figure at the upper right), where a, b, c are the lengths of the three sides, A, B, C are the vertices opposite those three respective sides, α, β, γ are the corresponding angles at those vertices, s is the semiperimeter, that is, s = a + b + c/2, and r is the radius of the inscribed circle, the law of cotangents states that
+
+and furthermore that the inradius is given by
+
+
+== Proof ==
+In the upper figure, the points of tangency of the incircle with the sides of the triangle break the perimeter into 6 segments, in 3 pairs. In each pair the segments are of equal length. For example, the 2 segments adjacent to vertex A are equal. If we pick one segment from each pair, their sum will be the semiperimeter s. An example of this is the segments shown in color in the figure. The two segments making up the red line add up to a, so the blue segment must be of length s − a. Obviously, the other five segments must also have lengths s − a, s − b, or s − c, as shown in the lower figure.
+By inspection of the figure, using the definition of the cotangent function, we have
+
+and similarly for the other two angles, proving the first assertion.
+For the second one—the inradius formula—we start from the general addition formula:
+
+Applying to 
+  
+    
+      
+        cot
+        ⁡
+        
+          (
+          
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+            α
+            +
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+            β
+            +
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+            γ
+          
+          )
+        
+        =
+        cot
+        ⁡
+        
+          
+            
+              π
+              2
+            
+          
+        
+        =
+        0
+        ,
+      
+    
+    {\displaystyle \cot \left({\tfrac {1}{2}}\alpha +{\tfrac {1}{2}}\beta +{\tfrac {1}{2}}\gamma \right)=\cot {\tfrac {\pi }{2}}=0,}
+   we obtain:
+
+(This is also the triple cotangent identity.)
+Substituting the values obtained in the first part, we get:
+
+Multiplying through by r3/s gives the value of r2, proving the second assertion.
+
+
+== Some proofs using the law of cotangents ==
+A number of other results can be derived from the law of cotangents.
+
+Heron's formula. Note that the area of  triangle ABC is also divided into 6 smaller triangles, also in 3 pairs, with the triangles in each pair having the same area.  For example, the two triangles near vertex A, being right triangles of width s − a and height r, each have an area of 1/2r(s − a).  So those two triangles together have an area of r(s − a), and the area S of the whole triangle is therefore 
+This gives the result 
+ 
+as required.
+
+Mollweide's first formula. From the addition formula and the law of cotangents we have 
+This gives the result 
+ 
+as required.
+
+Mollweide's second formula. From the addition formula and the law of cotangents we have 
+
+Here, an extra step is required to transform a product into a sum, according to the sum/product formula.  This gives the result 
+ 
+as required.
+
+The law of tangents can also be derived from this (Silvester 2001, p. 99).
+
+
+== Other identities called the "law of cotangents" ==
+The law of cotangents is not as common or well established as the laws of sines, cosines, or tangents, so the same name is sometimes applied to other triangle identities involving cotangents. For example:
+The sum of the cotangents of two angles equals the ratio of the side between them to the altitude through the third vertex:
+
+  
+    
+      
+        cot
+        ⁡
+        α
+        +
+        cot
+        ⁡
+        β
+        =
+        
+          
+            c
+            
+              h
+              
+                c
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \cot \alpha +\cot \beta ={\frac {c}{h_{c}}}.}
+  The law of cosines can be expressed in terms of the cotangent instead of the cosine, which brings the triangle's area 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+   into the identity:
+
+  
+    
+      
+        
+          c
+          
+            2
+          
+        
+        =
+        
+          a
+          
+            2
+          
+        
+        +
+        
+          b
+          
+            2
+          
+        
+        −
+        4
+        S
+        cot
+        ⁡
+        γ
+        .
+      
+    
+    {\displaystyle c^{2}=a^{2}+b^{2}-4S\cot \gamma .}
+  Because the three angles of a triangle sum to 
+  
+    
+      
+        π
+        ,
+      
+    
+    {\displaystyle \pi ,}
+   the sum of the pairwise products of their cotangents is one:
+
+  
+    
+      
+        cot
+        ⁡
+        α
+        
+        cot
+        ⁡
+        β
+        +
+        cot
+        ⁡
+        α
+        
+        cot
+        ⁡
+        γ
+        +
+        cot
+        ⁡
+        β
+        
+        cot
+        ⁡
+        γ
+        =
+        1.
+      
+    
+    {\displaystyle \cot \alpha \,\cot \beta +\cot \alpha \,\cot \gamma +\cot \beta \,\cot \gamma =1.}
+  
+
+
+== See also ==
+Law of sines
+Law of cosines
+Law of tangents
+Mollweide's formula
+Heron's formula
+
+
+== References ==

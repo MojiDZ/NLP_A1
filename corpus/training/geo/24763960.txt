@@ -1,0 +1,70 @@
+Groundwater-Dependent Ecosystems (or GDEs) are ecosystems that rely upon groundwater for their continued existence. Groundwater is water that has seeped down beneath Earth's surface and has come to reside within the pore spaces in soil and fractures in rock, this process can create water tables and aquifers, which are large storehouses for groundwater. An ecosystem is a community of living organisms interacting with the nonliving aspects of their environment (such as air, soil, water, and even groundwater). With a few exceptions, the interaction between various ecosystems and their respective groundwater is a vital yet poorly understood relationship, and their management is not nearly as advanced as in-stream ecosystems.
+
+
+== Methods of identification ==
+
+
+=== Isotopes ===
+Examining the composition of stable isotopes in the water found in soil, rivers, groundwater, and xylem (or vein systems) of vegetation, using mass spectroscopy, which measures and sort the masses in a sample, along with data on the changes in groundwater depth coupled with the time and vegetative rooting patterns, shows spatial changes over time in the use of groundwater by the vegetation in its respective ecosystem.
+
+
+=== Plants ===
+A groundwater-dependent ecosystem can also be inferred through plant water use and growth. In areas with high rainfall groundwater reliance can be seen by monitoring the water use made by the plants of the ecosystem in relation to the water storage in the soil of the area. If the use of water in the vegetation exceeds that of the water being stored in the soil it is a strong indication of groundwater utilization. In areas of prolonged drought the continuation of water flow and plant growth are highly indicative of a groundwater reliant area.
+
+
+=== Remote sensing/Geographical Information Systems (GIS) ===
+Remote Sensing is the scanning of Earth by satellite or aircraft to obtain information. GIS is a system designed to capture, store, analyze and manage geographic data. Together the data collected (such as elevation and bore holes measuring groundwater levels) can very accurately predict where groundwater-dependent ecosystems are, how extensive they are, and can guide field expeditions to the right areas for further confirmation and data collection on the GDEs.
+
+
+== Classification ==
+Due to the high variety of ecosystems and their individual fluctuation in dependency on groundwater there is some uncertainty when it comes to defining an ecosystem strictly as groundwater-dependent or merely groundwater-using.  Each ecosystem expresses a varying degree of dependency. An ecosystem can be directly or indirectly dependent, as well as have a variation in groundwater use throughout the seasons. There are a variety of methods for classifying types of groundwater-dependent ecosystems either by their geomorphological setting and/or by their respective groundwater flow mechanism (deep or shallow).
+
+
+=== Terrestrial ===
+
+
+==== Arid to humid environments ====
+Arid to humid terrestrial environments with no standing water but deeply rooted vegetation relies upon groundwater to support the producers of their ecosystem. The deeply rooted vegetation requires the groundwater to maintain a consistent or semi-consistent level to allow for their continued health and survival.
+
+
+=== Aquatic ===
+
+
+==== Springs ====
+Springs, arguably, rely the most heavily on the continued contribution of groundwater because they are a natural discharge from relatively deep groundwater flows rising to the surface. Springs are often in association with uniquely adapted plants and animals.
+
+
+==== Wetlands ====
+Wetlands require a shallow discharge of groundwater, it flows as a seepage into depressions in the land surface, in some instances wetlands feed off of perched groundwater which is groundwater separated from the regular water table by an impermeable layer. Marshes are a type of wetland and though not directly reliant on groundwater they use it as an area of recharge. Bogs, are also a type of wetland that is not directly reliant on groundwater but uses the presence of groundwater to provide the area with recharge as well as buoyancy.
+
+
+==== Rivers ====
+Rivers collect groundwater discharge from aquifers. This can happen seasonally, intermittently or constantly, and can keep an area's water needs stable during a dry season.
+
+
+=== Coastal ===
+
+
+==== Lagoons/estuaries ====
+Lagoons and estuaries use groundwater flow to help dilute the salinity in the water and helps support their distinctly unique coastal ecosystems.
+
+
+== Threats ==
+
+
+=== Extraction ===
+The extraction of groundwater in both large and smaller amounts lowers the areas water table, and in too large of quantities can even collapse parts of the aquifer and permanently damage the quantity of water the aquifer can store.
+
+
+=== Urbanization ===
+
+
+==== Pollution ====
+Due to the increase in populated areas estuaries and other aquatic ecosystems face a greater threat of pollution. In many cases groundwater can become polluted through toxins, or even just excessive amounts of certain nutrients seeping down to the water table. This polluting of the groundwater can have many different effects on the related ecosystems in the case of an estuary in Cape Cod it was noted that an influx of new nitrogen had come from septic tank fields in the groundwater's flow path. Increased levels of nitrogen in aquatic ecosystems can cause eutrophication which is the process of excessive introduction of nutrients causing an abundance of plant growth which can result in the death of a variety of aquatic life.
+
+
+==== Recharge ====
+Urbanization of land has significant effects on groundwater recharge, deforestation and urbanizing limits the amount of surface area viable for water to actually infiltrate and contribute to the groundwater.
+
+
+== References ==

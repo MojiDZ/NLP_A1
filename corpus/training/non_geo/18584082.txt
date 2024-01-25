@@ -1,0 +1,45 @@
+Abbe error, named after Ernst Abbe, also called sine error, describes the magnification of angular error over distance. For example, when one measures a point that is 1 meter away at 45 degrees, an angular error of 1 degree corresponds to a positional error of over 1.745 cm, equivalent to a distance-measurement error of 1.745%.In machine design, some components are particularly sensitive to angular errors. For example, slight deviations from parallelism of the spindle axis of a lathe to the tool motion along the bed of the machine can lead to relatively large (undesired) taper along the part (i.e. a non-cylindrical part). Vernier calipers are not free from abbe error, while screw gauges are free from abbe error. Abbe error is the product of the abbe offset and the sine of angular error in the system.Abbe error can be detrimental to dead reckoning.
+Formula: 
+
+  
+    
+      
+        ϵ
+        =
+        h
+        sin
+        ⁡
+        θ
+      
+    
+    {\displaystyle \epsilon =h\sin \theta }
+  
+  
+    
+      
+        ϵ
+      
+    
+    {\displaystyle \epsilon }
+   the error.
+
+  
+    
+      
+        h
+      
+    
+    {\displaystyle h}
+   the distance.
+
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+   the angle.
+
+
+== References ==

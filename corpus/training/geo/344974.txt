@@ -1,0 +1,47 @@
+In biochemistry, chemosynthesis is the biological conversion of one or more carbon-containing molecules (usually carbon dioxide or methane) and nutrients into organic matter using the oxidation of inorganic compounds (e.g., hydrogen gas, hydrogen sulfide) or ferrous ions as a source of energy, rather than sunlight, as in photosynthesis. Chemoautotrophs, organisms that obtain carbon from carbon dioxide through chemosynthesis, are phylogenetically diverse. Groups that include conspicuous or biogeochemically important taxa include the sulfur-oxidizing Gammaproteobacteria, the Campylobacterota, the Aquificota, the methanogenic archaea, and the neutrophilic iron-oxidizing bacteria.
+Many microorganisms in dark regions of the oceans use chemosynthesis to produce biomass from single-carbon molecules. Two categories can be distinguished. In the rare sites where hydrogen molecules (H2) are available, the energy available from the reaction between CO2 and H2 (leading to production of methane, CH4) can be large enough to drive the production of biomass. Alternatively, in most oceanic environments, energy for chemosynthesis derives from reactions in which substances such as hydrogen sulfide or ammonia are oxidized. This may occur with or without the presence of oxygen.
+Many chemosynthetic microorganisms are consumed by other organisms in the ocean, and symbiotic associations between chemosynthesizers and respiring heterotrophs are quite common. Large populations of animals can be supported by chemosynthetic secondary production at hydrothermal vents, methane clathrates, cold seeps, whale falls, and isolated cave water.
+It has been hypothesized that anaerobic chemosynthesis may support life below the surface of Mars, Jupiter's moon Europa, and other planets. Chemosynthesis may have also been the first type of metabolism that evolved on Earth, leading the way for cellular respiration and photosynthesis to develop later.
+
+
+== Hydrogen sulfide chemosynthesis process ==
+
+Giant tube worms use bacteria in their trophosome to fix carbon dioxide (using hydrogen sulfide as their energy source) and produce sugars and amino acids.
+Some reactions produce sulfur:
+
+hydrogen sulfide chemosynthesis:18H2S + 6CO2 + 3O2 → C6H12O6 (carbohydrate) + 12H2O + 18SInstead of releasing oxygen gas while fixing carbon dioxide as in photosynthesis, hydrogen sulfide chemosynthesis produces solid globules of sulfur in the process. In bacteria capable of chemoautotrophy (a form a chemosynthesis), such as purple sulfur bacteria, yellow globules of sulfur are present and visible in the cytoplasm.
+
+
+== Discovery ==
+In 1890, Sergei Winogradsky proposed a novel type of life process called "anorgoxydant". His discovery suggested that some microbes could live solely on inorganic matter and emerged during his physiological research in the 1880s in Strasbourg and Zürich on sulfur, iron, and nitrogen bacteria.
+In 1897, Wilhelm Pfeffer coined the term "chemosynthesis" for the energy production by oxidation of inorganic substances, in association with autotrophic carbon dioxide assimilation—what would be named today as chemolithoautotrophy. Later, the term would be expanded to include also chemoorganoautotrophs, which are organisms that use organic energy substrates in order to assimilate carbon dioxide. Thus, chemosynthesis can be seen as a synonym of chemoautotrophy.
+The term "chemotrophy", less restrictive, would be introduced in the 1940s by André Lwoff for the production of energy by the oxidation of electron donors, organic or not, associated with auto- or heterotrophy.
+
+
+=== Hydrothermal vents ===
+
+The suggestion of Winogradsky was confirmed nearly 90 years later, when hydrothermal ocean vents were predicted to exist in the 1970s. The hot springs and strange creatures were discovered by Alvin, the world's first deep-sea submersible, in 1977 at the Galapagos Rift. At about the same time, then-graduate student Colleen Cavanaugh proposed chemosynthetic bacteria that oxidize sulfides or elemental sulfur as a mechanism by which tube worms could survive near hydrothermal vents. Cavanaugh later managed to confirm that this was indeed the method by which the worms could thrive, and is generally credited with the discovery of chemosynthesis.A 2004 television series hosted by Bill Nye named chemosynthesis as one of the 100 greatest scientific discoveries of all time.
+
+
+=== Oceanic crust ===
+In 2013, researchers reported their discovery of bacteria living in the rock of the oceanic crust below the thick layers of sediment, and apart from the hydrothermal vents that form along the edges of the tectonic plates.  Preliminary findings are that these bacteria subsist on the hydrogen produced by chemical reduction of olivine by seawater circulating in the small veins that permeate the basalt that comprises oceanic crust.  The bacteria synthesize methane by combining hydrogen and carbon dioxide.
+
+
+=== Chemosynthesis as an innovative area for continuing research ===
+Despite the fact that the process of chemosynthesis has been known for more than a hundred years, its significance and importance are still relevant today in the transformation of chemical elements in biogeochemical cycles. Today, the vital processes of nitrifying bacteria, which lead to the oxidation of ammonia to nitric acid, require scientific substantiation and additional research. The ability of bacteria to convert inorganic substances into organic ones suggests that chemosynthetics can accumulate valuable resources for human needs.
+Chemosynthetic communities in different environments are important biological systems in terms of their ecology, evolution and biogeography, as well as their potential as indicators of the availability of permanent hydrocarbon- based energy sources. In the process of chemosynthesis, bacteria produce organic matter where photosynthesis is impossible. Isolation of thermophilic sulfate-reducing bacteria Thermodesulfovibrio yellowstonii and other types of chemosynthetics provides prospects for further research. Thus, the importance of chemosynthesis remains relevant for use in innovative technologies, conservation of ecosystems, human life in general. The role of Sergey Winogradsky in discovering the phenomenon of chemosynthesis is underestimated and needs further research and popularization.
+
+
+== See also ==
+Primary nutritional groups
+Autotroph
+Heterotroph
+Photosynthesis
+Movile Cave
+
+
+== References ==
+
+
+== External links ==
+Chemosynthetic Communities in the Gulf of Mexico Archived 2010-05-28 at the Wayback Machine

@@ -1,0 +1,18 @@
+Molecular Interaction Maps, also known as MIMs, is a graphic notation to depict cellular and molecular interactions. It was created by Kurt W. Kohn in 1999. The MIM convention is capable of unambiguous representation of networks containing multi-protein complexes, protein modifications, and enzymes that are substrates of other enzymes. This graphical representation makes it possible to view all of the many interactions in which a given molecule may be involved, and it can portray competing interactions, which are common in bioregulatory networks. In order to facilitate linkage to databases, each molecular species is represented only once in a diagram. The MIM notation forms the basis of, and further development of the MIM notation is coordinated with, the Systems Biology Graphical Notation (SBGN) consortium, an international effort to standardize diagrams depicting biochemical and cellular processes studied in systems biology. An update to the notation was published in 2006.
+
+
+== Interpretation Modes ==
+Explicit: States exist only from interactions shown explicitly
+Heuristic: Entities are treated as pools of states where states not explicitly shown may be possible
+Combinatorial: Similar to heuristic, but all states are assumed to occur. The combinatorial interpretation of the MIM notation was described in a 2006 publication.
+
+
+== Associated Metadata ==
+MIM diagrams are typically accompanied by a set of citations and comments related to scientific publications describing the interactions within the diagram. Additionally, the diagrams are accompanied by a listing associating elements on the diagram to commonly used identifiers such as genes name as described by HUGO Gene Nomenclature Committee.
+
+
+== External links ==
+Molecular Interaction Maps Homepage
+
+
+== References ==

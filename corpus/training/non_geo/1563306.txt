@@ -1,0 +1,77 @@
+The expression computational intelligence (CI) usually refers to the ability of a computer to learn a specific task from data or experimental observation. Even though it is commonly considered a synonym of soft computing, there is still no commonly accepted definition of computational intelligence.
+Generally, computational intelligence is a set of nature-inspired computational methodologies and approaches to address complex real-world problems to which mathematical or traditional modelling can be useless for a few reasons: the processes might be too complex for mathematical reasoning, it might contain some uncertainties during the process, or the process might simply be stochastic in nature. Indeed, many real-life problems cannot be translated into binary language (unique values of 0 and 1) for computers to process it. Computational Intelligence therefore provides solutions for such problems.
+The methods used are close to the human's way of reasoning, i.e. it uses inexact and incomplete knowledge, and it is able to produce control actions in an adaptive way. CI therefore uses a combination of five main complementary techniques. The fuzzy logic which enables the computer to understand natural language, artificial neural networks which permits the system to learn experiential data by operating like the biological one, evolutionary computing, which is based on the process of natural selection, learning theory, and probabilistic methods which helps dealing with uncertainty imprecision.Except those main principles, currently popular approaches include biologically inspired algorithms such as swarm intelligence and artificial immune systems, which can be seen as a part of evolutionary computation, image processing, data mining, natural language processing, and artificial intelligence, which tends to be confused with Computational Intelligence. But although both Computational Intelligence (CI) and Artificial Intelligence (AI) seek similar goals, there's a clear distinction between them.
+Computational Intelligence is thus a way of performing like human beings. Indeed, the characteristic of "intelligence" is usually attributed to humans. More recently, many products and items also claim to be "intelligent", an attribute which is directly linked to the reasoning and decision making.
+
+
+== History ==
+Source:
+The notion of Computational Intelligence was first used by the IEEE Neural Networks Council in 1990. This council was founded in the 1980s by a group of researchers interested in the development of biological and artificial neural networks. On November 21, 2001, the IEEE Neural Networks Council became the IEEE Neural Networks Society, to become the IEEE Computational Intelligence Society two years later by including new areas of interest such as fuzzy systems and evolutionary computation, which they related to Computational Intelligence in 2011 (Dote and Ovaska).
+But the first clear definition of Computational Intelligence was introduced by Bezdek in 1994: a system is called computationally intelligent if it deals with low-level data such as numerical data, has a pattern-recognition component and does not use knowledge in the AI sense, and additionally when it begins to exhibit computational adaptively, fault tolerance, speed approaching human-like turnaround and error rates that approximate human performance.
+Bezdek and Marks (1993) clearly differentiated CI from AI, by arguing that the first one is based on soft computing methods, whereas AI is based on hard computing ones.
+
+
+== Difference between Computational and Artificial Intelligence ==
+Although Artificial Intelligence and Computational Intelligence seek a similar long-term goal: reach general intelligence, which is the intelligence of a machine that could perform any intellectual task that a human being can; there's a clear difference between them. According to Bezdek (1994), Computational Intelligence is a subset of Artificial Intelligence.
+There are two types of machine intelligence: the artificial one based on hard computing techniques and the computational one based on soft computing methods, which enable adaptation to many situations.
+Hard computing techniques work following binary logic based on only two values (the Booleans true or false, 0 or 1) on which modern computers are based. One problem with this logic is that our natural language cannot always be translated easily into absolute terms of 0 and 1. Soft computing techniques, based on fuzzy logic can be useful here. Much closer to the way the human brain works by aggregating data to partial truths (Crisp/fuzzy systems), this logic is one of the main exclusive aspects of CI.
+Within the same principles of fuzzy and binary logics follow crispy and fuzzy systems. Crisp logic is a part of artificial intelligence principles and consists of either including an element in a set, or not, whereas fuzzy systems (CI) enable elements to be partially in a set. Following this logic, each element can be given a degree of membership (from 0 to 1) and not exclusively one of these 2 values.
+
+
+== The five main principles of CI and its applications ==
+The main applications of Computational Intelligence include computer science, engineering, data analysis and bio-medicine.
+
+
+=== Fuzzy logic ===
+As explained before, fuzzy logic, one of CI's main principles, consists in measurements and process modelling made for real life's complex processes. It can face incompleteness, and most importantly ignorance of data in a process model, contrarily to Artificial Intelligence, which requires exact knowledge.
+This technique tends to apply to a wide range of domains such as control, image processing and decision making. But it is also well introduced in the field of household appliances with washing machines, microwave ovens, etc. We can face it too when using a video camera, where it helps stabilizing the image while holding the camera unsteadily. Other areas such as medical diagnostics, foreign exchange trading and business strategy selection are apart from this principle's numbers of applications.Fuzzy logic is mainly useful for approximate reasoning, and doesn't have learning abilities, a qualification much needed that human beings have. It enables them to improve themselves by learning from their previous mistakes.
+
+
+=== Neural networks ===
+This is why CI experts work on the development of artificial neural networks based on the biological ones, which can be defined by 3 main components: the cell-body which processes the information, the axon, which is a device enabling the signal conducting, and the synapse, which controls signals. Therefore, artificial neural networks are doted of distributed information processing systems, enabling the process and the learning from experiential data. Working like human beings, fault tolerance is also one of the main assets of this principle.Concerning its applications, neural networks can be classified into five groups: data analysis and classification, associative memory, clustering generation of patterns and control. Generally, this method aims to analyze and classify medical data, proceed to face and fraud detection, and most importantly deal with nonlinearities of a system in order to control it. Furthermore, neural networks techniques share with the fuzzy logic ones the advantage of enabling data clustering.
+
+
+=== Evolutionary computation ===
+Evolutionary computation can be seen as a family of methods and algorithms for global optimization, which are usually based on a population of candidate solutions. They are inspired by biological evolution and are often summarized as evolutionary algorithms. These include the genetic algorithms, evolution strategy, genetic programming and many others. They are considered as problem solvers for tasks not solvable by traditional mathematical methods and are frequently used for optimization including multi-objective optimization.
+
+
+=== Learning theory ===
+Still looking for a way of "reasoning" close to the humans' one, learning theory is one of the main approaches of CI. In psychology, learning is the process of bringing together cognitive, emotional and environmental effects and experiences to acquire, enhance or change knowledge, skills, values and world views (Ormrod, 1995; Illeris, 2004). Learning theories then helps understanding how these effects and experiences are processed, and then helps making predictions based on previous experience.
+
+
+=== Probabilistic methods ===
+Being one of the main elements of fuzzy logic, probabilistic methods firstly introduced by Paul Erdos and Joel Spencer(1974), aim to evaluate the outcomes of a Computation Intelligent system, mostly defined by randomness. Therefore, probabilistic methods bring out the possible solutions to a problem, based on prior knowledge.
+
+
+== Impact on university education ==
+According to bibliometrics studies, computational intelligence plays a key role in research. All the major academic publishers are accepting manuscripts in which a combination of Fuzzy logic, neural networks and evolutionary computation is discussed. On the other hand, Computational intelligence isn't available in the university curriculum. The amount of technical universities in which students can attend a course is limited. Only British Columbia, Technical University of Dortmund (involved in the European fuzzy boom) and Georgia Southern University are offering courses from this domain.
+The reason why major university are ignoring the topic is because they don't have the resources. The existing computer science courses are so complex, that at the end of the semester there is no room for fuzzy logic. Sometimes it is taught as a subproject in existing introduction courses, but in most cases the universities are preferring courses about classical AI concepts based on boolean logic, turing machines and toy problems like blocks world.
+Since a while with the upraising of STEM education, the situation has changed a bit. There are some efforts available in which multidisciplinary approaches are preferred which allows the student to understand complex adaptive systems. These objectives are discussed only on a theoretical basis. The curriculum of real universities wasn't adapted yet.
+
+
+== Publications ==
+IEEE Transactions on Neural Networks and Learning Systems
+IEEE Transactions on Fuzzy Systems
+IEEE Transactions on Evolutionary Computation
+IEEE Transactions on Emerging Topics in Computational Intelligence
+IEEE Transactions on Autonomous Mental Development
+IEEE/ACM Transactions on Computational Biology and Bioinformatics
+IEEE Transactions on Computational Intelligence and AI in Games
+IEEE Transactions on NanoBioscience
+IEEE Transactions on Information Forensics and Security
+IEEE Transactions on Affective Computing
+IEEE Transactions on Smart Grid
+IEEE Transactions on Nanotechnology
+IEEE Systems Journal
+
+
+== See also ==
+
+
+== Notes ==
+Computational Intelligence: An Introduction by Andries Engelbrecht. Wiley & Sons. ISBN 0-470-84870-7
+Computational Intelligence: A Logical Approach by David Poole, Alan Mackworth, Randy Goebel. Oxford University Press. ISBN 0-19-510270-3
+Computational Intelligence: A Methodological Introduction by Kruse, Borgelt, Klawonn, Moewes, Steinbrecher, Held, 2013, Springer, ISBN 9781447150121
+
+
+== References ==

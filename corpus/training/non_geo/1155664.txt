@@ -1,0 +1,37 @@
+Business process automation (BPA), also known as business automation,distinguished from Business Process Management (BPM),  is the technology-enabled automation of business processes. It can help a business in simplicity, to increase digital transformation, increase service quality, improve service delivery, or contain costs. BPA consists of integrating applications, restructuring labor resources, and using software applications throughout the organization. Robotic process automation is an emerging field within BPA.
+
+
+== Deployment ==
+Toolsets vary in ability, but there is an increasing trend towards the use of artificial intelligence technologies that can understand natural language and unstructured data sets, interact with human beings, and adapt to new types of problems without human-guided training.In order to automate the processes, connectors are needed to fit these systems/solutions together with a data exchange layerto transfer the information. A process driven messaging service is an option for optimizing data exchange layer. By mapping the end-to-end process workflow, an integration between individual platforms using a process driven messaging platform can be built.
+
+
+== A business process management implementation ==
+A business process management system is different from BPA. However, it is possible to build automation on the back of a BPM implementation. The actual tools to achieve this vary, from writing custom application code to using specialist BPA tools. The advantages and disadvantages of this approach are linked – the BPM implementation provides an architecture for all processes in the business to be mapped, but this in itself delays the automation of individual processes and so benefits may be lost in the meantime.
+
+
+== Robotic process automation ==
+
+The practice of performing robotic process automation (RPA) results in the deployment of attended or unattended software agents into an organization's environment. These software agents, or robots, are deployed to perform pre-defined structured and repetitive sets of business tasks or processes. The goal is for humans to focus on more productive tasks, while the software agents handle the repetitive ones.BPA providers tend to focus on different industry sectors but the underlying approach tends to be similar in that BPA providers will attempt to provide the shortest route to automation by interacting with the user interface rather than going into the application code or database behind it. BPA providers also simplify their own interface to the extent that these tools can be used directly by non-technical staff. The main advantage of these toolsets is, therefore, their speed of deployment.
+
+
+== Use of artificial intelligence ==
+Artificial intelligence software robots are deployed to handle unstructured data sets (like images, texts, audios) and are deployed after performing and deploying robotic process automation: They can, for instance, populate an automatic transcript from a video. The combination of automation and artificial intelligence (AI) brings autonomy for the robots, along with the capability in mastering cognitive tasks: At this stage, the robot is able to learn and improve the processes by analyzing and adapting them.AI plays a pivotal role in enhancing the capabilities of BPA by enabling machines to understand natural language, interact with humans, and adapt to evolving challenges without explicit programming. In BPA, AI excels in handling unstructured data sets, such as images, texts, and audios, bringing a level of cognitive understanding to automation processes. Through the deployment of AI-powered software robots, businesses can achieve a higher degree of autonomy in handling complex tasks, such as automatic transcription from videos, thereby freeing human resources to focus on more strategic and creative endeavors. The integration of AI with BPA not only accelerates task completion but also facilitates continuous learning and improvement, as machines analyze and adapt processes over time, contributing to a more agile, efficient, and innovative business environment.
+
+
+== See also ==
+AI alignment
+Artificial intelligence detection software
+Business-driven development
+Business Process Model and Notation
+Business process reengineering
+Business Process Execution Language (BPEL)
+Business rules engine
+Comparison of business integration software
+Job scheduler
+Real-time enterprise
+Runbook
+Synthetic intelligence
+Weak AI
+
+
+== References ==

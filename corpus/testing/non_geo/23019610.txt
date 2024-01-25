@@ -1,0 +1,627 @@
+In trigonometry, the Snellius–Pothenot problem is a problem first described in the context of planar surveying. Given three known points A, B, C, an observer at an unknown point P observes that the line segment AC subtends an angle α and the segment CB subtends an angle β; the problem is to determine the position of the point P. (See figure; the point denoted C is between A and B as seen from P).
+Since it involves the observation of known points from an unknown point, the problem is an example of resection. Historically it was first studied by Snellius, who found a solution around 1615.
+
+
+== Formulating the equations ==
+
+
+=== First equation ===
+Denoting the (unknown) angles ∠CAP as x and ∠CBP as y gives:
+
+by using the sum of the angles formula for the quadrilateral PACB. The variable C represents the (known) internal angle in this quadrilateral at point C. (Note that in the case where the points C and P are on the same side of the line AB, the angle ∠C will be greater than π).
+
+
+=== Second equation ===
+Applying the law of sines in triangles △PAC and △PBC, we can express PC in two different ways:
+
+A useful trick at this point is to define an auxiliary angle φ such that
+
+(A minor note: one should be concerned about division by zero, but consider that the problem is symmetric, so if one of the two given angles is zero one can, if needed, rename that angle α and call the other (non-zero) angle β, reversing the roles of A and B as well. This will suffice to guarantee that the ratio above is well defined. An alternative approach to the zero angle problem is given in the algorithm below.)
+With this substitution the equation becomes
+
+Now two known trigonometric identities can be used, namely
+
+to put this in the form of the second equation;
+
+Now these two equations in two unknowns must be solved. Once x and y are known the various triangles can be solved straightforwardly to determine the position of P. The detailed procedure is shown below.
+
+
+== Solution algorithm ==
+Given are two lengths AC, BC, and three angles α, β, C, the solution proceeds as follows.
+
+calculate 
+  
+    
+      
+        ϕ
+        =
+        
+          
+            a
+            t
+            a
+            n
+            2
+          
+        
+        
+          (
+          
+            
+              
+                
+                  B
+                  C
+                
+                ¯
+              
+            
+            sin
+            ⁡
+            α
+            ,
+             
+            
+              
+                
+                  A
+                  C
+                
+                ¯
+              
+            
+            sin
+            ⁡
+            β
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle \phi ={\mathsf {atan2}}\left({\overline {BC}}\sin \alpha ,\ {\overline {AC}}\sin \beta \right),}
+   where atan2 is a computer function, also called the arctangent of two arguments, that returns the arctangent of the ratio of the two values given. Note that in Microsoft Excel the two arguments are reversed, so the proper syntax would be = atan2(AC*\sin(beta), BC*\sin(alpha)). The atan2 function correctly handles the case where one of the two arguments is zero.
+calculate 
+  
+    
+      
+        K
+        =
+        2
+        π
+        −
+        α
+        −
+        β
+        −
+        C
+        .
+      
+    
+    {\displaystyle K=2\pi -\alpha -\beta -C.}
+  
+calculate 
+  
+    
+      
+        W
+        =
+        2
+        ⋅
+        arctan
+        ⁡
+        
+          [
+          
+            tan
+            ⁡
+            (
+            
+              
+                
+                  π
+                  4
+                
+              
+            
+            −
+            ϕ
+            )
+            
+            tan
+            ⁡
+            
+              
+                
+                  1
+                  2
+                
+              
+            
+            (
+            α
+            +
+            β
+            +
+            C
+            )
+          
+          ]
+        
+        .
+      
+    
+    {\displaystyle W=2\cdot \arctan \left[\tan({\tfrac {\pi }{4}}-\phi )\,\tan {\tfrac {1}{2}}(\alpha +\beta +C)\right].}
+  
+find 
+  
+    
+      
+        x
+        =
+        
+          
+            
+              K
+              +
+              W
+            
+            2
+          
+        
+        ,
+         
+        y
+        =
+        
+          
+            
+              K
+              −
+              W
+            
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle x={\frac {K+W}{2}},\ y={\frac {K-W}{2}}.}
+  
+find 
+  
+    
+      
+        
+          
+            
+              P
+              C
+            
+            ¯
+          
+        
+        =
+        
+          
+            {
+            
+              
+                
+                  
+                    
+                      
+                        
+                          
+                            
+                              
+                                B
+                                C
+                              
+                              ¯
+                            
+                          
+                          sin
+                          ⁡
+                          y
+                        
+                        
+                          sin
+                          ⁡
+                          β
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    if 
+                  
+                  
+                    |
+                  
+                  sin
+                  ⁡
+                  β
+                  
+                    |
+                  
+                  >
+                  
+                    |
+                  
+                  sin
+                  ⁡
+                  α
+                  
+                    |
+                  
+                  ,
+                
+              
+              
+                
+                  
+                    
+                      
+                        
+                          
+                            
+                              
+                                A
+                                C
+                              
+                              ¯
+                            
+                          
+                          sin
+                          ⁡
+                          x
+                        
+                        
+                          sin
+                          ⁡
+                          α
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    otherwise.
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle {\overline {PC}}={\begin{cases}{\dfrac {{\overline {BC}}\sin y}{\sin \beta }}&{\text{if }}|\sin \beta |>|\sin \alpha |,\\[4pt]{\dfrac {{\overline {AC}}\sin x}{\sin \alpha }}&{\text{otherwise.}}\end{cases}}}
+  
+find 
+  
+    
+      
+        
+          
+            
+              P
+              A
+            
+            ¯
+          
+        
+        =
+        
+          
+            
+              
+                
+                  
+                    A
+                    C
+                  
+                  ¯
+                
+              
+              
+                2
+              
+            
+            +
+            
+              
+                
+                  
+                    P
+                    C
+                  
+                  ¯
+                
+              
+              
+                2
+              
+            
+            −
+            2
+            ⋅
+            
+              
+                
+                  A
+                  C
+                
+                ¯
+              
+            
+            ⋅
+            
+              
+                
+                  P
+                  C
+                
+                ¯
+              
+            
+            ⋅
+            cos
+            ⁡
+            (
+            π
+            −
+            α
+            −
+            x
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle {\overline {PA}}={\sqrt {{\overline {AC}}^{2}+{\overline {PC}}^{2}-2\cdot {\overline {AC}}\cdot {\overline {PC}}\cdot \cos(\pi -\alpha -x)}}.}
+   (This comes from the law of cosines.)
+find 
+  
+    
+      
+        
+          
+            
+              P
+              B
+            
+            ¯
+          
+        
+        =
+        
+          
+            
+              
+                
+                  
+                    B
+                    C
+                  
+                  ¯
+                
+              
+              
+                2
+              
+            
+            +
+            
+              
+                
+                  
+                    P
+                    C
+                  
+                  ¯
+                
+              
+              
+                2
+              
+            
+            −
+            2
+            ⋅
+            
+              
+                
+                  B
+                  C
+                
+                ¯
+              
+            
+            ⋅
+            
+              
+                
+                  P
+                  C
+                
+                ¯
+              
+            
+            ⋅
+            cos
+            ⁡
+            (
+            π
+            −
+            β
+            −
+            y
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle {\overline {PB}}={\sqrt {{\overline {BC}}^{2}+{\overline {PC}}^{2}-2\cdot {\overline {BC}}\cdot {\overline {PC}}\cdot \cos(\pi -\beta -y)}}.}
+  If the coordinates of 
+  
+    
+      
+        A
+        :
+        
+          x
+          
+            A
+          
+        
+        ,
+        
+          y
+          
+            A
+          
+        
+      
+    
+    {\displaystyle A:x_{A},y_{A}}
+   and 
+  
+    
+      
+        C
+        :
+        
+          x
+          
+            C
+          
+        
+        ,
+        
+          y
+          
+            C
+          
+        
+      
+    
+    {\displaystyle C:x_{C},y_{C}}
+   are known in some appropriate Cartesian coordinate system then the coordinates of P can be found as well.
+
+
+== Geometric (graphical) solution ==
+By the inscribed angle theorem the locus of points from which AC subtends an angle α is a circle having its center on the midline of AC; from the center O of this circle, AC subtends an angle 2α. Similarly the locus of points from which CB subtends an angle β is another circle. The desired point P is at the intersection of these two loci.
+Therefore, on a map or nautical chart showing the points A, B, C, the following graphical construction can be used:
+
+Draw the segment AC, the midpoint M and the midline, which crosses AC perpendicularly at M. On this line find the point O such that 
+  
+    
+      
+        
+          
+            
+              M
+              O
+            
+            ¯
+          
+        
+        =
+        
+          
+            
+              
+                
+                  A
+                  C
+                
+                ¯
+              
+              
+                2
+                tan
+                ⁡
+                α
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\overline {MO}}={\tfrac {\overline {AC}}{2\tan \alpha }}.}
+   Draw the circle with center at O passing through A and C.
+Repeat the same construction with points B, C and the angle β.
+Mark P at the intersection of the two circles (the two circles intersect at two points; one intersection point is C and the other is the desired point P.)This method of solution is sometimes called Cassini's method.
+
+
+== Rational trigonometry approach ==
+The following solution is based upon a paper by N. J. Wildberger. It has the advantage that it is almost purely algebraic. The only place trigonometry is used is in converting the angles to spreads. There is only one square root required.
+
+define the following:
+now let:
+the following equation gives two possible values for R3:
+choosing the larger of these values, let:
+finally:
+
+
+== The indeterminate case ==
+When the point P happens to be located on the same circle as A, B, C, the problem has an infinite number of solutions; the reason is that from any other point P' located on the arc APB of this circle the observer sees the same angles α and β as from P (inscribed angle theorem). Thus the solution in this case is not uniquely determined.
+The circle through ABC is known as the "danger circle", and observations made on (or very close to) this circle should be avoided. It is helpful to plot this circle on a map before making the observations.
+A theorem on cyclic quadrilaterals is helpful in detecting the indeterminate situation. The quadrilateral APBC is cyclic iff a pair of opposite angles (such as the angle at P and the angle at C) are supplementary i.e. iff 
+  
+    
+      
+        α
+        +
+        β
+        +
+        C
+        =
+        k
+        π
+        ,
+        (
+        k
+        =
+        1
+        ,
+        2
+        ,
+        ⋯
+        )
+      
+    
+    {\displaystyle \alpha +\beta +C=k\pi ,(k=1,2,\cdots )}
+  . If this condition is observed the computer/spreadsheet calculations should be stopped and an error message ("indeterminate case") returned.
+
+
+== Solved examples ==
+(Adapted form Bowser, exercise 140, page 203). A, B, C are three objects such that AC = 435 (yards), CB = 320, and ∠C = 255.8 degrees. From a station P it is observed that ∠APC = 30 degrees and ∠CPB = 15 degrees. Find the distances of P from A, B, C. (Note that in this case the points C and P are on the same side of the line AB, a different configuration from the one shown in the figure).
+Answer: PA = 790, PB = 777, PC = 502.
+A slightly more challenging test case for a computer program uses the same data but this time with ∠CPB = 0. The program should return the answers 843, 1157 and 837.
+
+
+== Naming controversy ==
+The British authority on geodesy, George Tyrrell McCaw (1870–1942) wrote that the proper term in English was Snellius problem, while Snellius-Pothenot was the continental European usage.McCaw thought the name of Laurent Pothenot (1650–1732) did not deserve to be included as he had made no original contribution, but merely restated Snellius 75 years later.
+
+
+== See also ==
+Solution of triangles
+Triangulation (surveying)
+
+
+== Notes ==
+
+Gerhard Heindl: Analysing Willerding’s formula for solving the planar three point resection problem,  Journal of Applied Geodesy, Band 13, Heft 1, Seiten 27–31, ISSN (Online) 1862-9024, ISSN (Print) 1862-9016, DOI: [1]
+
+
+== References ==
+Edward A. Bowser: A treatise on plane and spherical trigonometry, Washington D.C., Heath & Co., 1892, page 188 Google books

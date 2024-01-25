@@ -1,0 +1,100 @@
+Cleaner fish are fish that show a specialist feeding strategy by providing a service to other species, referred to as clients, by removing dead skin, ectoparasites, and infected tissue from the surface or gill chambers. This example of cleaning symbiosis represents mutualism and cooperation behaviour, an ecological interaction that benefits both parties involved. However, the cleaner fish may consume mucus or tissue, thus creating a form of parasitism called cheating. The client animals are typically fish of a different species, but can also be aquatic reptiles (sea turtles and marine iguana), mammals (manatees and whales), or octopuses. A wide variety of fish including wrasse, cichlids, catfish, pipefish, lumpsuckers, and gobies display cleaning behaviors across the globe in fresh, brackish, and marine waters but specifically concentrated in the tropics due to high parasite density. Similar behaviour is found in other groups of animals, such as cleaner shrimps.
+There are two types of cleaner fish, obligate full time cleaners and facultative part time cleaners where different strategies occur based on resources and local abundance of fish. Cleaning behaviour takes place in pelagic waters as well as designated locations called cleaner stations. Cleaner fish interaction durations and memories of reoccurring clients are influenced by the neuroendocrine system of the fish, involving hormones arginine vasotocin, Isotocin and serotonin.Conspicuous coloration is a method used by some cleaner fish, where they often display a brilliant blue stripe that spans the length of the body. Other species of fish, called mimics, imitate the behavior and phenotype of cleaner fish to gain access to client fish tissue.
+The specialized feeding behaviour of cleaner fish has become a valuable resource in salmon aquaculture in Atlantic Canada, Scotland, Iceland and Norway for prevention of sea lice outbreaks which benefits the economy and environment by minimizing the use of chemical delousers. Specifically cultured for this job are lumpfish (Cyclopterus lumpus) and ballan wrasse (Labrus bergeylta). The most common parasites that cleaner fish feed on are gnathiidae and copepod species.
+
+
+== Diversity and examples ==
+
+
+=== Marine fish ===
+The following is a selection of few of the many marine cleaner species.
+Commonly studied cleaner fish are the cleaner wrasse of the genus Labroides found on coral reefs in the Indian Ocean and Pacific Ocean.Neon gobies of the genera Gobiosoma and Elacatinus provide a cleaning service similar to the cleaner wrasse, though this time on reefs in the Western Atlantic, providing a good example of convergent evolution of the cleaning behaviour.
+
+Lumpfish are utilized as salmonid cleaner fish in aquaculture, but it is unknown if they display cleaning behaviour on salmon in the wild.
+			
+			
+		
+		
+			
+			
+		
+		
+			
+			
+		
+
+
+=== Brackish water fish ===
+Brackish water refers to aquatic environments that have a salinity in between salt and fresh water systems. Cleaning symbiosis has also been observed in these areas between two brackish water cichlids of the genus Etroplus from South Asia. The small species Etroplus maculatus is the cleaner fish, and the much larger Etroplus suratensis is the host that receives the cleaning service.
+
+
+=== Freshwater fish ===
+Cleaning has been observed infrequently in fresh waters compared to marine waters. This is possibly related to fewer observers (such as divers) in freshwater compared to saltwater. One of the few known examples of freshwater cleaning is juvenile striped Raphael catfish cleaning the piscivorous Hoplias cf. malabaricus. In public aquariums, Synaptolaemus headstanders have been seen cleaning larger fish.
+
+
+== Mechanisms ==
+
+
+=== Facultative cleaner fish ===
+A facultative cleaner fish does not rely solely on specialized cleaning behaviour for nutritious food. Facultative cleaners can be further divided by stationary vs. wandering facultative cleaners. Facultative cleaners may display cleaning behaviour through their whole life history or solely as juveniles for additional nutrients during rapid growth. Examples of facultative cleaners are commonly wrasse species such as the blue headed wrasse, noronha wrasse (Thalassoma noronhanum) and goldsinny wrasse (Ctenolabrus rupestris), sharp nose sea perch in Californian waters, and the lumpfish (Cyclopterus lumpus).
+Using the example of the blue wrasse from Caribbean waters, their alternative feeding strategy is described as being a generalist forager, meaning they eat a wide variety of smaller aquatic organisms based on availability. When displaying cleaning behaviour, it has been noted that the blue wrasse inspects potential clients and only feeds on some, implying that the wrasse is seeking out a particular type of parasite as a diet supplement. It has also been quantified that the blue wrasse foraging behaviour does not change in proportion to cleaning opportunities, again suggesting that the cleaning behaviour in this facultative fish is for diet supplementation and not out of necessity.
+
+
+=== Obligate cleaner fish ===
+An obligate cleaner fish relies solely on specialized cleaning behaviour for its food. Therefore, obligate cleaners have a higher output of cleaning on a wider range of parasites in comparison to facultative fish. To maximize nutrient consumption, obligate cleaners utilize a higher proportion of cleaning stations. Obligate cleaner fish may also be divided by stationary and wandering. These life history choice are made based on the amount of interspecific competition from other obligate cleaners in the area. An example of an obligate cleaner is the shark nose goby (Elacatinus evelynae) in the Caribbean Reef, where it has been observed to perform up to 110 cleanings per day.
+
+
+=== Cleaner stations ===
+Cleaning stations are a strategy used by some cleaner fish where clients congregate and perform specific movements to attract the attention of the cleaner fish. Cleaning stations are usually associated with unique topological features, such as those seen in coral reefs and allow a space where cleaners have no risk of predation from larger predatory fishes, due to the mutual benefit from the cleaners' service.Interactions are begun by the client and ended by the cleaner, implying that the client is seeking out the service where the cleaner has control.
+
+
+=== Cheating ===
+Cheating parasitism occurs when the cleaner eats mucus or healthy tissue from the client. This can be harmful to the client as mucus is essential to prevent UV damage, and open wounds can increase the risk of infection. Cleaner fish maintain a balance between eating ectoparasites and mucus or tissue because of the respective nutritional benefits, sometimes despite the risk to the client. For example, the Caribbean cleaning goby (Elacatinus evelynae) will eat scales and mucus from the host during times of ectoparasite scarcity to supplement its diet. The symbiosis relationship between client and host does not break down because the abundance of these parasites varies significantly seasonally and spatially, and the overall benefit to the larger fish outweighs any cheating on by the smaller cleaner.
+
+
+=== Memory ===
+Cleaner fish (especially facultative cleaners) assess the value of possible clients when deciding whether to invest in a client or cheat and eat mucus or tissue. Observations of cleaner and client interactions have found that cleaners may provide the client with tactile stimulation as a way to establish a relationship and gain the client's 'trust'. This interaction costs the cleaner as it is time not spent feeding. This physical interaction demonstrates a cleaner fish's tradeoff. The cleaner minimizes feeding time to establish a memorable relationship with the client that also contributes to conflict management with a possibly predatory client.
+
+
+== Neurobiology ==
+The cleaner fish neuroendocrine system has been studied specifically in reference to arginine vasotocin (AVT) and Isotocin. These are fish-specific hormones that are analogous to human hormones involved in sociality. In laboratory experiments, during conditions of low AVT, cleaners are more engaged in interspecific interactions. High AVT conditions tend to show high client interactions but more instances of cheating. This implies that AVT expression acts as a switch for cleaner fish feeding behaviour, showing less client interactions (but more honest cleaning) or increased client interactions (with less honest cleaning). It has also been observed that obligate cleaners have higher overall brain activity, and specifically in the cerebellum, likely related to the movements involved in cleaning.Serotonin has also been noted to influence cleaning behaviour. High serotonin increases motivation to interact with clients, and a lack of serotonin decreases client interaction and slows learning.
+
+
+== Mimicry ==
+Mimic species have evolved body forms, patterns, and colors which imitate other species to gain a competitive advantage. One of the most studied examples of mimicry on coral reefs is the relationship between the aggressive mimic Plagiotremus rhinorhynchos (the bluestriped fangblenny) and the cleaner wrasse model Labroides dimidiatus. By appearing like L. dimidiatus, P. rhinorhynchos is able to approach and then feed on the tissue and scales of client fish while posing as a cleaner.The presence of the cleaner mimic, P. rhinorhynchos, reduces the foraging success of the cleaner model L. dimidiatus. P. rhinorhynchos feeds by eating the tissue and scales of client fish, making client fish much more cautious while at cleaning stations. More aggressive mimics have a greater negative impact on the foraging rate and success of the cleaner fish. When mimics appear in higher densities relative to cleaners, there is a significant decline in the success rate of the cleaner fish. The effects of the mimic/model ratio are susceptible to dilution, whereby an increase in client fish allows both the mimics and the models to have more access to clients, thus limiting the negative effects that mimics have on model foraging success.Similar species also include Plagiotremus tapeinosoma (the Mimic blenny), Aspidontus.
+
+
+== Implications ==
+
+
+=== Salmonid aquaculture ===
+Aquaculture is the farming of aquatic organisms, where salmon farming is growing in the North Atlantic. Cleaner fish are used to eat parasitic sea lice from salmon to reduce outbreaks which cause disease in populations. The two most commonly used cleaner fish are the lumpfish, Cyclopterus lumpus, and the ballan wrasse Labrus bergeylta. Lumpfish are distributed across the Atlantic ocean, ranging from Greenland to France, Hudson's Bay to New Jersey, and in high concentrations in the Bay of Fundy and St. Pierre Coast, near Newfoundland. Ballan wrasse are distributed widely across the Northeast Atlantic Ocean. The switch towards lumpfish has been preferred as wrasse are less active feeders during winter months.
+
+
+==== Methods ====
+Cleaner fish are commercially cultured and introduced into salmonid sea cages. Salmon and lumpfish are able to coexist, where the lumpfish spend a certain amount of time foraging for supplemented food and only a portion of their time delousing salmon. With significant ratios of cleaner to client, the efforts are sufficient to minimize louse outbreaks. Sea cages are designed with additional substrate for lumpfish to attach to during periods of inactivity to minimize stress levels in the cleaner fish and maximize delousing abilities.
+
+
+==== Challenges of using cleaner fish ====
+North Atlantic Aquaculture facilities use facultative cleaner fish (Cyclopterus lumpus, and Labrus bergeylta) in order to control the nutrients they receive during culturing, before their use in aquaculture. One of the challenges that comes along with using facultative cleaners is that parasite removal from salmon must be maximized while also balancing additional nutrients from supplemented feed to ensure the health of the cleaner fish and the safety of the salmonid clients. Another challenge that arises in management of cleaner fish behaviour is balancing the number of cleaners to the number of clients. With a low cleaner-to-client ratio, the risk of lice infestation increases. With a high cleaner-to-client ratio, competition among cleaners increases and there is a higher risk of cheating and consumption of salmonid mucus and flesh thereby increasing their risk of infection.Minimizing disease in commercial lumpfish stocks is critical for the continuation of their usage in aquaculture. Vaccine development for the lumpfish is a current area of research as lumpfish demand is increasing in the aquaculture industry. In an effort to minimize disease in the cleaner fish, commercial lumpfish stocks are supplemented with wild individuals during the breeding season to minimize inbreeding depression. The lumpfish genome has not yet been fully sequenced so subtle details between populations are not yet appreciated.Another consideration in using cleaner fish in aquaculture is minimizing escapees from sea cages. If escaped cleaner fish spawn with natural populations in the environment it may decrease the wild fishes' natural survival abilities.
+
+
+=== Environment ===
+Cleaner fish have taken over lice-reduction strategies, which were based upon chemical delousers in the past. This decreases the amount of effluent waste affecting the surrounding wild habitats in outdoor aquaculture. Introducing cleaner fish into salmonid aquaculture cages has also been found to be less stressful on salmonids than medical intervention for sea lice outbreaks.Cleaner fish in the wild contribute to the overall health of aquatic communities by reducing morphological and physiological injuries by parasites to other species of fish. Maintenance of these populations of fish help the complex web of interactions remain stable.
+
+
+=== Economic ===
+Sea lice outbreaks are detrimental to the survival of cultured salmonids and cause the majority of revenue loss in the aquaculture business. By employing the cleaner fish instead of medical intervention for sea louse management, aquaculture farmers save money.
+
+
+== See also ==
+Doctor fish, fish that provide a cleaning service to humans
+Reciprocal altruism
+Social grooming, cleaning services offered between members of the same species
+
+
+== References ==
+
+
+== External links ==
+ Media related to Cleaner fish at Wikimedia Commons

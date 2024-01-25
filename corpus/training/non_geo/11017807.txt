@@ -1,0 +1,1267 @@
+Morrie's law is a special trigonometric identity. Its name is due to the physicist Richard Feynman, who used to refer to the identity under that name. Feynman picked that name because he learned it during his childhood from a boy with the name Morrie Jacobs and afterwards remembered it for all of his life.
+
+
+== Identity and generalisation ==
+
+  
+    
+      
+        cos
+        ⁡
+        (
+        
+          20
+          
+            ∘
+          
+        
+        )
+        ⋅
+        cos
+        ⁡
+        (
+        
+          40
+          
+            ∘
+          
+        
+        )
+        ⋅
+        cos
+        ⁡
+        (
+        
+          80
+          
+            ∘
+          
+        
+        )
+        =
+        
+          
+            1
+            8
+          
+        
+        .
+      
+    
+    {\displaystyle \cos(20^{\circ })\cdot \cos(40^{\circ })\cdot \cos(80^{\circ })={\frac {1}{8}}.}
+  It is a special case of the more general identity
+
+  
+    
+      
+        
+          2
+          
+            n
+          
+        
+        ⋅
+        
+          ∏
+          
+            k
+            =
+            0
+          
+          
+            n
+            −
+            1
+          
+        
+        cos
+        ⁡
+        (
+        
+          2
+          
+            k
+          
+        
+        α
+        )
+        =
+        
+          
+            
+              sin
+              ⁡
+              (
+              
+                2
+                
+                  n
+                
+              
+              α
+              )
+            
+            
+              sin
+              ⁡
+              (
+              α
+              )
+            
+          
+        
+      
+    
+    {\displaystyle 2^{n}\cdot \prod _{k=0}^{n-1}\cos(2^{k}\alpha )={\frac {\sin(2^{n}\alpha )}{\sin(\alpha )}}}
+  with n = 3 and α = 20° and the fact that 
+
+  
+    
+      
+        
+          
+            
+              sin
+              ⁡
+              (
+              
+                160
+                
+                  ∘
+                
+              
+              )
+            
+            
+              sin
+              ⁡
+              (
+              
+                20
+                
+                  ∘
+                
+              
+              )
+            
+          
+        
+        =
+        
+          
+            
+              sin
+              ⁡
+              (
+              
+                180
+                
+                  ∘
+                
+              
+              −
+              
+                20
+                
+                  ∘
+                
+              
+              )
+            
+            
+              sin
+              ⁡
+              (
+              
+                20
+                
+                  ∘
+                
+              
+              )
+            
+          
+        
+        =
+        1
+        ,
+      
+    
+    {\displaystyle {\frac {\sin(160^{\circ })}{\sin(20^{\circ })}}={\frac {\sin(180^{\circ }-20^{\circ })}{\sin(20^{\circ })}}=1,}
+  since 
+
+  
+    
+      
+        sin
+        ⁡
+        (
+        
+          180
+          
+            ∘
+          
+        
+        −
+        x
+        )
+        =
+        sin
+        ⁡
+        (
+        x
+        )
+        .
+      
+    
+    {\displaystyle \sin(180^{\circ }-x)=\sin(x).}
+  
+
+
+== Similar identities ==
+A similar identity for the sine function also holds:
+
+  
+    
+      
+        sin
+        ⁡
+        (
+        
+          20
+          
+            ∘
+          
+        
+        )
+        ⋅
+        sin
+        ⁡
+        (
+        
+          40
+          
+            ∘
+          
+        
+        )
+        ⋅
+        sin
+        ⁡
+        (
+        
+          80
+          
+            ∘
+          
+        
+        )
+        =
+        
+          
+            
+              3
+            
+            8
+          
+        
+        .
+      
+    
+    {\displaystyle \sin(20^{\circ })\cdot \sin(40^{\circ })\cdot \sin(80^{\circ })={\frac {\sqrt {3}}{8}}.}
+  Moreover, dividing the second identity by the first, the following identity is evident:
+
+  
+    
+      
+        tan
+        ⁡
+        (
+        
+          20
+          
+            ∘
+          
+        
+        )
+        ⋅
+        tan
+        ⁡
+        (
+        
+          40
+          
+            ∘
+          
+        
+        )
+        ⋅
+        tan
+        ⁡
+        (
+        
+          80
+          
+            ∘
+          
+        
+        )
+        =
+        
+          
+            3
+          
+        
+        =
+        tan
+        ⁡
+        (
+        
+          60
+          
+            ∘
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle \tan(20^{\circ })\cdot \tan(40^{\circ })\cdot \tan(80^{\circ })={\sqrt {3}}=\tan(60^{\circ }).}
+  
+
+
+== Proof ==
+
+
+=== Geometric proof of Morrie's law ===
+Consider a regular nonagon 
+  
+    
+      
+        A
+        B
+        C
+        D
+        E
+        F
+        G
+        H
+        I
+      
+    
+    {\displaystyle ABCDEFGHI}
+   with side length 
+  
+    
+      
+        1
+      
+    
+    {\displaystyle 1}
+   and let 
+  
+    
+      
+        M
+      
+    
+    {\displaystyle M}
+   be the midpoint of 
+  
+    
+      
+        A
+        B
+      
+    
+    {\displaystyle AB}
+  , 
+  
+    
+      
+        L
+      
+    
+    {\displaystyle L}
+   the midpoint 
+  
+    
+      
+        B
+        F
+      
+    
+    {\displaystyle BF}
+   and 
+  
+    
+      
+        J
+      
+    
+    {\displaystyle J}
+   the midpoint of 
+  
+    
+      
+        B
+        D
+      
+    
+    {\displaystyle BD}
+  . The inner angles of the nonagon equal 
+  
+    
+      
+        
+          140
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle 140^{\circ }}
+   and furthermore 
+  
+    
+      
+        γ
+        =
+        ∠
+        F
+        B
+        M
+        =
+        
+          80
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle \gamma =\angle FBM=80^{\circ }}
+  ,  
+  
+    
+      
+        β
+        =
+        ∠
+        D
+        B
+        F
+        =
+        
+          40
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle \beta =\angle DBF=40^{\circ }}
+   and  
+  
+    
+      
+        α
+        =
+        ∠
+        C
+        B
+        D
+        =
+        
+          20
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle \alpha =\angle CBD=20^{\circ }}
+   (see graphic). Applying the cosinus definition in the right angle triangles 
+  
+    
+      
+        △
+        B
+        F
+        M
+      
+    
+    {\displaystyle \triangle BFM}
+  , 
+  
+    
+      
+        △
+        B
+        D
+        L
+      
+    
+    {\displaystyle \triangle BDL}
+   and 
+  
+    
+      
+        △
+        B
+        C
+        J
+      
+    
+    {\displaystyle \triangle BCJ}
+   then yields the proof for Morrie's law:
+
+  
+    
+      
+        
+          
+            
+              
+                1
+              
+              
+                
+                =
+                
+                  |
+                
+                A
+                B
+                
+                  |
+                
+              
+            
+            
+              
+              
+                
+                =
+                2
+                ⋅
+                
+                  |
+                
+                M
+                B
+                
+                  |
+                
+              
+            
+            
+              
+              
+                
+                =
+                2
+                ⋅
+                
+                  |
+                
+                B
+                F
+                
+                  |
+                
+                ⋅
+                cos
+                ⁡
+                (
+                γ
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  2
+                  
+                    2
+                  
+                
+                
+                  |
+                
+                B
+                L
+                
+                  |
+                
+                cos
+                ⁡
+                (
+                γ
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  2
+                  
+                    2
+                  
+                
+                ⋅
+                
+                  |
+                
+                B
+                D
+                
+                  |
+                
+                ⋅
+                cos
+                ⁡
+                (
+                γ
+                )
+                ⋅
+                cos
+                ⁡
+                (
+                β
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  2
+                  
+                    3
+                  
+                
+                ⋅
+                
+                  |
+                
+                B
+                J
+                
+                  |
+                
+                ⋅
+                cos
+                ⁡
+                (
+                γ
+                )
+                ⋅
+                cos
+                ⁡
+                (
+                β
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  2
+                  
+                    3
+                  
+                
+                ⋅
+                
+                  |
+                
+                B
+                C
+                
+                  |
+                
+                ⋅
+                cos
+                ⁡
+                (
+                γ
+                )
+                ⋅
+                cos
+                ⁡
+                (
+                β
+                )
+                ⋅
+                cos
+                ⁡
+                (
+                α
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  2
+                  
+                    3
+                  
+                
+                ⋅
+                1
+                ⋅
+                cos
+                ⁡
+                (
+                γ
+                )
+                ⋅
+                cos
+                ⁡
+                (
+                β
+                )
+                ⋅
+                cos
+                ⁡
+                (
+                α
+                )
+              
+            
+            
+              
+              
+                
+                =
+                8
+                ⋅
+                cos
+                ⁡
+                (
+                
+                  80
+                  
+                    ∘
+                  
+                
+                )
+                ⋅
+                cos
+                ⁡
+                (
+                
+                  40
+                  
+                    ∘
+                  
+                
+                )
+                ⋅
+                cos
+                ⁡
+                (
+                
+                  20
+                  
+                    ∘
+                  
+                
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}1&=|AB|\\&=2\cdot |MB|\\&=2\cdot |BF|\cdot \cos(\gamma )\\&=2^{2}|BL|\cos(\gamma )\\&=2^{2}\cdot |BD|\cdot \cos(\gamma )\cdot \cos(\beta )\\&=2^{3}\cdot |BJ|\cdot \cos(\gamma )\cdot \cos(\beta )\\&=2^{3}\cdot |BC|\cdot \cos(\gamma )\cdot \cos(\beta )\cdot \cos(\alpha )\\&=2^{3}\cdot 1\cdot \cos(\gamma )\cdot \cos(\beta )\cdot \cos(\alpha )\\&=8\cdot \cos(80^{\circ })\cdot \cos(40^{\circ })\cdot \cos(20^{\circ })\end{aligned}}}
+  
+
+
+=== Algebraic proof of the generalised identity ===
+Recall the double angle formula for the sine function
+
+  
+    
+      
+        sin
+        ⁡
+        (
+        2
+        α
+        )
+        =
+        2
+        sin
+        ⁡
+        (
+        α
+        )
+        cos
+        ⁡
+        (
+        α
+        )
+        .
+      
+    
+    {\displaystyle \sin(2\alpha )=2\sin(\alpha )\cos(\alpha ).}
+  Solve for 
+  
+    
+      
+        cos
+        ⁡
+        (
+        α
+        )
+      
+    
+    {\displaystyle \cos(\alpha )}
+  
+
+  
+    
+      
+        cos
+        ⁡
+        (
+        α
+        )
+        =
+        
+          
+            
+              sin
+              ⁡
+              (
+              2
+              α
+              )
+            
+            
+              2
+              sin
+              ⁡
+              (
+              α
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \cos(\alpha )={\frac {\sin(2\alpha )}{2\sin(\alpha )}}.}
+  It follows that:
+
+  
+    
+      
+        
+          
+            
+              
+                cos
+                ⁡
+                (
+                2
+                α
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      sin
+                      ⁡
+                      (
+                      4
+                      α
+                      )
+                    
+                    
+                      2
+                      sin
+                      ⁡
+                      (
+                      2
+                      α
+                      )
+                    
+                  
+                
+              
+            
+            
+              
+                cos
+                ⁡
+                (
+                4
+                α
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      sin
+                      ⁡
+                      (
+                      8
+                      α
+                      )
+                    
+                    
+                      2
+                      sin
+                      ⁡
+                      (
+                      4
+                      α
+                      )
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                
+                
+                
+                ⋮
+              
+            
+            
+              
+                cos
+                ⁡
+                
+                  (
+                  
+                    
+                      2
+                      
+                        n
+                        −
+                        1
+                      
+                    
+                    α
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      sin
+                      ⁡
+                      
+                        (
+                        
+                          
+                            2
+                            
+                              n
+                            
+                          
+                          α
+                        
+                        )
+                      
+                    
+                    
+                      2
+                      sin
+                      ⁡
+                      
+                        (
+                        
+                          
+                            2
+                            
+                              n
+                              −
+                              1
+                            
+                          
+                          α
+                        
+                        )
+                      
+                    
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\cos(2\alpha )&={\frac {\sin(4\alpha )}{2\sin(2\alpha )}}\\[6pt]\cos(4\alpha )&={\frac {\sin(8\alpha )}{2\sin(4\alpha )}}\\&\,\,\,\vdots \\\cos \left(2^{n-1}\alpha \right)&={\frac {\sin \left(2^{n}\alpha \right)}{2\sin \left(2^{n-1}\alpha \right)}}.\end{aligned}}}
+  Multiplying all of these expressions together yields:
+
+  
+    
+      
+        cos
+        ⁡
+        (
+        α
+        )
+        cos
+        ⁡
+        (
+        2
+        α
+        )
+        cos
+        ⁡
+        (
+        4
+        α
+        )
+        ⋯
+        cos
+        ⁡
+        
+          (
+          
+            
+              2
+              
+                n
+                −
+                1
+              
+            
+            α
+          
+          )
+        
+        =
+        
+          
+            
+              sin
+              ⁡
+              (
+              2
+              α
+              )
+            
+            
+              2
+              sin
+              ⁡
+              (
+              α
+              )
+            
+          
+        
+        ⋅
+        
+          
+            
+              sin
+              ⁡
+              (
+              4
+              α
+              )
+            
+            
+              2
+              sin
+              ⁡
+              (
+              2
+              α
+              )
+            
+          
+        
+        ⋅
+        
+          
+            
+              sin
+              ⁡
+              (
+              8
+              α
+              )
+            
+            
+              2
+              sin
+              ⁡
+              (
+              4
+              α
+              )
+            
+          
+        
+        ⋯
+        
+          
+            
+              sin
+              ⁡
+              
+                (
+                
+                  
+                    2
+                    
+                      n
+                    
+                  
+                  α
+                
+                )
+              
+            
+            
+              2
+              sin
+              ⁡
+              
+                (
+                
+                  
+                    2
+                    
+                      n
+                      −
+                      1
+                    
+                  
+                  α
+                
+                )
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \cos(\alpha )\cos(2\alpha )\cos(4\alpha )\cdots \cos \left(2^{n-1}\alpha \right)={\frac {\sin(2\alpha )}{2\sin(\alpha )}}\cdot {\frac {\sin(4\alpha )}{2\sin(2\alpha )}}\cdot {\frac {\sin(8\alpha )}{2\sin(4\alpha )}}\cdots {\frac {\sin \left(2^{n}\alpha \right)}{2\sin \left(2^{n-1}\alpha \right)}}.}
+  The intermediate numerators and denominators cancel leaving only the first denominator, a power of 2 and the final numerator. Note that there are n terms in both sides of the expression. Thus,
+
+  
+    
+      
+        
+          ∏
+          
+            k
+            =
+            0
+          
+          
+            n
+            −
+            1
+          
+        
+        cos
+        ⁡
+        
+          (
+          
+            
+              2
+              
+                k
+              
+            
+            α
+          
+          )
+        
+        =
+        
+          
+            
+              sin
+              ⁡
+              
+                (
+                
+                  
+                    2
+                    
+                      n
+                    
+                  
+                  α
+                
+                )
+              
+            
+            
+              
+                2
+                
+                  n
+                
+              
+              sin
+              ⁡
+              (
+              α
+              )
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \prod _{k=0}^{n-1}\cos \left(2^{k}\alpha \right)={\frac {\sin \left(2^{n}\alpha \right)}{2^{n}\sin(\alpha )}},}
+  which is equivalent to the generalization of Morrie's law.
+
+
+== References ==
+
+
+== Further reading ==
+Glen Van Brummelen: Trigonometry: A Very Short Introduction. Oxford University Press, 2020, ISBN 9780192545466, pp. 79–83
+Ernest C. Anderson: Morrie's Law and Experimental Mathematics. In:  Journal of recreational mathematics, 1998
+
+
+== External links ==
+Weisstein, Eric W. "Morrie's Law". MathWorld.

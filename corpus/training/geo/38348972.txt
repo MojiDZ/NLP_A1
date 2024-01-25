@@ -1,0 +1,31 @@
+This is a bibliography of ecology.
+
+
+== Introductory ==
+Beman, J. (2010). "Energy economics in ecosystems". Nature Education Knowledge. 1 (8): 22.
+Bryant, P. J. Biodiversity and Conservation. A Hypertext Book. Archived from the original on 2006-04-24. Retrieved 2013-01-28.
+Cleland, E. E. (2011). "Biodiversity and Ecosystem Stability". Nature Education Knowledge. 2 (1): 2.
+Costanza, R.; Cumberland, J. H.; Daily, H.; Goodland, R.; Norgaard, R. B. (2007). An Introduction to Ecological Economics (e-book). St. Lucie Press and International Society for Ecological Economics.
+"Ecosystem Services: A Primer". Ecological Society of America. 2000. Archived from the original on 2010-07-26. Retrieved 2013-01-28.
+Farabee, M. J. The Online Biology Book. Avondale, Arizona: Estrella Mountain Community College. Archived from the original on 2017-12-25. Retrieved 2013-01-28.
+Forseth, I. (2010). "Terrestrial Biomes". Nature Education Knowledge. 1 (8): 12.
+Henkel, T. P. (2010). "Coral reefs". Nature Education Knowledge. 1 (11): 5.
+McCabe, D. J. (2010). "Rivers and streams: Life in flowing water". Nature Education Knowledge. 1 (12): 4.
+Odum, H. (1973). "Energy, ecology, and economics" (PDF). Ambio. 2 (6): 220–227.
+Stevens, A. (2010). "Predation, herbivory, and parasitism". Nature Education Knowledge. 1 (8): 38.
+
+
+== Advanced ==
+Brand, F. S.; Jax, K. (2007). "Focusing the meaning(s) of resilience: resilience as a descriptive concept and a boundary object". Ecology and Society. 12 (1): 23. doi:10.5751/ES-02029-120123. hdl:10535/3371.
+Carpenter, S. R.; Mooney, H. A.; Agard, J.; Capistrano, D.; DeFries, R. S.; Díaz, S.; Dietz, T.; Duraiappah, A. K.; et al. (2009). "Science for managing ecosystem services: Beyond the Millennium Ecosystem Assessment" (PDF). Proceedings of the National Academy of Sciences of the United States of America. 106 (5): 1305–1312. Bibcode:2009PNAS..106.1305C. doi:10.1073/pnas.0808772106. PMC 2635788. PMID 19179280.
+Ettema, C.H.; Wardle, D.A. (2002). "Spatial soil ecology" (PDF). Trends in Ecology & Evolution. 17 (4): 177–183. doi:10.1016/S0169-5347(02)02496-5.
+Green, J.L.; Hastings, A.; Arzberger, P.; Ayala, F.; Cottingham, K.L.; Cuddington, K.; Davis, F.; Dunne, J.A.; Fortin, M-J.; et al. (2005). "Complexity in ecology and conservation: mathematical, statistical, and computational challenges" (PDF). BioScience. 55 (6): 501–510. doi:10.1641/0006-3568(2005)055[0501:CIEACM]2.0.CO;2. ISSN 0006-3568.
+Hanski, I. (1998). "Metapopulation dynamics" (PDF). Nature. 396 (6706): 41–49. Bibcode:1998Natur.396...41H. doi:10.1038/23876. S2CID 4405264. Archived from the original (PDF) on 2010-12-31.
+Magurran, A. E.; Henderson, P. A. (2010). "Temporal turnover and the maintenance of diversity in ecological assemblages". Philosophical Transactions of the Royal Society B. 365 (1558): 3611–3620. doi:10.1098/rstb.2010.0285. PMC 2982009. PMID 20980310.
+Peterson, G.; Allen, C. R.; Holling, C. S. (1998). "Ecological resilience, biodiversity, and scale" (PDF). Ecosystems. 1: 6–18. CiteSeerX 10.1.1.484.146. doi:10.1007/s100219900002. S2CID 3500468.
+Quinn, J. F.; Dunham, A. E. (1983). "On hypothesis testing in ecology and evolution" (PDF). The American Naturalist. 122 (5): 602–617. doi:10.1086/284161. S2CID 84260487.
+Simberloff, D. S. (1974). "Equilibrium theory of island biogeography and ecology" (PDF). Annual Review of Ecology and Systematics. 5 (1): 161–182. doi:10.1146/annurev.es.05.110174.001113.
+
+
+== See also ==
+Outline of ecology

@@ -1,0 +1,1300 @@
+In mathematics, trigonometric substitution is the replacement of trigonometric functions for other expressions. In calculus, trigonometric substitution is a technique for evaluating integrals. Moreover, one may use the trigonometric identities to simplify certain integrals containing radical expressions. Like other methods of integration by substitution, when evaluating a definite integral, it may be simpler to completely deduce the antiderivative before applying the boundaries of integration.
+
+
+== Case I: Integrands containing a2 − x2 ==
+Let 
+  
+    
+      
+        x
+        =
+        a
+        sin
+        ⁡
+        θ
+        ,
+      
+    
+    {\displaystyle x=a\sin \theta ,}
+   and use the identity 
+  
+    
+      
+        1
+        −
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        θ
+        =
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        θ
+        .
+      
+    
+    {\displaystyle 1-\sin ^{2}\theta =\cos ^{2}\theta .}
+  
+
+
+=== Examples of Case I ===
+
+
+==== Example 1 ====
+In the integral
+
+we may use
+
+Then,
+
+The above step requires that 
+  
+    
+      
+        a
+        >
+        0
+      
+    
+    {\displaystyle a>0}
+   and 
+  
+    
+      
+        cos
+        ⁡
+        θ
+        >
+        0.
+      
+    
+    {\displaystyle \cos \theta >0.}
+   We can choose 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+   to be the principal root of 
+  
+    
+      
+        
+          a
+          
+            2
+          
+        
+        ,
+      
+    
+    {\displaystyle a^{2},}
+   and impose the restriction 
+  
+    
+      
+        −
+        π
+        
+          /
+        
+        2
+        <
+        θ
+        <
+        π
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle -\pi /2<\theta <\pi /2}
+   by using the inverse sine function.
+For a definite integral, one must figure out how the bounds of integration change.  For example, as 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   goes from 
+  
+    
+      
+        0
+      
+    
+    {\displaystyle 0}
+   to 
+  
+    
+      
+        a
+        
+          /
+        
+        2
+        ,
+      
+    
+    {\displaystyle a/2,}
+   then 
+  
+    
+      
+        sin
+        ⁡
+        θ
+      
+    
+    {\displaystyle \sin \theta }
+   goes from 
+  
+    
+      
+        0
+      
+    
+    {\displaystyle 0}
+   to 
+  
+    
+      
+        1
+        
+          /
+        
+        2
+        ,
+      
+    
+    {\displaystyle 1/2,}
+   so 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+   goes from 
+  
+    
+      
+        0
+      
+    
+    {\displaystyle 0}
+   to 
+  
+    
+      
+        π
+        
+          /
+        
+        6.
+      
+    
+    {\displaystyle \pi /6.}
+    Then,
+
+Some care is needed when picking the bounds. Because integration above requires that 
+  
+    
+      
+        −
+        π
+        
+          /
+        
+        2
+        <
+        θ
+        <
+        π
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle -\pi /2<\theta <\pi /2}
+   , 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+   can only go from 
+  
+    
+      
+        0
+      
+    
+    {\displaystyle 0}
+   to 
+  
+    
+      
+        π
+        
+          /
+        
+        6.
+      
+    
+    {\displaystyle \pi /6.}
+   Neglecting this restriction, one might have picked 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+   to go from 
+  
+    
+      
+        π
+      
+    
+    {\displaystyle \pi }
+   to 
+  
+    
+      
+        5
+        π
+        
+          /
+        
+        6
+        ,
+      
+    
+    {\displaystyle 5\pi /6,}
+   which would have resulted in the negative of the actual value.
+Alternatively, fully evaluate the indefinite integrals before applying the boundary conditions. In that case, the antiderivative gives
+ as before.
+
+
+==== Example 2 ====
+The integral
+
+may be evaluated by letting 
+  
+    
+      
+        x
+        =
+        a
+        sin
+        ⁡
+        θ
+        ,
+        
+        d
+        x
+        =
+        a
+        cos
+        ⁡
+        θ
+        
+        d
+        θ
+        ,
+        
+        θ
+        =
+        arcsin
+        ⁡
+        
+          
+            x
+            a
+          
+        
+        ,
+      
+    
+    {\textstyle x=a\sin \theta ,\,dx=a\cos \theta \,d\theta ,\,\theta =\arcsin {\frac {x}{a}},}
+   where 
+  
+    
+      
+        a
+        >
+        0
+      
+    
+    {\displaystyle a>0}
+   so that 
+  
+    
+      
+        
+          
+            
+              a
+              
+                2
+              
+            
+          
+        
+        =
+        a
+        ,
+      
+    
+    {\textstyle {\sqrt {a^{2}}}=a,}
+   and 
+  
+    
+      
+        −
+        
+          
+            π
+            2
+          
+        
+        ≤
+        θ
+        ≤
+        
+          
+            π
+            2
+          
+        
+      
+    
+    {\textstyle -{\frac {\pi }{2}}\leq \theta \leq {\frac {\pi }{2}}}
+   by the range of arcsine, so that 
+  
+    
+      
+        cos
+        ⁡
+        θ
+        ≥
+        0
+      
+    
+    {\displaystyle \cos \theta \geq 0}
+   and 
+  
+    
+      
+        
+          
+            
+              cos
+              
+                2
+              
+            
+            ⁡
+            θ
+          
+        
+        =
+        cos
+        ⁡
+        θ
+        .
+      
+    
+    {\textstyle {\sqrt {\cos ^{2}\theta }}=\cos \theta .}
+  
+Then,
+
+For a definite integral, the bounds change once the substitution is performed and are determined using the equation 
+  
+    
+      
+        θ
+        =
+        arcsin
+        ⁡
+        
+          
+            x
+            a
+          
+        
+        ,
+      
+    
+    {\textstyle \theta =\arcsin {\frac {x}{a}},}
+   with values in the range 
+  
+    
+      
+        −
+        
+          
+            π
+            2
+          
+        
+        ≤
+        θ
+        ≤
+        
+          
+            π
+            2
+          
+        
+        .
+      
+    
+    {\textstyle -{\frac {\pi }{2}}\leq \theta \leq {\frac {\pi }{2}}.}
+   Alternatively, apply the boundary terms directly to the formula for the antiderivative.
+For example, the definite integral
+
+may be evaluated by substituting 
+  
+    
+      
+        x
+        =
+        2
+        sin
+        ⁡
+        θ
+        ,
+        
+        d
+        x
+        =
+        2
+        cos
+        ⁡
+        θ
+        
+        d
+        θ
+        ,
+      
+    
+    {\displaystyle x=2\sin \theta ,\,dx=2\cos \theta \,d\theta ,}
+   with the bounds determined using 
+  
+    
+      
+        θ
+        =
+        arcsin
+        ⁡
+        
+          
+            x
+            2
+          
+        
+        .
+      
+    
+    {\textstyle \theta =\arcsin {\frac {x}{2}}.}
+  
+Because 
+  
+    
+      
+        arcsin
+        ⁡
+        (
+        1
+        
+          /
+        
+        
+          2
+        
+        )
+        =
+        π
+        
+          /
+        
+        6
+      
+    
+    {\displaystyle \arcsin(1/{2})=\pi /6}
+   and 
+  
+    
+      
+        arcsin
+        ⁡
+        (
+        −
+        1
+        
+          /
+        
+        2
+        )
+        =
+        −
+        π
+        
+          /
+        
+        6
+        ,
+      
+    
+    {\displaystyle \arcsin(-1/2)=-\pi /6,}
+  
+
+On the other hand, direct application of the boundary terms to the previously obtained formula for the antiderivative yields
+
+as before.
+
+
+== Case II: Integrands containing a2 + x2 ==
+Let 
+  
+    
+      
+        x
+        =
+        a
+        tan
+        ⁡
+        θ
+        ,
+      
+    
+    {\displaystyle x=a\tan \theta ,}
+   and use the identity 
+  
+    
+      
+        1
+        +
+        
+          tan
+          
+            2
+          
+        
+        ⁡
+        θ
+        =
+        
+          sec
+          
+            2
+          
+        
+        ⁡
+        θ
+        .
+      
+    
+    {\displaystyle 1+\tan ^{2}\theta =\sec ^{2}\theta .}
+  
+
+
+=== Examples of Case II ===
+
+
+==== Example 1 ====
+In the integral
+
+we may write
+
+so that the integral becomes
+
+provided 
+  
+    
+      
+        a
+        ≠
+        0.
+      
+    
+    {\displaystyle a\neq 0.}
+  
+For a definite integral, the bounds change once the substitution is performed and are determined using the equation 
+  
+    
+      
+        θ
+        =
+        arctan
+        ⁡
+        
+          
+            x
+            a
+          
+        
+        ,
+      
+    
+    {\displaystyle \theta =\arctan {\frac {x}{a}},}
+   with values in the range 
+  
+    
+      
+        −
+        
+          
+            π
+            2
+          
+        
+        <
+        θ
+        <
+        
+          
+            π
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle -{\frac {\pi }{2}}<\theta <{\frac {\pi }{2}}.}
+   Alternatively, apply the boundary terms directly to the formula for the antiderivative.
+For example, the definite integral
+
+may be evaluated by substituting 
+  
+    
+      
+        x
+        =
+        tan
+        ⁡
+        θ
+        ,
+        
+        d
+        x
+        =
+        
+          sec
+          
+            2
+          
+        
+        ⁡
+        θ
+        
+        d
+        θ
+        ,
+      
+    
+    {\displaystyle x=\tan \theta ,\,dx=\sec ^{2}\theta \,d\theta ,}
+   with the bounds determined using 
+  
+    
+      
+        θ
+        =
+        arctan
+        ⁡
+        x
+        .
+      
+    
+    {\displaystyle \theta =\arctan x.}
+  
+Since 
+  
+    
+      
+        arctan
+        ⁡
+        0
+        =
+        0
+      
+    
+    {\displaystyle \arctan 0=0}
+   and 
+  
+    
+      
+        arctan
+        ⁡
+        1
+        =
+        π
+        
+          /
+        
+        4
+        ,
+      
+    
+    {\displaystyle \arctan 1=\pi /4,}
+  
+
+Meanwhile, direct application of the boundary terms to the formula for the antiderivative yields
+
+same as before.
+
+
+==== Example 2 ====
+The integral
+
+may be evaluated by letting 
+  
+    
+      
+        x
+        =
+        a
+        tan
+        ⁡
+        θ
+        ,
+        
+        d
+        x
+        =
+        a
+        
+          sec
+          
+            2
+          
+        
+        ⁡
+        θ
+        
+        d
+        θ
+        ,
+        
+        θ
+        =
+        arctan
+        ⁡
+        
+          
+            x
+            a
+          
+        
+        ,
+      
+    
+    {\displaystyle x=a\tan \theta ,\,dx=a\sec ^{2}\theta \,d\theta ,\,\theta =\arctan {\frac {x}{a}},}
+  
+where 
+  
+    
+      
+        a
+        >
+        0
+      
+    
+    {\displaystyle a>0}
+   so that 
+  
+    
+      
+        
+          
+            
+              a
+              
+                2
+              
+            
+          
+        
+        =
+        a
+        ,
+      
+    
+    {\displaystyle {\sqrt {a^{2}}}=a,}
+   and 
+  
+    
+      
+        −
+        
+          
+            π
+            2
+          
+        
+        <
+        θ
+        <
+        
+          
+            π
+            2
+          
+        
+      
+    
+    {\displaystyle -{\frac {\pi }{2}}<\theta <{\frac {\pi }{2}}}
+   by the range of arctangent, so that 
+  
+    
+      
+        sec
+        ⁡
+        θ
+        >
+        0
+      
+    
+    {\displaystyle \sec \theta >0}
+   and 
+  
+    
+      
+        
+          
+            
+              sec
+              
+                2
+              
+            
+            ⁡
+            θ
+          
+        
+        =
+        sec
+        ⁡
+        θ
+        .
+      
+    
+    {\displaystyle {\sqrt {\sec ^{2}\theta }}=\sec \theta .}
+  
+Then,
+
+The integral of secant cubed may be evaluated using integration by parts. As a result,
+
+
+== Case III: Integrands containing x2 − a2 ==
+Let 
+  
+    
+      
+        x
+        =
+        a
+        sec
+        ⁡
+        θ
+        ,
+      
+    
+    {\displaystyle x=a\sec \theta ,}
+   and use the identity 
+  
+    
+      
+        
+          sec
+          
+            2
+          
+        
+        ⁡
+        θ
+        −
+        1
+        =
+        
+          tan
+          
+            2
+          
+        
+        ⁡
+        θ
+        .
+      
+    
+    {\displaystyle \sec ^{2}\theta -1=\tan ^{2}\theta .}
+  
+
+
+=== Examples of Case III ===
+Integrals like
+
+can also be evaluated by partial fractions rather than trigonometric substitutions. However, the integral
+
+cannot.  In this case, an appropriate substitution is:
+
+where 
+  
+    
+      
+        a
+        >
+        0
+      
+    
+    {\displaystyle a>0}
+   so that 
+  
+    
+      
+        
+          
+            
+              a
+              
+                2
+              
+            
+          
+        
+        =
+        a
+        ,
+      
+    
+    {\displaystyle {\sqrt {a^{2}}}=a,}
+   and 
+  
+    
+      
+        0
+        ≤
+        θ
+        <
+        
+          
+            π
+            2
+          
+        
+      
+    
+    {\displaystyle 0\leq \theta <{\frac {\pi }{2}}}
+   by assuming 
+  
+    
+      
+        x
+        >
+        0
+        ,
+      
+    
+    {\displaystyle x>0,}
+   so that 
+  
+    
+      
+        tan
+        ⁡
+        θ
+        ≥
+        0
+      
+    
+    {\displaystyle \tan \theta \geq 0}
+   and 
+  
+    
+      
+        
+          
+            
+              tan
+              
+                2
+              
+            
+            ⁡
+            θ
+          
+        
+        =
+        tan
+        ⁡
+        θ
+        .
+      
+    
+    {\displaystyle {\sqrt {\tan ^{2}\theta }}=\tan \theta .}
+  
+Then,
+
+One may evaluate the integral of the secant function by multiplying the numerator and denominator by 
+  
+    
+      
+        (
+        sec
+        ⁡
+        θ
+        +
+        tan
+        ⁡
+        θ
+        )
+      
+    
+    {\displaystyle (\sec \theta +\tan \theta )}
+   and the integral of secant cubed by parts. As a result,
+
+When 
+  
+    
+      
+        
+          
+            π
+            2
+          
+        
+        <
+        θ
+        ≤
+        π
+        ,
+      
+    
+    {\displaystyle {\frac {\pi }{2}}<\theta \leq \pi ,}
+   which happens when 
+  
+    
+      
+        x
+        <
+        0
+      
+    
+    {\displaystyle x<0}
+   given the range of arcsecant, 
+  
+    
+      
+        tan
+        ⁡
+        θ
+        ≤
+        0
+        ,
+      
+    
+    {\displaystyle \tan \theta \leq 0,}
+   meaning 
+  
+    
+      
+        
+          
+            
+              tan
+              
+                2
+              
+            
+            ⁡
+            θ
+          
+        
+        =
+        −
+        tan
+        ⁡
+        θ
+      
+    
+    {\displaystyle {\sqrt {\tan ^{2}\theta }}=-\tan \theta }
+   instead in that case.
+
+
+== Substitutions that eliminate trigonometric functions ==
+Substitution can be used to remove trigonometric functions.
+For instance,
+
+The last substitution is known as the Weierstrass substitution, which makes use of tangent half-angle formulas.
+For example,
+
+
+== Hyperbolic substitution ==
+Substitutions of hyperbolic functions can also be used to simplify integrals.In the integral 
+  
+    
+      
+        ∫
+        
+          
+            
+              d
+              x
+            
+            
+              
+                a
+                
+                  2
+                
+              
+              +
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \int {\frac {dx}{\sqrt {a^{2}+x^{2}}}}\,,}
+   make the substitution 
+  
+    
+      
+        x
+        =
+        a
+        sinh
+        ⁡
+        
+          u
+        
+        ,
+      
+    
+    {\displaystyle x=a\sinh {u},}
+   
+  
+    
+      
+        d
+        x
+        =
+        a
+        cosh
+        ⁡
+        u
+        
+        d
+        u
+        .
+      
+    
+    {\displaystyle dx=a\cosh u\,du.}
+  
+Then, using the identities 
+  
+    
+      
+        
+          cosh
+          
+            2
+          
+        
+        ⁡
+        (
+        x
+        )
+        −
+        
+          sinh
+          
+            2
+          
+        
+        ⁡
+        (
+        x
+        )
+        =
+        1
+      
+    
+    {\displaystyle \cosh ^{2}(x)-\sinh ^{2}(x)=1}
+   and 
+  
+    
+      
+        
+          sinh
+          
+            −
+            1
+          
+        
+        ⁡
+        
+          x
+        
+        =
+        ln
+        ⁡
+        (
+        x
+        +
+        
+          
+            
+              x
+              
+                2
+              
+            
+            +
+            1
+          
+        
+        )
+        ,
+      
+    
+    {\displaystyle \sinh ^{-1}{x}=\ln(x+{\sqrt {x^{2}+1}}),}
+  
+
+
+== See also ==
+
+Integration by substitution
+Weierstrass substitution
+Euler substitution
+
+
+== References ==

@@ -1,0 +1,222 @@
+An NPZ model is the most basic abstract representation, expressed as a mathematical model, of a pelagic ecosystem which examines the interrelationships between quantities of nutrients, phytoplankton and zooplankton as time-varying states which depend only on the relative concentrations of the various states at the given time.One goal in pelagic ecology is to understand the interactions among available nutrients (i.e. the essential resource base), phytoplankton and zooplankton. The most basic models to shed light on this goal are called nutrient-phytoplankton-zooplankton (NPZ) models. These models are a subset of Ecosystem models.
+
+
+== Example ==
+An unrealistic but instructive example of an NPZ model is provided in Franks et al. (1986) (FWF-NPZ model). It is a system of ordinary differential equations that examines the time evolution of dissolved and assimilated nutrients in an ideal upper water column consisting of three state variables corresponding to amounts of nutrients (N), phytoplankton (P) and zooplankton (Z). This closed system model is shown in the figure to the right which also shows the "flow" directions of each state quantity. 
+
+These interactions, assumed to be spatial homogeneous (and thus is termed a "zero-dimensional" model) are described in general terms as follows
+
+This NPZ model can now be cast as a system of first order differential equations:
+
+  
+    
+      
+        
+          
+            
+              
+                d
+              
+              P
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        =
+        
+          
+            
+              
+                V
+                
+                  m
+                
+              
+              N
+            
+            
+              
+                k
+                
+                  s
+                
+              
+              +
+              N
+            
+          
+        
+        P
+        −
+        m
+        P
+        −
+        Z
+        
+          R
+          
+            m
+          
+        
+        (
+        1
+        −
+        
+          e
+          
+            −
+            Λ
+            P
+          
+        
+        )
+      
+    
+    {\displaystyle {\frac {\mathrm {d} P}{\mathrm {d} t}}={\frac {V_{m}N}{k_{s}+N}}P-mP-ZR_{m}(1-e^{-\Lambda P})}
+  
+
+  
+    
+      
+        
+          
+            
+              
+                d
+              
+              Z
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        =
+        γ
+        Z
+        
+          R
+          
+            m
+          
+        
+        (
+        1
+        −
+        
+          e
+          
+            −
+            Λ
+            P
+          
+        
+        )
+        −
+        d
+        Z
+      
+    
+    {\displaystyle {\frac {\mathrm {d} Z}{\mathrm {d} t}}=\gamma ZR_{m}(1-e^{-\Lambda P})-dZ}
+  
+
+  
+    
+      
+        
+          
+            
+              
+                d
+              
+              N
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        =
+        −
+        
+          
+            
+              
+                V
+                
+                  m
+                
+              
+              N
+            
+            
+              
+                k
+                
+                  s
+                
+              
+              +
+              N
+            
+          
+        
+        P
+        +
+        m
+        P
+        +
+        d
+        Z
+        +
+        (
+        1
+        −
+        γ
+        )
+        Z
+        
+          R
+          
+            m
+          
+        
+        (
+        1
+        −
+        
+          e
+          
+            −
+            Λ
+            P
+          
+        
+        )
+        ,
+      
+    
+    {\displaystyle {\frac {\mathrm {d} N}{\mathrm {d} t}}=-{\frac {V_{m}N}{k_{s}+N}}P+mP+dZ+(1-\gamma )ZR_{m}(1-e^{-\Lambda P}),}
+  where the parameters and variables are defined in the table below along with nominal values for a "standard environment"  
+
+An example of a 60 day sequence for the values shown is depicted in the figure to the right. Each state is color coded (Nutrient – black, Phytoplankton – green and Zooplankton – blue). Note that the initial nutrient concentration is rapidly consumed resulting in a phytoplankton bloom until the zooplankton begin aggressive grazing around day 10. Eventually both populations drop to a very low level and a high nutrient concentration remains. In the next section more sophistication is applied to the model in order to increase realism.
+
+
+== More Sophisticated NPZ Models ==
+The Franks et al. (1986)  work has inspired significant analysis from other researchers but is overly simplistic to capture the complexity of actual pelagic communities. A more realistic NPZ model would simulate control of primary production by incorporating mechanisms to simulate seasonally varying sunlight and decreasing illumination with depth. Evans and Parslow (1985) developed an NPZ model which includes these mechanisms and forms the basis of the following example (see also Denman and Pena (1999)).
+
+A 200 day sequence resulting from this configuration of the FWF-NPZ model is shown in the figure to the right. Each state is color coded (Nutrient – black, Phytoplankton – green and Zooplankton – blue). Several interesting features in the model output are easily observed. First, a spring bloom occurs in the first 20 days or so, where the high nutrient concentrations are consumed by the phytoplankton causing an inverse relationship which is halted by a rise in zooplankton concentration eventually settling into a sustained steady-state solution for the remainder of the summer.  Another bloom, not as pronounced as in the spring, occurs in the fall with a remixing of nutrients into the water column.
+
+
+== References ==

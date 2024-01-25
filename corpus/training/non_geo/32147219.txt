@@ -1,0 +1,232 @@
+In trigonometry, it is common to use mnemonics to help remember trigonometric identities and the relationships between the various trigonometric functions. 
+
+
+== SOH-CAH-TOA ==
+The sine, cosine, and tangent ratios in a right triangle can be remembered by representing them as strings of letters, for instance SOH-CAH-TOA in English:
+
+Sine = Opposite ÷ Hypotenuse
+Cosine = Adjacent ÷ Hypotenuse
+Tangent = Opposite ÷ AdjacentOne way to remember the letters is to sound them out phonetically (i.e.  SOH-kə-TOH-ə, similar to Krakatoa).
+
+
+=== Phrases ===
+Another method is to expand the letters into a sentence, such as "Some Old Horses Chew Apples Happily Throughout Old Age", "Some Old Hippy Caught Another Hippy Tripping On Acid", or "Studying Our Homework Can Always Help To Obtain Achievement".  The order may be switched, as in "Tommy On A Ship Of His Caught A Herring" (tangent, sine, cosine) or "The Old Army Colonel And His Son Often Hiccup" (tangent, cosine, sine) or "Come And Have Some Oranges Help To Overcome Amnesia" (cosine, sine, tangent). Communities in Chinese circles may choose to remember it as TOA-CAH-SOH, which also means 'big-footed woman' (Chinese: 大腳嫂; Pe̍h-ōe-jī: tōa-kha-só) in Hokkien.An alternate way to remember the letters for Sin, Cos, and Tan is to memorize the syllables Oh, Ah, Oh-Ah (i.e. ) for O/H, A/H, O/A. Longer mnemonics for these letters include "Oscar Has A Hold On Angie" and "Oscar Had A Heap of Apples."
+
+
+== All Students Take Calculus ==
+All Students Take Calculus is a mnemonic for the sign of each trigonometric functions in each quadrant of the plane. The letters ASTC signify which of the trigonometric functions are positive, starting in the top right 1st quadrant and moving counterclockwise through quadrants 2 to 4.
+
+Quadrant I (angles from 0 to 90 degrees, or 0 to π/2 radians): All trigonometric functions are positive in this quadrant.
+Quadrant II (angles from 90 to 180 degrees, or π/2 to π radians): Sine and cosecant functions are positive in this quadrant.
+Quadrant III (angles from 180 to 270 degrees, or π to 3π/2 radians): Tangent and cotangent functions are positive in this quadrant.
+Quadrant IV (angles from 270 to 360 degrees, or 3π/2 to 2π radians): Cosine and secant functions are positive in this quadrant.Other mnemonics include:
+
+All Stations To Central
+All Silly Tom Cats
+Add Sugar To Coffee
+All Science Teachers (are) Crazy
+A Smart Trig ClassOther easy-to-remember mnemonics are the ACTS and CAST laws.  These have the disadvantages of not going sequentially from quadrants 1 to 4 and not reinforcing the numbering convention of the quadrants. 
+
+CAST still goes counterclockwise but starts in quadrant 4 going through quadrants 4, 1, 2, then 3.
+ACTS still starts in quadrant 1 but goes clockwise going through quadrants 1, 4, 3, then 2.
+
+
+== Sines and cosines of special angles ==
+Sines and cosines of common angles 0°, 30°, 45°, 60° and 90° follow the pattern 
+  
+    
+      
+        
+          
+            
+              n
+            
+            2
+          
+        
+      
+    
+    {\displaystyle {\frac {\sqrt {n}}{2}}}
+   with n = 0, 1, ..., 4 for sine and n = 4, 3, ..., 0 for cosine, respectively:
+
+
+== Hexagon chart ==
+Another mnemonic permits all of the basic identities to be read off quickly. The hexagonal chart can be constructed with a little thought:
+Draw three triangles pointing down, touching at a single point. This resembles a fallout shelter trefoil.
+Write a 1 in the middle where the three triangles touch
+Write the functions without "co" on the three left outer vertices (from top to bottom: sine, tangent, secant)
+Write the co-functions on the corresponding three right outer vertices (cosine, cotangent, cosecant)Starting at any vertex of the resulting hexagon:
+
+The starting vertex equals one over the opposite vertex. For example, 
+  
+    
+      
+        sin
+        ⁡
+        A
+        =
+        
+          
+            1
+            
+              csc
+              ⁡
+              A
+            
+          
+        
+      
+    
+    {\displaystyle \sin A={\frac {1}{\csc A}}}
+  
+Going either clockwise or counter-clockwise, the starting vertex equals the next vertex divided by the vertex after that. For example, 
+  
+    
+      
+        sin
+        ⁡
+        A
+        =
+        
+          
+            
+              cos
+              ⁡
+              A
+            
+            
+              cot
+              ⁡
+              A
+            
+          
+        
+        =
+        
+          
+            
+              tan
+              ⁡
+              A
+            
+            
+              sec
+              ⁡
+              A
+            
+          
+        
+      
+    
+    {\displaystyle \sin A={\frac {\cos A}{\cot A}}={\frac {\tan A}{\sec A}}}
+  
+The starting corner equals the product of its two nearest neighbors. For example, 
+  
+    
+      
+        sin
+        ⁡
+        A
+        =
+        cos
+        ⁡
+        A
+        ⋅
+        tan
+        ⁡
+        A
+      
+    
+    {\displaystyle \sin A=\cos A\cdot \tan A}
+  
+The sum of the squares of the two items at the top of a triangle equals the square of the item at the bottom. These are the trigonometric Pythagorean identities:
+  
+    
+      
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        A
+        +
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        A
+        =
+        1
+         
+      
+    
+    {\displaystyle \sin ^{2}A+\cos ^{2}A=1\ }
+  
+
+  
+    
+      
+        1
+        +
+        
+          cot
+          
+            2
+          
+        
+        ⁡
+        A
+        =
+        
+          csc
+          
+            2
+          
+        
+        ⁡
+        A
+         
+      
+    
+    {\displaystyle 1+\cot ^{2}A=\csc ^{2}A\ }
+  
+
+  
+    
+      
+        
+          tan
+          
+            2
+          
+        
+        ⁡
+        A
+        +
+        1
+        =
+        
+          sec
+          
+            2
+          
+        
+        ⁡
+        A
+         
+      
+    
+    {\displaystyle \tan ^{2}A+1=\sec ^{2}A\ }
+  Aside from the last bullet, the specific values for each identity are summarized in this table:
+
+
+== See also ==
+List of trigonometric identities
+
+
+== References ==

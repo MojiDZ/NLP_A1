@@ -1,0 +1,64 @@
+Dr. Amanda Bradford is a marine mammal biologist who is currently researching cetacean population dynamics for the National Marine Fisheries Service of the National Oceanic and Atmospheric Administration. Bradford is currently a Research Ecologist with the Pacific Islands Fisheries Science Center's Cetacean Research Program. Her research primarily focuses on assessing populations of cetaceans, including evaluating population size, health, and impacts of human-caused threats, such as fisheries interactions. Bradford is a cofounder and organizer of the Women in Marine Mammal Science (WIMMS) Initiative.
+
+
+== Education ==
+
+
+=== Undergraduate education ===
+Bradford received her Bachelor of Science in Marine Biology from Texas A&M University in Galveston, Texas in 1998. She worked in the lab of Bernd Würsig.While Bradford was an undergraduate, she was a volunteer at the Texas Marine Mammal Stranding Network from 1994 to 1998. Bradford, monitored live stranded delphinids and performed basic husbandry and life-support for bottlenose dolphins and false killer whales. Bradford also participated in marine mammal necropsies.During her senior year, Bradford began analyzing photo-identification data from the western North Pacific population of gray whales. Shortly after graduation, Bradford traveled to northeastern Sakhalin Island in the Russian Far East to join a collaborative Russia-U.S. field study of these whales on their primary feeding ground. Once Bradford returned from the field, she spent a year as a research assistant for this project based at the Southwest Fisheries Science Center in La Jolla, California.
+
+
+=== Graduate education ===
+Bradford attended the University of Washington, School of Aquatic and Fishery Sciences (SAFS) in Seattle, Washington, receiving her Masters of Science in 2003 and then Doctorate of Philosophy (PhD) in 2011. Bradford studied under the late Glenn VanBlaricom for both degrees.
+During her time at SAFS, Bradford spent 10 summers in the Russian Far East studying the endangered western population of gray whales. Bradford's graduate research focused on estimating survival, abundance, anthropogenic impacts, and body condition of these whales. Her results showed that calf survival in the population was notably low, the population numbered only around 100 whales in the early 2000s, whales were vulnerable to fishing gear entanglement and vessel collisions, and that body condition varied by season and year. Lactating females where found to have the poorest body condition and did not always appear to recover by the end of a feeding season. Bradford also studied the age at sexual maturity and the birth-interval of the western gray whales, both important parameters for understanding the dynamics of this endangered population.Bradford spent a lot of time as a graduate student working on photo-identification of the western gray whale population and published a paper on how to identify calves based on of their barnacle scars and pigmentation patterns.
+
+
+== Academic awards and honors ==
+Bradford received the National Marine Fisheries Service - Sea Grant Joint Fellowship Program in Population and Ecosystem Dynamics and Marine Resource Economics. This fellowship is designed to support and train highly qualified PhD students to pursue careers in these fields.
+
+
+== Career and research ==
+
+
+=== Graduate research and early career ===
+The majority of Bradford's work while completing her PhD focused on the western gray whale population. While the population is currently listed as endangered on the Red List of the International Union for Conservation of Nature (IUCN) and considered to be increasing, when Bradford was researching them they were listed as critically endangered. Much of what is known about the western gray whales is a result of the work of Bradford and her international colleagues.
+
+
+=== Western Gray Whale Advisory Panel - International Union for Conservation of Nature ===
+Bradford was responsible for synthesizing data and assisting with population analyses for the Western Gray Whale Advisory Panel between 2007 and 2011. Bradford also participated in two ship-based western gray whale satellite tagging surveys off Sakhalin Island, Russia.
+
+
+=== Western Gray Whale Project, Russia-U.S. Collaboration ===
+Bradford participated and eventually lead western gray whale boat-based photo-identification and genetic-monitoring surveys between 1998 and 2010, which included her putting in over 1,500 hours of small boat work. Further, Bradford collected gray whale behavioral data and theodolite-tracked movement data. In addition to the gray whale work, Bradford collected information on spotted seals in the early years of the collaboration.
+
+
+=== Pacific Islands Fisheries Science Center ===
+Shortly before graduating with her PhD, Bradford took a position at the Pacific Islands Fisheries Science Center, a part of NOAA Fisheries. Bradford is in the Cetacean Research Program of the Protected Species Division, where she studies population dynamics and demography, line-transect abundance estimation, mark-recapture parameter estimation, and health and injury assessment.Bradford's work has been relevant to estimating thee bycatch of false killer whales in the Hawaii-based deep-set longline fishery. False killer whales are known for depredating catch and bait in this fishery and due to this behavior, they are one of the most often accidentally caught marine mammals. Bradford was involved in a study of false killer whale behavior and interactions with the fisheries in an effort to try and reduce the bycatch of this species and achieve conservation goals.Bradford has also been working on a population study of Megaptera novaeangeliae, the humpback whale, and coauthored a paper in 2020 on a newfound breeding ground for the endangered western North Pacific humpback whale population off the Marina Archipelago. In order to promote the recovery of this population, it is vital to know the full extent of their breeding grounds to be able to assess and eliminate threats.
+Bradford regularly participates in ship-based and small boat surveys for cetaceans in the Pacific Islands region. She also plays a leading role in efforts to incorporate unmanned aircraft systems, automated photo-identification using machine learning, and open data science practices into the data collection and analysis workflows of the Cetacean Research program. She regularly gives presentations, contributes to web stories, and otherwise communicates to stakeholders and members of the public.
+
+
+== Outreach and service ==
+
+
+=== Women in Marine Mammal Science ===
+Bradford is a cofounder and organizer of Women in Marine Mammal Science (WIMMS), an initiative aimed at amplifying women and helping them advance their careers in the field of marine mammal science. The initiative was formed following a workshop in 2017 at the Society for Marine Mammalogy Biennial Conference on the Biology of Marine Mammals. The workshop focused on identifying barriers that women face in the marine mammal science field and provided strategies to overcome these barriers. As a part of WIMMS, Bradford conducted a survey and analyzed results on gender-specific experiences in marine mammal science.In 2020, Bradford signed a petition to the Society of Marine Mammalogy asking for them to help eliminate unpaid research positions within the field as the prevalence of these positions decreases the accessibility of the field and limits the diversity and inclusion.
+
+
+=== Society for Marine Mammalogy ===
+Bradford served as the Student-Member-at-Large for the Society for Marine Mammalogy's Board of Governors from 2006 to 2008. Bradford served as the student representative, facilitated student participation in the Society, and promoted the growth of the student chapters.
+
+
+== Select publications ==
+Bradford A. et al. (2021). Line-transect abundance estimates of cetaceans in U.S. waters around the Hawaiian Islands in 2002, 2010 and 2017. U.S. Department of Commerce, NOAA Tech. Memo. NMFS-PIFSC-115.52pp.
+Bradford A. et al. (2020). Abundance estimates of false killers whales in Hawaiian waters and the broader central Pacific. U.S. Department of Commerce, NOAA Tech. Memo. NMFS-PIFSC-104.78pp
+Hill M. and Bradford A. et al.(2020). Found: a missing breeding ground for endangered western North Pacific humpback whales in the Mariana Archipelago. Endangered Species Research. 91–103. 10.3354/esr01010.
+Bradford A. et al. (2018). Abundance estimates for management of endangered false killer whales in the main Hawaiian Islands. Endangered Species Research 36:297-313.
+Weller D. and Bradford A. et al. (2018). Prevalence of Killer Whale Tooth Rake Marks on Gray Whales off Sakhalin Island, Russia. Aquatic Mammals. 44. 643–652. 10.1578/AM.44.6.2018.643.
+Bradford A. Forney K, Oleson E, Barlow J. (2017). Abundance estimates of cetaceans from a line-transect survey within the U.S. Hawaiian Islands Exclusive Economic Zone. Fishery Bulletin 115:129-142.
+Bradford A. Forney K, Oleson E, Barlow J. (2014). Accounting for subgroup structure in line-transect abundance estimates of false killer whales (Pseudorca crassidens) in Hawaiian waters. PLoS ONE 9:e90464.
+Bradford A. et al. (2012). Leaner leviathans: Body condition variation in a critically endangered whale population. Journal of Mammalogy. 93. 251–266. 10.1644/11-MAMM-A-091.1.
+Bradford A, Weller D, Burdin A, Brownell R. (2011). Using barnacle and pigmentation characteristics to identify gray whale calves on their feeding grounds. Marine Mammal Science - MAR MAMMAL SCI. 27. 10.1111/j.1748-7692.2010.00413.x.
+Bradford A. et al. (2009). Anthropogenic scarring of western gray whales (Eschrichtius robustus). Marine Mammal Science 25:161-175.
+
+
+== References ==

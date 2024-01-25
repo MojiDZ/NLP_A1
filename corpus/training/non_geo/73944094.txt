@@ -1,0 +1,1188 @@
+The compressed cover tree is a type of data structure in computer science that is specifically designed to facilitate the speed-up of a k-nearest neighbors algorithm in finite metric spaces. Compressed cover tree is a simplified version of explicit representation of cover tree that was motivated by past issues in proofs of time complexity results of cover tree.
+The compressed cover tree was specifically designed to achieve claimed time complexities of cover tree in a mathematically rigorous way. 
+
+
+== Problem statement ==
+In the modern formulation, the k-nearest neighbor problem is to find all 
+  
+    
+      
+        k
+        ≥
+        1
+      
+    
+    {\displaystyle k\geq 1}
+   nearest neighbors in a given reference set R for all points from another given query set Q. Both sets belong to a common ambient space X with a distance metric d satisfying all metric axioms.
+
+
+== Definitions ==
+
+
+=== Compressed cover tree ===
+Let (R,d) be a finite metric space. A compressed cover tree 
+  
+    
+      
+        
+          
+            T
+          
+        
+        (
+        R
+        )
+      
+    
+    {\displaystyle {\mathcal {T}}(R)}
+   has the vertex set R with a root 
+  
+    
+      
+        r
+        ∈
+        R
+      
+    
+    {\displaystyle r\in R}
+   and a level function 
+  
+    
+      
+        l
+        :
+        R
+        →
+        
+          Z
+        
+      
+    
+    {\displaystyle l:R\rightarrow \mathbb {Z} }
+   satisfying the conditions below:
+
+Root condition: the level of the root node r satisfies 
+  
+    
+      
+        l
+        (
+        r
+        )
+        ≥
+        1
+        +
+        
+          max
+          
+            p
+            ∈
+            R
+            ∖
+            {
+            r
+            }
+          
+        
+        l
+        (
+        p
+        )
+      
+    
+    {\displaystyle l(r)\geq 1+\max \limits _{p\in R\setminus \{r\}}l(p)}
+  
+Covering condition: For every node 
+  
+    
+      
+        q
+        ∈
+        R
+        ∖
+        {
+        r
+        }
+      
+    
+    {\displaystyle q\in R\setminus \{r\}}
+  , we select a unique parent p and a level l(q) such that 
+  
+    
+      
+        d
+        (
+        q
+        ,
+        p
+        )
+        ≤
+        
+          2
+          
+            l
+            (
+            q
+            )
+            +
+            1
+          
+        
+      
+    
+    {\displaystyle d(q,p)\leq 2^{l(q)+1}}
+   and 
+  
+    
+      
+        l
+        (
+        q
+        )
+        <
+        l
+        (
+        p
+        )
+      
+    
+    {\displaystyle l(q)<l(p)}
+   this parent node pp has a single link to its  child node q.Separation condition: For 
+  
+    
+      
+        i
+        ∈
+        
+          Z
+        
+      
+    
+    {\displaystyle i\in \mathbb {Z} }
+  , the cover set  
+  
+    
+      
+        
+          C
+          
+            i
+          
+        
+        =
+        {
+        p
+        ∈
+        R
+        ∣
+        l
+        (
+        p
+        )
+        ≥
+        i
+        }
+      
+    
+    {\displaystyle C_{i}=\{p\in R\mid l(p)\geq i\}}
+   has  
+  
+    
+      
+        
+          d
+          
+            min
+          
+        
+        (
+        
+          C
+          
+            i
+          
+        
+        )
+        =
+        
+          min
+          
+            p
+            ∈
+            
+              C
+              
+                i
+              
+            
+          
+        
+        
+          min
+          
+            q
+            ∈
+            
+              C
+              
+                i
+              
+            
+            ∖
+            {
+            p
+            }
+          
+        
+        d
+        (
+        p
+        ,
+        q
+        )
+        >
+        
+          2
+          
+            i
+          
+        
+      
+    
+    {\displaystyle d_{\min }(C_{i})=\min \limits _{p\in C_{i}}\min \limits _{q\in C_{i}\setminus \{p\}}d(p,q)>2^{i}}
+  
+
+
+=== Expansion constants ===
+In a metric space, let 
+  
+    
+      
+        
+          
+            
+              B
+              ¯
+            
+          
+        
+        (
+        p
+        ,
+        t
+        )
+      
+    
+    {\displaystyle {\bar {B}}(p,t)}
+   be the closed ball with a center p and a radius 
+  
+    
+      
+        t
+        ≥
+        0
+      
+    
+    {\displaystyle t\geq 0}
+  .
+The notation 
+  
+    
+      
+        
+          |
+        
+        
+          
+            
+              B
+              ¯
+            
+          
+        
+        (
+        p
+        ,
+        t
+        )
+        
+          |
+        
+      
+    
+    {\displaystyle |{\bar {B}}(p,t)|}
+   denotes the number (if finite) of points in the closed ball. 
+The expansion constant   
+  
+    
+      
+        c
+        (
+        R
+        )
+      
+    
+    {\displaystyle c(R)}
+   is the smallest  
+  
+    
+      
+        c
+        (
+        R
+        )
+        ≥
+        2
+      
+    
+    {\displaystyle c(R)\geq 2}
+   such that 
+  
+    
+      
+        
+          |
+        
+        
+          
+            
+              B
+              ¯
+            
+          
+        
+        (
+        p
+        ,
+        2
+        t
+        )
+        
+          |
+        
+        ≤
+        c
+        (
+        R
+        )
+        ⋅
+        
+          |
+        
+        
+          
+            
+              B
+              ¯
+            
+          
+        
+        (
+        p
+        ,
+        t
+        )
+        
+          |
+        
+      
+    
+    {\displaystyle |{\bar {B}}(p,2t)|\leq c(R)\cdot |{\bar {B}}(p,t)|}
+   for any point 
+  
+    
+      
+        p
+        ∈
+        R
+      
+    
+    {\displaystyle p\in R}
+   and 
+  
+    
+      
+        t
+        ≥
+        0
+      
+    
+    {\displaystyle t\geq 0}
+  .
+the new minimized expansion constant  
+  
+    
+      
+        
+          c
+          
+            m
+          
+        
+      
+    
+    {\displaystyle c_{m}}
+   is a discrete analog of the doubling dimension Navigating nets   
+  
+    
+      
+        
+          c
+          
+            m
+          
+        
+        (
+        R
+        )
+        =
+        
+          lim
+          
+            ξ
+            →
+            
+              0
+              
+                +
+              
+            
+          
+        
+        
+          inf
+          
+            R
+            ⊆
+            A
+            ⊆
+            X
+          
+        
+        
+          sup
+          
+            p
+            ∈
+            A
+            ,
+            t
+            >
+            ξ
+          
+        
+        
+          
+            
+              
+                
+                  |
+                
+                
+                  
+                    
+                      B
+                      ¯
+                    
+                  
+                
+                (
+                p
+                ,
+                2
+                t
+                )
+                ∩
+                A
+                
+                  |
+                
+              
+              
+                
+                  |
+                
+                
+                  
+                    
+                      B
+                      ¯
+                    
+                  
+                
+                (
+                p
+                ,
+                t
+                )
+                ∩
+                A
+                
+                  |
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle c_{m}(R)=\lim \limits _{\xi \rightarrow 0^{+}}\inf \limits _{R\subseteq A\subseteq X}\sup \limits _{p\in A,t>\xi }{\dfrac {|{\bar {B}}(p,2t)\cap A|}{|{\bar {B}}(p,t)\cap A|}}}
+  , where A is a locally finite set which covers R.
+Note that 
+  
+    
+      
+        
+          c
+          
+            m
+          
+        
+        (
+        R
+        )
+        ≤
+        c
+        (
+        R
+        )
+      
+    
+    {\displaystyle c_{m}(R)\leq c(R)}
+   for any finite metric space (R,d).
+
+
+=== Aspect ratio ===
+For any finite set R with a metric d, the diameter is 
+  
+    
+      
+        
+          d
+          i
+          a
+          m
+        
+        (
+        R
+        )
+        =
+        
+          max
+          
+            p
+            ∈
+            R
+          
+        
+        
+          max
+          
+            q
+            ∈
+            R
+          
+        
+        d
+        (
+        p
+        ,
+        q
+        )
+      
+    
+    {\displaystyle \mathrm {diam} (R)=\max _{p\in R}\max _{q\in R}d(p,q)}
+  . The aspect ratio is 
+  
+    
+      
+        Δ
+        (
+        R
+        )
+        =
+        
+          
+            
+              
+                
+                  d
+                  i
+                  a
+                  m
+                
+                (
+                R
+                )
+              
+              
+                
+                  d
+                  
+                    min
+                  
+                
+                (
+                R
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle \Delta (R)={\dfrac {\mathrm {diam} (R)}{d_{\min }(R)}}}
+  , where 
+  
+    
+      
+        
+          d
+          
+            min
+          
+        
+        (
+        R
+        )
+      
+    
+    {\displaystyle d_{\min }(R)}
+   is the shortest distance between points of R.
+
+
+== Complexity ==
+
+
+=== Insert ===
+Although cover trees provide faster searches than the naive approach, this advantage must be weighed with the additional cost of maintaining the data structure. In a naive approach adding a new point to the dataset is trivial because order does not need to be preserved, but in a compressed cover tree it can be bounded 
+
+Using expansion constant: 
+  
+    
+      
+        O
+        (
+        c
+        (
+        R
+        
+          )
+          
+            10
+          
+        
+        ⋅
+        log
+        ⁡
+        
+          |
+        
+        R
+        
+          |
+        
+        )
+      
+    
+    {\displaystyle O(c(R)^{10}\cdot \log |R|)}
+  .
+Using minimized expansion constant / doubling dimension  
+  
+    
+      
+        O
+        (
+        
+          c
+          
+            m
+          
+        
+        (
+        R
+        
+          )
+          
+            8
+          
+        
+        ⋅
+        log
+        ⁡
+        Δ
+        (
+        
+          |
+        
+        R
+        
+          |
+        
+        )
+        )
+      
+    
+    {\displaystyle O(c_{m}(R)^{8}\cdot \log \Delta (|R|))}
+  .
+
+
+=== K-nearest neighborhood search ===
+Let Q and R be finite subsets of a metric space (X,d). Once all points of R are inserted into a compressed cover tree 
+
+  
+    
+      
+        
+          
+            T
+          
+        
+        (
+        R
+        )
+      
+    
+    {\displaystyle {\mathcal {T}}(R)}
+   it can be used for find-queries of the query point set Q.
+The following time complexities have been proven for finding the k-nearest neighbor of a query point 
+  
+    
+      
+        q
+        ∈
+        Q
+      
+    
+    {\displaystyle q\in Q}
+  
+in the reference set R:
+
+Using expansion constant: 
+  
+    
+      
+        O
+        
+          
+            (
+          
+        
+        c
+        (
+        R
+        ∪
+        {
+        q
+        }
+        
+          )
+          
+            2
+          
+        
+        ⋅
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        (
+        k
+        )
+        ⋅
+        
+          
+            (
+          
+        
+        (
+        
+          c
+          
+            m
+          
+        
+        (
+        R
+        )
+        
+          )
+          
+            10
+          
+        
+        ⋅
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        (
+        
+          |
+        
+        R
+        
+          |
+        
+        )
+        +
+        c
+        (
+        R
+        ∪
+        {
+        q
+        }
+        )
+        ⋅
+        k
+        
+          
+            )
+          
+        
+        
+          
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle O{\Big (}c(R\cup \{q\})^{2}\cdot \log _{2}(k)\cdot {\big (}(c_{m}(R))^{10}\cdot \log _{2}(|R|)+c(R\cup \{q\})\cdot k{\big )}{\Big )}.}
+  .
+Using minimized expansion constant / doubling dimension  
+  
+    
+      
+        O
+        
+          
+            (
+          
+        
+        (
+        
+          c
+          
+            m
+          
+        
+        (
+        R
+        )
+        
+          )
+          
+            10
+          
+        
+        ⋅
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        (
+        k
+        )
+        ⋅
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        (
+        Δ
+        (
+        R
+        )
+        )
+        +
+        
+          |
+        
+        
+          
+            
+              B
+              ¯
+            
+          
+        
+        (
+        q
+        ,
+        5
+        
+          d
+          
+            k
+          
+        
+        (
+        q
+        ,
+        R
+        )
+        )
+        
+          |
+        
+        ⋅
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        (
+        k
+        )
+        
+          
+            )
+          
+        
+      
+    
+    {\displaystyle O{\Big (}(c_{m}(R))^{10}\cdot \log _{2}(k)\cdot \log _{2}(\Delta (R))+|{\bar {B}}(q,5d_{k}(q,R))|\cdot \log _{2}(k){\Big )}}
+  , where 
+  
+    
+      
+        
+          |
+        
+        
+          
+            
+              B
+              ¯
+            
+          
+        
+        (
+        q
+        ,
+        5
+        
+          d
+          
+            k
+          
+        
+        (
+        q
+        ,
+        R
+        )
+        )
+        
+          |
+        
+      
+    
+    {\displaystyle |{\bar {B}}(q,5d_{k}(q,R))|}
+   is a number of points inside a closed ball around q having a radius 5 times the distance of q to its k-nearest neighbor.
+
+
+=== Space ===
+The compressed cover tree constructed on finite metric space R requires O(|R|) space, during the construction and during the execution of the Find algorithm. 
+
+
+=== Compared to other similar data structures ===
+
+
+==== Using doubling dimension as hidden factor ====
+Tables below show time complexity estimates which use minimized expansion constant 
+  
+    
+      
+        
+          c
+          
+            m
+          
+        
+        (
+        R
+        )
+      
+    
+    {\displaystyle c_{m}(R)}
+   or dimensionality constant 
+  
+    
+      
+        
+          2
+          
+            dim
+          
+        
+      
+    
+    {\displaystyle 2^{\text{dim}}}
+    related to doubling dimension. Note that 
+  
+    
+      
+        Δ
+      
+    
+    {\displaystyle \Delta }
+   denotes the aspect ratio.
+Results for building data structures
+
+Results for exact k-nearest neighbors of one query point 
+  
+    
+      
+        q
+        ∈
+        Q
+      
+    
+    {\displaystyle q\in Q}
+   in reference set R assuming that all data structures are already built. Below we denote the distance between a query point q and the reference set R as 
+  
+    
+      
+        d
+        (
+        q
+        ,
+        R
+        )
+      
+    
+    {\displaystyle d(q,R)}
+   and distance from a query point q to its k-nearest neighbor in set R as 
+  
+    
+      
+        
+          d
+          
+            k
+          
+        
+        (
+        q
+        ,
+        R
+        )
+      
+    
+    {\displaystyle d_{k}(q,R)}
+  :
+
+
+==== Using expansion constant as hidden factor ====
+Tables below show time complexity estimates which use 
+  
+    
+      
+        c
+        (
+        R
+        )
+      
+    
+    {\displaystyle c(R)}
+   or KR-type constant 
+  
+    
+      
+        
+          2
+          
+            
+              
+                dim
+              
+              
+                K
+                R
+              
+            
+          
+        
+      
+    
+    {\displaystyle 2^{{\text{dim}}_{KR}}}
+   as a hidden factor. Note that the dimensionality factor 
+  
+    
+      
+        
+          2
+          
+            
+              
+                dim
+              
+              
+                K
+                R
+              
+            
+          
+        
+      
+    
+    {\displaystyle 2^{{\text{dim}}_{KR}}}
+   is equivalent  to 
+  
+    
+      
+        c
+        (
+        R
+        
+          )
+          
+            O
+            (
+            1
+            )
+          
+        
+      
+    
+    {\displaystyle c(R)^{O(1)}}
+  
+Results for building data structures
+
+Results for exact k-nearest neighbors of one query point 
+  
+    
+      
+        q
+        ∈
+        X
+      
+    
+    {\displaystyle q\in X}
+   assuming that all data structures are already built.
+
+
+== See also ==
+Cover tree
+Nearest neighbor search
+kd-tree
+
+
+== References ==

@@ -1,0 +1,13 @@
+The Artemis complex is a protein complex that functions in V(D)J recombination, the somatic recombination process which generates diversity in T cell receptors and immunoglobulins. Mutations in the Artemis complex results in hypersensitivity to DNA double-strand break-inducing agents, such as radiation; and so people with mutations in the Artemis complex may develop radiosensitive severe combined immune deficiency (RS-SCID).
+
+
+== Mechanism ==
+The Artemis protein has single-strand-specific 5' to 3' exonuclease activity, but it can also complex with the 469 kDa DNA-dependent protein kinase (DNA-PKcs) to gain endonuclease activity on hairpins and the 5' and 3' overhangs; the DNA-PKcs phosphorylates Artemis to give it this new function.During V(D)J recombination, the RAG complex (made up of RAG-1 and RAG-2 complexed with HMG1 or HMG2) binds to two recombination signal sequences (RSSs); the complex associates with each other, bringing the strands together, creating a loop which contains all the DNA between the two RSSs. Some of this DNA is then deleted, and the RAG complex then induce a nick precisely at the 5' end of the heptamer. This creates a 3' OH group which acts as a nucleophile in a transesterification attack on the antiparallel strand, yielding a DNA hairpin (two hairpins, as the RAG complex dimer binds to two strands). In lymphoid cells, recombination can only occur between a 12-RSS and a 23-RSS; this is known as the 12/23 rule.
+The four ends of DNA (two hairpinned coding ends and the two signal ends) are held together in a postcleavage complex by the RAG complex. The Artemis:DNA-PKcs complex, along with Ku and DNA ligase IV/XRCC4 dimer, can then close up the signal ends into a 'signal joint'. It also opens the hairpins of the coding ends, and this process is thought to be mediated by the RAG complex (the RAG complex can open free hairpins by itself, but this is only observed in manganese-containing buffers, and not in magnesium-containing buffers). Nucleotides are added at the open ends by terminal deoxynucleotidyl transferase (TdT). This occurs until there are complementary sequences at which point the opposite strands will pair up. Exonucleases then remove the unpaired nucleotides, and ligases fill in the gaps. This creates a junction between each joined segment, containing an unspecified number of nucleotide additions, flanked by a 2-residue palindromic sequence.
+
+
+== Other Uses ==
+The Artemis:DNA-PKcs is also used for processing 5' and 3' ends in non-homologous DNA end joining.
+
+
+== References ==

@@ -1,0 +1,203 @@
+In mathematics, trigonometric integrals are a family of nonelementary integrals involving trigonometric functions.
+
+
+== Sine integral ==
+The different sine integral definitions are
+
+Note that the integrand 
+  
+    
+      
+        
+          
+            
+              sin
+              ⁡
+              (
+              t
+              )
+            
+            t
+          
+        
+      
+    
+    {\displaystyle {\frac {\sin(t)}{t}}}
+   is the sinc function, and also the zeroth spherical Bessel function.
+Since  sinc is an even entire function (holomorphic over the entire complex plane),  Si is entire, odd, and the integral in its definition can be taken along any path connecting the endpoints.
+By definition,  Si(x) is the antiderivative of sin x / x whose value is zero at x = 0, and si(x) is the antiderivative whose value is zero at x = ∞. Their difference  is given by the Dirichlet integral,
+
+In signal processing, the oscillations of the sine integral cause overshoot and ringing artifacts when using the sinc filter, and frequency domain ringing if using a truncated sinc filter as a low-pass filter.
+Related is the Gibbs phenomenon: If the sine integral is considered as the convolution of the sinc function with the heaviside step function, this corresponds to truncating the Fourier series, which is the cause of the Gibbs phenomenon.
+
+
+== Cosine integral ==
+The different cosine integral definitions are
+
+where γ ≈ 0.57721566 ... is the Euler–Mascheroni constant. Some texts use ci instead of Ci.
+Ci(x) is the antiderivative of cos x / x (which vanishes as 
+  
+    
+      
+        x
+        →
+        ∞
+      
+    
+    {\displaystyle x\to \infty }
+  ). The two definitions are related by
+
+Cin is an even, entire function. For that reason, some texts treat Cin as the primary function, and derive Ci in terms of Cin.
+
+
+== Hyperbolic sine integral ==
+The hyperbolic sine integral is defined as
+
+It is related to the ordinary sine integral by
+
+
+== Hyperbolic cosine integral ==
+The hyperbolic cosine integral is
+
+where 
+  
+    
+      
+        γ
+      
+    
+    {\displaystyle \gamma }
+   is the Euler–Mascheroni constant.
+It has the series expansion
+
+
+== Auxiliary functions ==
+Trigonometric integrals can be understood in terms of the so-called "auxiliary functions"
+
+Using these functions, the trigonometric integrals may be re-expressed as 
+(cf. Abramowitz & Stegun, p. 232)
+
+
+== Nielsen's spiral ==
+The spiral formed by parametric plot of si , ci is known as Nielsen's spiral.
+
+The spiral is closely related to the Fresnel integrals and the Euler spiral. Nielsen's spiral has applications in vision processing, road and track construction and other areas.
+
+
+== Expansion ==
+Various expansions can be used for evaluation of trigonometric integrals, depending on the range of the argument.
+
+
+=== Asymptotic series (for large argument) ===
+
+These series are asymptotic and divergent, although can be used for estimates and even precise evaluation at ℜ(x) ≫ 1.
+
+
+=== Convergent series ===
+
+These series are convergent at any complex x, although for |x| ≫ 1, the series will converge slowly initially, requiring many terms for high precision.
+
+
+=== Derivation of series expansion ===
+From the Maclaurin series expansion of sine:
+
+
+== Relation with the exponential integral of imaginary argument ==
+The function
+
+is called the exponential integral. It is closely related to Si and Ci,
+
+As each respective function is analytic except for the cut at negative values of the argument, the area of validity of the relation should be extended to (Outside this range, additional terms which are integer factors of π appear in the expression.)
+Cases of imaginary argument of the generalized integro-exponential function are
+
+which is the real part of
+
+Similarly
+
+
+== Efficient evaluation ==
+Padé approximants of the convergent Taylor series provide an efficient way to evaluate the functions for small arguments.  The following formulae, given by Rowe et al. (2015), are accurate to better than 10−16 for 0 ≤ x ≤ 4,
+
+The integrals may be evaluated indirectly via auxiliary functions 
+  
+    
+      
+        f
+        (
+        x
+        )
+      
+    
+    {\displaystyle f(x)}
+   and 
+  
+    
+      
+        g
+        (
+        x
+        )
+      
+    
+    {\displaystyle g(x)}
+  , which are defined by
+
+For 
+  
+    
+      
+        x
+        ≥
+        4
+      
+    
+    {\displaystyle x\geq 4}
+   the Padé rational functions given below approximate 
+  
+    
+      
+        f
+        (
+        x
+        )
+      
+    
+    {\displaystyle f(x)}
+   and 
+  
+    
+      
+        g
+        (
+        x
+        )
+      
+    
+    {\displaystyle g(x)}
+   with error less than 10−16:
+
+
+== See also ==
+Logarithmic integral
+Tanc function
+Tanhc function
+Sinhc function
+Coshc function
+
+
+== References ==
+
+Abramowitz, Milton; Stegun, Irene Ann, eds. (1983) [June 1964]. "Chapter 5". Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables. Applied Mathematics Series. Vol. 55 (Ninth reprint with additional corrections of tenth original printing with corrections (December 1972); first ed.). Washington D.C.; New York: United States Department of Commerce, National Bureau of Standards; Dover Publications. p. 231. ISBN 978-0-486-61272-0. LCCN 64-60036. MR 0167642. LCCN 65-12253.
+
+
+== Further reading ==
+Mathar, R.J. (2009). "Numerical evaluation of the oscillatory integral over exp(iπx)·x1/x between 1 and ∞". Appendix B. arXiv:0912.3844 [math.CA].
+Press, W.H.; Teukolsky, S.A.; Vetterling, W.T.; Flannery, B.P. (2007). "Section 6.8.2 – Cosine and Sine Integrals". Numerical Recipes: The Art of Scientific Computing (3rd ed.). New York: Cambridge University Press. ISBN 978-0-521-88068-8.
+Sloughter, Dan. "Sine Integral Taylor series proof" (PDF). Difference Equations to Differential Equations.
+Temme, N.M. (2010), "Exponential, Logarithmic, Sine, and Cosine Integrals", in Olver, Frank W. J.; Lozier, Daniel M.; Boisvert, Ronald F.; Clark, Charles W. (eds.), NIST Handbook of Mathematical Functions, Cambridge University Press, ISBN 978-0-521-19225-5, MR 2723248.
+
+
+== External links ==
+http://mathworld.wolfram.com/SineIntegral.html
+"Integral sine", Encyclopedia of Mathematics, EMS Press, 2001 [1994]
+"Integral cosine", Encyclopedia of Mathematics, EMS Press, 2001 [1994]

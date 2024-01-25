@@ -1,0 +1,56 @@
+Ordinary trigonometry studies triangles in the Euclidean plane 
+  
+    
+      
+        
+          
+            R
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \mathbb {R} ^{2}}
+  . There are a number of ways of defining the ordinary Euclidean geometric trigonometric functions on real numbers, for example right-angled triangle definitions, unit circle definitions, series definitions, definitions via differential equations, and definitions using functional equations. Generalizations of trigonometric functions are often developed by starting with one of the above methods and adapting it to a situation other than the real numbers of Euclidean geometry. Generally, trigonometry can be the study of triples of points in any kind of geometry or space. A triangle is the polygon with the smallest number of vertices, so one direction to generalize is to study higher-dimensional analogs of angles and polygons: solid angles and polytopes such as tetrahedrons and n-simplices.
+
+
+== Trigonometry ==
+In spherical trigonometry, triangles on the surface of a sphere are studied. The spherical triangle identities are written in terms of the ordinary trigonometric functions but differ from the plane triangle identities.
+Hyperbolic trigonometry:
+Study of hyperbolic triangles in hyperbolic geometry with hyperbolic functions.
+Hyperbolic functions in Euclidean geometry: The unit circle is parameterized by (cos t, sin t) whereas the equilateral hyperbola is parameterized by (cosh t, sinh t).
+Gyrotrigonometry: A form of trigonometry used in the gyrovector space approach to hyperbolic geometry, with applications to special relativity and quantum computation.
+Trigonometry for taxicab geometry
+Spacetime trigonometries
+Fuzzy qualitative trigonometry
+Operator trigonometry
+Lattice trigonometry
+Trigonometry on symmetric spaces
+
+
+== Higher dimensions ==
+Schläfli orthoschemes - right simplexes (right triangles generalized to n dimensions) - studied by Schoute who called the generalized trigonometry of n Euclidean dimensions polygonometry.
+Pythagorean theorems for n-simplices with an "orthogonal corner"
+Trigonometry of a tetrahedronDe Gua's theorem – a Pythagorean theorem for a tetrahedron with a cube corner
+A law of sines for tetrahedra
+Polar sine
+
+
+== Trigonometric functions ==
+Trigonometric functions can be defined for fractional differential equations.In time scale calculus, differential equations and difference equations are unified into dynamic equations on time scales which also includes q-difference equations. Trigonometric functions can be defined on an arbitrary time scale (a subset of the real numbers).
+The series definitions of sin and cos define these functions on any algebra where the series converge such as complex numbers, p-adic numbers, matrices, and various Banach algebras.
+
+
+== Other ==
+Polar/Trigonometric forms of hypercomplex numbers
+Polygonometry – trigonometric identities for multiple distinct angles
+The Lemniscate elliptic functions, sinlem and coslem
+
+
+== See also ==
+The Pythagorean theorem in non-Euclidean geometry
+
+
+== References ==

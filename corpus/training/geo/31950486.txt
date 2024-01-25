@@ -1,0 +1,34 @@
+Aeroecology is the discipline for studying how airborne life forms utilize and interact with other biotic and abiotic components of the atmosphere.  The aerosphere is viewed as habitat  and the way that organisms respond to and take advantage of the dynamic aeroscape has relevance to the ecology, evolution, and conservation of many of the world's bird, bat, insect, and plant species.
+The interactions and properties in the aerosphere, the zone that is closest to the Earth's surface, provide selective pressures that influence the size and shape of organisms, their behavioral, sensory, metabolic, and respiratory functions. In contrast to organisms that spend their entire lives on land or in water, organisms that use the aerosphere are almost immediately affected by changing conditions such as winds, air density, oxygen concentrations, precipitation, air temperature, sunlight, polarized light, moonlight, and geomagnetic and gravitational forces.Aeroecology has relied upon traditional ecological field studies such as direct observation or detection of organisms flying overhead (e.g., moon watching, thermal cameras, or bioacoustics). However, the field has been greatly advanced by the inclusion of remotely sensed data, in particular Doppler weather radar or NEXRAD. In March 2012, an international and interdisciplinary Radar Aeroecology Workshop was held at the National Weather Center on the University of Oklahoma campus in Norman, OK, USA.  Experts in the fields of ecology and meteorology discussed how various radar technologies could be applied to aeroecological questions.  Aeroecology research groups at both the University of Oklahoma  and the University of Delaware  continue to advance the development and integration of remotely sensed data to quantify, qualify, and track biological utilization of the lower aerosphere.
+
+
+== History ==
+Aeroecology is a relatively new field of study. It was first introduced as a concept by Boston University researcher Thomas Kunz et al. in a paper published in 2008, "Aeroecology: probing and modeling the aerosphere."
+
+
+== Observational aeroecology ==
+In the traditional sense, aeroecology has been limited to observations taken from the ground of biological organisms occupying the airspace above.  This may include near-surface foraging behavior or moon-watching passage migrants using human observers equipped with optics.  With the advent and adoption of technologies such as thermographic cameras, marine radar, and NEXRAD to aeroecological studies, the ability to detect and track sufficiently large animals in the aerosphere was revolutionized.
+
+
+== Radar aeroecology ==
+Aeroecological studies using weather radar were pioneered by Dr. Sidney A. Gauthreaux during his graduate studies at Louisiana State University and later as a professor at Clemson University.  His initial work with radar images produced by the WSR-57 network revealed much about the trans-Gulf of Mexico arrivals and departures of Neotropical migratory birds.
+
+
+=== Reflectivity ===
+Radar beams will reflect off sufficiently dense objects, such as water droplets, airplane fuselages, or flying animals.  The reflectance of the object will depend upon its radar cross-section, which is dictated by the size, shape, and material composition of the object.  Weather radar reflectivity data represents the sum reflectivity of all objects within the sampled airspace and therefore is a generalization of the amount of rain or, for aeroecological purposes, the abundance of animals in that volume of air.  Aeroecologists use the term "bioscatter" to describe radar reflectance from biological objects.
+
+
+=== Relative velocity ===
+Weather radars are capable of detecting Doppler shift in returning waveforms.  This information is used to extrapolate a mean relative velocity for all objects within the sampled airspace.  Aeroecologists have used this information to distinguish among objects drifting with the wind (particulates such as dust, seeds, or pollen), from objects moving slightly faster/angular to the wind (e.g., insects), and objects moving at least 5–6 m/s faster than and/or moving against the predominant direction of the wind (e.g., birds and bats).
+
+
+=== Dual-pol radar ===
+An upgrade of weather radars to allow dual polarization of the radar beam promises to provide greater characterization and discrimination of airborne targets.  For aeroecology this promises to allow better capability to distinguish migrating birds from insects, weather, or suspended particulates.  Ratios of horizontal versus vertical beam reflectivity and Doppler shift also hold much potential for gauging discrepancies between the orientation of birds relative to their realized movement paths, providing the means to assess drift compensation among migratory birds.
+
+
+== See also ==
+Natural environment
+Nature
+
+
+== References ==

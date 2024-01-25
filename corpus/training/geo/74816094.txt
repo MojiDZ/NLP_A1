@@ -1,0 +1,49 @@
+Flyover is a feature on Apple Maps that allows users to view certain areas in a 3D setting. Flyover also allows users to take "tours" of these locations through the City Tours feature, showcasing various landmarks in the area. Imagery is provided through the use of drones, which collect fine data on buildings.
+
+Initially founded in 2012, along with Apple Maps itself, Flyover now covers over 300 cities, landmarks, and parks across five of the six inhabited continents through a series of several expansions, notably in 2014, 2015 and 2019. Despite earlier issues, Flyover has been praised for its detail and uniqueness.
+
+
+== History ==
+
+
+=== 2012 - 2015 ===
+Flyover was announced along with Apple Maps at the WWDC 2012, and was also released alongside Maps in September 2012. The 10 initial cities that first received Flyover were Chicago, Copenhagen, Las Vegas, Los Angeles, Miami, Montreal, Sacramento, San Francisco, Seattle and Sydney. More cities would receive Flyover in later years, with Apple often adding Flyover to multiple cities at a time. In addition to this initial release, Apple added the feature to other cities later in the year, including Toronto in Canada.In 2013, Flyover was added to Paris, as well as smaller cities such as Indianapolis and Baltimore, totalling 16 cities in the United States, Germany, Canada, France and the UK. In addition, Flyover was also added to London, Barcelona, Cologne, Rome, and Madrid, as well as the city of Vancouver, in Canada the same year.Flyover was added to several cities and national parks in New Zealand, France, the United States, South Africa, Sweden and Japan, including Cape Town and two Arizona National Parks in 2014, with Marseille, the second-largest city in France, receiving Flyover coverage later in the year as well, The capital of Japan, Tokyo, also received Flyover that year. along with Wellington, New Zealand and Yosemite National Park. In addition, the City Tours feature, which allows users to tour locations supported by the Flyover feature, was also added around this time.South Africa, the only African nation to have Flyover, also first saw the feature with Cape Town in 2014, with Durban and Johannesburg receiving the feature in later years.Flyover was added to over 20 cities and locations in 2015 in various cities mostly across the US and Western Europe, including Canberra and Venice. Flyover was also added to Budapest, in Hungary and Prague and Brno in the Czech Republic later in the year. In Italy, the cities of Florence and Genoa received Flyover that year as well.Guadalajara, the largest city in Mexico to have the feature, also received Flyover in 2015. Japan also saw more cities with Flyover, with Nagoya, Osaka and Hiroshima receiving the feature in 2015 as well, and Mannheim and Stuttgart in Germany also received the feature that year.
+
+
+=== 2016 - present ===
+2016 saw Apple add Flyover to around 20 additional cities, including cities such as Adelaide in Australia and the Virgin Islands, with the majority of the new cities being smaller ones, as only two of the cities that received Flyover that year had over a million people.Flyover was added to 7 cities in 2018, those being the cities of Karlsruhe and Kiel in Germany, Braga in Portugal, San Juan in Puerto Rico, Cadiz and Jerez de la Frontera in Spain, and Hull in the United Kingdom.2019 saw Apple's biggest Flyover expansion, with the feature being added to over 30 cities in France, Japan, the United States, and others, as well as the entirety of the nation of Monaco.After 2019 and during the COVID-19 pandemic, relatively little progress was made with the feature, largely in favor of working on the newer Look Around. However, Apple added some new Flyovers during and since then, expanding to Amsterdam in 2020 and Vienna in 2023.
+
+
+== Use ==
+Apple collects the 3D data used for Flyover by using small military-grade drone-like planes, which fly up close to buildings to create a more detailed map. Since 2013, C3 Technologies, which was acquired by Apple in 2011, has collected the data used for Flyover.With Flyover, certain locations – mostly big cities, landmarks and some national parks – can be seen from a birds-eye perspective. The three-dimensional views are photo-realistic, and users can change the vantage point on the map.Flyover imagery has been viewed as similar to that of virtual reality, and could possibly be a precursor to a VR feature on Maps.
+
+
+=== City Tours ===
+Flyover City Tours were released around 2014, but was inaccessible for a time until the feature was debugged by an Apple Maps developer, making it public. City Tours is a feature that allows users to view various landmarks in a given city via a "flying" animation, a feature only available to cities that already contain Flyover 3D maps. City Tours was added as a feature to Apple Maps on iOS 8 on September 17, 2014, and in OS X Yosemite on October 16, 2014.Most, but not all cities with Flyover allow tours of a given city, where the above virtual tour of various landmarks in the area will be shown.
+
+
+== Coverage ==
+Flyovers are available in over 350 cities and national parks across 28 countries in North America, Europe, Africa, Asia and Australia, as of 2023.
+
+
+== Controversy ==
+
+
+=== Errors ===
+Similar to Maps itself, Flyover saw many visual issues upon release, a notable one containing a massive glitch on the Brooklyn and Anzac Bridges, showing "plunges" on both structures. This was part of a larger series of technical issues with Apple Maps, most of which have since been fixed.
+
+
+=== Security concerns ===
+In 2013, the Norwegian government denied a request by Apple to add Flyover to Oslo, the Norwegian capital, citing security concerns arising from the amount of detail given to buildings, information which could potentially be used to facilitate and carry out terrorist attacks. The decision was met with criticism from Fabian Stang, then mayor of Oslo, who called for the Norwegian government to allow Apple to add the feature, citing the possibility of increased tourism from the addition. A spokesperson for the National Security Authority of Norway stated that obtaining the needed imagery from a "Norwegian supplier" or from the Norwegian Mapping Authority could potentially assist Apple in adding the feature. Similar security concerns may be preventing Apple from adding Flyover to other potentially sensitive areas, including Washington D.C., among others.
+
+
+== See also ==
+3D modeling
+Google Earth
+Pre-installed iOS apps
+
+
+== Notes ==
+
+
+== References ==

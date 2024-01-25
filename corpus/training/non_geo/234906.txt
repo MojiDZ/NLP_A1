@@ -1,0 +1,91 @@
+The following is a list of integrals (antiderivative functions) of trigonometric functions. For antiderivatives involving both exponential and trigonometric functions, see List of integrals of exponential functions. For a complete list of antiderivative functions, see Lists of integrals. For the special antiderivatives involving trigonometric functions, see Trigonometric integral.
+Generally, if the function 
+  
+    
+      
+        sin
+        ⁡
+        x
+      
+    
+    {\displaystyle \sin x}
+   is any trigonometric function, and 
+  
+    
+      
+        cos
+        ⁡
+        x
+      
+    
+    {\displaystyle \cos x}
+   is its derivative,
+
+In all formulas the constant a is assumed to be nonzero, and C denotes the constant of integration.
+
+
+== Integrands involving only sine ==
+
+
+== Integrands involving only cosine ==
+
+
+== Integrands involving only tangent ==
+
+
+== Integrands involving only secant ==
+
+
+== Integrands involving only cosecant ==
+
+
+== Integrands involving only cotangent ==
+
+
+== Integrands involving both sine and cosine ==
+An integral that is a rational function of the sine and cosine can be evaluated using Bioche's rules.
+
+
+== Integrands involving both sine and tangent ==
+
+
+== Integrand involving both cosine and tangent ==
+
+
+== Integrand involving both sine and cotangent ==
+
+
+== Integrand involving both cosine and cotangent ==
+
+
+== Integrand involving both secant and tangent ==
+
+
+== Integrand involving both cosecant and cotangent ==
+
+
+== Integrals in a quarter period ==
+Using the beta function 
+  
+    
+      
+        B
+        (
+        a
+        ,
+        b
+        )
+      
+    
+    {\displaystyle B(a,b)}
+   one can write
+
+
+== Integrals with symmetric limits ==
+
+
+== Integral over a full circle ==
+
+
+== See also ==
+Trigonometric integral

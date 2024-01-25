@@ -1,0 +1,53 @@
+CD137, a member of the tumor necrosis factor (TNF) receptor family, is a type 1 transmembrane protein, expressed on surfaces of leukocytes and non-immune cells. Its alternative names are tumor necrosis factor receptor superfamily member 9 (TNFRSF9), 4-1BB, and induced by lymphocyte activation (ILA). It is of interest to immunologists as a co-stimulatory immune checkpoint molecule, and as a potential target in cancer immunotherapy.
+
+
+== Expression ==
+CD137 is only expressed on the cell surface after T cell activation. When T cells are activated by Antigen Presenting Cells (APCs), CD137 becomes embedded in CD4+ and CD8+ T cells.
+CD137 is a costimulatory molecule functioning to stimulate T cell proliferation, dendritic cell maturation, and promotion of B cell antibody secretion. As a T cell co-stimulator, T cell receptor (TCR) and CD28 signaling causes expression of CD137 on T cell membranes. When CD137 then reacts with the CD137 ligand, it leads to CD137 upregulation. This is a form of self regulation or positive feedback cycle. When CD137 interacts with its ligand, it leads to T cell cytokine production and T cell proliferation, among other signaling pathway responses.
+Other cells that express CD137 include both immune cells (i.e. monocytes, natural killer cells, dendritic cells, follicular dendritic cells (FDCs), and regulatory T cells) and non-immune cells (i.e. chondrocytes, neurons, astrocytes, microglia and endothelial cells).
+
+
+== Regulation of the immune system ==
+CD137 and its ligand both induce signaling cascades upon interaction, a phenomenon known as bidirectional signal transduction. The CD137/ligand complex is also involved in regulation of the immune system. The CD137 ligand is a type-II transmembrane glycoprotein expressed on APCs. The CD137 ligand is normally expressed at low levels, but can have increased expression in presence of pathogen associated molecular patterns (PAMPs) or proinflammatory immune responses like IL-1 secretion.
+Cross-linking CD137 and active T cells can not only result in T cell proliferation via increased IL-2 secretion, but surviving cells also contribute to expanding immune system memory and augmenting T cell cytolytic activity.
+
+
+== Atherosclerosis ==
+
+
+=== Inflammation ===
+Atherosclerosis is a disease, linked to Cardiovascular Disease (CVD), and associated with cardiac inflammation, in the form of lesions in the walls of the atrial chambers and other vasculature. Treatments designed to target the CD137 molecules expressed on immune cell surfaces often lead to T cell proliferation as CD137 stimulation allows for the T cells to continue through the cell cycle. In this way, CD137 is often referred to as an immune checkpoint. This proliferation eventually leads to other immune cell responses and secretion of proinflammatory cytokines which result in exaggerated inflammatory responses that exacerbate atherosclerosis. Ongoing studies are researching CD137 as a biomarker for atherosclerosis as well as CD137 antagonists as potential therapeutics to reduce the symptoms associated with the condition.
+
+
+=== Endothelial cells ===
+The mechanism connecting CD137 bidirectional signaling to the promotion of atherosclerosis is related to CD137 mediation of epithelial cell damage. When the CD137/CD137L complex interacts with endothelial cells, including those lining vascular structures, it induces the upregulation of molecules that promote inflammation and damage. For instance, increases in adhesion molecules, including vascular adhesion molecule-1 or intracellular adhesion molecule-1, on epithelial cells causes recruitment of immune cells like macrophages and neutrophils. When they arrive, these cells initiate proinflammatory responses including cytokine secretion. In chronic cases, this results in excessive inflammation of the epithelial tissue, leading to cell damage and the formation of atherosclerotic inflammatory lesions.
+
+
+== Interactions ==
+CD137 has been shown to interact with TRAF2.
+
+
+== As a drug target ==
+
+
+=== Cancer immunotherapy ===
+CD137 is also involved in cancer having been found upregulated in cancerous cell lines. CD137/ligand stimulation has been found to lead to stronger anti-tumor responses due to cytotoxic T cell activation and is being examined as a possible anticancer therapy.Current cancer immunotherapy treatments use monoclonal antibodies (mAbs) to target and kill cancer cells. Cancer cells upregulate cell surface CD137, however the reason behind this remains unclear. What is known is the fact that mAbs targeting CD137 are successful in fighting cancer as they can not only mark cancer cells, but they allow for CD8+ T cell activation and increased IFN-gamma secretion as per CD137’s function as a costimulatory molecule. This enables the affected individual’s immune system to actively target and kill cancer cells that express CD137 on their cell surfaces. Currently, Utomilumab is the only mAb targeting CD137 on the market. Urelumab trials were temporarily halted due to risk of liver toxicity. Utomilumab trials resulted in the drug’s being cleared for therapeutic use.
+
+
+=== Utomilumab ===
+Utomilumab (PF-05082566) targets this receptor to stimulate a more intense immune system attack on cancers. It is a fully human IgG2 monoclonal antibody. It is in early clinical trials. As of June 2016, 5 clinical trials are active.
+
+
+== See also ==
+4-1BB ligand
+Urelumab
+
+
+== References ==
+
+
+== External links ==
+Human TNFRSF9 genome location and TNFRSF9 gene details page  in the UCSC Genome Browser.
+
+
+== Further reading ==

@@ -1,0 +1,295 @@
+Flattening is a measure of the compression of a circle or sphere along a diameter to form an ellipse or an ellipsoid of revolution (spheroid) respectively. Other terms used are ellipticity, or oblateness. The usual notation for flattening is 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+   and its definition in terms of the semi-axes 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+   and 
+  
+    
+      
+        b
+      
+    
+    {\displaystyle b}
+   of the resulting ellipse or ellipsoid is
+
+  
+    
+      
+        f
+        =
+        
+          
+            
+              a
+              −
+              b
+            
+            a
+          
+        
+        .
+      
+    
+    {\displaystyle f={\frac {a-b}{a}}.}
+  The compression factor is 
+  
+    
+      
+        b
+        
+          /
+        
+        a
+      
+    
+    {\displaystyle b/a}
+   in each case; for the ellipse, this is also its aspect ratio.
+
+
+== Definitions ==
+There are three variants: the flattening 
+  
+    
+      
+        f
+        ,
+      
+    
+    {\displaystyle f,}
+   sometimes called the first flattening, as well as two other "flattenings" 
+  
+    
+      
+        
+          f
+          ′
+        
+      
+    
+    {\displaystyle f'}
+   and 
+  
+    
+      
+        n
+        ,
+      
+    
+    {\displaystyle n,}
+   each sometimes called the second flattening, sometimes only given a symbol, or sometimes called the second flattening and third flattening, respectively.In the following, 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+   is the larger dimension (e.g. semimajor axis), whereas 
+  
+    
+      
+        b
+      
+    
+    {\displaystyle b}
+   is the smaller (semiminor axis).  All flattenings are zero for a circle (a = b).
+
+
+== Identities ==
+The flattenings can be related to each-other:
+
+  
+    
+      
+        
+          
+            
+              
+                f
+                =
+                
+                  
+                    
+                      2
+                      n
+                    
+                    
+                      1
+                      +
+                      n
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                n
+                =
+                
+                  
+                    f
+                    
+                      2
+                      −
+                      f
+                    
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}f={\frac {2n}{1+n}},\\[5mu]n={\frac {f}{2-f}}.\end{aligned}}}
+  The flattenings are related to other parameters of the ellipse. For example,
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    b
+                    a
+                  
+                
+              
+              
+                
+                =
+                1
+                −
+                f
+                =
+                
+                  
+                    
+                      1
+                      −
+                      n
+                    
+                    
+                      1
+                      +
+                      n
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                
+                  e
+                  
+                    2
+                  
+                
+              
+              
+                
+                =
+                2
+                f
+                −
+                
+                  f
+                  
+                    2
+                  
+                
+                =
+                
+                  
+                    
+                      4
+                      n
+                    
+                    
+                      (
+                      1
+                      +
+                      n
+                      
+                        )
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                ,
+              
+            
+            
+              
+                f
+              
+              
+                
+                =
+                1
+                −
+                
+                  
+                    1
+                    −
+                    
+                      e
+                      
+                        2
+                      
+                    
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}{\frac {b}{a}}&=1-f={\frac {1-n}{1+n}},\\[5mu]e^{2}&=2f-f^{2}={\frac {4n}{(1+n)^{2}}},\\[5mu]f&=1-{\sqrt {1-e^{2}}},\end{aligned}}}
+  where 
+  
+    
+      
+        e
+      
+    
+    {\displaystyle e}
+   is the eccentricity.
+
+
+== See also ==
+Earth flattening
+Eccentricity (mathematics) § Ellipses
+Equatorial bulge
+Ovality
+Planetary flattening
+Sphericity
+Roundness (object)
+
+
+== References ==

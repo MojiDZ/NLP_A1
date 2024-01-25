@@ -1,0 +1,8 @@
+The Allele Frequency Net Database (abbreviated AlFreD) is a database containing the allele frequencies of immune genes and their corresponding alleles in different populations.
+
+
+== References ==
+
+
+== External links ==
+Allele Frequency Net Database

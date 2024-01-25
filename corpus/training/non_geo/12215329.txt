@@ -1,0 +1,14 @@
+Anticalin proteins are artificial proteins that are able to bind to antigens, either to proteins or to small molecules. They are not structurally related to antibodies, which makes them a type of antibody mimetic. Instead, they are derived from human lipocalins which are a family of naturally binding proteins. Anticalin proteins are being used in lieu of monoclonal antibodies, but are about eight times smaller with a size of about 180 amino acids and a mass of about 20 kDa.
+The Anticalin technology is exclusively commercialized by Pieris Pharmaceuticals in Freising, Germany. Anticalin is a registered trademark of Pieris.
+
+
+== Properties ==
+Anticalin proteins have better tissue penetration than antibodies and are stable at temperatures up to 70 °C. Unlike antibodies, they can be produced in bacterial cells like E. coli in large amounts.While antibodies can only be directed at macromolecules such as proteins and at small molecules (haptens) only if bound to macromolecules, Anticalin proteins are able to selectively bind to small molecules as well.They were mainly developed at the Technical University of Munich and are currently used as research tools. Diagnostic and therapeutic applications, including the use for targeted drug delivery, are being aimed at. The underlying technology was nominated for the German Future Prize in 2004.
+
+
+== Structure ==
+Characteristic for Anticalin proteins is their barrel structure formed by eight antiparallel β-strands pairwise connected by loops and an attached α-helix.
+The main structure of Anticalin proteins is identical to wild type lipocalins. Conformational deviations are primarily located in the four loops reaching in the ligand binding site. Mutagenesis of amino acids at the binding site allows for changing the affinity and selectivity.
+
+
+== References ==

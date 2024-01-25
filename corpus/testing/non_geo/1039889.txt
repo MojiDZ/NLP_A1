@@ -1,0 +1,293 @@
+In trigonometry, tangent half-angle formulas relate the tangent of half of an angle to trigonometric functions of the entire angle. The tangent of half an angle is the stereographic projection of the circle through the point at angle 
+  
+    
+      
+        π
+      
+    
+    {\textstyle \pi }
+   onto the line through the angles 
+  
+    
+      
+        ±
+        
+          
+            π
+            2
+          
+        
+      
+    
+    {\textstyle \pm {\frac {\pi }{2}}}
+  . Among these formulas are the following:
+
+From these one can derive identities expressing the sine, cosine, and tangent as functions of tangents of half-angles:
+
+
+== Proofs ==
+
+
+=== Algebraic proofs ===
+Using double-angle formulae and the Pythagorean identity 
+  
+    
+      
+        1
+        +
+        
+          tan
+          
+            2
+          
+        
+        ⁡
+        α
+        =
+        1
+        
+          
+            /
+          
+        
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        α
+      
+    
+    {\textstyle 1+\tan ^{2}\alpha =1{\big /}\cos ^{2}\alpha }
+   gives
+
+Taking the quotient of the formulae for sine and cosine yields
+
+Combining the Pythagorean identity with the double-angle formula for the cosine, 
+  
+    
+      
+        cos
+        ⁡
+        2
+        α
+        =
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        α
+        −
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        α
+        =
+        1
+        −
+        2
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        α
+        =
+        2
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        α
+        −
+        1
+        ,
+      
+    
+    {\textstyle \cos 2\alpha =\cos ^{2}\alpha -\sin ^{2}\alpha =1-2\sin ^{2}\alpha =2\cos ^{2}\alpha -1,}
+  
+rearranging, and taking the square roots yields 
+  and  
+which, upon division gives
+ 
+Alternatively, 
+
+It turns out that the absolute value signs in these last two formulas may be dropped, regardless of which quadrant α is in.  With or without the absolute value bars these formulas do not apply when both the numerator and denominator on the right-hand side are zero.
+Also, using the angle addition and subtraction formulae for both the sine and cosine one obtains:
+
+Pairwise addition of the above four formulae yields:
+
+Setting 
+  
+    
+      
+        a
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        (
+        p
+        +
+        q
+        )
+      
+    
+    {\textstyle a={\tfrac {1}{2}}(p+q)}
+   and 
+  
+    
+      
+        b
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        (
+        p
+        −
+        q
+        )
+      
+    
+    {\displaystyle b={\tfrac {1}{2}}(p-q)}
+   and substituting yields:
+
+Dividing the sum of sines by the sum of cosines one arrives at:
+
+
+=== Geometric proofs ===
+Applying the formulae derived above to the rhombus figure on the right, it is readily shown that
+
+In the unit circle, application of the above shows that 
+  
+    
+      
+        t
+        =
+        tan
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+        φ
+      
+    
+    {\textstyle t=\tan {\tfrac {1}{2}}\varphi }
+  . By similarity of triangles,
+
+It follows that
+
+
+== The tangent half-angle substitution in integral calculus ==
+
+In various applications of trigonometry, it is useful to rewrite the trigonometric functions (such as sine and cosine) in terms of rational functions of a new variable 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  . These identities are known collectively as the tangent half-angle formulae because of the definition of 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  . These identities can be useful in calculus for converting rational functions in sine and cosine to functions of t in order to find their antiderivatives.
+Geometrically, the construction goes like this: for any point (cos φ, sin φ) on the unit circle, draw the line passing through it and the point (−1, 0). This point crosses the y-axis at some point y = t. One can show using simple geometry that t = tan(φ/2). The equation for the drawn line is y = (1 + x)t. The equation for the intersection of the line and circle is then a quadratic equation involving t. The two solutions to this equation are (−1, 0) and (cos φ, sin φ).  This allows us to write the latter as rational functions of t (solutions are given below).
+The parameter t represents the stereographic projection of the point (cos φ, sin φ) onto the y-axis with the center of projection at (−1, 0). Thus, the tangent half-angle formulae give conversions between the stereographic coordinate t on the unit circle and the standard angular coordinate φ.
+Then we have
+
+and
+
+By eliminating phi between the directly above and the initial definition of 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  , one arrives at the following useful relationship for the arctangent in terms of the natural logarithm
+
+In calculus, the Weierstrass substitution is used to find antiderivatives of rational functions of sin φ and cos φ.  After setting
+
+This implies that
+
+for some integer n, and therefore
+
+
+=== Hyperbolic identities ===
+One can play an entirely analogous game with the hyperbolic functions. A point on (the right branch of) a hyperbola is given by (cosh ψ, sinh ψ). Projecting this onto y-axis from the center (−1, 0) gives the following:
+
+with the identities
+
+and
+
+Finding ψ in terms of t leads to following relationship between the inverse hyperbolic tangent 
+  
+    
+      
+        artanh
+      
+    
+    {\displaystyle \operatorname {artanh} }
+   and the natural logarithm:
+
+
+== The Gudermannian function ==
+
+Comparing the hyperbolic identities to the circular ones, one notices that they involve the same functions of t, just permuted. If we identify the parameter t in both cases we arrive at a relationship between the circular functions and the hyperbolic ones. That is, if
+
+then
+
+where gd(ψ) is the Gudermannian function. The Gudermannian function gives a direct relationship between the circular functions and the hyperbolic ones that does not involve complex numbers. The above descriptions of the tangent half-angle formulae (projection the unit circle and standard hyperbola onto the y-axis) give a geometric interpretation of this function.
+
+
+== Rational values and Pythagorean triples ==
+
+Starting with a Pythagorean triangle with side lengths a, b, and c that are positive integers and satisfy a2 + b2 = c2, it follows immediately that each interior angle of the triangle has rational values for sine and cosine, because these are just ratios of side lengths.  Thus each of these angles has a rational value for its half-angle tangent, using tan φ/2 = sin φ / (1 + cos φ).
+The reverse is also true.  If there are two positive angles that sum to 90°, each with a rational half-angle tangent, and the third angle is a right angle then a triangle with these interior angles can be scaled to a Pythagorean triangle.  If the third angle is not required to be a right angle, but is the angle that makes the three positive angles sum to 180° then the third angle will necessarily have a rational number for its half-angle tangent when the first two do (using angle addition and subtraction formulas for tangents) and the triangle can be scaled to a Heronian triangle.
+Generally, if K is a subfield of the complex numbers then tan φ/2 ∈ K ∪ {∞} implies that {sin φ, cos φ, tan φ, sec φ, csc φ, cot φ} ⊆ K ∪ {∞}.
+
+
+== See also ==
+List of trigonometric identities
+Half-side formula
+
+
+== External links ==
+Tangent Of Halved Angle at Planetmath

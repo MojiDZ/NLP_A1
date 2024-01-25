@@ -1,0 +1,56 @@
+Dark diversity is the set of species that are absent from a study site but present in the surrounding region and potentially able to inhabit particular ecological conditions. It can be determined based on species distribution, dispersal potential and ecological needs. The term was introduced in 2011 by three researchers from the University of Tartu and was inspired by the idea of dark matter in physics since dark diversity too cannot be directly observed.
+
+
+== Overview ==
+Dark diversity is part of the species pool concept. A species pool is defined as set of all species that are able to inhabit a particular site and that are present in the surrounding region or landscape. Dark diversity comprises species that belong to a particular species pool but that are not currently present at a site. Dark diversity is related to "habitat-specific" or "filtered" species pool which only includes species that can both disperse to and potentially inhabit the study site. For example, if fish diversity in a coral reef site has been sampled, dark diversity includes all fish species from the surrounding region that are currently absent but can potentially disperse to and colonize the study site.  Because all sampling will also miss some species actually present at a site, we also have the related idea of 'phantom species' – those species present at a site but not detected within the sampling units used to sample the community at that site. The existence of these phantom species means that routine measures of colonization and extinction at a site will always overestimate true rates because of "pseudo-turnover."
+Dark diversity name is borrowed from dark matter:  matter which cannot be seen and directly measured, but its existence and properties are inferred from its gravitational effects on visible matter. Similarly, dark diversity cannot be seen directly when only the sample is observed, but it is present if broader scale is considered, and its existence and properties can be estimated when proper data is available. With dark matter we can better understand the distribution and dynamics of galaxies; with dark diversity we can understand the composition and dynamics of ecological communities.
+
+
+== Habitat specificity and scale ==
+Dark diversity is the counterpart of observed diversity (alpha diversity) present in a sample. Dark diversity is habitat-specific in respect that the study site must contain favorable ecological conditions for species belonging to dark diversity. The habitat concept can be narrower (e.g. microhabitat in an old-growth forest) or broader (e.g. terrestrial habitat). Thus, habitat specificity does not mean that all species in dark diversity can inhabit all localities within study sample, but there must be ecologically suitable parts.
+Habitat-specificity is making the distinction between dark diversity and beta diversity. If beta diversity is the association between alpha and gamma diversity, dark diversity connects alpha diversity and habitat-specific (filtered) species pool. Habitat-specific species pool only these which can potentially inhabit focal study site.
+Observed diversity can be studied at any scale, and sites with varying heterogeneity. This is also true for dark diversity. Consequently, as local observed diversity can be linked to very different sample sizes, dark diversity can be applied at any study scale (1x1 m sample in vegetation, bird count transect in a landscape, 50x50 km UTM grid cell).
+
+
+== Methods to estimate dark diversity ==
+Region size determines the likelihood of dispersal to the study site and selecting the appropriate scale depends on the research question. For a more general study, a scale comparable to biogeographic region can be used (e.g. a small country, a state, or a radius of a few hundred km). If we want to know which species potentially can inhabit the study site in the near future (for example 10 years), landscape scale is appropriate.
+To separate ecologically suitable species, different methods can be used. Environmental niche modelling can be applied to a large number of species. Expert opinion can be used. Data on species' habitat preferences is available in books, e.g. bird nesting habitats. This can also be quantitative, for example plant species indicator values, according to Ellenberg. A recently developed method estimates dark diversity from species co-occurrence matrices.  An online tool is available for the co-occurrence method.
+
+
+== Usage ==
+Dark diversity allows meaningful comparisons of biodiversity. The community completeness index can be used: 
+
+  
+    
+      
+        log
+        ⁡
+        
+          (
+          
+            
+              observed diversity
+              dark diversity
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \log \left({\frac {\text{observed diversity}}{\text{dark diversity}}}\right)}
+  .This expresses the local diversity at the relative scale, filtering out the effect of the regional species pool. For example, if completeness of plant diversity was studied at the European scale, it did not exhibit the latitudinal pattern seen with observed richness and species pool values. Instead, high completeness was characteristic to regions with lower human impact, indicating that anthropogenic factors are among the most important local scale biodiversity determinants in Europe.Dark diversity studies can be combined with functional ecology to understand why species pool is poorly realized in a locality. For example, if functional traits were compared between grassland species in observed diversity and dark diversity, it becomes evident, that dark diversity species have in general poorer dispersal abilities.Dark diversity can be useful in prioritizing nature conservation, to identify in different regions most complete sites. Dark diversity of alien species, weeds and pathogens can be useful to prepare for future invasions in time.
+Recently, the dark diversity concept was used to explain mechanisms behind the plant diversity-productivity relationship.
+
+
+== See also ==
+Measurement of biodiversity
+Species diversity
+Species pool
+
+
+== References ==
+
+
+== External links ==
+DarkDivNet - a global network to explore the dark diversity of plant communities
+Shiny Dark Diversity Calculator - an online tool for calculating dark diversity based on species' co-occurrences

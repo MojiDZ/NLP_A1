@@ -1,0 +1,1519 @@
+In geometry, the polar sine generalizes the sine function of angle to the vertex angle of a polytope. It is denoted by psin.
+
+
+== Definition ==
+
+
+=== n vectors in n-dimensional space ===
+Let v1, ..., vn (n ≥ 1) be non-zero Euclidean vectors in n-dimensional space (Rn) that are directed from a vertex of a parallelotope, forming the edges of the parallelotope. The polar sine of the vertex angle is:
+
+  
+    
+      
+        psin
+        ⁡
+        (
+        
+          
+            v
+          
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          
+            v
+          
+          
+            n
+          
+        
+        )
+        =
+        
+          
+            Ω
+            Π
+          
+        
+        ,
+      
+    
+    {\displaystyle \operatorname {psin} (\mathbf {v} _{1},\dots ,\mathbf {v} _{n})={\frac {\Omega }{\Pi }},}
+  where the numerator is the determinant
+
+  
+    
+      
+        
+          
+            
+              
+                Ω
+              
+              
+                
+                =
+                det
+                
+                  
+                    [
+                    
+                      
+                        
+                          
+                            
+                              v
+                            
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            
+                              v
+                            
+                            
+                              2
+                            
+                          
+                        
+                        
+                          ⋯
+                        
+                        
+                          
+                            
+                              v
+                            
+                            
+                              n
+                            
+                          
+                        
+                      
+                    
+                    ]
+                  
+                
+                =
+                
+                  
+                    |
+                    
+                      
+                        
+                          
+                            v
+                            
+                              11
+                            
+                          
+                        
+                        
+                          
+                            v
+                            
+                              21
+                            
+                          
+                        
+                        
+                          ⋯
+                        
+                        
+                          
+                            v
+                            
+                              n
+                              1
+                            
+                          
+                        
+                      
+                      
+                        
+                          
+                            v
+                            
+                              12
+                            
+                          
+                        
+                        
+                          
+                            v
+                            
+                              22
+                            
+                          
+                        
+                        
+                          ⋯
+                        
+                        
+                          
+                            v
+                            
+                              n
+                              2
+                            
+                          
+                        
+                      
+                      
+                        
+                          ⋮
+                        
+                        
+                          ⋮
+                        
+                        
+                          ⋱
+                        
+                        
+                          ⋮
+                        
+                      
+                      
+                        
+                          
+                            v
+                            
+                              1
+                              n
+                            
+                          
+                        
+                        
+                          
+                            v
+                            
+                              2
+                              n
+                            
+                          
+                        
+                        
+                          ⋯
+                        
+                        
+                          
+                            v
+                            
+                              n
+                              n
+                            
+                          
+                        
+                      
+                    
+                    |
+                  
+                
+              
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle {\begin{aligned}\Omega &=\det {\begin{bmatrix}\mathbf {v} _{1}&\mathbf {v} _{2}&\cdots &\mathbf {v} _{n}\end{bmatrix}}={\begin{vmatrix}v_{11}&v_{21}&\cdots &v_{n1}\\v_{12}&v_{22}&\cdots &v_{n2}\\\vdots &\vdots &\ddots &\vdots \\v_{1n}&v_{2n}&\cdots &v_{nn}\\\end{vmatrix}}\end{aligned}}\,,}
+  which equals the signed hypervolume of the parallelotope with vector edges
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    v
+                  
+                  
+                    1
+                  
+                
+              
+              
+                
+                =
+                (
+                
+                  v
+                  
+                    11
+                  
+                
+                ,
+                
+                  v
+                  
+                    12
+                  
+                
+                ,
+                …
+                ,
+                
+                  v
+                  
+                    1
+                    n
+                  
+                
+                
+                  )
+                  
+                    T
+                  
+                
+              
+            
+            
+              
+                
+                  
+                    v
+                  
+                  
+                    2
+                  
+                
+              
+              
+                
+                =
+                (
+                
+                  v
+                  
+                    21
+                  
+                
+                ,
+                
+                  v
+                  
+                    22
+                  
+                
+                ,
+                …
+                ,
+                
+                  v
+                  
+                    2
+                    n
+                  
+                
+                
+                  )
+                  
+                    T
+                  
+                
+              
+            
+            
+              
+              
+                
+                
+                
+                
+                ⋮
+              
+            
+            
+              
+                
+                  
+                    v
+                  
+                  
+                    n
+                  
+                
+              
+              
+                
+                =
+                (
+                
+                  v
+                  
+                    n
+                    1
+                  
+                
+                ,
+                
+                  v
+                  
+                    n
+                    2
+                  
+                
+                ,
+                …
+                ,
+                
+                  v
+                  
+                    n
+                    n
+                  
+                
+                
+                  )
+                  
+                    T
+                  
+                
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\mathbf {v} _{1}&=(v_{11},v_{12},\dots ,v_{1n})^{T}\\\mathbf {v} _{2}&=(v_{21},v_{22},\dots ,v_{2n})^{T}\\&\,\,\,\vdots \\\mathbf {v} _{n}&=(v_{n1},v_{n2},\dots ,v_{nn})^{T}\,,\\\end{aligned}}}
+  and where the denominator is the n-fold product
+
+  
+    
+      
+        Π
+        =
+        
+          ∏
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        ‖
+        
+          
+            v
+          
+          
+            i
+          
+        
+        ‖
+      
+    
+    {\displaystyle \Pi =\prod _{i=1}^{n}\|\mathbf {v} _{i}\|}
+  of the magnitudes of the vectors, which equals the hypervolume of the n-dimensional hyperrectangle with edges equal to the magnitudes of the vectors ||v1||, ||v2||, ... ||vn|| rather than the vectors themselves. Also see Ericksson.The parallelotope is like a "squashed hyperrectangle", so it has less hypervolume than the hyperrectangle, meaning (see image for the 3d case):
+
+  
+    
+      
+        
+          |
+        
+        Ω
+        
+          |
+        
+        ≤
+        Π
+        
+        ⟹
+        
+        
+          
+            
+              
+                |
+              
+              Ω
+              
+                |
+              
+            
+            Π
+          
+        
+        ≤
+        1
+        
+        ⟹
+        
+        −
+        1
+        ≤
+        psin
+        ⁡
+        (
+        
+          
+            v
+          
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          
+            v
+          
+          
+            n
+          
+        
+        )
+        ≤
+        1
+        
+        ,
+      
+    
+    {\displaystyle |\Omega |\leq \Pi \implies {\frac {|\Omega |}{\Pi }}\leq 1\implies -1\leq \operatorname {psin} (\mathbf {v} _{1},\dots ,\mathbf {v} _{n})\leq 1\,,}
+  as for the ordinary sine, with either bound being reached only in the case that all vectors are mutually orthogonal.
+In the case n = 2, the polar sine is the ordinary sine of the angle between the two vectors.
+
+
+=== In higher dimensions ===
+A non-negative version of the polar sine that works in any m-dimensional space can be defined using the Gram determinant. The numerator is given as
+
+  
+    
+      
+        Ω
+        =
+        
+          
+            det
+            
+              (
+              
+                
+                  
+                    
+                      [
+                      
+                        
+                          
+                            
+                              
+                                v
+                              
+                              
+                                1
+                              
+                            
+                          
+                          
+                            
+                              
+                                v
+                              
+                              
+                                2
+                              
+                            
+                          
+                          
+                            ⋯
+                          
+                          
+                            
+                              
+                                v
+                              
+                              
+                                n
+                              
+                            
+                          
+                        
+                      
+                      ]
+                    
+                  
+                  
+                    T
+                  
+                
+                
+                  
+                    [
+                    
+                      
+                        
+                          
+                            
+                              v
+                            
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            
+                              v
+                            
+                            
+                              2
+                            
+                          
+                        
+                        
+                          ⋯
+                        
+                        
+                          
+                            
+                              v
+                            
+                            
+                              n
+                            
+                          
+                        
+                      
+                    
+                    ]
+                  
+                
+              
+              )
+            
+          
+        
+        
+        ,
+      
+    
+    {\displaystyle \Omega ={\sqrt {\det \left({\begin{bmatrix}\mathbf {v} _{1}&\mathbf {v} _{2}&\cdots &\mathbf {v} _{n}\end{bmatrix}}^{T}{\begin{bmatrix}\mathbf {v} _{1}&\mathbf {v} _{2}&\cdots &\mathbf {v} _{n}\end{bmatrix}}\right)}}\,,}
+  where the superscript T indicates matrix transposition. This can be nonzero only if m ≥ n. In the case m = n, this is equivalent to the absolute value of the definition given previously. In the degenerate case m < n, the determinant will be of a singular n × n matrix, giving Ω = 0, because it is not possible to have n linearly independent vectors in m-dimensional space.
+
+
+== Properties ==
+
+
+=== Interchange of vectors ===
+The polar sine changes sign whenever two vectors are interchanged, due to the antisymmetry of row-exchanging in the determinant; however, its absolute value will remain unchanged.
+
+  
+    
+      
+        
+          
+            
+              
+                Ω
+              
+              
+                
+                =
+                det
+                
+                  
+                    [
+                    
+                      
+                        
+                          
+                            
+                              v
+                            
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            
+                              v
+                            
+                            
+                              2
+                            
+                          
+                        
+                        
+                          ⋯
+                        
+                        
+                          
+                            
+                              v
+                            
+                            
+                              i
+                            
+                          
+                        
+                        
+                          ⋯
+                        
+                        
+                          
+                            
+                              v
+                            
+                            
+                              j
+                            
+                          
+                        
+                        
+                          ⋯
+                        
+                        
+                          
+                            
+                              v
+                            
+                            
+                              n
+                            
+                          
+                        
+                      
+                    
+                    ]
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                −
+                
+                det
+                
+                  
+                    [
+                    
+                      
+                        
+                          
+                            
+                              v
+                            
+                            
+                              1
+                            
+                          
+                        
+                        
+                          
+                            
+                              v
+                            
+                            
+                              2
+                            
+                          
+                        
+                        
+                          ⋯
+                        
+                        
+                          
+                            
+                              v
+                            
+                            
+                              j
+                            
+                          
+                        
+                        
+                          ⋯
+                        
+                        
+                          
+                            
+                              v
+                            
+                            
+                              i
+                            
+                          
+                        
+                        
+                          ⋯
+                        
+                        
+                          
+                            
+                              v
+                            
+                            
+                              n
+                            
+                          
+                        
+                      
+                    
+                    ]
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                −
+                Ω
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\Omega &=\det {\begin{bmatrix}\mathbf {v} _{1}&\mathbf {v} _{2}&\cdots &\mathbf {v} _{i}&\cdots &\mathbf {v} _{j}&\cdots &\mathbf {v} _{n}\end{bmatrix}}\\&=-\!\det {\begin{bmatrix}\mathbf {v} _{1}&\mathbf {v} _{2}&\cdots &\mathbf {v} _{j}&\cdots &\mathbf {v} _{i}&\cdots &\mathbf {v} _{n}\end{bmatrix}}\\&=-\Omega \end{aligned}}}
+  
+
+
+=== Invariance under scalar multiplication of vectors ===
+The polar sine does not change if all of the vectors v1, ..., vn are scalar-multiplied by positive constants ci, due to factorization
+
+  
+    
+      
+        
+          
+            
+              
+                psin
+                ⁡
+                (
+                
+                  c
+                  
+                    1
+                  
+                
+                
+                  
+                    v
+                  
+                  
+                    1
+                  
+                
+                ,
+                …
+                ,
+                
+                  c
+                  
+                    n
+                  
+                
+                
+                  
+                    v
+                  
+                  
+                    n
+                  
+                
+                )
+              
+              
+                
+                =
+                
+                  
+                    
+                      det
+                      
+                        
+                          [
+                          
+                            
+                              
+                                
+                                  c
+                                  
+                                    1
+                                  
+                                
+                                
+                                  
+                                    v
+                                  
+                                  
+                                    1
+                                  
+                                
+                              
+                              
+                                
+                                  c
+                                  
+                                    2
+                                  
+                                
+                                
+                                  
+                                    v
+                                  
+                                  
+                                    2
+                                  
+                                
+                              
+                              
+                                ⋯
+                              
+                              
+                                
+                                  c
+                                  
+                                    n
+                                  
+                                
+                                
+                                  
+                                    v
+                                  
+                                  
+                                    n
+                                  
+                                
+                              
+                            
+                          
+                          ]
+                        
+                      
+                    
+                    
+                      
+                        ∏
+                        
+                          i
+                          =
+                          1
+                        
+                        
+                          n
+                        
+                      
+                      ‖
+                      
+                        c
+                        
+                          i
+                        
+                      
+                      
+                        
+                          v
+                        
+                        
+                          i
+                        
+                      
+                      ‖
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      
+                        ∏
+                        
+                          i
+                          =
+                          1
+                        
+                        
+                          n
+                        
+                      
+                      
+                        c
+                        
+                          i
+                        
+                      
+                    
+                    
+                      
+                        ∏
+                        
+                          i
+                          =
+                          1
+                        
+                        
+                          n
+                        
+                      
+                      
+                        |
+                      
+                      
+                        c
+                        
+                          i
+                        
+                      
+                      
+                        |
+                      
+                    
+                  
+                
+                ⋅
+                
+                  
+                    
+                      det
+                      
+                        
+                          [
+                          
+                            
+                              
+                                
+                                  
+                                    v
+                                  
+                                  
+                                    1
+                                  
+                                
+                              
+                              
+                                
+                                  
+                                    v
+                                  
+                                  
+                                    2
+                                  
+                                
+                              
+                              
+                                ⋯
+                              
+                              
+                                
+                                  
+                                    v
+                                  
+                                  
+                                    n
+                                  
+                                
+                              
+                            
+                          
+                          ]
+                        
+                      
+                    
+                    
+                      
+                        ∏
+                        
+                          i
+                          =
+                          1
+                        
+                        
+                          n
+                        
+                      
+                      ‖
+                      
+                        
+                          v
+                        
+                        
+                          i
+                        
+                      
+                      ‖
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                psin
+                ⁡
+                (
+                
+                  
+                    v
+                  
+                  
+                    1
+                  
+                
+                ,
+                …
+                ,
+                
+                  
+                    v
+                  
+                  
+                    n
+                  
+                
+                )
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {psin} (c_{1}\mathbf {v} _{1},\dots ,c_{n}\mathbf {v} _{n})&={\frac {\det {\begin{bmatrix}c_{1}\mathbf {v} _{1}&c_{2}\mathbf {v} _{2}&\cdots &c_{n}\mathbf {v} _{n}\end{bmatrix}}}{\prod _{i=1}^{n}\|c_{i}\mathbf {v} _{i}\|}}\\[6pt]&={\frac {\prod _{i=1}^{n}c_{i}}{\prod _{i=1}^{n}|c_{i}|}}\cdot {\frac {\det {\begin{bmatrix}\mathbf {v} _{1}&\mathbf {v} _{2}&\cdots &\mathbf {v} _{n}\end{bmatrix}}}{\prod _{i=1}^{n}\|\mathbf {v} _{i}\|}}\\[6pt]&=\operatorname {psin} (\mathbf {v} _{1},\dots ,\mathbf {v} _{n}).\end{aligned}}}
+  If an odd number of these constants are instead negative, then the sign of the polar sine will change; however, its absolute value will remain unchanged.
+
+
+=== Vanishes with linear dependencies ===
+If the vectors are not linearly independent, the polar sine will be zero.  This will always be so in the degenerate case that the number of dimensions m is strictly less than the number of vectors n.
+
+
+=== Relationship to pairwise cosines ===
+The cosine of the angle between two non-zero vectors is given by
+
+  
+    
+      
+        cos
+        ⁡
+        (
+        
+          
+            v
+          
+          
+            1
+          
+        
+        ,
+        
+          
+            v
+          
+          
+            2
+          
+        
+        )
+        =
+        
+          
+            
+              
+                
+                  v
+                
+                
+                  1
+                
+              
+              ⋅
+              
+                
+                  v
+                
+                
+                  2
+                
+              
+            
+            
+              ‖
+              
+                
+                  v
+                
+                
+                  1
+                
+              
+              ‖
+              ‖
+              
+                
+                  v
+                
+                
+                  2
+                
+              
+              ‖
+            
+          
+        
+        
+      
+    
+    {\displaystyle \cos(\mathbf {v} _{1},\mathbf {v} _{2})={\frac {\mathbf {v} _{1}\cdot \mathbf {v} _{2}}{\|\mathbf {v} _{1}\|\|\mathbf {v} _{2}\|}}\,}
+  using the dot product.  Comparison of this expression to the definition of the absolute value of the polar sine as given above gives:
+
+  
+    
+      
+        
+          
+            |
+            
+              psin
+              ⁡
+              (
+              
+                
+                  v
+                
+                
+                  1
+                
+              
+              ,
+              …
+              ,
+              
+                
+                  v
+                
+                
+                  n
+                
+              
+              )
+            
+            |
+          
+          
+            2
+          
+        
+        =
+        det
+        
+        
+          [
+          
+            
+              
+                
+                  1
+                
+                
+                  cos
+                  ⁡
+                  (
+                  
+                    
+                      v
+                    
+                    
+                      1
+                    
+                  
+                  ,
+                  
+                    
+                      v
+                    
+                    
+                      2
+                    
+                  
+                  )
+                
+                
+                  ⋯
+                
+                
+                  cos
+                  ⁡
+                  (
+                  
+                    
+                      v
+                    
+                    
+                      1
+                    
+                  
+                  ,
+                  
+                    
+                      v
+                    
+                    
+                      n
+                    
+                  
+                  )
+                
+              
+              
+                
+                  cos
+                  ⁡
+                  (
+                  
+                    
+                      v
+                    
+                    
+                      2
+                    
+                  
+                  ,
+                  
+                    
+                      v
+                    
+                    
+                      1
+                    
+                  
+                  )
+                
+                
+                  1
+                
+                
+                  ⋯
+                
+                
+                  cos
+                  ⁡
+                  (
+                  
+                    
+                      v
+                    
+                    
+                      2
+                    
+                  
+                  ,
+                  
+                    
+                      v
+                    
+                    
+                      n
+                    
+                  
+                  )
+                
+              
+              
+                
+                  ⋮
+                
+                
+                  ⋮
+                
+                
+                  ⋱
+                
+                
+                  ⋮
+                
+              
+              
+                
+                  cos
+                  ⁡
+                  (
+                  
+                    
+                      v
+                    
+                    
+                      n
+                    
+                  
+                  ,
+                  
+                    
+                      v
+                    
+                    
+                      1
+                    
+                  
+                  )
+                
+                
+                  cos
+                  ⁡
+                  (
+                  
+                    
+                      v
+                    
+                    
+                      n
+                    
+                  
+                  ,
+                  
+                    
+                      v
+                    
+                    
+                      2
+                    
+                  
+                  )
+                
+                
+                  ⋯
+                
+                
+                  1
+                
+              
+            
+          
+          ]
+        
+        .
+      
+    
+    {\displaystyle \left|\operatorname {psin} (\mathbf {v} _{1},\ldots ,\mathbf {v} _{n})\right|^{2}=\det \!\left[{\begin{matrix}1&\cos(\mathbf {v} _{1},\mathbf {v} _{2})&\cdots &\cos(\mathbf {v} _{1},\mathbf {v} _{n})\\\cos(\mathbf {v} _{2},\mathbf {v} _{1})&1&\cdots &\cos(\mathbf {v} _{2},\mathbf {v} _{n})\\\vdots &\vdots &\ddots &\vdots \\\cos(\mathbf {v} _{n},\mathbf {v} _{1})&\cos(\mathbf {v} _{n},\mathbf {v} _{2})&\cdots &1\\\end{matrix}}\right].}
+  In particular, for n = 2, this is equivalent to
+
+  
+    
+      
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        (
+        
+          
+            v
+          
+          
+            1
+          
+        
+        ,
+        
+          
+            v
+          
+          
+            2
+          
+        
+        )
+        =
+        1
+        −
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        (
+        
+          
+            v
+          
+          
+            1
+          
+        
+        ,
+        
+          
+            v
+          
+          
+            2
+          
+        
+        )
+        
+        ,
+      
+    
+    {\displaystyle \sin ^{2}(\mathbf {v} _{1},\mathbf {v} _{2})=1-\cos ^{2}(\mathbf {v} _{1},\mathbf {v} _{2})\,,}
+  which is the Pythagorean theorem.
+
+
+== History ==
+Polar sines were investigated by Euler in the 18th century.
+
+
+== See also ==
+Trigonometric functions
+List of trigonometric identities
+Solid angle
+Simplex
+Law of sines
+Cross product and Seven-dimensional cross product
+Graded algebra
+Exterior derivative
+Differential geometry
+Volume integral
+Measure (mathematics)
+Product integral
+
+
+== References ==
+
+
+== External links ==
+Weisstein, Eric W. "Polar Sine". MathWorld.

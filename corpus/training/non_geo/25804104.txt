@@ -1,0 +1,2122 @@
+In trigonometry, trigonometric identities are equalities that involve trigonometric functions and are true for every value of the occurring variables for which both sides of the equality are defined. Geometrically, these are identities involving certain functions of one or more angles. They are distinct from triangle identities, which are identities potentially involving angles but also involving side lengths or other lengths of a triangle.
+These identities are useful whenever expressions involving trigonometric functions need to be simplified. An important application is the integration of non-trigonometric functions: a common technique involves first using the substitution rule with a trigonometric function, and then simplifying the resulting integral with a trigonometric identity.
+
+
+== Pythagorean identities ==
+
+The basic relationship between the sine and cosine is given by the Pythagorean identity:
+
+where 
+  
+    
+      
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        θ
+      
+    
+    {\displaystyle \sin ^{2}\theta }
+   means 
+  
+    
+      
+        (
+        sin
+        ⁡
+        θ
+        
+          )
+          
+            2
+          
+        
+      
+    
+    {\displaystyle (\sin \theta )^{2}}
+   and 
+  
+    
+      
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        θ
+      
+    
+    {\displaystyle \cos ^{2}\theta }
+   means 
+  
+    
+      
+        (
+        cos
+        ⁡
+        θ
+        
+          )
+          
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle (\cos \theta )^{2}.}
+  
+This can be viewed as a version of the Pythagorean theorem, and follows from the equation 
+  
+    
+      
+        
+          x
+          
+            2
+          
+        
+        +
+        
+          y
+          
+            2
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle x^{2}+y^{2}=1}
+   for the unit circle. This equation can be solved for either the sine or the cosine:
+
+where the sign depends on the quadrant of 
+  
+    
+      
+        θ
+        .
+      
+    
+    {\displaystyle \theta .}
+  
+Dividing this identity by 
+  
+    
+      
+        
+          sin
+          
+            2
+          
+        
+        ⁡
+        θ
+      
+    
+    {\displaystyle \sin ^{2}\theta }
+  , 
+  
+    
+      
+        
+          cos
+          
+            2
+          
+        
+        ⁡
+        θ
+      
+    
+    {\displaystyle \cos ^{2}\theta }
+  , or both yields the following identities:
+
+Using these identities, it is possible to express any trigonometric function in terms of any other (up to a plus or minus sign):
+
+
+== Reflections, shifts, and periodicity ==
+By examining the unit circle, one can establish the following properties of the trigonometric functions.
+
+
+=== Reflections ===
+When the direction of a Euclidean vector is represented by an angle 
+  
+    
+      
+        θ
+        ,
+      
+    
+    {\displaystyle \theta ,}
+   this is the angle determined by the free vector (starting at the origin) and the positive 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  -unit vector. The same concept may also be applied to lines in a Euclidean space, where the angle is that determined by a parallel to the given line through the origin and the positive 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  -axis. If a line (vector) with direction 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+   is reflected about a line with direction 
+  
+    
+      
+        α
+        ,
+      
+    
+    {\displaystyle \alpha ,}
+   then the direction angle 
+  
+    
+      
+        
+          θ
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle \theta ^{\prime }}
+   of this reflected line (vector) has the value
+
+The values of the trigonometric functions of these angles 
+  
+    
+      
+        θ
+        ,
+        
+        
+          θ
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle \theta ,\;\theta ^{\prime }}
+   for specific angles 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+   satisfy simple identities: either they are equal, or have opposite signs, or employ the complementary trigonometric function. These are also known as reduction formulae.
+
+
+=== Shifts and periodicity ===
+
+
+=== Signs ===
+The sign of trigonometric functions depends on quadrant of the angle. If 
+  
+    
+      
+        
+          −
+          π
+        
+        <
+        θ
+        ≤
+        π
+      
+    
+    {\displaystyle {-\pi }<\theta \leq \pi }
+   and sgn is the sign function,
+
+The trigonometric functions are periodic with common period 
+  
+    
+      
+        2
+        π
+        ,
+      
+    
+    {\displaystyle 2\pi ,}
+   so for values of θ outside the interval 
+  
+    
+      
+        (
+        
+          −
+          π
+        
+        ,
+        π
+        ]
+        ,
+      
+    
+    {\displaystyle ({-\pi },\pi ],}
+   they take repeating values (see § Shifts and periodicity above).
+
+
+== Angle sum and difference identities ==
+
+These are also known as the angle addition and subtraction theorems (or formulae).
+
+The angle difference identities for 
+  
+    
+      
+        sin
+        ⁡
+        (
+        α
+        −
+        β
+        )
+      
+    
+    {\displaystyle \sin(\alpha -\beta )}
+   and 
+  
+    
+      
+        cos
+        ⁡
+        (
+        α
+        −
+        β
+        )
+      
+    
+    {\displaystyle \cos(\alpha -\beta )}
+   can be derived from the angle sum versions by substituting 
+  
+    
+      
+        −
+        β
+      
+    
+    {\displaystyle -\beta }
+   for 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+   and using the facts that 
+  
+    
+      
+        sin
+        ⁡
+        (
+        −
+        β
+        )
+        =
+        −
+        sin
+        ⁡
+        (
+        β
+        )
+      
+    
+    {\displaystyle \sin(-\beta )=-\sin(\beta )}
+   and 
+  
+    
+      
+        cos
+        ⁡
+        (
+        −
+        β
+        )
+        =
+        cos
+        ⁡
+        (
+        β
+        )
+      
+    
+    {\displaystyle \cos(-\beta )=\cos(\beta )}
+  . They can also be derived by using a slightly modified version of the figure for the angle sum identities, both of which are shown here.
+These identities are summarized in the first two rows of the following table, which also includes sum and difference identities for the other trigonometric functions.
+
+
+=== Sines and cosines of sums of infinitely many angles ===
+When the series 
+  
+    
+      
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          θ
+          
+            i
+          
+        
+      
+    
+    {\textstyle \sum _{i=1}^{\infty }\theta _{i}}
+   converges absolutely then
+
+Because the series 
+  
+    
+      
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          θ
+          
+            i
+          
+        
+      
+    
+    {\textstyle \sum _{i=1}^{\infty }\theta _{i}}
+   converges absolutely, it is necessarily the case that 
+  
+    
+      
+        
+          lim
+          
+            i
+            →
+            ∞
+          
+        
+        
+          θ
+          
+            i
+          
+        
+        =
+        0
+        ,
+      
+    
+    {\textstyle \lim _{i\to \infty }\theta _{i}=0,}
+   
+  
+    
+      
+        
+          lim
+          
+            i
+            →
+            ∞
+          
+        
+        sin
+        ⁡
+        
+          θ
+          
+            i
+          
+        
+        =
+        0
+        ,
+      
+    
+    {\textstyle \lim _{i\to \infty }\sin \theta _{i}=0,}
+   and 
+  
+    
+      
+        
+          lim
+          
+            i
+            →
+            ∞
+          
+        
+        cos
+        ⁡
+        
+          θ
+          
+            i
+          
+        
+        =
+        1.
+      
+    
+    {\textstyle \lim _{i\to \infty }\cos \theta _{i}=1.}
+    In particular, in these two identities an asymmetry appears that is not seen in the case of sums of finitely many angles: in each product, there are only finitely many sine factors but there are cofinitely many cosine factors.  Terms with infinitely many sine factors would necessarily be equal to zero.
+When only finitely many of the angles 
+  
+    
+      
+        
+          θ
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \theta _{i}}
+   are nonzero then only finitely many of the terms on the right side are nonzero because all but finitely many sine factors vanish.  Furthermore, in each term all but finitely many of the cosine factors are unity.
+
+
+=== Tangents and cotangents of sums ===
+Let 
+  
+    
+      
+        
+          e
+          
+            k
+          
+        
+      
+    
+    {\displaystyle e_{k}}
+   (for 
+  
+    
+      
+        k
+        =
+        0
+        ,
+        1
+        ,
+        2
+        ,
+        3
+        ,
+        …
+      
+    
+    {\displaystyle k=0,1,2,3,\ldots }
+  ) be the kth-degree elementary symmetric polynomial in the variables
+
+for 
+  
+    
+      
+        i
+        =
+        0
+        ,
+        1
+        ,
+        2
+        ,
+        3
+        ,
+        …
+        ,
+      
+    
+    {\displaystyle i=0,1,2,3,\ldots ,}
+   that is,
+
+Then
+
+using the sine and cosine sum formulae above.
+The number of terms on the right side depends on the number of terms on the left side.
+For example:
+
+and so on. The case of only finitely many terms can be proved by mathematical induction.
+
+
+=== Secants and cosecants of sums ===
+
+where 
+  
+    
+      
+        
+          e
+          
+            k
+          
+        
+      
+    
+    {\displaystyle e_{k}}
+   is the kth-degree elementary symmetric polynomial in the n variables 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+        =
+        tan
+        ⁡
+        
+          θ
+          
+            i
+          
+        
+        ,
+      
+    
+    {\displaystyle x_{i}=\tan \theta _{i},}
+   
+  
+    
+      
+        i
+        =
+        1
+        ,
+        …
+        ,
+        n
+        ,
+      
+    
+    {\displaystyle i=1,\ldots ,n,}
+   and the number of terms in the denominator and the number of factors in the product in the numerator depend on the number of terms in the sum on the left. The case of only finitely many terms can be proved by mathematical induction on the number of such terms.
+For example,
+
+
+=== Ptolemy's theorem ===
+
+Ptolemy's theorem is important in the history of trigonometric identities, as it is how results equivalent to the sum and difference formulas for sine and cosine were first proved. It states that in a cyclic quadrilateral 
+  
+    
+      
+        A
+        B
+        C
+        D
+      
+    
+    {\displaystyle ABCD}
+  , as shown in the accompanying figure, the sum of the products of the lengths of opposite sides is equal to the product of the lengths of the diagonals. In the special cases of one of the diagonals or sides being a diameter of the circle, this theorem gives rise directly to the angle sum and difference trigonometric identities. The relationship follows most easily when the circle is constructed to have a diameter of length one, as shown here.
+By Thales's theorem, 
+  
+    
+      
+        ∠
+        D
+        A
+        B
+      
+    
+    {\displaystyle \angle DAB}
+   and 
+  
+    
+      
+        ∠
+        D
+        C
+        B
+      
+    
+    {\displaystyle \angle DCB}
+   are both right angles. The right-angled triangles 
+  
+    
+      
+        D
+        A
+        B
+      
+    
+    {\displaystyle DAB}
+   and 
+  
+    
+      
+        D
+        C
+        B
+      
+    
+    {\displaystyle DCB}
+   both share the hypotenuse 
+  
+    
+      
+        
+          
+            
+              B
+              D
+            
+            ¯
+          
+        
+      
+    
+    {\displaystyle {\overline {BD}}}
+   of length 1. Thus, the side 
+  
+    
+      
+        
+          
+            
+              A
+              B
+            
+            ¯
+          
+        
+        =
+        sin
+        ⁡
+        α
+      
+    
+    {\displaystyle {\overline {AB}}=\sin \alpha }
+  , 
+  
+    
+      
+        
+          
+            
+              A
+              D
+            
+            ¯
+          
+        
+        =
+        cos
+        ⁡
+        α
+      
+    
+    {\displaystyle {\overline {AD}}=\cos \alpha }
+  , 
+  
+    
+      
+        
+          
+            
+              B
+              C
+            
+            ¯
+          
+        
+        =
+        sin
+        ⁡
+        β
+      
+    
+    {\displaystyle {\overline {BC}}=\sin \beta }
+   and 
+  
+    
+      
+        
+          
+            
+              C
+              D
+            
+            ¯
+          
+        
+        =
+        cos
+        ⁡
+        β
+      
+    
+    {\displaystyle {\overline {CD}}=\cos \beta }
+  .
+By the inscribed angle theorem, the central angle subtended by the chord 
+  
+    
+      
+        
+          
+            
+              A
+              C
+            
+            ¯
+          
+        
+      
+    
+    {\displaystyle {\overline {AC}}}
+   at the circle's center is twice the angle 
+  
+    
+      
+        ∠
+        A
+        D
+        C
+      
+    
+    {\displaystyle \angle ADC}
+  , i.e. 
+  
+    
+      
+        2
+        (
+        α
+        +
+        β
+        )
+      
+    
+    {\displaystyle 2(\alpha +\beta )}
+  . Therefore, the symmetrical pair of red triangles each has the angle 
+  
+    
+      
+        α
+        +
+        β
+      
+    
+    {\displaystyle \alpha +\beta }
+   at the center. Each of these triangles has a hypotenuse of length 
+  
+    
+      
+        
+          
+            1
+            2
+          
+        
+      
+    
+    {\textstyle {\frac {1}{2}}}
+  , so the length of 
+  
+    
+      
+        
+          
+            
+              A
+              C
+            
+            ¯
+          
+        
+      
+    
+    {\displaystyle {\overline {AC}}}
+   is  
+  
+    
+      
+        2
+        ×
+        
+          
+            1
+            2
+          
+        
+        sin
+        ⁡
+        (
+        α
+        +
+        β
+        )
+      
+    
+    {\textstyle 2\times {\frac {1}{2}}\sin(\alpha +\beta )}
+  , i.e. simply 
+  
+    
+      
+        sin
+        ⁡
+        (
+        α
+        +
+        β
+        )
+      
+    
+    {\displaystyle \sin(\alpha +\beta )}
+  . The quadrilateral's other diagonal is the diameter of length 1, so the product of the diagonals' lengths is also 
+  
+    
+      
+        sin
+        ⁡
+        (
+        α
+        +
+        β
+        )
+      
+    
+    {\displaystyle \sin(\alpha +\beta )}
+  .
+When these values are substituted into the statement of Ptolemy's theorem that 
+  
+    
+      
+        
+          |
+        
+        
+          
+            
+              A
+              C
+            
+            ¯
+          
+        
+        
+          |
+        
+        ⋅
+        
+          |
+        
+        
+          
+            
+              B
+              D
+            
+            ¯
+          
+        
+        
+          |
+        
+        =
+        
+          |
+        
+        
+          
+            
+              A
+              B
+            
+            ¯
+          
+        
+        
+          |
+        
+        ⋅
+        
+          |
+        
+        
+          
+            
+              C
+              D
+            
+            ¯
+          
+        
+        
+          |
+        
+        +
+        
+          |
+        
+        
+          
+            
+              A
+              D
+            
+            ¯
+          
+        
+        
+          |
+        
+        ⋅
+        
+          |
+        
+        
+          
+            
+              B
+              C
+            
+            ¯
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle |{\overline {AC}}|\cdot |{\overline {BD}}|=|{\overline {AB}}|\cdot |{\overline {CD}}|+|{\overline {AD}}|\cdot |{\overline {BC}}|}
+  , this yields the angle sum trigonometric identity for sine: 
+  
+    
+      
+        sin
+        ⁡
+        (
+        α
+        +
+        β
+        )
+        =
+        sin
+        ⁡
+        α
+        cos
+        ⁡
+        β
+        +
+        cos
+        ⁡
+        α
+        sin
+        ⁡
+        β
+      
+    
+    {\displaystyle \sin(\alpha +\beta )=\sin \alpha \cos \beta +\cos \alpha \sin \beta }
+  . The angle difference formula for 
+  
+    
+      
+        sin
+        ⁡
+        (
+        α
+        −
+        β
+        )
+      
+    
+    {\displaystyle \sin(\alpha -\beta )}
+   can be similarly derived by letting the side 
+  
+    
+      
+        
+          
+            
+              C
+              D
+            
+            ¯
+          
+        
+      
+    
+    {\displaystyle {\overline {CD}}}
+   serve as a diameter instead of 
+  
+    
+      
+        
+          
+            
+              B
+              D
+            
+            ¯
+          
+        
+      
+    
+    {\displaystyle {\overline {BD}}}
+  .
+
+
+== Multiple-angle and half-angle formulae ==
+
+
+=== Multiple-angle formulae ===
+
+
+==== Double-angle formulae ====
+Formulae for twice an angle.
+
+
+==== Triple-angle formulae ====
+Formulae for triple angles.
+
+
+==== Multiple-angle formulae ====
+Formulae for multiple angles.
+
+
+==== Chebyshev method ====
+The Chebyshev method is a recursive algorithm for finding the nth multiple angle formula knowing the 
+  
+    
+      
+        (
+        n
+        −
+        1
+        )
+      
+    
+    {\displaystyle (n-1)}
+  th and 
+  
+    
+      
+        (
+        n
+        −
+        2
+        )
+      
+    
+    {\displaystyle (n-2)}
+  th values.
+  
+    
+      
+        cos
+        ⁡
+        (
+        n
+        x
+        )
+      
+    
+    {\displaystyle \cos(nx)}
+   can be computed from 
+  
+    
+      
+        cos
+        ⁡
+        (
+        (
+        n
+        −
+        1
+        )
+        x
+        )
+      
+    
+    {\displaystyle \cos((n-1)x)}
+  , 
+  
+    
+      
+        cos
+        ⁡
+        (
+        (
+        n
+        −
+        2
+        )
+        x
+        )
+      
+    
+    {\displaystyle \cos((n-2)x)}
+  , and 
+  
+    
+      
+        cos
+        ⁡
+        (
+        x
+        )
+      
+    
+    {\displaystyle \cos(x)}
+   with
+
+This can be proved by adding together the formulae
+
+It follows by induction that 
+  
+    
+      
+        cos
+        ⁡
+        (
+        n
+        x
+        )
+      
+    
+    {\displaystyle \cos(nx)}
+   is a polynomial of 
+  
+    
+      
+        cos
+        ⁡
+        x
+        ,
+      
+    
+    {\displaystyle \cos x,}
+   the so-called Chebyshev polynomial of the first kind, see Chebyshev polynomials#Trigonometric definition.
+Similarly, 
+  
+    
+      
+        sin
+        ⁡
+        (
+        n
+        x
+        )
+      
+    
+    {\displaystyle \sin(nx)}
+   can be computed from 
+  
+    
+      
+        sin
+        ⁡
+        (
+        (
+        n
+        −
+        1
+        )
+        x
+        )
+        ,
+      
+    
+    {\displaystyle \sin((n-1)x),}
+   
+  
+    
+      
+        sin
+        ⁡
+        (
+        (
+        n
+        −
+        2
+        )
+        x
+        )
+        ,
+      
+    
+    {\displaystyle \sin((n-2)x),}
+   and 
+  
+    
+      
+        cos
+        ⁡
+        x
+      
+    
+    {\displaystyle \cos x}
+   with
+
+This can be proved by adding formulae for 
+  
+    
+      
+        sin
+        ⁡
+        (
+        (
+        n
+        −
+        1
+        )
+        x
+        +
+        x
+        )
+      
+    
+    {\displaystyle \sin((n-1)x+x)}
+   and 
+  
+    
+      
+        sin
+        ⁡
+        (
+        (
+        n
+        −
+        1
+        )
+        x
+        −
+        x
+        )
+        .
+      
+    
+    {\displaystyle \sin((n-1)x-x).}
+  
+Serving a purpose similar to that of the Chebyshev method, for the tangent we can write:
+
+
+=== Half-angle formulae ===
+
+Also
+
+
+=== Table ===
+
+These can be shown by using either the sum and difference identities or the multiple-angle formulae.
+
+The fact that the triple-angle formula for sine and cosine only involves powers of a single function allows one to relate the geometric problem of a compass and straightedge construction of angle trisection to the algebraic problem of solving a cubic equation, which allows one to prove that trisection is in general impossible using the given tools, by field theory.A formula for computing the trigonometric identities for the one-third angle exists, but it requires finding the zeroes of the cubic equation 4x3 − 3x + d = 0, where 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   is the value of the cosine function at the one-third angle and d is the known value of the cosine function at the full angle. However, the discriminant of this equation is positive, so this equation has three real roots (of which only one is the solution for the cosine of the one-third angle). None of these solutions is reducible to a real algebraic expression, as they use intermediate complex numbers under the cube roots.
+
+
+== Power-reduction formulae ==
+Obtained by solving the second and third versions of the cosine double-angle formula.
+
+In general terms of powers of 
+  
+    
+      
+        sin
+        ⁡
+        θ
+      
+    
+    {\displaystyle \sin \theta }
+   or 
+  
+    
+      
+        cos
+        ⁡
+        θ
+      
+    
+    {\displaystyle \cos \theta }
+   the following is true, and can be deduced using De Moivre's formula, Euler's formula and the binomial theorem.
+
+
+== Product-to-sum and sum-to-product identities ==
+The product-to-sum identities or prosthaphaeresis formulae can be proven by expanding their right-hand sides using the angle addition theorems. Historically, the first four of these were known as Werner's formulas, after Johannes Werner who used them for astronomical calculations. See amplitude modulation for an application of the product-to-sum formulae, and beat (acoustics) and phase detector for applications of the sum-to-product formulae.
+
+
+=== Product-to-sum identities ===
+
+
+=== Sum-to-product identities ===
+The sum-to-product identities are as follows:
+
+
+=== Hermite's cotangent identity ===
+
+Charles Hermite demonstrated the following identity. Suppose 
+  
+    
+      
+        
+          a
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          a
+          
+            n
+          
+        
+      
+    
+    {\displaystyle a_{1},\ldots ,a_{n}}
+   are complex numbers, no two of which differ by an integer multiple of π. Let
+
+(in particular, 
+  
+    
+      
+        
+          A
+          
+            1
+            ,
+            1
+          
+        
+        ,
+      
+    
+    {\displaystyle A_{1,1},}
+   being an empty product, is 1). Then
+
+The simplest non-trivial example is the case n = 2:
+
+
+=== Finite products of trigonometric functions ===
+For coprime integers n, m
+
+where Tn is the Chebyshev polynomial.The following relationship holds for the sine function
+
+More generally for an integer n > 0
+or written in terms of the chord function 
+  
+    
+      
+        crd
+        ⁡
+        x
+        ≡
+        2
+        sin
+        ⁡
+        
+          
+            
+              1
+              2
+            
+          
+        
+        x
+      
+    
+    {\textstyle \operatorname {crd} x\equiv 2\sin {\tfrac {1}{2}}x}
+  ,
+
+This comes from the factorization of the polynomial 
+  
+    
+      
+        
+          z
+          
+            n
+          
+        
+        −
+        1
+      
+    
+    {\textstyle z^{n}-1}
+   into linear factors (cf. root of unity): For a point z on the complex unit circle and an integer n > 0,
+
+
+== Linear combinations ==
+For some purposes it is important to know that any linear combination of sine waves of the same period or frequency but different phase shifts is also a sine wave with the same period or frequency, but a different phase shift. This is useful in sinusoid data fitting, because the measured or observed data are linearly related to the a and b unknowns of the in-phase and quadrature components basis below, resulting in a simpler Jacobian, compared to that of 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+   and 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+  .
+
+
+=== Sine and cosine ===
+The linear combination, or harmonic addition, of sine and cosine waves is equivalent to a single sine wave with a phase shift and scaled amplitude,
+where 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+   and 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+   are defined as so:
+
+given that 
+  
+    
+      
+        a
+        ≠
+        0.
+      
+    
+    {\displaystyle a\neq 0.}
+  
+
+
+=== Arbitrary phase shift ===
+More generally, for arbitrary phase shifts, we have
+
+where 
+  
+    
+      
+        c
+      
+    
+    {\displaystyle c}
+   and 
+  
+    
+      
+        φ
+      
+    
+    {\displaystyle \varphi }
+   satisfy:
+
+
+=== More than two sinusoids ===
+The general case reads
+where
+
+and
+
+
+== Lagrange's trigonometric identities ==
+These identities, named after Joseph Louis Lagrange, are:
+for 
+  
+    
+      
+        θ
+        ≢
+        0
+        
+          
+          (
+          mod
+          
+          2
+          π
+          )
+        
+        .
+      
+    
+    {\displaystyle \theta \not \equiv 0{\pmod {2\pi }}.}
+  
+A related function is the Dirichlet kernel:
+
+A similar identity is
+The proof is the following. By using the angle sum and difference identities,
+
+Then let's examine the following formula,
+
+and this formula can be written by using the above identity,
+
+So, dividing this formula with 
+  
+    
+      
+        2
+        sin
+        ⁡
+        α
+      
+    
+    {\displaystyle 2\sin \alpha }
+   completes the proof.
+
+
+== Certain linear fractional transformations ==
+If 
+  
+    
+      
+        f
+        (
+        x
+        )
+      
+    
+    {\displaystyle f(x)}
+   is given by the linear fractional transformation
+
+and similarly
+
+then
+
+More tersely stated, if for all 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+   we let 
+  
+    
+      
+        
+          f
+          
+            α
+          
+        
+      
+    
+    {\displaystyle f_{\alpha }}
+   be what we called 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+   above, then
+
+If 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   is the slope of a line, then 
+  
+    
+      
+        f
+        (
+        x
+        )
+      
+    
+    {\displaystyle f(x)}
+   is the slope of its rotation through an angle of 
+  
+    
+      
+        −
+        α
+        .
+      
+    
+    {\displaystyle -\alpha .}
+  
+
+
+== Relation to the complex exponential function ==
+
+Euler's formula states that, for any real number x:
+where i is the imaginary unit. Substituting −x for x gives us:
+
+These two equations can be used to solve for cosine and sine in terms of the exponential function.  Specifically,
+
+These formulae are useful for proving many other trigonometric identities.  For example, that
+ei(θ+φ) = eiθ eiφ means that
+
+That the real part of the left hand side equals the real part of the right hand side is an angle addition formula for cosine.  The equality of the imaginary parts gives an angle addition formula for sine.
+The following table expresses the trigonometric functions and their inverses in terms of the exponential function and the complex logarithm.
+
+
+== Series expansion ==
+When using a power series expansion to define trigonometric functions, the following identities are obtained:
+
+
+== Infinite product formulae ==
+For applications to special functions, the following infinite product formulae for trigonometric functions are useful:
+
+
+== Inverse trigonometric functions ==
+
+The following identities give the result of composing a trigonometric function with an inverse trigonometric function.
+Taking the multiplicative inverse of both sides of the each equation above results in the equations for 
+  
+    
+      
+        csc
+        =
+        
+          
+            1
+            sin
+          
+        
+        ,
+        
+        sec
+        =
+        
+          
+            1
+            cos
+          
+        
+        ,
+        
+           and 
+        
+        cot
+        =
+        
+          
+            1
+            tan
+          
+        
+        .
+      
+    
+    {\displaystyle \csc ={\frac {1}{\sin }},\;\sec ={\frac {1}{\cos }},{\text{ and }}\cot ={\frac {1}{\tan }}.}
+  
+The right hand side of the formula above will always be flipped.
+For example, the equation for 
+  
+    
+      
+        cot
+        ⁡
+        (
+        arcsin
+        ⁡
+        x
+        )
+      
+    
+    {\displaystyle \cot(\arcsin x)}
+   is:
+
+while the equations for 
+  
+    
+      
+        csc
+        ⁡
+        (
+        arccos
+        ⁡
+        x
+        )
+      
+    
+    {\displaystyle \csc(\arccos x)}
+   and 
+  
+    
+      
+        sec
+        ⁡
+        (
+        arccos
+        ⁡
+        x
+        )
+      
+    
+    {\displaystyle \sec(\arccos x)}
+   are:
+
+The following identities are implied by the reflection identities. They hold whenever 
+  
+    
+      
+        x
+        ,
+        r
+        ,
+        s
+        ,
+        −
+        x
+        ,
+        −
+        r
+        ,
+        
+           and 
+        
+        −
+        s
+      
+    
+    {\displaystyle x,r,s,-x,-r,{\text{ and }}-s}
+   are in the domains of the relevant functions.
+
+Also,
+
+The arctangent function can be expanded as a series:
+
+
+== Identities without variables ==
+In terms of the arctangent function we have
+The curious identity known as Morrie's law,
+
+is a special case of an identity that contains one variable:
+
+Similarly,
+
+is a special case of an identity with 
+  
+    
+      
+        x
+        =
+        
+          20
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle x=20^{\circ }}
+  :
+
+For the case 
+  
+    
+      
+        x
+        =
+        
+          15
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle x=15^{\circ }}
+  ,
+
+For the case 
+  
+    
+      
+        x
+        =
+        
+          10
+          
+            ∘
+          
+        
+      
+    
+    {\displaystyle x=10^{\circ }}
+  ,
+
+The same cosine identity is
+
+Similarly,
+
+Similarly,
+
+The following is perhaps not as readily generalized to an identity containing variables (but see explanation below):
+
+Degree measure ceases to be more felicitous than radian measure when we consider this identity with 21 in the denominators:
+
+The factors 1, 2, 4, 5, 8, 10 may start to make the pattern clear: they are those integers less than 21/2 that are relatively prime to (or have no prime factors in common with) 21. The last several examples are corollaries of a basic fact about the irreducible cyclotomic polynomials: the cosines are the real parts of the zeroes of those polynomials; the sum of the zeroes is the Möbius function evaluated at (in the very last case above) 21; only half of the zeroes are present above. The two identities preceding this last one arise in the same fashion with 21 replaced by 10 and 15, respectively.
+Other cosine identities include:
+and so forth for all odd numbers, and hence
+
+Many of those curious identities stem from more general facts like the following:
+and
+
+Combining these gives us
+
+If n is an odd number (
+  
+    
+      
+        n
+        =
+        2
+        m
+        +
+        1
+      
+    
+    {\displaystyle n=2m+1}
+  ) we can make use of the symmetries to get
+
+The transfer function of the Butterworth low pass filter can be expressed in terms of polynomial and poles. By setting the frequency as the cutoff frequency, the following identity can be proved:
+
+
+=== Computing π ===
+An efficient way to compute π to a large number of digits is based on the following identity without variables, due to Machin. This is known as a Machin-like formula:
+
+or, alternatively, by using an identity of Leonhard Euler:
+
+or by using Pythagorean triples:
+
+Others include:
+
+Generally, for numbers t1, ..., tn−1 ∈ (−1, 1) for which θn = Σn−1k=1 arctan tk ∈ (π/4, 3π/4), let tn = tan(π/2 − θn) = cot θn.  This last expression can be computed directly using the formula for the cotangent of a sum of angles whose tangents are t1, ..., tn−1 and its value will be in (−1, 1).  In particular, the computed tn will be rational whenever all the t1, ..., tn−1 values are rational.  With these values,
+
+where in all but the first expression, we have used tangent half-angle formulae.  The first two formulae work even if one or more of the tk values is not within (−1, 1).  Note that if t = p/q is rational, then the (2t, 1 − t2, 1 + t2) values in the above formulae are proportional to the Pythagorean triple (2pq, q2 − p2, q2 + p2).
+For example, for n = 3 terms,
+
+for any a, b, c, d > 0.
+
+
+=== An identity of Euclid ===
+Euclid showed in Book XIII, Proposition 10 of his Elements that the area of the square on the side of a regular pentagon inscribed in a circle is equal to the sum of the areas of the squares on the sides of the regular hexagon and the regular decagon inscribed in the same circle. In the language of modern trigonometry, this says:
+
+Ptolemy used this proposition to compute some angles in his table of chords in Book I, chapter 11 of Almagest.
+
+
+== Composition of trigonometric functions ==
+These identities involve a trigonometric function of a trigonometric function:
+
+where Ji are Bessel functions.
+
+
+== Further "conditional" identities for the case α + β + γ = 180° ==
+The following formulae apply to arbitrary plane triangles and follow from 
+  
+    
+      
+        α
+        +
+        β
+        +
+        γ
+        =
+        
+          180
+          
+            ∘
+          
+        
+        ,
+      
+    
+    {\displaystyle \alpha +\beta +\gamma =180^{\circ },}
+   as long as the functions occurring in the formulae are well-defined (the latter applies only to the formulae in which tangents and cotangents occur).
+
+
+== Historical shorthands ==
+
+The versine, coversine, haversine, and exsecant were used in navigation. For example, the haversine formula was used to calculate the distance between two points on a sphere. They are rarely used today.
+
+
+== Miscellaneous ==
+
+
+=== Dirichlet kernel ===
+
+The Dirichlet kernel Dn(x) is the function occurring on both sides of the next identity:
+
+The convolution of any integrable function of period 
+  
+    
+      
+        2
+        π
+      
+    
+    {\displaystyle 2\pi }
+   with the Dirichlet kernel coincides with the function's 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  th-degree Fourier approximation. The same holds for any measure or generalized function.
+
+
+=== Tangent half-angle substitution ===
+
+If we set  then
+where 
+  
+    
+      
+        
+          e
+          
+            i
+            x
+          
+        
+        =
+        cos
+        ⁡
+        x
+        +
+        i
+        sin
+        ⁡
+        x
+        ,
+      
+    
+    {\displaystyle e^{ix}=\cos x+i\sin x,}
+   sometimes abbreviated to cis x.
+When this substitution of 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+   for tan x/2 is used in calculus, it follows that 
+  
+    
+      
+        sin
+        ⁡
+        x
+      
+    
+    {\displaystyle \sin x}
+   is replaced by 2t/1 + t2, 
+  
+    
+      
+        cos
+        ⁡
+        x
+      
+    
+    {\displaystyle \cos x}
+   is replaced by 1 − t2/1 + t2 and the differential dx is replaced by 2 dt/1 + t2. Thereby one converts rational functions of 
+  
+    
+      
+        sin
+        ⁡
+        x
+      
+    
+    {\displaystyle \sin x}
+   and 
+  
+    
+      
+        cos
+        ⁡
+        x
+      
+    
+    {\displaystyle \cos x}
+   to rational functions of 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+   in order to find their antiderivatives.
+
+
+=== Viète's infinite product ===
+
+
+== See also ==
+
+
+== References ==
+
+
+== Bibliography ==
+
+
+== External links ==
+Values of sin and cos, expressed in surds, for integer multiples of 3° and of 5+5/8°, and for the same angles csc and sec and tan
+Complete List of Trigonometric Formulas

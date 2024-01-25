@@ -1,0 +1,4 @@
+Cytokine redundancy is a term in immunology referring to the phenomenon in which, and the ability of, multiple cytokines to exert similar actions. This phenomenon is largely due to multiple cytokines utilizing common receptor subunits and common intracellular cell signalling molecules/pathways. For instance, a pair of redundant cytokines are interleukin 4 and interleukin 13.Cytokine redundancy is associated with the term cytokine pleiotropy, which refers to the ability of cytokines to exert multiple actions.
+
+
+== References ==

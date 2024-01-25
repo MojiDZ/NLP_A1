@@ -1,0 +1,42 @@
+3D Wayfinder is an indoor wayfinding software and service used to help visitors to navigate in large public buildings (shopping centers, airports, train stations, hospitals, universities etc.)
+3D Wayfinder uses a 3D floor plans of a building and renders it in real-time. It displays interactive information layers. Software can be used on interactive kiosks or as a mobile application.3D Wayfinder enables users to visualize the shortest path from the user's position to the searched location. At the same time, users can zoom, rotate, and change floors on the building's 3D map. All the existing objects, like escalators, doors, elevators, trees, stairs, etc., can be included on the 3D floorplan. Displayed floor plans can be switched, and usually the roof of the building is also included on the 3D model of the building to provide a better understanding of the building and map direction.
+
+
+== 3D Wayfinder engines ==
+3D Wayfinder is using JavaScript and the WebGL-based FRAK (engine) developed by 3D Technologies R&D. The 3D Wayfinder application is simple to embed on the user's website. It works with most common web browsers (Mozilla, IE, Safari etc.) on Windows, Linux and Mac.
+
+
+== Supported platforms ==
+Kiosk solution works on Windows 7, Linux, and Macintosh machines;
+Mobile application runs on Android and iOS devices;
+Web version runs on all modern browsers that have HTML5 support.
+
+
+== Features ==
+3D, semi 3D or 2D map;
+Search engine for finding locations
+Pinch zoom and rotate the 3D map and move in all directions;
+“You are here” spot – indicates user's current location;
+Graphical route animation;
+Realtime 3D walkthrough;
+Route and coupons printout;
+Multilingual content – Arabic, Chinese, English, French, Hindi, Russian, Spanish etc.;
+Content Management System for remote management;
+Statistics of usage – tenant popularity, language popularity, popular search keywords, most popular advertisements;
+Custom user interface;
+Possible to integrate with different physical devices – proximity sensors, speakers, printers and others;
+Multiple integrations are possible – social networks, timetables, clock, weather, transportation, websites, campaigns and others.
+
+
+== Advertising ==
+3D Wayfinder is also a channel for communicating with customers. It is possible to add three types of advertisements:
+Banner ads (images, videos, animation etc.)
+Highlighted directory items with additional ad text (similar to Google Sponsored Links)
+Small pop-up banners in the 3D plan.3D Wayfinder application is used by many shopping malls around Europe to guide visitors, and keep tenant information up to date.
+
+
+== External links ==
+Official website
+
+
+== References ==

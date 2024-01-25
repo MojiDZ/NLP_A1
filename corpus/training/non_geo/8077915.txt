@@ -1,0 +1,52 @@
+A breakthrough infection is a case of illness in which a vaccinated individual becomes infected with the illness, because the vaccine has failed to provide complete immunity against the pathogen (currently only viruses). Breakthrough infections have been identified in individuals immunized against a variety of diseases including mumps, varicella (Chickenpox), influenza, and COVID-19. The characteristics of the breakthrough infection are dependent on the virus itself. Often, infection of the vaccinated individual results in milder symptoms and shorter duration than if the infection were contracted naturally.Causes of breakthrough infections include biological factors in the recipient, improper administration or storage of vaccines, mutations in viruses, blocking antibody formation, and other factors. For these reasons, vaccines are rarely 100% effective. A 2021 study found the common flu vaccine provided immunity to the flu in 58% of recipients. The measles vaccine fails to provide immunity to 2% of children that receive the vaccine. However, if herd immunity exists, it typically prevents individuals who are ineffectively vaccinated from contracting the disease. Accordingly, herd immunity reduces the number of breakthrough infections in a population.
+
+
+== By disease ==
+
+
+=== Varicella ===
+The varicella vaccine is 85% effective at preventing varicella (chickenpox) infection. However, 75% of individuals that are diagnosed with breakthrough varicella exhibit milder symptoms than individuals that are not vaccinated.  These individuals with mild varicella have low fevers, fewer than 50 lesions on their skin, and a maculopapular rash. In contrast, unvaccinated individuals typically have a fever of 102, 200-500 skin lesions, and macules (lesions that are not elevated) evolve to papules and vesicular lesions. Additionally, infection in unvaccinated individuals tends to last for a longer period of time than in individuals who have been vaccinated.The majority of cases of breakthrough varicella are attributed to the failure of an individual to uptake the varicella vaccine. Therefore, to prevent breakthrough infections, it is proposed that children receive a second dose of varicella vaccine less than a year after getting their first dose.
+
+
+=== Mumps ===
+The mumps vaccine is a component of the Measles, Mumps and Rubella vaccine (MMR). The mumps vaccine, specifically, is 88% effective at preventing mumps. Individuals with breakthrough cases of mumps have fewer serious complications from the infections as compared to individuals unvaccinated for mumps. These complications include the development of aseptic meningitis and encephalitis.The cause of breakthrough mumps is not currently completely understood. Evolution of the virus (antigenic drift) is thought to explain the majority of breakthrough cases. Other theories suggest that memory T lymphocytes play a role in the development of breakthrough infections.
+
+
+=== Hepatitis B ===
+Breakthrough cases of Hepatitis B are primarily attributed to mutations in the Hepatitis B virus (HBV) that make HBV surface proteins unrecognizable to antibodies produced from the HBV vaccine. Viruses with such mutations are called "vaccine escape mutants". Breakthrough infections may also be caused by delayed vaccination, immunosuppression, and maternal viral load.  It is possible for an individual to have breakthrough infection of HBV but be asymptomatic.
+
+
+=== COVID-19 ===
+In April 2021, scientists reported that in a cohort of 417 vaccinated persons, two women had breakthrough infections as of publication and identified their variants' viral mutations. In the same month, the CDC reported that in the United States, there were 5,814 COVID-19 breakthrough infections and 74 deaths among the more than 75 million people fully vaccinated for the COVID-19 virus. In July 2021, scientists reported that in an outbreak of the SARS-CoV-2 Delta variant, associated with large public gatherings, 74% of infections occurred in fully vaccinated people. In August 2022, a study that followed up 648 vaccinated individuals found that 40% had at least one breakthrough infection. The incidence was higher in those with long term side effects of vaccination. 
+
+
+== Characteristics ==
+
+
+=== Age ===
+As a person ages, their immune system undergoes a series of changes, in a process referred to as immunosenescence. Notable among these changes is a decreased production of naive T cells and naive B cells. The reduced number of naive lymphocytes (T and B cells) is attributed to the fact that the telomeres in hematopoietic stem cells (HSCs), degenerate over time and, consequently, limit the proliferation of HSCs and production of lymphoid progenitor cells. This is compounded by the fact that, with time, HSCs tend to favor the production of myeloid progenitor cells over lymphoid progenitor cells. Mature lymphocytes are also unable to proliferate indefinitely. Compounded, the reduction in number of naive lymphocytes and limitations of the proliferative abilities of mature lymphocytes contribute to a limited number and variety of lymphocytes to respond to pathogens presented in a vaccine.Indeed, vaccines, including the influenza vaccine, Tdap, and pneumococcal vaccines, are less effective in adults over the age of 65. Nevertheless, the CDC recommends that elderly adults get the flu vaccine because influenza infection is particularly dangerous in this population and vaccine provides at least a moderate level of immunity to the flu virus.
+
+
+=== Antibody interference ===
+The presence of maternal antibodies in infants limits the efficacy of inactivated, attenuated and subunit vaccines. Maternal antibodies can bind to epitopes on the proteins produced by the virus in the vaccination. The recognition of viral proteins by maternal antibodies neutralizes the virus. Further, the maternal antibodies outcompete B cell receptors on the infant's B cells for binding to the antigen. Thus, an infant's immune system is not highly activated and the infant produces fewer antibodies. Even when B cells do bind to the pathogen, immune response is still frequently repressed. If B cell receptors bind to the antigen and Fc receptors simultaneously bind to the maternal antibody, the Fc receptors send a signal to B cell receptors that inhibits cell division. Because the infant's immune system is not stimulated and B cell division is inhibited, few memory B cells are produced. The level of memory B-cells is not adequate to ensure an infant's lifelong resistance to the pathogen.In most infants, maternal antibodies disappear 12–15 months after birth, so vaccines administered outside this window are not compromised by maternal antibody interference.
+
+
+==== Longevity of memory B cells ====
+When an individual is vaccinated against a disease, the individual's immune system is triggered and memory B cells store the specific antibody response. These cells remain in circulation until the pathogen infection is cleared. Because the telomeres in genes degenerate after each successive cell division, lymphocytes, including memory B cells are not capable of proliferating indefinitely. Typically, the cells live for multiple decades, but there is variation in the longevity of these cells depending on the type of vaccine they were stimulated with and the vaccine dosage. The reason for the differences in the longevity of memory B cells is currently unknown. However, it has been proposed that the differences in memory B cell longevity are due to the speed at which a pathogen infects the body and, accordingly, the number and type of cells involved in the immune response to the pathogen in the vaccine.
+
+
+=== Virus evolution ===
+When a person is vaccinated, their immune system develops antibodies that recognize specific segments (epitopes) viruses or viral-induced proteins. Over time, however, viruses accumulate genetic mutations which can impact the 3D structure of viral proteins. If these mutations occur in sites that are recognized by antibodies, the mutations block antibody binding which inhibits the immune response. This phenomenon is called antigenic drift.  Breakthrough infections of Hepatitis B and mumps are partially attributed to antigenic drift.
+
+
+=== Vaccine quality and administration ===
+Vaccines may fail to provide immunity if the vaccine is of poor quality when administered. A vaccine loses potency if it is stored at the incorrect temperature or if it is kept after the expiration date. Similarly, appropriate vaccine dosage is essential to ensuring immunity. Vaccine dosage is dependent on factors including a patient's age and weight. Failure to account for these factors can lead to patients receiving an incorrect amount of vaccination. Patients that receive a lower dose than recommended of a vaccine do not have an adequate immune response to the vaccine to ensure immunity.In order for a vaccine to be effective, an individual must respond to the pathogens in a vaccine through the adaptive branch of the immune system and that response must be stored  in an individual's immunological memory. It is possible for an individual to neutralize and clear a pathogen through the humoral response without activating the adaptive immune response. Vaccines with weaker or fewer strains of a pathogen, as is the case when a vaccine is of poor quality when administered, may primarily elicit the humoral response, and, thus, fail to ensure future immunity.
+
+
+== References ==
+
+
+== External links ==
+COVID-19 Vaccine Breakthrough Case Investigation and Reporting, CDC
+COVID-19 Vaccine Breakthrough Infections Reported to CDC — United States, January 1–April 30, 2021, CDC
+Shingles and Chickenpox (causes, diagnosis, treatment, and prevention) Archived 2011-01-13 at the Wayback Machine

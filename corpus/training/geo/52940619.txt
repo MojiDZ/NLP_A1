@@ -1,0 +1,31 @@
+Euratlas is a Switzerland-based software company dedicated to elaborate digital history maps of Europe. Founded in 2001, Euratlas has created a collection of history maps of Europe from year 1 AD to year 2000 AD that present the evolution of every country from the Roman Empire to present times. The evolution includes sovereign states and their administrative subdivisions, but also unorganized peoples and dependent territories. The maps show European country borders at regular intervals of 100 years, but not year by year. This leaves out many important turning points in history.
+Euratlas is considered a digital humanities company, and a scholar research software used in the field of historic cartography. It is broadly known among American and European universities, who mainly use Euratlas as a research tool and as a digital library atlas.
+
+
+== Sequential mapping policy ==
+This concept was first designed by the German scholar Christian Kruse (1753–1827). Kruse, well aware that historical accounts are often biased for geographical, philosophical or political reasons, created a set of sequential maps in order to give a global vision of the successive political situations. Nowadays, the majority of atlases don't use this approach, but are event-based, like the well-known Penguin Atlas of History. The sequential approach intends to make the sequence of maps more neutral and suitable for students, historians and professionals of several fields. Although, this approach has been discussed as it leaves out many important history events that are not reflected on any of the maps because of the century interval.
+
+
+== Geo-referenced historical data ==
+Initially, the European maps by century were developed as vector maps. From 2006 on, they have been converted to a geographic information system (GIS) database, enabling geo-referenced data capabilities. The map information is distributed in several layers: physical (geography information layer); political information layer (supranational entities, sovereign states, administrative divisions, dependent states and autonomous peoples); and special layers for cities and uncertain borders. The software database also contains much non-geographical information about political relationships between the various kinds of territories.
+
+
+== Map projection ==
+Euratlas History Maps uses a Mercator projection, with the center in Europe. The maps include the North-African coast and the Near-East, offering a complete view of the Mediterranean Basin. The European Russia plains are shown, but not Scandinavia, specially Finland, which is cropped off the map view.
+
+
+== See also ==
+Historical geographic information system
+History of cartography
+History of Europe
+List of national border changes from 1815 to 1914
+List of national border changes since World War I
+List of online map services
+Timeline of world map changes
+
+
+== References ==
+
+
+== External links ==
+Official website

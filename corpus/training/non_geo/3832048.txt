@@ -1,0 +1,23 @@
+The buffy coat is the fraction of an anticoagulated blood sample that contains most of the leukocytes and thrombocytes following centrifugation.
+
+
+== Description ==
+
+After centrifugation, one can distinguish a layer of clear fluid (the plasma), a layer of red fluid containing erythrocytes, and a thin layer in between. Composing less than 1% of the total volume of the blood sample, the buffy coat (so-called because it is usually buff in hue), contains most of the leukocytes and thrombocytes. The buffy coat is usually whitish in color, but is sometimes green if the blood sample contains large amounts of neutrophils, which are high in green-colored myeloperoxidase.The buffy coat is commonly used for DNA extraction, with leukocytes providing approximately 10 times more concentrated sources of nucleated cells. They are extracted from the blood of mammals because mammalian erythrocytes are anucleate and do not contain DNA. A common protocol is to store buffy coat specimens for future DNA isolation and these may remain in frozen storage for many years.
+
+
+== Diagnostic uses ==
+Quantitative buffy coat (QBC), based on the centrifugal stratification of blood components, is a laboratory test for the detection of malarial parasites, as well as of other blood parasites.The blood is taken in a QBC capillary tube which is coated with acridine orange (a fluorescent dye) and centrifuged; the fluorescing parasitized erythrocytes get concentrated in a layer which can then be observed by fluorescence microscopy, under ultraviolet radiation at the interface between erythrocytes and buffy coat. This test is more sensitive than the conventional thick smear and in over 90% of cases the species of parasite can also be identified.In cases of extremely low leukocyte count, it may be difficult to perform a manual differential of their various types and it may be virtually impossible to obtain an automated differential. In such cases, the medical technologist may obtain a buffy coat, from which a blood smear is made. This smear contains a much higher number of leukocytes than whole blood.
+
+
+== See also ==
+Leukocytes
+Ficoll
+Malaria
+
+
+== References ==
+
+
+== External links ==
+Blood Buffy Coat at the U.S. National Library of Medicine Medical Subject Headings (MeSH)

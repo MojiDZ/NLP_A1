@@ -1,0 +1,978 @@
+Coexistence theory is a framework to understand how competitor traits can maintain species diversity and stave-off competitive exclusion even among similar species living in ecologically similar environments. Coexistence theory explains the stable coexistence of species as an interaction between two opposing forces: fitness differences between species, which should drive the best-adapted species to exclude others within a particular ecological niche, and stabilizing mechanisms, which maintains diversity via niche differentiation. For many species to be stabilized in a community, population growth must be negative density-dependent, i.e. all participating species have a tendency to increase in density as their populations decline. In such communities, any species that becomes rare will experience positive growth, pushing its population to recover and making local extinction unlikely. As the population of one species declines, individuals of that species tend to compete predominantly with individuals of other species. Thus, the tendency of a population to recover as it declines in density reflects reduced intraspecific competition (within-species) relative to interspecific competition (between-species), the signature of niche differentiation (see Lotka-Volterra competition).
+
+
+== Types of coexistence mechanisms ==
+Two qualitatively different processes can help species to coexist: a reduction in average fitness differences between species or an increase in niche differentiation between species. These two factors have been termed equalizing and stabilizing mechanisms, respectively. For species to coexist, any fitness differences that are not reduced by equalizing mechanisms must be overcome by stabilizing mechanisms.
+
+
+=== Equalizing mechanisms ===
+Equalizing mechanisms reduce fitness differences between species. As its name implies, these processes act in a way that push the competitive abilities of multiple species closer together. Equalizing mechanisms affect interspecific competition (the competition between individuals of different species). 
+For example, when multiple species compete for the same resource, competitive ability is determined by the minimum level of resources a species needs to maintain itself (known as an R*, or equilibrium resource density). Thus, the species with the lowest R* is the best competitor and excludes all other species in the absence of any niche differentiation. Any factor that reduces R*s between species (like increased harvest of the dominant competitor) is classified as an equalizing mechanism.
+Environmental variation (which is the focus of the Intermediate Disturbance Hypothesis) can be considered an equalizing mechanism. Since the fitness of a given species is intrinsically tied to a specific environment, when that environment is disturbed (e.g. through storms, fires, volcanic eruptions, etc.) some species may lose components of their competitive advantage which were useful in the previous version of the environment. 
+
+
+=== Stabilizing mechanisms ===
+Stabilizing mechanisms promote coexistence by concentrating intraspecific competition relative to interspecific competition. In other words, these mechanisms "encourage" an individual to compete more with other individuals of its own species, rather than with individuals of other species. Resource partitioning (a type of niche differentiation) is a stabilizing mechanism because interspecific competition is reduced when different species primarily compete for different resources. Similarly, if species are differently affected by environmental variation (e.g., soil type, rainfall timing, etc.), this can create a stabilizing mechanism (see the storage effect). Stabilizing mechanisms increase the low-density growth rate of all species.
+
+
+==== Chesson's categories of stabilizing mechanisms ====
+In 1994, Chesson proposed that all stabilizing mechanisms could be categorized into four categories. These mechanisms are not mutually exclusive, and it is possible for all four to operate in any environment at a given time.
+
+Variation-independent mechanisms (also called fluctuation-independent mechanisms) are any stabilizing mechanism that functions within a local place and time. Resource partitioning, predator partitioning, and frequency-dependent predation are three classic examples of variation-independent mechanisms. When a species is at very low density, individuals gain an advantage, because they are less constrained by competition across the landscape. For example, under frequency-dependent predation, a species is less likely to be consumed by predators when they are very rare.
+The storage effect occurs when species are affected differently by environmental variation in space or time. For example, coral reef fishes have different reproductive rates in different years, plants grow differently in different soil types, and desert annual plants germinate at different rates in different years. When a species is at low density, individuals gain an advantage because they experience less competition in times or locations that they grow best. For example, if annual plants germinate in different years, then when it is a good year to germinate, species will be competing predominately with members of the same species. Thus, if a species becomes rare, individuals will experience little competition when they germinate whereas they would experience high competition if they were abundant. For the storage effect to function, species must be able to "store" the benefits of a productive time period or area, and use it to survive during less productive times or areas. This can occur, for example, if species have a long-lived adult stage, a seed bank or diapause stage, or if they are spread out over the environment.
+A fitness-density covariance occurs when species are spread out non-uniformly across the landscape. Most often, it occurs when species are found in different areas. For example, mosquitoes often lay eggs in different locations, and plants who partition habitat are often found predominately where they grow best. Species can gain two possible advantages by becoming very rare. First, because they are physically separated from other species, they mainly compete with members of the same species (and thus experience less competition when they become very rare). Second, species are often more able to concentrate in favorable habitat as their densities decline. For example, if individuals are territorial, then members of an abundant species may not have access to ideal habitat; however, when that species becomes very rare, then there may be enough ideal habitat for all of the few remaining individuals. The Janzen-Connell hypothesis is an excellent example of a stabilizing mechanism that operates (in part) through fitness-density covariance.
+Relative nonlinearity occurs when species benefit in different ways from variation in competitive factors. For example, two species might coexist if one can grow better when resources are rare, and the other grows better when resources are abundant. Species will be able to coexist if the species which benefits from variation in resources tends to reduce variation in resources. For example, a species which can rapidly consume excess resources tends to quickly reduce the level of excess resources favoring the other species, whereas a species which grows better when resources are rare is more likely to cause fluctuations in resource density favoring the other species.
+
+
+==== Quantifying stabilizing mechanisms ====
+A general way of measuring the effect of stabilizing mechanisms is by calculating the growth rate of species i in a community as
+  
+    
+      
+        
+          
+            
+              
+                r
+                
+                  i
+                
+              
+              ^
+            
+          
+        
+        =
+        
+          b
+          
+            i
+          
+        
+        (
+        
+          k
+          
+            i
+          
+        
+        −
+        
+          
+            
+              k
+              ^
+            
+          
+        
+        +
+        A
+        )
+      
+    
+    {\displaystyle {\hat {r_{i}}}=b_{i}(k_{i}-{\hat {k}}+A)}
+  
+where:
+
+  
+    
+      
+        
+          
+            
+              
+                r
+                
+                  i
+                
+              
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {r_{i}}}}
+   is the long-term average growth rate of the species i when at low density. Because species are limited from growing indefinitely, viable populations have an average long-term growth rate of zero. Therefore, species at low-density can increase in abundance when their long-term average growth rate is positive.
+
+  
+    
+      
+        
+          b
+          
+            i
+          
+        
+      
+    
+    {\displaystyle b_{i}}
+   is a species-specific factor that reflects how quickly species i responds to a change in competition. For example, species with faster generation times may respond more quickly to a change in resource density than longer lived species. In an extreme scenario, if ants and elephants were to compete for the same resources, elephant population sizes would change much more slowly to changes in resource density than would ant populations.
+
+  
+    
+      
+        
+          k
+          
+            i
+          
+        
+        −
+        
+          
+            
+              k
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle k_{i}-{\hat {k}}}
+   is the difference between the fitness of species i when compared to the average fitness of the community excluding species i. In the absence of any stabilizing mechanisms, species i will only have a positive growth rate if its fitness is above its average competitor, i.e. where this value is greater than zero.
+
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   measures the effect of all stabilizing mechanisms acting within this community.
+
+
+===== Example calculation: Species competing for resource =====
+In 2008 Chesson and Kuang showed how to calculate fitness differences and stabilizing mechanisms when species compete for shared resources and competitors. Each species j captures resource type l at a species-specific rate, cjl. Each unit of resource captured contributes to species growth by value vl. Each consumer requires resources for the metabolic maintenance at rate μi.In conjunction, consumer growth is decreased by attack from predators. Each predator species m attacks species j at rate ajm.
+Given predation and resource capture, the density of species i, Ni, grows at rate
+
+  
+    
+      
+        
+          
+            1
+            
+              N
+              
+                j
+              
+            
+          
+        
+        
+          
+            
+              d
+              
+                N
+                
+                  j
+                
+              
+            
+            
+              d
+              t
+            
+          
+        
+        =
+        
+          ∑
+          
+            l
+          
+        
+        
+          c
+          
+            j
+            l
+          
+        
+        
+          v
+          
+            l
+          
+        
+        
+          R
+          
+            l
+          
+        
+        −
+        
+          ∑
+          
+            m
+          
+        
+        
+          a
+          
+            j
+            m
+          
+        
+        
+          P
+          
+            m
+          
+        
+        −
+        
+          μ
+          
+            j
+          
+        
+      
+    
+    {\displaystyle {\frac {1}{N_{j}}}{\frac {dN_{j}}{dt}}=\sum _{l}c_{jl}v_{l}R_{l}-\sum _{m}a_{jm}P_{m}-\mu _{j}}
+  
+where l sums over resource types and m sums over all predator species. Each resource type exhibits logistic growth with intrinsic rate of increase, rRl, and carrying capacity, KRl = 1/αRl, such that growth rate of resource l is
+
+  
+    
+      
+        
+          
+            1
+            
+              R
+              
+                l
+              
+            
+          
+        
+        
+          
+            
+              d
+              
+                R
+                
+                  l
+                
+              
+            
+            
+              d
+              t
+            
+          
+        
+        =
+        
+          r
+          
+            l
+          
+          
+            R
+          
+        
+        
+          (
+          
+            1
+            −
+            
+              α
+              
+                l
+              
+              
+                R
+              
+            
+            
+              R
+              
+                l
+              
+            
+          
+          )
+        
+        −
+        
+          ∑
+          
+            j
+          
+        
+        
+          c
+          
+            j
+            l
+          
+        
+        
+          N
+          
+            j
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {1}{R_{l}}}{\frac {dR_{l}}{dt}}=r_{l}^{R}\left(1-\alpha _{l}^{R}R_{l}\right)-\sum _{j}c_{jl}N_{j}.}
+  
+Similarly, each predator species m exhibits logistic growth in the absence of the prey of interest with intrinsic growth rate rPm and carrying capacity KPm = 1/αPm. The growth rate of a predator species is also increased by consuming prey species where again the attack rate of predator species m on prey j is ajm. Each unit of prey has a value to predator growth rate of w. Given these two sources of predator growth, the density of predator m, Pm, has a per-capita growth rate
+
+  
+    
+      
+        
+          
+            1
+            
+              P
+              
+                m
+              
+            
+          
+        
+        
+          
+            
+              d
+              
+                P
+                
+                  m
+                
+              
+            
+            
+              d
+              t
+            
+          
+        
+        =
+        
+          r
+          
+            m
+          
+          
+            P
+          
+        
+        (
+        1
+        −
+        
+          α
+          
+            m
+          
+          
+            P
+          
+        
+        
+          P
+          
+            m
+          
+        
+        )
+        +
+        
+          ∑
+          
+            j
+          
+        
+        w
+        
+          N
+          
+            j
+          
+        
+        
+          a
+          
+            j
+            m
+          
+        
+      
+    
+    {\displaystyle {\frac {1}{P_{m}}}{\frac {dP_{m}}{dt}}=r_{m}^{P}(1-\alpha _{m}^{P}P_{m})+\sum _{j}wN_{j}a_{jm}}
+  
+where the summation terms is contributions to growth from consumption over all j focal species. The system of equations describes a model of trophic interactions between three sets of species: focal species, their resources, and their predators.
+Given this model, the average fitness of a species j is
+
+  
+    
+      
+        
+          k
+          
+            j
+          
+        
+        =
+        
+          
+            1
+            
+              s
+              
+                j
+              
+            
+          
+        
+        
+          (
+          
+            
+              ∑
+              
+                l
+                =
+                1
+              
+            
+            
+              c
+              
+                j
+                l
+              
+            
+            
+              v
+              
+                l
+              
+            
+            
+              K
+              
+                l
+              
+              
+                R
+              
+            
+            −
+            
+              ∑
+              
+                m
+              
+            
+            
+              a
+              
+                j
+                m
+              
+            
+            
+              K
+              
+                m
+              
+              
+                P
+              
+            
+            −
+            
+              μ
+              
+                i
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle k_{j}={\frac {1}{s_{j}}}\left(\sum _{l=1}c_{jl}v_{l}K_{l}^{R}-\sum _{m}a_{jm}K_{m}^{P}-\mu _{i}\right)}
+  
+where the sensitivity to competition and predation is
+
+  
+    
+      
+        
+          s
+          
+            j
+          
+        
+        =
+        
+          
+            
+              (
+              
+                
+                  ∑
+                  
+                    l
+                  
+                
+                
+                  
+                    
+                      
+                        c
+                        
+                          j
+                          l
+                        
+                        
+                          2
+                        
+                      
+                      
+                        v
+                        
+                          l
+                        
+                      
+                      
+                        K
+                        
+                          l
+                        
+                        
+                          R
+                        
+                      
+                    
+                    
+                      r
+                      
+                        l
+                      
+                      
+                        R
+                      
+                    
+                  
+                
+                +
+                
+                  ∑
+                  
+                    m
+                  
+                
+                
+                  
+                    
+                      
+                        a
+                        
+                          j
+                          m
+                        
+                        
+                          2
+                        
+                      
+                      w
+                      
+                        K
+                        
+                          m
+                        
+                        
+                          P
+                        
+                      
+                    
+                    
+                      r
+                      
+                        m
+                      
+                      
+                        P
+                      
+                    
+                  
+                
+              
+              )
+            
+          
+        
+        .
+      
+    
+    {\displaystyle s_{j}={\sqrt {\left(\sum _{l}{\frac {c_{jl}^{2}v_{l}K_{l}^{R}}{r_{l}^{R}}}+\sum _{m}{\frac {a_{jm}^{2}wK_{m}^{P}}{r_{m}^{P}}}\right)}}.}
+  
+The average fitness of a species takes into account growth based on resource capture and predation as well as how much resource and predator densities change from interactions with the focal species.
+The amount of niche overlap between two competitors i and j is
+
+  
+    
+      
+        ρ
+        =
+        
+          (
+          
+            
+              ∑
+              
+                l
+              
+            
+            
+              
+                
+                  
+                    c
+                    
+                      i
+                      l
+                    
+                  
+                  
+                    v
+                    
+                      l
+                    
+                  
+                  
+                    c
+                    
+                      j
+                      l
+                    
+                  
+                
+                
+                  
+                    α
+                    
+                      l
+                    
+                    
+                      R
+                    
+                  
+                  
+                    r
+                    
+                      l
+                    
+                    
+                      R
+                    
+                  
+                
+              
+            
+            +
+            
+              ∑
+              
+                m
+              
+            
+            
+              
+                
+                  
+                    a
+                    
+                      i
+                      m
+                    
+                  
+                  w
+                  
+                    a
+                    
+                      j
+                      m
+                    
+                  
+                
+                
+                  
+                    α
+                    
+                      m
+                    
+                    
+                      P
+                    
+                  
+                  
+                    r
+                    
+                      m
+                    
+                    
+                      P
+                    
+                  
+                
+              
+            
+          
+          )
+        
+        
+          /
+        
+        
+          s
+          
+            i
+          
+        
+        
+          s
+          
+            j
+          
+        
+        ,
+      
+    
+    {\displaystyle \rho =\left(\sum _{l}{\frac {c_{il}v_{l}c_{jl}}{\alpha _{l}^{R}r_{l}^{R}}}+\sum _{m}{\frac {a_{im}wa_{jm}}{\alpha _{m}^{P}r_{m}^{P}}}\right)/s_{i}s_{j},}
+  
+which represents the amount to which resource consumption and predator attack are linearly related between two competing species, i and j.
+This model  conditions for coexistence can be directly related to the general coexistence criterion: intraspecific competition, αjj, must be greater than interspecific competition, αij. The direct expressions for intraspecific and interspecific competition coefficients from the interaction between shared predators and resources are
+
+  
+    
+      
+        
+          α
+          
+            j
+            j
+          
+        
+        =
+        
+          s
+          
+            j
+          
+        
+        
+          /
+        
+        
+          k
+          
+            j
+          
+        
+      
+    
+    {\displaystyle \alpha _{jj}=s_{j}/k_{j}}
+  
+and
+
+  
+    
+      
+        
+          α
+          
+            i
+            j
+          
+        
+        =
+        ρ
+        
+          s
+          
+            j
+          
+        
+        
+          /
+        
+        
+          k
+          
+            i
+          
+        
+        .
+      
+    
+    {\displaystyle \alpha _{ij}=\rho s_{j}/k_{i}.}
+  
+Thus, when intraspecific competition is greater than interspecific competition,
+
+  
+    
+      
+        
+          α
+          
+            j
+            j
+          
+        
+        >
+        
+          α
+          
+            i
+            j
+          
+        
+        =
+        
+          
+            
+              s
+              
+                j
+              
+            
+            
+              k
+              
+                j
+              
+            
+          
+        
+        >
+        ρ
+        
+          
+            
+              s
+              
+                j
+              
+            
+            
+              k
+              
+                i
+              
+            
+          
+        
+      
+    
+    {\displaystyle \alpha _{jj}>\alpha _{ij}={\frac {s_{j}}{k_{j}}}>\rho {\frac {s_{j}}{k_{i}}}}
+  
+which, for two species leads to the coexistence criteria
+
+  
+    
+      
+        ρ
+        <
+        
+          
+            
+              k
+              
+                1
+              
+            
+            
+              k
+              
+                2
+              
+            
+          
+        
+        <
+        
+          
+            1
+            ρ
+          
+        
+        .
+      
+    
+    {\displaystyle \rho <{\frac {k_{1}}{k_{2}}}<{\frac {1}{\rho }}.}
+  
+Notice that, in the absence of any niche differences (i.e. ρ = 1), species cannot coexist.
+
+
+== Empirical evidence ==
+A 2012 study reviewed different approaches which tested coexistence theory, and identified three main ways to separate the contributions of stabilizing and equalizing mechanisms within a community. These are:
+
+Experimental manipulations, which involved determining the effect of relative fitness or stabilizing mechanisms by manipulating resources or competitive advantages.
+Trait-Phylogeny-Environment relationships, in which the phylogeny of members of a set of communities can be tested for evidence of trait clustering, which would suggest that certain traits are important (and perhaps necessary) to thrive in that environment, or trait overdispersion, which would suggest a high ability of species to exclude close relatives. Such tests have been widely used, although they have also been criticized as simplistic and flawed.
+Demographic analyses, which can be used to recognize frequency- or density-dependent processes simply by measuring the number and per-capita growth rates of species in natural communities over time. If such processes are operating, the per-capita growth rate would vary with the number of individuals in species comprising the community.A 2010 review argued that an invasion analysis should be used as the critical test of coexistence. In an invasion analysis, one species (termed the "invader") is removed from the community, and then reintroduced at a very low density. If the invader shows positive population growth, then it cannot be excluded from the community. If every species has a positive growth rate as an invader, then those species can stably coexist. An invasion analysis could be performed using experimental manipulation, or by parameterizing a mathematical model. The authors argued that in the absence of a full-scale invasion analysis, studies could show some evidence for coexistence by showing that a trade-off produced negative density-dependence at the population level. The authors reviewed 323 papers (from 1972 to May 2009), and claimed that only 10 of them met the above criteria (7 performing an invasion analysis, and 3 showing some negative-density dependence).
+However, an important caveat is that invasion analysis may not always be sufficient for identifying stable coexistence. For example, priority effects or Allee effects may prevent species from successfully invading a community from low density even if they could persist stably at a higher density. Conversely, high order interactions in communities with many species can lead to complex dynamics following an initially successful invasion, potentially preventing the invader from persisting stably in the long term. For example, an invader that can only persist when a particular resident species is present at high density could alter community structure following invasion such that that resident species' density declines or that it goes locally extinct, thereby preventing the invader from successfully establishing in the long term.
+
+
+== Neutral theory and coexistence theory ==
+
+The 2008 Neutral theory by Stephen P. Hubbell attempts to model biodiversity through a migration-speciation-extinction balance, rather through selection. It assumes that all members within a guild are inherently the same, and that changes in population density are a result of random births and deaths. Particular species are lost stochastically through a random walk process, but species richness is maintained via speciation or external migration. Neutral theory can be seen as a particular case of coexistence theory: it represents an environment where stabilizing mechanisms are absent (i.e., 
+  
+    
+      
+        A
+        =
+        0
+      
+    
+    {\displaystyle A=0}
+  ), and there are no differences in average fitness (i.e., 
+  
+    
+      
+        
+          k
+          
+            i
+          
+        
+        −
+        
+          
+            
+              k
+              ^
+            
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle k_{i}-{\hat {k}}=0}
+   for all species).It has been hotly debated how close real communities are to neutrality. Few studies have attempted to measure fitness differences and stabilizing mechanisms in plant communities, for example in 2009 or in 2015   These communities appear to be far from neutral, and in some cases, stabilizing effects greatly outweigh fitness differences.
+
+
+== Cultural coexistence theory ==
+Cultural Coexistence Theory (CCT), also called Social-ecological Coexistence Theory, expands on coexistence theory to explain how groups of people with shared interests in natural resources (e.g., a fishery) can come to coexist sustainably. Cultural Coexistence Theory draws on work by anthropologists such as Frederik Barth and John Bennett, both of whom studied the interactions among culture groups on shared landscapes. In addition to the core ecological concepts described above, which CCT summarizes as limited similarity, limited competition, and resilience, CCT argues the following features are essential for cultural coexistence:
+
+Adaptability describes the ability of people to respond to change or surprise. It is essential to CCT because it helps capture the importance of human agency.
+Pluralism describes where people value cultural diversity and recognize the fundamental rights of people not like them to live in the same places and access shared resources.
+Equity as used in CCT describes whether social institutions exist that ensure that people's basic human rights, including the ability to meet basic needs, are protected, and whether people are protected from being marginalized in society.Cultural Coexistence Theory fits in under the broader area of sustainability science, common pool resources theory, and conflict theory.
+
+
+== References ==

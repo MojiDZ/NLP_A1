@@ -1,0 +1,238 @@
+In mathematics, Hermite's cotangent identity is a trigonometric identity discovered by Charles Hermite.  Suppose a1, ..., an are complex numbers, no two of which differ by an integer multiple of π.  Let
+
+  
+    
+      
+        
+          A
+          
+            n
+            ,
+            k
+          
+        
+        =
+        
+          ∏
+          
+            
+              
+                
+                  
+                    1
+                    ≤
+                    j
+                    ≤
+                    n
+                  
+                
+                
+                  
+                    j
+                    ≠
+                    k
+                  
+                
+              
+            
+          
+        
+        cot
+        ⁡
+        (
+        
+          a
+          
+            k
+          
+        
+        −
+        
+          a
+          
+            j
+          
+        
+        )
+      
+    
+    {\displaystyle A_{n,k}=\prod _{\begin{smallmatrix}1\leq j\leq n\\j\neq k\end{smallmatrix}}\cot(a_{k}-a_{j})}
+  (in particular, A1,1, being an empty product, is 1).  Then
+
+  
+    
+      
+        cot
+        ⁡
+        (
+        z
+        −
+        
+          a
+          
+            1
+          
+        
+        )
+        ⋯
+        cot
+        ⁡
+        (
+        z
+        −
+        
+          a
+          
+            n
+          
+        
+        )
+        =
+        cos
+        ⁡
+        
+          
+            
+              n
+              π
+            
+            2
+          
+        
+        +
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          A
+          
+            n
+            ,
+            k
+          
+        
+        cot
+        ⁡
+        (
+        z
+        −
+        
+          a
+          
+            k
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle \cot(z-a_{1})\cdots \cot(z-a_{n})=\cos {\frac {n\pi }{2}}+\sum _{k=1}^{n}A_{n,k}\cot(z-a_{k}).}
+  The simplest non-trivial example is the case n = 2:
+
+  
+    
+      
+        cot
+        ⁡
+        (
+        z
+        −
+        
+          a
+          
+            1
+          
+        
+        )
+        cot
+        ⁡
+        (
+        z
+        −
+        
+          a
+          
+            2
+          
+        
+        )
+        =
+        −
+        1
+        +
+        cot
+        ⁡
+        (
+        
+          a
+          
+            1
+          
+        
+        −
+        
+          a
+          
+            2
+          
+        
+        )
+        cot
+        ⁡
+        (
+        z
+        −
+        
+          a
+          
+            1
+          
+        
+        )
+        +
+        cot
+        ⁡
+        (
+        
+          a
+          
+            2
+          
+        
+        −
+        
+          a
+          
+            1
+          
+        
+        )
+        cot
+        ⁡
+        (
+        z
+        −
+        
+          a
+          
+            2
+          
+        
+        )
+        .
+        
+      
+    
+    {\displaystyle \cot(z-a_{1})\cot(z-a_{2})=-1+\cot(a_{1}-a_{2})\cot(z-a_{1})+\cot(a_{2}-a_{1})\cot(z-a_{2}).\,}
+  
+
+
+== Notes and references ==
